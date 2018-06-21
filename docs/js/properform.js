@@ -11,7 +11,7 @@ function loadProjectStatistics(path) {
 		var chart = new G2.Chart({
 			container: 'statistics',
 			forceFit: true,
-			height: window.innerHeight
+			height: $('#statistics').width() * 0.5
 		});
 		chart.source(dv, {
 			timestamp: {
@@ -63,7 +63,7 @@ function loadDiff(path, diff) {
 		var template = new Template();
 		var graph = new G6.Graph({
 			id: 'diffGraph', // dom id
-			height: window.innerHeight,
+			height: $('#diffGraph').width() * 0.5,
 			plugins: [template, nodeSizeMapper, nodeColorMapper, edgeSizeMapper],
 			animate: true
 		});

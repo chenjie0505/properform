@@ -13,8 +13,8 @@ layout: default
 function onProjectChange(value) {
 	switch (value) {
 	{% for project in site.data.projects %}
-	case "{{ member.name }}":
-		$(".projectURL").attr("href", "https://github.com/{{ member.author }}/{{ member.name }}");
+	case "{{ project.name }}":
+		$(".projectURL").attr("href", "https://github.com/{{ project.author }}/{{ project.name }}");
 		break;
 	{% endfor %}
 	default:
@@ -27,10 +27,10 @@ $(document).ready(function() { onProjectChange("{{ site.defaultProject }}"); });
 Projects:
 <select class="projects" onchange="onProjectChange(this.value)">
 {% for project in site.data.projects %}
-	<option value="{{ member.name }}"
-	{% if member.name == site.defaultProject %}
+	<option value="{{ project.name }}"
+	{% if project.name == site.defaultProject %}
 		selected="selected"
-	{% endif %}>{{ member.name }}</option>
+	{% endif %}>{{ project.name }}</option>
 {% endfor %}
 </select>
 <a class="projectURL" href="">github</a>
