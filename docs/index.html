@@ -22,7 +22,7 @@ function onProjectChange(value) {
 	}
 	loadProjectStatistics("{{ '/assets/data/' | relative_url }}" + value);
 }
-$(document).ready(function() {
+$(document).ready(() => {
 	$(".projects").val("{{ site.defaultProject }}");
 	onProjectChange("{{ site.defaultProject }}");
 });
@@ -30,7 +30,7 @@ $(document).ready(function() {
 Projects:
 <select class="projects" onchange="onProjectChange(this.value)">
 {% for project in site.data.projects %}
-	<option value="{{ project.name }}" {% if project.name == site.defaultProject %}selected="selected"{% endif %}>{{ project.name }}</option>
+	<option value="{{ project.name }}"{% if project.name == site.defaultProject %} selected="selected"{% endif %}>{{ project.name }}</option>
 {% endfor %}
 </select>
 <a class="projectURL" href="">github</a>
