@@ -1,5 +1,82 @@
 ---
 layout: default
 ---
-<!DOCTYPE HTML>
-<h1>Properform</h1>
+<div id="mountNode"></div>
+<script>/*Fixing iframe window.innerHeight 0 issue in Safari*/document.body.clientHeight;</script>
+<script src="https://gw.alipayobjects.com/os/antv/assets/g6/2.0.0/g6.js"></script>
+<script src="https://gw.alipayobjects.com/os/antv/assets/g6/2.0.0/g6.js"></script>
+<script src="https://gw.alipayobjects.com/os/antv/assets/g6/2.0.0/g6Plugins.js"></script>
+<script src="https://gw.alipayobjects.com/os/antv/assets/lib/jquery-3.2.1.min.js"></script>
+<script>
+$.getJSON("{{ '/assets/data/g6-index.json' | relative_url }}", function(data) {
+  var Template = G6.Plugins['template.maxSpanningForest'];
+  var Mapper = G6.Plugins['tool.d3.mapper'];
+  var nodeSizeMapper = new Mapper('node', 'weight', 'size', [8, 20], {
+    legendCfg: null
+  });
+  var edgeSizeMapper = new Mapper('edge', 'weight', 'size', [1, 8], {
+    legendCfg: null
+  });
+  var nodeColorMapper = new Mapper('node', 'weight', 'color', ['#E0F5FF', '#BAE7FF', '#91D5FF', '#69C0FF', '#3DA0F2', '#1581E6', '#0860BF'], {
+    legendCfg: null
+  });
+  var template = new Template();
+  var graph = new G6.Graph({
+    id: 'mountNode', // dom id
+    height: window.innerHeight,
+    plugins: [template, nodeSizeMapper, nodeColorMapper, edgeSizeMapper],
+    animate: true
+  });
+  var force = template.layout;
+  var circle = new G6.Layouts['Circle']({
+    sort: function sort(a, b) {
+      return a.weight - b.weight;
+    }
+  });
+  var grid = new G6.Layouts['Grid']({
+    sort: function sort(a, b) {
+      return b.weight - a.weight;
+    }
+  });
+  var dagre = new G6.Layouts['Dagre']({
+    nodesep: function nodesep() {
+      return graph.getWidth() / 50;
+    },
+    ranksep: function ranksep() {
+      return graph.getHeight() / 25;
+    },
+    marginx: function marginx() {
+      return graph.getWidth() / 8;
+    },
+    marginy: function marginy() {
+      return graph.getHeight() / 8;
+    },
+
+    useEdgeControlPoint: false
+  });
+  var spiral = new G6.Layouts['ArchimeddeanSpiral']({
+    sort: function sort(a, b) {
+      return b.weight - a.weight;
+    }
+  });
+  graph.edge({
+    style: function style(model) {
+      return {
+        stroke: graph.find(model.target).getModel().color,
+        strokeOpacity: 0.8
+      };
+    }
+  });
+  graph.read(data);
+  setInterval(function() {
+    if (document.visibilityState === 'visible') {
+      var layouts = [circle, dagre, force, grid, spiral];
+      layouts = layouts.filter(function(layout) {
+        return layout !== graph.getLayout();
+      });
+      var layout = layouts[parseInt(layouts.length * Math.random())];
+      graph.changeLayout(layout);
+    }
+  }, 2000);
+});
+</script>
