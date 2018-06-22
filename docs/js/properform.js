@@ -1,4 +1,5 @@
 var projectStatistics;
+
 function loadProjectStatistics(path) {
 	projectStatistics = projectStatistics || (() => {
 		var ds = new DataSet();
@@ -61,8 +62,21 @@ function loadProjectStatistics(path) {
 }
 
 var diffGraph;
+
 function loadDiff(path, diff) {
 	diffGraph = diffGraph || (() => {
+		G6.registerEdge('flowingEdge', {
+			afterDraw: function afterDraw(item) {
+				var keyShape = item.getKeyShape();
+				keyShape.attr('lineDash', [10, 10]);
+				keyShape.attr('lineDashOffset', 0);
+				keyShape.animate({
+					lineDashOffset: -20,
+					repeat: true
+				}, 500);
+			}
+		});
+
 		var Template = G6.Plugins['template.maxSpanningForest'];
 		var Mapper = G6.Plugins['tool.d3.mapper'];
 		var nodeSizeMapper = new Mapper('node', 'weight', 'size', [8, 20], {

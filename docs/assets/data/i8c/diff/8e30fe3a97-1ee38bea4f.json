@@ -1,0 +1,132 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/serializer.py', '(func:5226:(visit_function:5230))')", 
+            "target": "('src/i8c/compiler/serializer.py', '(func:1368:(__init__:1372))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/exceptions.py', '(func:1123:(__init__:1127))')", 
+            "target": "('src/i8c/__init__.py', '(func:1091:(__init__:1095))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_numeric.py', '(func:2141:(test_numeric:2145))')", 
+            "target": "('tests/test_numeric.py', '(func:2371:(__do_test:2375))')", 
+            "weight": 8
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/optimizer.py', '(func:3142:(try_eliminate_cmp_bra_const_const:3146))')", 
+            "target": "('src/i8c/compiler/operations.py', '(func:2025:(is_equivalent_to:2029))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/optimizer.py', '(func:3142:(try_eliminate_cmp_bra_const_const:3146))')", 
+            "target": "('src/i8c/compiler/operations.py', '(func:1466:(is_branch:1484))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/lexer.py', '(func:1978:(__init__:1982))')", 
+            "target": "('src/i8c/compat.py', '(func:1391:(strtoint_c:1395))')", 
+            "weight": 117
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_numeric.py', '(func:2371:(__do_test:2375))')", 
+            "target": "('src/i8c/compiler/parser.py', '(func:11952:(name:11970))')", 
+            "weight": 6
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/optimizer.py', '(func:7443:(try_reverse_branch_exits:7447))')", 
+            "target": "('src/i8c/compiler/operations.py', '(func:1466:(is_branch:1484))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "astDiff": 1, 
+            "id": "('tests/test_numeric.py', '(func:2141:(test_numeric:2145))')", 
+            "profileDiff": false, 
+            "weight": 4
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/operations.py', '(func:2025:(is_equivalent_to:2029))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/runtime/exceptions.py', '(func:1123:(__init__:1127))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/parser.py', '(func:11952:(name:11970))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/serializer.py', '(func:5226:(visit_function:5230))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/optimizer.py', '(func:3142:(try_eliminate_cmp_bra_const_const:3146))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/serializer.py', '(func:1368:(__init__:1372))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/__init__.py', '(func:1091:(__init__:1095))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 4, 
+            "id": "('src/i8c/compiler/lexer.py', '(func:1978:(__init__:1982))')", 
+            "profileDiff": true, 
+            "weight": 10
+        }, 
+        {
+            "astDiff": 106, 
+            "id": "('src/i8c/compat.py', '(func:1391:(strtoint_c:1395))')", 
+            "profileDiff": null, 
+            "weight": 107
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/optimizer.py', '(func:7443:(try_reverse_branch_exits:7447))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/operations.py', '(func:1466:(is_branch:1484))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 1, 
+            "id": "('tests/test_numeric.py', '(func:2371:(__do_test:2375))')", 
+            "profileDiff": false, 
+            "weight": 4
+        }
+    ]
+}

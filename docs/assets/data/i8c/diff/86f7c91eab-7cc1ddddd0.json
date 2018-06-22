@@ -1,0 +1,114 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_stack_ops.py', '(func:1203:(test_stack_ops:1207))')", 
+            "target": "('tests/__init__.py', '(func:2884:(opnames:2902))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/serializer.py', '(func:5529:(visit_basicblock:5533))')", 
+            "target": "('src/i8c/compiler/blocks.py', '(func:2000:(is_goto_terminated:2018))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/blocks.py', '(func:2344:(append:2348))')", 
+            "target": "('src/i8c/compiler/blocks.py', '(func:1241:(name:1259))')", 
+            "weight": 62
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/stack.py', '(func:10511:(visit_basicblock:10515))')", 
+            "target": "('src/i8c/compiler/blocks.py', '(func:1246:(name:1264))')", 
+            "weight": 27
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/blocks.py', '(func:2740:(__str__:2744))')", 
+            "target": "('src/i8c/compiler/blocks.py', '(func:1246:(name:1264))')", 
+            "weight": 33
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/blocks.py', '(func:4744:(ensure_all_blocks_terminated:4748))')", 
+            "target": "('src/i8c/compiler/operations.py', '(func:2043:(is_noop:2061))')", 
+            "weight": 30
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/blocks.py', '(func:4744:(ensure_all_blocks_terminated:4748))')", 
+            "target": "('src/i8c/compiler/blocks.py', '(func:2344:(append:2348))')", 
+            "weight": 50
+        }
+    ], 
+    "nodes": [
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/blocks.py', '(func:2000:(is_goto_terminated:2018))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/__init__.py', '(func:2884:(opnames:2902))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 4, 
+            "id": "('src/i8c/compiler/stack.py', '(func:10511:(visit_basicblock:10515))')", 
+            "profileDiff": null, 
+            "weight": 5
+        }, 
+        {
+            "astDiff": 21, 
+            "id": "('src/i8c/compiler/blocks.py', '(func:1246:(name:1264))')", 
+            "profileDiff": null, 
+            "weight": 22
+        }, 
+        {
+            "astDiff": 9, 
+            "id": "('src/i8c/compiler/blocks.py', '(func:4744:(ensure_all_blocks_terminated:4748))')", 
+            "profileDiff": null, 
+            "weight": 10
+        }, 
+        {
+            "astDiff": 10, 
+            "id": "('src/i8c/compiler/blocks.py', '(func:1241:(name:1259))')", 
+            "profileDiff": false, 
+            "weight": 22
+        }, 
+        {
+            "astDiff": 10, 
+            "id": "('src/i8c/compiler/blocks.py', '(func:2740:(__str__:2744))')", 
+            "profileDiff": null, 
+            "weight": 11
+        }, 
+        {
+            "astDiff": 9, 
+            "id": "('src/i8c/compiler/operations.py', '(func:2043:(is_noop:2061))')", 
+            "profileDiff": true, 
+            "weight": 20
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/serializer.py', '(func:5529:(visit_basicblock:5533))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/test_stack_ops.py', '(func:1203:(test_stack_ops:1207))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 19, 
+            "id": "('src/i8c/compiler/blocks.py', '(func:2344:(append:2348))')", 
+            "profileDiff": false, 
+            "weight": 40
+        }
+    ]
+}

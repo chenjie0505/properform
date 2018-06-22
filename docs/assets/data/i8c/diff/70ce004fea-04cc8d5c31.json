@@ -1,0 +1,152 @@
+{
+    "edges": [
+        {
+            "source": "('src/i8c/runtime/functions.py', '(func:7133:(__init__:7137))')", 
+            "target": "('src/i8c/runtime/leb128.py', '(func:1019:(read_uleb128:1023))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/__init__.py', '(func:4049:(__collect_blocks:4053))')", 
+            "target": "('tests/__init__.py', '(func:4049:(__collect_blocks:4053))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_debug_code.py', '(func:1998:(test_str_methods:2002))')", 
+            "target": "('src/i8c/compiler/lexer.py', '(func:1439:(__str__:1443))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_debug_code.py', '(func:1998:(test_str_methods:2002))')", 
+            "target": "('tests/__init__.py', '(func:3906:(collect_blocks:3910))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/i8c/compiler/optimizer.py', '(func:8344:(__try_peephole:8348))')", 
+            "target": "('src/i8c/compiler/optimizer.py', '(func:9411:(try_use_plus_uconst:9415))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_load_constant.py', '(func:2937:(test_output:2941))')", 
+            "target": "('tests/__init__.py', '(func:2768:(ops:2786))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_folded_load.py', '(func:2147:(test_deref_fold_load:2151))')", 
+            "target": "('tests/test_folded_load.py', '(func:2301:(__do_test:2305))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/i8c/compiler/optimizer.py', '(func:3142:(try_eliminate_cmp_bra_const_const:3146))')", 
+            "target": "('src/i8c/compiler/blocks.py', '(func:1829:(nobranch_exit:1847))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/i8c/compiler/emitter.py', '(func:10559:(visit_returntypes:10563))')", 
+            "target": "('src/i8c/compiler/types.py', '(func:2674:(encoding:2692))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/__init__.py', '(func:3906:(collect_blocks:3910))')", 
+            "target": "('tests/__init__.py', '(func:4049:(__collect_blocks:4053))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/runtime/functions.py', '(func:7133:(__init__:7137))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/__init__.py', '(func:3906:(collect_blocks:3910))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/optimizer.py', '(func:3142:(try_eliminate_cmp_bra_const_const:3146))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/test_load_constant.py', '(func:2937:(test_output:2941))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/test_debug_code.py', '(func:1998:(test_str_methods:2002))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/blocks.py', '(func:1829:(nobranch_exit:1847))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:10559:(visit_returntypes:10563))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/__init__.py', '(func:2768:(ops:2786))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/lexer.py', '(func:1439:(__str__:1443))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/__init__.py', '(func:4049:(__collect_blocks:4053))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/optimizer.py', '(func:9411:(try_use_plus_uconst:9415))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/test_folded_load.py', '(func:2147:(test_deref_fold_load:2151))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/types.py', '(func:2674:(encoding:2692))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/runtime/leb128.py', '(func:1019:(read_uleb128:1023))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/test_folded_load.py', '(func:2301:(__do_test:2305))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/optimizer.py', '(func:8344:(__try_peephole:8348))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }
+    ]
+}

@@ -1,0 +1,177 @@
+{
+    "edges": [
+        {
+            "source": "('src/i8c/compiler/parser.py', '(func:16033:(add_children:16037))')", 
+            "target": "('src/i8c/compiler/parser.py', '(func:14567:(consume:14571))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_opt_combine_blocks.py', '(func:1499:(test_combine_blocks:1503))')", 
+            "target": "('tests/__init__.py', '(func:2884:(opnames:2902))')", 
+            "weight": 6
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/optimizer.py', '(func:2221:(try_combine_blocks:2225))')", 
+            "target": "('src/i8c/compiler/optimizer.py', '(func:2448:(__try_combine_blocks:2452))')", 
+            "weight": 240
+        }, 
+        {
+            "source": "('src/i8c/compiler/parser.py', '(func:14567:(consume:14571))')", 
+            "target": "('src/i8c/compiler/parser.py', '(func:4179:(consume:4183))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/optimizer.py', '(func:2163:(visit_basicblock:2167))')", 
+            "target": "('src/i8c/compiler/blocks.py', '(func:2740:(__str__:2744))')", 
+            "weight": 56
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/optimizer.py', '(func:11502:(try_remove_unreachable_code:11506))')", 
+            "target": "('src/i8c/compiler/optimizer.py', '(func:10039:(debug_print_stream:10043))')", 
+            "weight": 7
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/optimizer.py', '(func:11502:(try_remove_unreachable_code:11506))')", 
+            "target": "('src/i8c/compiler/optimizer.py', '(func:1590:(debug_print_hit:1594))')", 
+            "weight": 10
+        }, 
+        {
+            "source": "('tests/__init__.py', '(func:2884:(opnames:2902))')", 
+            "target": "('tests/__init__.py', '(func:2768:(ops:2786))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/optimizer.py', '(func:2448:(__try_combine_blocks:2452))')", 
+            "target": "('src/i8c/compiler/blocks.py', '(func:4720:(replace_exit:4724))')", 
+            "weight": 216
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/optimizer.py', '(func:2448:(__try_combine_blocks:2452))')", 
+            "target": "('src/i8c/compiler/blocks.py', '(func:3968:(is_equivalent_to:3972))')", 
+            "weight": 396
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/blocks.py', '(func:3968:(is_equivalent_to:3972))')", 
+            "target": "('src/i8c/compiler/operations.py', '(func:2025:(is_equivalent_to:2029))')", 
+            "weight": 241
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/optimizer.py', '(func:2054:(visit_function:2058))')", 
+            "target": "('src/i8c/compiler/optimizer.py', '(func:2221:(try_combine_blocks:2225))')", 
+            "weight": 96
+        }
+    ], 
+    "nodes": [
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/parser.py', '(func:4179:(consume:4183))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 7, 
+            "id": "('src/i8c/compiler/optimizer.py', '(func:1590:(debug_print_hit:1594))')", 
+            "profileDiff": null, 
+            "weight": 8
+        }, 
+        {
+            "astDiff": 4, 
+            "id": "('src/i8c/compiler/optimizer.py', '(func:10039:(debug_print_stream:10043))')", 
+            "profileDiff": null, 
+            "weight": 5
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/__init__.py', '(func:2884:(opnames:2902))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 1, 
+            "id": "('tests/test_opt_combine_blocks.py', '(func:1499:(test_combine_blocks:1503))')", 
+            "profileDiff": false, 
+            "weight": 4
+        }, 
+        {
+            "astDiff": 83, 
+            "id": "('src/i8c/compiler/optimizer.py', '(func:2448:(__try_combine_blocks:2452))')", 
+            "profileDiff": false, 
+            "weight": 168
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/parser.py', '(func:14567:(consume:14571))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/parser.py', '(func:16033:(add_children:16037))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 23, 
+            "id": "('src/i8c/compiler/blocks.py', '(func:4720:(replace_exit:4724))')", 
+            "profileDiff": false, 
+            "weight": 48
+        }, 
+        {
+            "astDiff": 35, 
+            "id": "('src/i8c/compiler/optimizer.py', '(func:2221:(try_combine_blocks:2225))')", 
+            "profileDiff": false, 
+            "weight": 72
+        }, 
+        {
+            "astDiff": 113, 
+            "id": "('src/i8c/compiler/blocks.py', '(func:3968:(is_equivalent_to:3972))')", 
+            "profileDiff": false, 
+            "weight": 228
+        }, 
+        {
+            "astDiff": 12, 
+            "id": "('src/i8c/compiler/operations.py', '(func:2025:(is_equivalent_to:2029))')", 
+            "profileDiff": null, 
+            "weight": 13
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/__init__.py', '(func:2768:(ops:2786))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 19, 
+            "id": "('src/i8c/compiler/blocks.py', '(func:2740:(__str__:2744))')", 
+            "profileDiff": null, 
+            "weight": 20
+        }, 
+        {
+            "astDiff": 11, 
+            "id": "('src/i8c/compiler/optimizer.py', '(func:2054:(visit_function:2058))')", 
+            "profileDiff": false, 
+            "weight": 24
+        }, 
+        {
+            "astDiff": 17, 
+            "id": "('src/i8c/compiler/optimizer.py', '(func:2163:(visit_basicblock:2167))')", 
+            "profileDiff": false, 
+            "weight": 36
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/optimizer.py', '(func:11502:(try_remove_unreachable_code:11506))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_load_slot.py', '(func:1958:(test_basic:1962))')", 
+            "target": "('src/i8c/runtime/operations.py', '(func:7234:(operand:7252))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:9078:(__visit_function:9082))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:10856:(has_code:10878))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/blocks.py', '(func:7230:(visit_nameop:7234))')", 
+            "target": "('src/i8c/compiler/operations.py', '(func:1072:(__init__:1076))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_deref.py', '(func:1354:(test_deref:1358))')", 
+            "target": "('src/i8c/runtime/operations.py', '(func:7234:(operand:7252))')", 
+            "weight": 129
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/serializer.py', '(func:5529:(visit_basicblock:5533))')", 
+            "target": "('src/i8c/compiler/blocks.py', '(func:2000:(is_goto_terminated:2018))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/blocks.py', '(func:7230:(visit_nameop:7234))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/blocks.py', '(func:2000:(is_goto_terminated:2018))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:10856:(has_code:10878))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/serializer.py', '(func:5529:(visit_basicblock:5533))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 126, 
+            "id": "('tests/test_deref.py', '(func:1354:(test_deref:1358))')", 
+            "profileDiff": null, 
+            "weight": 127
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/test_load_slot.py', '(func:1958:(test_basic:1962))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/runtime/operations.py', '(func:7234:(operand:7252))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/operations.py', '(func:1072:(__init__:1076))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:9078:(__visit_function:9082))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }
+    ]
+}

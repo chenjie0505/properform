@@ -1,0 +1,66 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/__init__.py', '(func:4049:(__collect_blocks:4053))')", 
+            "target": "('tests/__init__.py', '(func:4049:(__collect_blocks:4053))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/stack.py', '(func:12476:(visit_callop:12480))')", 
+            "target": "('src/i8c/compiler/stack.py', '(func:4249:(underflow_check:4253))')", 
+            "weight": 7
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/stack.py', '(func:12476:(visit_callop:12480))')", 
+            "target": "('src/i8c/compiler/stack.py', '(func:1915:(pop:1919))')", 
+            "weight": 7
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/__init__.py', '(func:3906:(collect_blocks:3910))')", 
+            "target": "('tests/__init__.py', '(func:4049:(__collect_blocks:4053))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/stack.py', '(func:1915:(pop:1919))')", 
+            "target": "('src/i8c/compiler/stack.py', '(func:4249:(underflow_check:4253))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "astDiff": 4, 
+            "id": "('src/i8c/compiler/stack.py', '(func:12476:(visit_callop:12480))')", 
+            "profileDiff": null, 
+            "weight": 5
+        }, 
+        {
+            "astDiff": 1, 
+            "id": "('src/i8c/compiler/stack.py', '(func:1915:(pop:1919))')", 
+            "profileDiff": null, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 1, 
+            "id": "('src/i8c/compiler/stack.py', '(func:4249:(underflow_check:4253))')", 
+            "profileDiff": null, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/__init__.py', '(func:3906:(collect_blocks:3910))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/__init__.py', '(func:4049:(__collect_blocks:4053))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }
+    ]
+}

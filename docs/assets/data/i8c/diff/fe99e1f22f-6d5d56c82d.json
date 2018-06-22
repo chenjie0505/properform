@@ -1,0 +1,174 @@
+{
+    "edges": [
+        {
+            "source": "('src/i8c/compiler/parser.py', '(func:16033:(add_children:16037))')", 
+            "target": "('src/i8c/compiler/parser.py', '(func:14567:(consume:14571))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/i8c/runtime/functions.py', '(func:2560:(__init__:2564))')", 
+            "target": "('src/i8c/runtime/functions.py', '(func:4718:(__load_externals:4722))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/i8c/runtime/functions.py', '(func:2560:(__init__:2564))')", 
+            "target": "('src/i8c/runtime/functions.py', '(func:4245:(__unpack_signature:4249))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/i8c/runtime/functions.py', '(func:4245:(__unpack_signature:4249))')", 
+            "target": "('src/i8c/runtime/elffile.py', '(func:4490:(text:4508))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_empty_function.py', '(func:1047:(test_empty_function:1051))')", 
+            "target": "('tests/__init__.py', '(func:2884:(opnames:2902))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_deref_offset_base.py', '(func:1140:(test_deref_offset_base:1144))')", 
+            "target": "('tests/__init__.py', '(func:2884:(opnames:2902))')", 
+            "weight": 6
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/parser.py', '(func:11034:(consume:11038))')", 
+            "target": "('src/i8c/compiler/parser.py', '(func:11034:(consume:11038))')", 
+            "weight": 36
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/parser.py', '(func:11034:(consume:11038))')", 
+            "target": "('src/i8c/compiler/parser.py', '(func:16033:(add_children:16037))')", 
+            "weight": 20
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/parser.py', '(func:11034:(consume:11038))')", 
+            "target": "('src/i8c/compiler/parser.py', '(func:12682:(add_folded_load:12686))')", 
+            "weight": 36
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/parser.py', '(func:11034:(consume:11038))')", 
+            "target": "('src/i8c/compiler/parser.py', '(func:15007:(add_folded_load:15011))')", 
+            "weight": 188
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/parser.py', '(func:11034:(consume:11038))')", 
+            "target": "('src/i8c/compiler/parser.py', '(func:14800:(add_children:14804))')", 
+            "weight": 20
+        }, 
+        {
+            "source": "('tests/test_opt_lit0_cmp_before_bra.py', '(func:1374:(test_optimize_lit0_cmp_before_bra:1378))')", 
+            "target": "('tests/__init__.py', '(func:2884:(opnames:2902))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/parser.py', '(func:15007:(add_folded_load:15011))')", 
+            "target": "('src/i8c/compiler/parser.py', '(func:11034:(consume:11038))')", 
+            "weight": 188
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/parser.py', '(func:15007:(add_folded_load:15011))')", 
+            "target": "('src/i8c/compiler/parser.py', '(func:12682:(add_folded_load:12686))')", 
+            "weight": 188
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/parser.py', '(func:12682:(add_folded_load:12686))')", 
+            "target": "('src/i8c/compiler/parser.py', '(func:11034:(consume:11038))')", 
+            "weight": 36
+        }
+    ], 
+    "nodes": [
+        {
+            "astDiff": 0, 
+            "id": "('tests/test_opt_lit0_cmp_before_bra.py', '(func:1374:(test_optimize_lit0_cmp_before_bra:1378))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/__init__.py', '(func:2884:(opnames:2902))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 1, 
+            "id": "('tests/test_deref_offset_base.py', '(func:1140:(test_deref_offset_base:1144))')", 
+            "profileDiff": false, 
+            "weight": 4
+        }, 
+        {
+            "astDiff": 17, 
+            "id": "('src/i8c/compiler/parser.py', '(func:11034:(consume:11038))')", 
+            "profileDiff": null, 
+            "weight": 18
+        }, 
+        {
+            "astDiff": 84, 
+            "id": "('src/i8c/compiler/parser.py', '(func:15007:(add_folded_load:15011))')", 
+            "profileDiff": false, 
+            "weight": 170
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/parser.py', '(func:14567:(consume:14571))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/runtime/functions.py', '(func:4245:(__unpack_signature:4249))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/parser.py', '(func:16033:(add_children:16037))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/runtime/functions.py', '(func:4718:(__load_externals:4722))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 8, 
+            "id": "('src/i8c/compiler/parser.py', '(func:12682:(add_folded_load:12686))')", 
+            "profileDiff": false, 
+            "weight": 18
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/test_empty_function.py', '(func:1047:(test_empty_function:1051))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/runtime/functions.py', '(func:2560:(__init__:2564))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/runtime/elffile.py', '(func:4490:(text:4508))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/parser.py', '(func:14800:(add_children:14804))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }
+    ]
+}

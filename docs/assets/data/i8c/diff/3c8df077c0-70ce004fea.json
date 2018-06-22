@@ -1,0 +1,126 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/__init__.py', '(func:4049:(__collect_blocks:4053))')", 
+            "target": "('tests/__init__.py', '(func:4049:(__collect_blocks:4053))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/parser.py', '(func:16033:(add_children:16037))')", 
+            "target": "('src/i8c/compiler/parser.py', '(func:4179:(consume:4183))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/parser.py', '(func:16033:(add_children:16037))')", 
+            "target": "('src/i8c/compiler/parser.py', '(func:14567:(consume:14571))')", 
+            "weight": 44
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_debug_code.py', '(func:1998:(test_str_methods:2002))')", 
+            "target": "('src/i8c/compiler/parser.py', '(func:2551:(__str__:2555))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_debug_code.py', '(func:1998:(test_str_methods:2002))')", 
+            "target": "('tests/__init__.py', '(func:3906:(collect_blocks:3910))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/parser.py', '(func:14567:(consume:14571))')", 
+            "target": "('src/i8c/compiler/parser.py', '(func:4179:(consume:4183))')", 
+            "weight": 44
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_folded_load.py', '(func:1991:(test_call_fold_load:1995))')", 
+            "target": "('tests/test_folded_load.py', '(func:2301:(__do_test:2305))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/__init__.py', '(func:3906:(collect_blocks:3910))')", 
+            "target": "('tests/__init__.py', '(func:4049:(__collect_blocks:4053))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:12000:(visit_constop:12004))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:6408:(emit_8byte:6412))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/parser.py', '(func:4179:(consume:4183))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:6408:(emit_8byte:6412))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/__init__.py', '(func:3906:(collect_blocks:3910))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:12000:(visit_constop:12004))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/test_folded_load.py', '(func:1991:(test_call_fold_load:1995))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 20, 
+            "id": "('src/i8c/compiler/parser.py', '(func:14567:(consume:14571))')", 
+            "profileDiff": false, 
+            "weight": 42
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/test_debug_code.py', '(func:1998:(test_str_methods:2002))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/parser.py', '(func:16033:(add_children:16037))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/test_folded_load.py', '(func:2301:(__do_test:2305))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/__init__.py', '(func:4049:(__collect_blocks:4053))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/parser.py', '(func:2551:(__str__:2555))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }
+    ]
+}

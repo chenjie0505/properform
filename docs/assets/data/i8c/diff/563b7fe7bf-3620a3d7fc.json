@@ -1,0 +1,854 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:7133:(__init__:7137))')", 
+            "target": "('src/i8c/runtime/elffile.py', '(func:4395:(bytes:4413))')", 
+            "weight": 112
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:7133:(__init__:7137))')", 
+            "target": "('src/i8c/runtime/leb128.py', '(func:1019:(read_uleb128:1023))')", 
+            "weight": 114
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:4140:(emit:4144))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:6501:(emit_uleb128:6505))')", 
+            "weight": 24
+        }, 
+        {
+            "source": "('src/i8c/runtime/elffile.py', '(func:4490:(text:4508))')", 
+            "target": "('src/i8c/runtime/elffile.py', '(func:4395:(bytes:4413))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_debug_code.py', '(func:1998:(test_str_methods:2002))')", 
+            "target": "('src/i8c/compiler/lexer.py', '(func:1439:(__str__:1443))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_debug_code.py', '(func:1998:(test_str_methods:2002))')", 
+            "target": "('tests/__init__.py', '(func:3906:(collect_blocks:3910))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:2510:(__init__:2514))')", 
+            "target": "('src/i8c/runtime/elffile.py', '(func:4395:(bytes:4413))')", 
+            "weight": 332
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:2510:(__init__:2514))')", 
+            "target": "('src/i8c/runtime/functions.py', '(func:4421:(__load_bytecode:4425))')", 
+            "weight": 532
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:2510:(__init__:2514))')", 
+            "target": "('src/i8c/runtime/functions.py', '(func:1232:(byteorder:1250))')", 
+            "weight": 332
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:2510:(__init__:2514))')", 
+            "target": "('src/i8c/runtime/types.py', '(func:2712:(decode:2716))')", 
+            "weight": 332
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:2510:(__init__:2514))')", 
+            "target": "('src/i8c/runtime/functions.py', '(func:4718:(__load_externals:4722))')", 
+            "weight": 524
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:2510:(__init__:2514))')", 
+            "target": "('src/i8c/runtime/elffile.py', '(func:4490:(text:4508))')", 
+            "weight": 332
+        }, 
+        {
+            "source": "('src/i8c/compiler/operations.py', '(func:6399:(__init__:6403))')", 
+            "target": "('src/i8c/compiler/operations.py', '(func:1072:(__init__:1076))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:9905:(emit_chunk:9909))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:5213:(new_label:5217))')", 
+            "weight": 40
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:9905:(emit_chunk:9909))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:3899:(emit:3903))')", 
+            "weight": 40
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:9905:(emit_chunk:9909))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:6501:(emit_uleb128:6505))')", 
+            "weight": 40
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:9905:(emit_chunk:9909))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:10222:(emit_signature:10226))')", 
+            "weight": 74
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:9905:(emit_chunk:9909))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:10525:(emit_code:10529))')", 
+            "weight": 60
+        }, 
+        {
+            "source": "('src/i8c/compiler/parser.py', '(func:4773:(consume:4777))')", 
+            "target": "('src/i8c/compiler/parser.py', '(func:7321:(consume:7325))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/i8c/compiler/parser.py', '(func:4773:(consume:4777))')", 
+            "target": "('src/i8c/compiler/parser.py', '(func:1777:(latest_child:1795))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:4004:(__unpack_fsig:4008))')", 
+            "target": "('src/i8c/runtime/types.py', '(func:2712:(decode:2716))')", 
+            "weight": 154
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:4004:(__unpack_fsig:4008))')", 
+            "target": "('src/i8c/runtime/elffile.py', '(func:4490:(text:4508))')", 
+            "weight": 154
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:4004:(__unpack_fsig:4008))')", 
+            "target": "('src/i8c/runtime/leb128.py', '(func:1019:(read_uleb128:1023))')", 
+            "weight": 156
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:9078:(__visit_function:9082))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:9905:(emit_chunk:9909))')", 
+            "weight": 96
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:2966:(__split_chunks:2970))')", 
+            "target": "('src/i8c/runtime/leb128.py', '(func:1019:(read_uleb128:1023))')", 
+            "weight": 180
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/operations.py', '(func:6414:(decode_uleb128:6435))')", 
+            "target": "('src/i8c/runtime/leb128.py', '(func:1019:(read_uleb128:1023))')", 
+            "weight": 16
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/operations.py', '(func:6414:(decode_uleb128:6435))')", 
+            "target": "('src/i8c/runtime/operations.py', '(func:6615:(__decode_leb128:6637))')", 
+            "weight": 178
+        }, 
+        {
+            "source": "('src/i8c/compiler/blocks.py', '(func:7230:(visit_nameop:7234))')", 
+            "target": "('src/i8c/compiler/operations.py', '(func:1072:(__init__:1076))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_load_constant.py', '(func:2937:(test_output:2941))')", 
+            "target": "('tests/__init__.py', '(func:2768:(ops:2786))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:8396:(__visit_function:8400))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:5213:(new_label:5217))')", 
+            "weight": 272
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:8396:(__visit_function:8400))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:3899:(emit:3903))')", 
+            "weight": 272
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:8396:(__visit_function:8400))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:6222:(emit_2byte:6226))')", 
+            "weight": 272
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/leb128.py', '(func:1019:(read_uleb128:1023))')", 
+            "target": "('src/i8c/runtime/leb128.py', '(func:1172:(__read_leb128:1176))')", 
+            "weight": 8
+        }, 
+        {
+            "source": "('tests/test_bug_0001.py', '(func:1422:(test_bug_0001:1426))')", 
+            "target": "('tests/__init__.py', '(func:2884:(opnames:2902))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_compiler_driver.py', '(func:4411:(test_asm_failure:4415))')", 
+            "target": "('tests/test_compiler_driver.py', '(func:3930:(__run_failtest:3934))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:2782:(__init__:2786))')", 
+            "target": "('src/i8c/runtime/functions.py', '(func:4421:(__load_bytecode:4425))')", 
+            "weight": 244
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:2782:(__init__:2786))')", 
+            "target": "('src/i8c/runtime/functions.py', '(func:2966:(__split_chunks:2970))')", 
+            "weight": 218
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:2782:(__init__:2786))')", 
+            "target": "('src/i8c/runtime/functions.py', '(func:4718:(__load_externals:4722))')", 
+            "weight": 236
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:2782:(__init__:2786))')", 
+            "target": "('src/i8c/runtime/functions.py', '(func:4004:(__unpack_fsig:4008))')", 
+            "weight": 194
+        }, 
+        {
+            "source": "('src/i8c/compiler/optimizer.py', '(func:9411:(try_use_plus_uconst:9415))')", 
+            "target": "('src/i8c/compiler/optimizer.py', '(func:1590:(debug_print_hit:1594))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/i8c/compiler/optimizer.py', '(func:9411:(try_use_plus_uconst:9415))')", 
+            "target": "('src/i8c/compiler/operations.py', '(func:1967:(is_add:1985))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/i8c/runtime/types.py', '(func:2080:(__ne__:2084))')", 
+            "target": "('src/i8c/runtime/types.py', '(func:2015:(__eq__:2019))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/i8c/runtime/types.py', '(func:2712:(decode:2716))')", 
+            "target": "('src/i8c/runtime/types.py', '(func:1503:(unpack:1524))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/__init__.py', '(func:2884:(opnames:2902))')", 
+            "target": "('tests/__init__.py', '(func:2768:(ops:2786))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/leb128.py', '(func:1096:(read_sleb128:1100))')", 
+            "target": "('src/i8c/runtime/leb128.py', '(func:1172:(__read_leb128:1176))')", 
+            "weight": 8
+        }, 
+        {
+            "source": "('src/i8c/compiler/parser.py', '(func:7321:(consume:7325))')", 
+            "target": "('src/i8c/compiler/parser.py', '(func:10062:(consume:10066))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:10222:(emit_signature:10226))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:6501:(emit_uleb128:6505))')", 
+            "weight": 38
+        }, 
+        {
+            "source": "('tests/test_empty_function.py', '(func:1047:(test_empty_function:1051))')", 
+            "target": "('tests/__init__.py', '(func:2884:(opnames:2902))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:10525:(emit_code:10529))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:6501:(emit_uleb128:6505))')", 
+            "weight": 24
+        }, 
+        {
+            "source": "('src/i8c/compiler/blocks.py', '(func:6600:(visit_simpleop:6604))')", 
+            "target": "('src/i8c/compiler/operations.py', '(func:1072:(__init__:1076))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:3899:(emit:3903))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:4140:(emit:4144))')", 
+            "weight": 24
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:3899:(emit:3903))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:4444:(emit:4448))')", 
+            "weight": 30
+        }, 
+        {
+            "source": "('src/i8c/compiler/operations.py', '(func:4755:(__init__:4759))')", 
+            "target": "('src/i8c/compiler/operations.py', '(func:1072:(__init__:1076))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:4187:(get_string:4191))')", 
+            "target": "('src/i8c/runtime/elffile.py', '(func:4395:(bytes:4413))')", 
+            "weight": 12
+        }, 
+        {
+            "source": "('src/i8c/compiler/emitter.py', '(func:5213:(new_label:5217))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:1117:(__init__:1121))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/i8c/compiler/serializer.py', '(func:2346:(close:2350))')", 
+            "target": "('src/i8c/compiler/serializer.py', '(func:1834:(append:1838))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/i8c/compiler/stack.py', '(func:4698:(merge_into:4702))')", 
+            "target": "('src/i8c/compiler/names.py', '(func:1587:(__eq__:1591))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:4444:(emit:4448))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:6222:(emit_2byte:6226))')", 
+            "weight": 30
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:4444:(emit:4448))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:6501:(emit_uleb128:6505))')", 
+            "weight": 30
+        }, 
+        {
+            "source": "('tests/__init__.py', '(func:2768:(ops:2786))')", 
+            "target": "('tests/__init__.py', '(func:2668:(note:2686))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:6707:(emit_op:6711))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:6222:(emit_2byte:6226))')", 
+            "weight": 38
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:6707:(emit_op:6711))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:6501:(emit_uleb128:6505))')", 
+            "weight": 38
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:15716:(visit_plusuconst:15720))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:6707:(emit_op:6711))')", 
+            "weight": 38
+        }, 
+        {
+            "source": "('src/i8c/compiler/emitter.py', '(func:15716:(visit_plusuconst:15720))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:6501:(emit_uleb128:6505))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_load_slot.py', '(func:2563:(test_name_anonymous_slot:2567))')", 
+            "target": "('tests/__init__.py', '(func:2768:(ops:2786))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:4421:(__load_bytecode:4425))')", 
+            "target": "('src/i8c/runtime/elffile.py', '(func:4395:(bytes:4413))')", 
+            "weight": 204
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:4421:(__load_bytecode:4425))')", 
+            "target": "('src/i8c/runtime/functions.py', '(func:1232:(byteorder:1250))')", 
+            "weight": 204
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:4421:(__load_bytecode:4425))')", 
+            "target": "('src/i8c/runtime/leb128.py', '(func:1019:(read_uleb128:1023))')", 
+            "weight": 206
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:4718:(__load_externals:4722))')", 
+            "target": "('src/i8c/runtime/functions.py', '(func:7133:(__init__:7137))')", 
+            "weight": 304
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:4718:(__load_externals:4722))')", 
+            "target": "('src/i8c/runtime/functions.py', '(func:6537:(__init__:6541))')", 
+            "weight": 272
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:4718:(__load_externals:4722))')", 
+            "target": "('src/i8c/runtime/leb128.py', '(func:1019:(read_uleb128:1023))')", 
+            "weight": 198
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:6537:(__init__:6541))')", 
+            "target": "('src/i8c/runtime/elffile.py', '(func:4395:(bytes:4413))')", 
+            "weight": 80
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:6537:(__init__:6541))')", 
+            "target": "('src/i8c/runtime/types.py', '(func:2712:(decode:2716))')", 
+            "weight": 80
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:6537:(__init__:6541))')", 
+            "target": "('src/i8c/runtime/elffile.py', '(func:4490:(text:4508))')", 
+            "weight": 80
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:6537:(__init__:6541))')", 
+            "target": "('src/i8c/runtime/leb128.py', '(func:1019:(read_uleb128:1023))')", 
+            "weight": 82
+        }, 
+        {
+            "source": "('src/i8c/compiler/operations.py', '(func:5140:(__init__:5144))')", 
+            "target": "('src/i8c/compiler/operations.py', '(func:1072:(__init__:1076))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/operations.py', '(func:6515:(decode_sleb128:6536))')", 
+            "target": "('src/i8c/runtime/leb128.py', '(func:1096:(read_sleb128:1100))')", 
+            "weight": 16
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/operations.py', '(func:6515:(decode_sleb128:6536))')", 
+            "target": "('src/i8c/runtime/operations.py', '(func:6615:(__decode_leb128:6637))')", 
+            "weight": 178
+        }, 
+        {
+            "source": "('src/i8c/runtime/types.py', '(func:2015:(__eq__:2019))')", 
+            "target": "('src/i8c/runtime/types.py', '(func:2080:(__ne__:2084))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_opt_cmp_bra_const_const.py', '(func:1906:(test_optimize_cmp_bra_const_const:1910))')", 
+            "target": "('tests/__init__.py', '(func:2884:(opnames:2902))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "astDiff": 18, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:9905:(emit_chunk:9909))')", 
+            "profileDiff": false, 
+            "weight": 38
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/stack.py', '(func:4698:(merge_into:4702))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 20, 
+            "id": "('src/i8c/runtime/functions.py', '(func:2782:(__init__:2786))')", 
+            "profileDiff": false, 
+            "weight": 42
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/test_compiler_driver.py', '(func:3930:(__run_failtest:3934))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/test_debug_code.py', '(func:1998:(test_str_methods:2002))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/optimizer.py', '(func:1590:(debug_print_hit:1594))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/__init__.py', '(func:2884:(opnames:2902))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/optimizer.py', '(func:9411:(try_use_plus_uconst:9415))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/operations.py', '(func:1967:(is_add:1985))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/test_compiler_driver.py', '(func:4411:(test_asm_failure:4415))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/operations.py', '(func:1072:(__init__:1076))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/parser.py', '(func:1777:(latest_child:1795))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 17, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:10222:(emit_signature:10226))')", 
+            "profileDiff": false, 
+            "weight": 36
+        }, 
+        {
+            "astDiff": 77, 
+            "id": "('src/i8c/runtime/functions.py', '(func:6537:(__init__:6541))')", 
+            "profileDiff": null, 
+            "weight": 78
+        }, 
+        {
+            "astDiff": 5, 
+            "id": "('src/i8c/runtime/operations.py', '(func:6414:(decode_uleb128:6435))')", 
+            "profileDiff": true, 
+            "weight": 12
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/blocks.py', '(func:7230:(visit_nameop:7234))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/blocks.py', '(func:6600:(visit_simpleop:6604))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 54, 
+            "id": "('src/i8c/runtime/functions.py', '(func:7133:(__init__:7137))')", 
+            "profileDiff": true, 
+            "weight": 110
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/test_load_constant.py', '(func:2937:(test_output:2941))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:1117:(__init__:1121))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:3899:(emit:3903))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/parser.py', '(func:4773:(consume:4777))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/runtime/functions.py', '(func:1232:(byteorder:1250))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/operations.py', '(func:4755:(__init__:4759))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/runtime/types.py', '(func:2080:(__ne__:2084))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 75, 
+            "id": "('src/i8c/runtime/functions.py', '(func:4004:(__unpack_fsig:4008))')", 
+            "profileDiff": false, 
+            "weight": 152
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/lexer.py', '(func:1439:(__str__:1443))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:6222:(emit_2byte:6226))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/operations.py', '(func:5140:(__init__:5144))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 9, 
+            "id": "('src/i8c/runtime/functions.py', '(func:4187:(get_string:4191))')", 
+            "profileDiff": null, 
+            "weight": 10
+        }, 
+        {
+            "astDiff": 1, 
+            "id": "('src/i8c/runtime/leb128.py', '(func:1172:(__read_leb128:1176))')", 
+            "profileDiff": false, 
+            "weight": 4
+        }, 
+        {
+            "astDiff": 100, 
+            "id": "('src/i8c/runtime/functions.py', '(func:4421:(__load_bytecode:4425))')", 
+            "profileDiff": false, 
+            "weight": 202
+        }, 
+        {
+            "astDiff": 164, 
+            "id": "('src/i8c/runtime/functions.py', '(func:2510:(__init__:2514))')", 
+            "profileDiff": true, 
+            "weight": 330
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/__init__.py', '(func:3906:(collect_blocks:3910))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 13, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:4444:(emit:4448))')", 
+            "profileDiff": false, 
+            "weight": 28
+        }, 
+        {
+            "astDiff": 87, 
+            "id": "('src/i8c/runtime/functions.py', '(func:2966:(__split_chunks:2970))')", 
+            "profileDiff": false, 
+            "weight": 176
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/serializer.py', '(func:1834:(append:1838))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 10, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:4140:(emit:4144))')", 
+            "profileDiff": false, 
+            "weight": 22
+        }, 
+        {
+            "astDiff": 5, 
+            "id": "('src/i8c/runtime/operations.py', '(func:6515:(decode_sleb128:6536))')", 
+            "profileDiff": true, 
+            "weight": 12
+        }, 
+        {
+            "astDiff": 96, 
+            "id": "('src/i8c/runtime/functions.py', '(func:4718:(__load_externals:4722))')", 
+            "profileDiff": false, 
+            "weight": 194
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/__init__.py', '(func:2768:(ops:2786))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:6501:(emit_uleb128:6505))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 134, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:8396:(__visit_function:8400))')", 
+            "profileDiff": true, 
+            "weight": 270
+        }, 
+        {
+            "astDiff": 17, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:6707:(emit_op:6711))')", 
+            "profileDiff": false, 
+            "weight": 36
+        }, 
+        {
+            "astDiff": 10, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:10525:(emit_code:10529))')", 
+            "profileDiff": false, 
+            "weight": 22
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/parser.py', '(func:7321:(consume:7325))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 1, 
+            "id": "('src/i8c/runtime/leb128.py', '(func:1019:(read_uleb128:1023))')", 
+            "profileDiff": false, 
+            "weight": 4
+        }, 
+        {
+            "astDiff": 28, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:9078:(__visit_function:9082))')", 
+            "profileDiff": false, 
+            "weight": 58
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:15716:(visit_plusuconst:15720))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/runtime/elffile.py', '(func:4395:(bytes:4413))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:5213:(new_label:5217))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/test_opt_cmp_bra_const_const.py', '(func:1906:(test_optimize_cmp_bra_const_const:1910))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/test_load_slot.py', '(func:2563:(test_name_anonymous_slot:2567))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/runtime/types.py', '(func:1503:(unpack:1524))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/serializer.py', '(func:2346:(close:2350))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 1, 
+            "id": "('src/i8c/runtime/leb128.py', '(func:1096:(read_sleb128:1100))')", 
+            "profileDiff": false, 
+            "weight": 4
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/__init__.py', '(func:2668:(note:2686))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/runtime/types.py', '(func:2712:(decode:2716))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/runtime/types.py', '(func:2015:(__eq__:2019))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/names.py', '(func:1587:(__eq__:1591))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/test_empty_function.py', '(func:1047:(test_empty_function:1051))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/parser.py', '(func:10062:(consume:10066))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/runtime/elffile.py', '(func:4490:(text:4508))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/operations.py', '(func:6399:(__init__:6403))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/test_bug_0001.py', '(func:1422:(test_bug_0001:1426))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 82, 
+            "id": "('src/i8c/runtime/operations.py', '(func:6615:(__decode_leb128:6637))')", 
+            "profileDiff": true, 
+            "weight": 166
+        }
+    ]
+}

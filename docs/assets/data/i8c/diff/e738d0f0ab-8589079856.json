@@ -1,0 +1,60 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/__init__.py', '(func:4049:(__collect_blocks:4053))')", 
+            "target": "('tests/__init__.py', '(func:4049:(__collect_blocks:4053))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:9905:(emit_chunk:9909))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:10222:(emit_signature:10226))')", 
+            "weight": 26
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:9078:(__visit_function:9082))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:9905:(emit_chunk:9909))')", 
+            "weight": 23
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/__init__.py', '(func:3906:(collect_blocks:3910))')", 
+            "target": "('tests/__init__.py', '(func:4049:(__collect_blocks:4053))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "astDiff": 8, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:9905:(emit_chunk:9909))')", 
+            "profileDiff": false, 
+            "weight": 18
+        }, 
+        {
+            "astDiff": 7, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:10222:(emit_signature:10226))')", 
+            "profileDiff": null, 
+            "weight": 8
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/__init__.py', '(func:3906:(collect_blocks:3910))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 4, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:9078:(__visit_function:9082))')", 
+            "profileDiff": null, 
+            "weight": 5
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/__init__.py', '(func:4049:(__collect_blocks:4053))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }
+    ]
+}

@@ -1,0 +1,279 @@
+{
+    "edges": [
+        {
+            "source": "('tests/__init__.py', '(func:3796:(disable_loggers:3800))')", 
+            "target": "('src/i8c/compiler/logger.py', '(func:1063:(disable:1067))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/i8c/compiler/operations.py', '(func:4399:(exit_labels:4417))')", 
+            "target": "('src/i8c/compiler/parser.py', '(func:11715:(target:11733))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/i8c/compiler/blocks.py', '(func:3589:(__init__:3593))')", 
+            "target": "('src/i8c/compiler/blocks.py', '(func:3410:(__init__:3414))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/stack.py', '(func:1418:(pop_multi_onto:1422))')", 
+            "target": "('src/i8c/runtime/stack.py', '(func:1575:(push_multi:1579))')", 
+            "weight": 23
+        }, 
+        {
+            "source": "('src/i8c/compiler/driver.py', '(func:7376:(compile:7380))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:4798:(__init__:4802))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/i8c/compiler/optimizer.py', '(func:2163:(visit_basicblock:2167))')", 
+            "target": "('src/i8c/compiler/blocks.py', '(func:2740:(__str__:2744))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/functions.py', '(func:5708:(execute:5712))')", 
+            "target": "('src/i8c/runtime/stack.py', '(func:1418:(pop_multi_onto:1422))')", 
+            "weight": 16
+        }, 
+        {
+            "source": "('src/i8c/compiler/names.py', '(func:4326:(visit_shortname:4330))')", 
+            "target": "('src/i8c/compiler/exceptions.py', '(func:1623:(__init__:1627))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/i8c/compiler/blocks.py', '(func:1556:(is_branch_terminated:1574))')", 
+            "target": "('src/i8c/compiler/blocks.py', '(func:1387:(last_op:1405))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/i8c/compiler/stack.py', '(func:16284:(visit_subop:16288))')", 
+            "target": "('src/i8c/compiler/types.py', '(func:1669:(basetype:1687))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/i8c/compiler/blocks.py', '(func:1829:(nobranch_exit:1847))')", 
+            "target": "('src/i8c/compiler/blocks.py', '(func:1556:(is_branch_terminated:1574))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/i8c/compiler/driver.py', '(func:6860:(setup_output:6864))')", 
+            "target": "('src/i8c/compiler/driver.py', '(func:6603:(guess_outfile:6607))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/i8c/compiler/externals.py', '(func:1059:(__init__:1063))')", 
+            "target": "('src/i8c/compiler/types.py', '(func:1669:(basetype:1687))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/i8c/compiler/blocks.py', '(func:4599:(ensure_has_blocks:4603))')", 
+            "target": "('src/i8c/compiler/operations.py', '(func:5140:(__init__:5144))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/context.py', '(func:3019:(call:3023))')", 
+            "target": "('src/i8c/runtime/stack.py', '(func:1575:(push_multi:1579))')", 
+            "weight": 18
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/context.py', '(func:3019:(call:3023))')", 
+            "target": "('src/i8c/runtime/functions.py', '(func:5708:(execute:5712))')", 
+            "weight": 11
+        }, 
+        {
+            "source": "('src/i8c/compiler/optimizer.py', '(func:7443:(try_reverse_branch_exits:7447))')", 
+            "target": "('src/i8c/compiler/operations.py', '(func:1792:(is_comparison:1810))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/i8c/compiler/optimizer.py', '(func:7443:(try_reverse_branch_exits:7447))')", 
+            "target": "('src/i8c/compiler/blocks.py', '(func:1321:(first_op:1339))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/i8c/compiler/optimizer.py', '(func:7443:(try_reverse_branch_exits:7447))')", 
+            "target": "('src/i8c/compiler/blocks.py', '(func:1829:(nobranch_exit:1847))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/blocks.py', '(func:3589:(__init__:3593))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/operations.py', '(func:5140:(__init__:5144))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/blocks.py', '(func:1829:(nobranch_exit:1847))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/operations.py', '(func:1792:(is_comparison:1810))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:4798:(__init__:4802))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/blocks.py', '(func:3410:(__init__:3414))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/optimizer.py', '(func:2163:(visit_basicblock:2167))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/__init__.py', '(func:3796:(disable_loggers:3800))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/blocks.py', '(func:4599:(ensure_has_blocks:4603))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/logger.py', '(func:1063:(disable:1067))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/driver.py', '(func:7376:(compile:7380))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/operations.py', '(func:4399:(exit_labels:4417))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/blocks.py', '(func:1387:(last_op:1405))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 5, 
+            "id": "('src/i8c/runtime/stack.py', '(func:1418:(pop_multi_onto:1422))')", 
+            "profileDiff": false, 
+            "weight": 12
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/blocks.py', '(func:1321:(first_op:1339))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/blocks.py', '(func:1556:(is_branch_terminated:1574))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/blocks.py', '(func:2740:(__str__:2744))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/driver.py', '(func:6860:(setup_output:6864))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/exceptions.py', '(func:1623:(__init__:1627))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/optimizer.py', '(func:7443:(try_reverse_branch_exits:7447))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/parser.py', '(func:11715:(target:11733))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 3, 
+            "id": "('src/i8c/runtime/functions.py', '(func:5708:(execute:5712))')", 
+            "profileDiff": null, 
+            "weight": 4
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/types.py', '(func:1669:(basetype:1687))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/externals.py', '(func:1059:(__init__:1063))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 6, 
+            "id": "('src/i8c/runtime/context.py', '(func:3019:(call:3023))')", 
+            "profileDiff": null, 
+            "weight": 7
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/driver.py', '(func:6603:(guess_outfile:6607))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 10, 
+            "id": "('src/i8c/runtime/stack.py', '(func:1575:(push_multi:1579))')", 
+            "profileDiff": null, 
+            "weight": 11
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/names.py', '(func:4326:(visit_shortname:4330))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/stack.py', '(func:16284:(visit_subop:16288))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }
+    ]
+}

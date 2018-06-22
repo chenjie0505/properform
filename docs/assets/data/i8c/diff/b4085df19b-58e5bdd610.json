@@ -1,0 +1,72 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/stack.py', '(func:11931:(visit_binaryop:11935))')", 
+            "target": "('src/i8c/compiler/types.py', '(func:2875:(__eq__:2879))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_binary_ops.py', '(func:1561:(__run_test:1565))')", 
+            "target": "('tests/test_binary_ops.py', '(func:2046:(__expect_success:2050))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_binary_ops.py', '(func:1313:(test_binary_ops:1317))')", 
+            "target": "('tests/test_binary_ops.py', '(func:1561:(__run_test:1565))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/operations.py', '(func:1708:(is_jump:1726))')", 
+            "target": "('src/i8c/compiler/operations.py', '(func:1626:(is_return:1644))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "astDiff": 0, 
+            "id": "('tests/test_binary_ops.py', '(func:2046:(__expect_success:2050))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/types.py', '(func:2875:(__eq__:2879))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/test_binary_ops.py', '(func:1561:(__run_test:1565))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/operations.py', '(func:1626:(is_return:1644))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('tests/test_binary_ops.py', '(func:1313:(test_binary_ops:1317))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/operations.py', '(func:1708:(is_jump:1726))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/stack.py', '(func:11931:(visit_binaryop:11935))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }
+    ]
+}

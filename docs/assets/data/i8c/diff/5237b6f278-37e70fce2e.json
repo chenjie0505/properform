@@ -1,0 +1,90 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/parser.py', '(func:2657:(__dump:2661))')", 
+            "target": "('src/i8c/compiler/parser.py', '(func:2657:(__dump:2661))')", 
+            "weight": 92
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:3303:(visit_external:3307))')", 
+            "target": "('src/i8c/compiler/emitter.py', '(func:4079:(__init__:4083))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/stack.py', '(func:15055:(visit_nameop:15059))')", 
+            "target": "('src/i8c/compiler/operations.py', '(func:7245:(name:7263))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/names.py', '(func:3124:(visit_loadop:3128))')", 
+            "target": "('src/i8c/compiler/parser.py', '(func:13562:(named_operands:13580))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/runtime/operations.py', '(func:6515:(decode_sleb128:6536))')", 
+            "target": "('src/i8c/runtime/leb128.py', '(func:1096:(read_sleb128:1100))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "astDiff": 22, 
+            "id": "('src/i8c/compiler/parser.py', '(func:2657:(__dump:2661))')", 
+            "profileDiff": false, 
+            "weight": 46
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:4079:(__init__:4083))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/operations.py', '(func:7245:(name:7263))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/stack.py', '(func:15055:(visit_nameop:15059))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:3303:(visit_external:3307))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/runtime/leb128.py', '(func:1096:(read_sleb128:1100))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/names.py', '(func:3124:(visit_loadop:3128))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/parser.py', '(func:13562:(named_operands:13580))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/runtime/operations.py', '(func:6515:(decode_sleb128:6536))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }
+    ]
+}

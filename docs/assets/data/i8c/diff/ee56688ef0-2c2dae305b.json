@@ -1,0 +1,126 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/serializer.py', '(func:5529:(visit_basicblock:5533))')", 
+            "target": "('src/i8c/compiler/serializer.py', '(func:2259:(jump_from_last_to_EOF:2263))')", 
+            "weight": 10
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/serializer.py', '(func:5529:(visit_basicblock:5533))')", 
+            "target": "('src/i8c/compiler/blocks.py', '(func:2098:(goto_exit:2116))')", 
+            "weight": 10
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:10856:(has_code:10878))')", 
+            "target": "('src/i8c/compiler/serializer.py', '(func:1697:(stream:1715))')", 
+            "weight": 62
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/serializer.py', '(func:4308:(__reindex:4312))')", 
+            "target": "('src/i8c/compiler/serializer.py', '(func:1697:(stream:1715))')", 
+            "weight": 48
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/stack.py', '(func:10927:(visit_addop:10931))')", 
+            "target": "('src/i8c/compiler/types.py', '(func:2875:(__eq__:2879))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/serializer.py', '(func:1697:(stream:1715))')", 
+            "target": "('src/i8c/compiler/serializer.py', '(func:1521:(items:1525))')", 
+            "weight": 32
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/emitter.py', '(func:11027:(visit_operationstream:11031))')", 
+            "target": "('src/i8c/compiler/serializer.py', '(func:1697:(stream:1715))')", 
+            "weight": 42
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/i8c/compiler/types.py', '(func:4740:(__create_builtin_types:4744))')", 
+            "target": "('src/i8c/compiler/types.py', '(func:4399:(__init__:4403))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/types.py', '(func:2875:(__eq__:2879))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/stack.py', '(func:10927:(visit_addop:10931))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 18, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:10856:(has_code:10878))')", 
+            "profileDiff": true, 
+            "weight": 38
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/serializer.py', '(func:2259:(jump_from_last_to_EOF:2263))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 17, 
+            "id": "('src/i8c/compiler/emitter.py', '(func:11027:(visit_operationstream:11031))')", 
+            "profileDiff": null, 
+            "weight": 18
+        }, 
+        {
+            "astDiff": 3, 
+            "id": "('src/i8c/compiler/serializer.py', '(func:1521:(items:1525))')", 
+            "profileDiff": false, 
+            "weight": 8
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/blocks.py', '(func:2098:(goto_exit:2116))')", 
+            "profileDiff": false, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 11, 
+            "id": "('src/i8c/compiler/serializer.py', '(func:4308:(__reindex:4312))')", 
+            "profileDiff": true, 
+            "weight": 24
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/types.py', '(func:4740:(__create_builtin_types:4744))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }, 
+        {
+            "astDiff": 7, 
+            "id": "('src/i8c/compiler/serializer.py', '(func:5529:(visit_basicblock:5533))')", 
+            "profileDiff": null, 
+            "weight": 8
+        }, 
+        {
+            "astDiff": 11, 
+            "id": "('src/i8c/compiler/serializer.py', '(func:1697:(stream:1715))')", 
+            "profileDiff": false, 
+            "weight": 24
+        }, 
+        {
+            "astDiff": 0, 
+            "id": "('src/i8c/compiler/types.py', '(func:4399:(__init__:4403))')", 
+            "profileDiff": true, 
+            "weight": 2
+        }
+    ]
+}
