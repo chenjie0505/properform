@@ -1,7 +1,8 @@
+var projectStatistics;
 function loadProjectStatistics(path) {
-	$.getJSON(path + "/statistics.json", data => {
+	projectStatistics = projectStatistics || (() => {
 		var ds = new DataSet();
-		var dv = ds.createView().source(data);
+		var dv = ds.createView();
 		dv.transform({
 			type: 'fold',
 			fields: ['astDiff', 'profileDiff'], // 展开字段集
@@ -51,27 +52,44 @@ function loadProjectStatistics(path) {
 		});
 
 		chart.render();
+		return [chart, dv];
+	})();
+	$.getJSON(path + "/statistics.json", data => {
+		projectStatistics[1].source(data);
 		loadDiff(path, data[0].diff);
 	});
 }
 
+var diffGraph;
 function loadDiff(path, diff) {
-	$.getJSON(path + "/../g6-index.json", data => {
+	diffGraph = diffGraph || (() => {
+		var Template = G6.Plugins['template.maxSpanningForest'];
+		var Mapper = G6.Plugins['tool.d3.mapper'];
+		var nodeSizeMapper = new Mapper('node', 'weight', 'size', [8, 20], {
+			legendCfg: null
+		});
+		var edgeSizeMapper = new Mapper('edge', 'weight', 'size', [1, 8], {
+			legendCfg: null
+		});
+		var nodeColorMapper = new Mapper('node', 'weight', 'color', ['#E0F5FF', '#BAE7FF', '#91D5FF', '#69C0FF', '#3DA0F2', '#1581E6', '#0860BF'], {
+			legendCfg: null
+		});
+		var template = new Template();
 		var graph = new G6.Graph({
 			id: 'diffGraph', // dom id
 			height: $('#diffGraph').width() * 0.5,
-			plugins: [new G6.Plugins['template.maxSpanningForest']()],
+			plugins: [template, nodeSizeMapper, nodeColorMapper, edgeSizeMapper],
 			animate: true
 		});
 		graph.edge({
 			style: function style(model) {
 				return {
 					stroke: graph.find(model.target).getModel().color,
-					strokeOpacity: 0.8
+					strokeOpacity: 0.8,
+					endArrow: true
 				};
 			}
 		});
-		graph.read(data);
 
 		graph.changeLayout(new G6.Layouts.Dagre({
 			nodesep: function nodesep() {
@@ -105,5 +123,10 @@ function loadDiff(path, diff) {
 				lastPoint = undefined;
 			});
 		})(graph);
+
+		return graph;
+	})();
+	$.getJSON(path + "/diff/" + diff + ".json", data => {
+		diffGraph.read(data);
 	});
 }
