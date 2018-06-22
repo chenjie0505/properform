@@ -6,9 +6,9 @@ function loadProjectStatistics(path) {
 		var dv = ds.createView();
 		dv.transform({
 			type: 'fold',
-			fields: ['astDiff', 'profileDiff'], // 展开字段集
-			key: 'stat', // key字段
-			value: 'count' // value字段
+			fields: ['AST Diff', 'Profile Diff'],
+			key: 'stat',
+			value: 'count'
 		});
 		var chart = new G2.Chart({
 			container: 'statistics',
@@ -17,7 +17,7 @@ function loadProjectStatistics(path) {
 		});
 		chart.source(dv, {
 			timestamp: {
-				alias: '时间',
+				alias: 'Commit time',
 				type: 'time',
 				mask: 'YYYY-MM-DD HH:mm:ss',
 				nice: false,
@@ -122,6 +122,10 @@ function loadDiff(path, diff) {
 			useEdgeControlPoint: false
 		}));
 
+		graph.on('node:click', ev => {
+			loadFunctionStatistics(path, ev.item.model.md5)
+		});
+
 		(graph => {
 			var lastPoint = void 0;
 			graph.on('drag', ev => {
@@ -142,5 +146,61 @@ function loadDiff(path, diff) {
 	})();
 	$.getJSON(path + "/diff/" + diff + ".json", data => {
 		diffGraph.read(data);
+		loadFunctionStatistics(path, data.nodes[0].md5)
+	});
+}
+
+var functionStatistics;
+
+function loadFunctionStatistics(path, func) {
+	functionStatistics = functionStatistics || (() => {
+		var ds = new DataSet();
+		var dv = ds.createView();
+		dv.transform({
+			type: 'fold',
+			fields: ['AST Diff', 'Profile Diff'],
+			key: 'stat',
+			value: 'count'
+		});
+		var chart = new G2.Chart({
+			container: 'transition',
+			forceFit: true,
+			height: $('#transition').width() * 0.5
+		});
+		chart.source(dv, {
+			timestamp: {
+				alias: 'Commit time',
+				type: 'time',
+				mask: 'YYYY-MM-DD HH:mm:ss',
+				nice: false,
+				tickCount: 8
+			}
+		});
+		chart.axis('timestamp', {
+			label: {
+				formatter: val => {
+					if (val.substring(val.length - 9) == ' 00:00:00') {
+						return val.substring(0, val.length - 9);
+					}
+					return val;
+				}
+			}
+		});
+		chart.tooltip({
+			crosshairs: {
+				type: 'line'
+			}
+		});
+		chart.line().position('timestamp*count').color('stat');
+		chart.point().position('timestamp*count').color('stat').size(4).shape('circle').style({
+			stroke: '#fff',
+			lineWidth: 1
+		});
+
+		chart.render();
+		return [chart, dv];
+	})();
+	$.getJSON(path + "/func/" + func + ".json", data => {
+		functionStatistics[1].source(data);
 	});
 }
