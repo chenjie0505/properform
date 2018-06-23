@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Properform - Debug</title>
+</head>
+<body>
+	<script>/*Fixing iframe window.innerHeight 0 issue in Safari*/document.body.clientHeight;</script>
+	<script src="https://gw.alipayobjects.com/os/antv/assets/g2/3.1.0/g2.min.js"></script>
+	<script src="https://gw.alipayobjects.com/os/antv/assets/data-set/0.8.7/data-set.min.js"></script>
+	<script src="https://gw.alipayobjects.com/os/antv/assets/g6/2.0.0/g6.js"></script>
+	<script src="https://gw.alipayobjects.com/os/antv/assets/g6/2.0.0/g6.js"></script>
+	<script src="https://gw.alipayobjects.com/os/antv/assets/g6/2.0.0/g6Plugins.js"></script>
+	<script src="https://gw.alipayobjects.com/os/antv/assets/lib/jquery-3.2.1.min.js"></script>
+	<script src="js/properform.js"></script>
+	<script>
+	function onProjectChange(value) {
+		switch (value) {
+
+		case "anaconda":
+			$(".projectURL").attr("href", "https://github.com/DamnWidget/anaconda");
+			break;
+
+		case "DataProcessor":
+			$(".projectURL").attr("href", "https://github.com/kenbeese/DataProcessor");
+			break;
+
+		case "i8c":
+			$(".projectURL").attr("href", "https://github.com/gbenson/i8c");
+			break;
+
+		case "abydos":
+			$(".projectURL").attr("href", "https://github.com/chrislit/abydos");
+			break;
+
+		case "pyFDA":
+			$(".projectURL").attr("href", "https://github.com/chipmuenk/pyFDA");
+			break;
+
+		case "gofer":
+			$(".projectURL").attr("href", "https://github.com/jortel/gofer");
+			break;
+
+		case "petl":
+			$(".projectURL").attr("href", "https://github.com/alimanfoo/petl");
+			break;
+
+		case "custodian":
+			$(".projectURL").attr("href", "https://github.com/materialsproject/custodian");
+			break;
+
+		case "WALinuxAgent":
+			$(".projectURL").attr("href", "https://github.com/Azure/WALinuxAgent");
+			break;
+
+		case "TriFusion":
+			$(".projectURL").attr("href", "https://github.com/ODiogoSilva/TriFusion");
+			break;
+
+		default:
+			$(".projectURL").attr("href", "");
+		}
+		loadProjectStatistics("assets/data/" + value, value);
+	}
+	$(document).ready(() => {
+		$(".inner").css('width', '90%');
+		$(".projects").val("WALinuxAgent");
+		onProjectChange("WALinuxAgent");
+	});
+	</script>
+	Projects:
+	<select class="projects" onchange="onProjectChange(this.value)">
+		<option value="anaconda">anaconda</option>
+		<option value="DataProcessor">DataProcessor</option>
+		<option value="i8c">i8c</option>
+		<option value="abydos">abydos</option>
+		<option value="pyFDA">pyFDA</option>
+		<option value="gofer">gofer</option>
+		<option value="petl">petl</option>
+		<option value="custodian">custodian</option>
+		<option value="WALinuxAgent" selected="selected">WALinuxAgent</option>
+		<option value="TriFusion">TriFusion</option>
+	</select>
+	<a class="projectURL" href="">github</a>
+	<div class="inner" style="width:620px;margin:auto;">
+		<div id="statistics"></div>
+		Commit Diff: <span class="commitDiff"></span>
+		<div id="diffGraph"></div>
+		Function Transition: <span class="funcTransition"></span>
+		<div id="transition"></div>
+	</div>
+</body>
+</html>

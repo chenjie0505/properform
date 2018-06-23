@@ -1,6 +1,15 @@
+var defaultData = {
+	'WALinuxAgent': {
+		'26baa68568-f79fcb69ed': [
+			'67157504d86df141b8a648fae2516151',
+			"('tests/ga/test_update.py', '(func:7018:(setUp:7022))')"
+		]
+	}
+}
+
 var projectStatistics;
 
-function loadProjectStatistics(path) {
+function loadProjectStatistics(path, project) {
 	projectStatistics = projectStatistics || (() => {
 		var ds = new DataSet();
 		var dv = ds.createView();
@@ -45,25 +54,31 @@ function loadProjectStatistics(path) {
 			lineWidth: 1
 		});
 
+		var context = [''];
 		chart.on('click', ev => {
 			var items = chart.getSnapRecords(ev);
 			if (items.length > 0) {
-				loadDiff(path, items[0]._origin.diff);
+				loadDiff(context[0], project, items[0]._origin.diff);
 			}
 		});
 
 		chart.render();
-		return [chart, dv];
+		return [chart, dv, context];
 	})();
 	$.getJSON(path + "/statistics.json", data => {
+		projectStatistics[2][0] = path;
 		projectStatistics[1].source(data);
-		loadDiff(path, data[0].diff);
+		if (defaultData[project]) {
+			loadDiff(path, project, Object.keys(defaultData[project])[0]);
+		} else {
+			loadDiff(path, project, data[0].diff);
+		}
 	});
 }
 
 var diffGraph;
 
-function loadDiff(path, diff) {
+function loadDiff(path, project, diff) {
 	diffGraph = diffGraph || (() => {
 		G6.registerEdge('flowingEdge', {
 			afterDraw: function afterDraw(item) {
@@ -123,8 +138,9 @@ function loadDiff(path, diff) {
 			useEdgeControlPoint: false
 		}));
 
+		var context = [''];
 		graph.on('node:click', ev => {
-			loadFunctionStatistics(path, ev.item.model.md5, ev.item.model.id)
+			loadFunctionStatistics(context[0], ev.item.model.md5, ev.item.model.id)
 		});
 
 		var movedPoint = [0, 0];
@@ -146,7 +162,7 @@ function loadDiff(path, diff) {
 			});
 		})(graph);
 
-		return [graph, movedPoint];
+		return [graph, movedPoint, context];
 	})();
 	$('.commitDiff').text(diff);
 	$.getJSON(path + "/diff/" + diff + ".json", data => {
@@ -154,7 +170,12 @@ function loadDiff(path, diff) {
 		diffGraph[0].read(data);
 		diffGraph[1][0] = 0;
 		diffGraph[1][1] = 0;
-		loadFunctionStatistics(path, data.nodes[0].md5, data.nodes[0].id)
+		diffGraph[2][0] = path;
+		if (defaultData[project][diff]) {
+			loadFunctionStatistics(path, defaultData[project][diff][0], defaultData[project][diff][1]);
+		} else {
+			loadFunctionStatistics(path, data.nodes[0].md5, data.nodes[0].id)
+		}
 	});
 }
 

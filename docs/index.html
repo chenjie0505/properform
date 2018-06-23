@@ -20,7 +20,7 @@ function onProjectChange(value) {
 	default:
 		$(".projectURL").attr("href", "");
 	}
-	loadProjectStatistics("{{ '/assets/data/' | relative_url }}" + value);
+	loadProjectStatistics("{{ '/assets/data/' | relative_url }}" + value, value);
 }
 $(document).ready(() => {
 	$(".inner").css('width', '90%');
