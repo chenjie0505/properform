@@ -162,7 +162,7 @@ var functionStatistics;
 
 function initFunctionStatistics(data) {
 	var chart = new G2.Chart({
-		id: 'diffGraph',
+		id: 'transition',
 		forceFit: true,
 		height: 400,
 		padding: 80
