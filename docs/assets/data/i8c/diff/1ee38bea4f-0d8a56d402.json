@@ -1,13 +1,11 @@
 {
     "edges": [
         {
-            "shape": "flowingEdge", 
             "source": "('tests/test_folded_load.py', '(func:2301:(__do_test:2305))')", 
             "target": "('tests/__init__.py', '(func:3490:(compile:3494))')", 
             "weight": 82
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('tests/test_folded_load.py', '(func:2301:(__do_test:2305))')", 
             "target": "('tests/__init__.py', '(func:2884:(opnames:2902))')", 
             "weight": 24
@@ -63,7 +61,6 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('tests/test_debug_code.py', '(func:1998:(test_str_methods:2002))')", 
             "target": "('tests/__init__.py', '(func:3490:(compile:3494))')", 
             "weight": 62
@@ -79,7 +76,6 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/functions.py', '(func:1232:(byteorder:1250))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:5983:(byteorder:6001))')", 
             "weight": 24
@@ -115,7 +111,6 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('tests/test_parse_wordsize.py', '(func:1331:(test_parse_wordsize:1335))')", 
             "target": "('tests/test_parse_wordsize.py', '(func:1848:(__one_test:1852))')", 
             "weight": 8
@@ -126,67 +121,56 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/operations.py', '(func:6644:(decode_address:6666))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:4395:(bytes:4413))')", 
             "weight": 102
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/operations.py', '(func:6644:(decode_address:6666))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:5983:(byteorder:6001))')", 
             "weight": 112
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/operations.py', '(func:6644:(decode_address:6666))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:3561:(__getitem__:3565))')", 
             "weight": 96
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/operations.py', '(func:6644:(decode_address:6666))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:5907:(wordsize:5925))')", 
             "weight": 112
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/functions.py', '(func:9539:(resolve:9543))')", 
             "target": "('src/i8c/runtime/testcase.py', '(func:1727:(lookup_symbol:1731))')", 
             "weight": 42
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/parser.py', '(func:4773:(consume:4777))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:1777:(latest_child:1795))')", 
             "weight": 13
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/parser.py', '(func:4773:(consume:4777))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:11351:(consume:11355))')", 
             "weight": 73
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/parser.py', '(func:4773:(consume:4777))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:1663:(add_child:1667))')", 
             "weight": 13
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/parser.py', '(func:4773:(consume:4777))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:5227:(consume:5231))')", 
             "weight": 13
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/parser.py', '(func:4773:(consume:4777))')", 
             "target": "('src/i8c/compiler/exceptions.py', '(func:1623:(__init__:1627))')", 
             "weight": 13
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/parser.py', '(func:4773:(consume:4777))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:10654:(consume:10658))')", 
             "weight": 13
@@ -217,37 +201,31 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('tests/test_i8xfail_0002.py', '(func:1115:(test_i8xfail_0002:1119))')", 
             "target": "('tests/__init__.py', '(func:3490:(compile:3494))')", 
             "weight": 62
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:9078:(__visit_function:9082))')", 
             "target": "('src/i8c/compiler/emitter.py', '(func:10856:(has_code:10878))')", 
             "weight": 52
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:9078:(__visit_function:9082))')", 
             "target": "('src/i8c/compiler/emitter.py', '(func:1605:(__init__:1609))')", 
             "weight": 52
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:9078:(__visit_function:9082))')", 
             "target": "('src/i8c/compiler/emitter.py', '(func:1997:(layout_table:2001))')", 
             "weight": 52
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:9078:(__visit_function:9082))')", 
             "target": "('src/i8c/compiler/emitter.py', '(func:1838:(new:1842))')", 
             "weight": 52
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:9078:(__visit_function:9082))')", 
             "target": "('src/i8c/compiler/emitter.py', '(func:3145:(__init__:3149))')", 
             "weight": 64
@@ -323,31 +301,26 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/functions.py', '(func:2966:(__split_chunks:2970))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:3561:(__getitem__:3565))')", 
             "weight": 8
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/operations.py', '(func:6118:(byteorder:6136))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:5983:(byteorder:6001))')", 
             "weight": 24
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('tests/test_toplevel_extern.py', '(func:2620:(__test_good:2624))')", 
             "target": "('tests/__init__.py', '(func:3490:(compile:3494))')", 
             "weight": 64
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('tests/test_toplevel_extern.py', '(func:2620:(__test_good:2624))')", 
             "target": "('tests/__init__.py', '(func:2884:(opnames:2902))')", 
             "weight": 6
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('tests/__init__.py', '(class:TestCase:2962)')", 
             "target": "('src/i8c/compiler/target.py', '(func:2658:(guess_wordsize:2662))')", 
             "weight": 6
@@ -373,25 +346,21 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/elffile.py', '(func:7182:(symbol_names:7200))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:4395:(bytes:4413))')", 
             "weight": 130
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/elffile.py', '(func:7182:(symbol_names:7200))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:5089:(relocation_at:5093))')", 
             "weight": 168
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/elffile.py', '(func:7182:(symbol_names:7200))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:5983:(byteorder:6001))')", 
             "weight": 140
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/elffile.py', '(func:7182:(symbol_names:7200))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:5907:(wordsize:5925))')", 
             "weight": 140
@@ -412,13 +381,11 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/functions.py', '(func:2560:(__init__:2564))')", 
             "target": "('src/i8c/runtime/functions.py', '(func:4923:(__unpack_codeinfo:4927))')", 
             "weight": 13
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/functions.py', '(func:2560:(__init__:2564))')", 
             "target": "('src/i8c/runtime/functions.py', '(func:4718:(__load_externals:4722))')", 
             "weight": 44
@@ -439,49 +406,41 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('tests/test_parse_wordsize.py', '(func:1848:(__one_test:1852))')", 
             "target": "('src/i8c/compiler/lexer.py', '(func:2299:(generate_tokens:2303))')", 
             "weight": 6
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('tests/test_parse_wordsize.py', '(func:1848:(__one_test:1852))')", 
             "target": "('tests/__init__.py', '(func:3490:(compile:3494))')", 
             "weight": 64
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:3303:(visit_external:3307))')", 
             "target": "('src/i8c/compiler/emitter.py', '(func:4079:(__init__:4083))')", 
             "weight": 108
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:3303:(visit_external:3307))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:7012:(basetype:7030))')", 
             "weight": 88
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:3303:(visit_external:3307))')", 
             "target": "('src/i8c/compiler/emitter.py', '(func:4268:(__init__:4272))')", 
             "weight": 88
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:3303:(visit_external:3307))')", 
             "target": "('src/i8c/compiler/emitter.py', '(func:1838:(new:1842))')", 
             "weight": 88
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:3363:(index_of:3367))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:7012:(basetype:7030))')", 
             "weight": 32
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:3363:(index_of:3367))')", 
             "target": "('src/i8c/compiler/emitter.py', '(func:4268:(__init__:4272))')", 
             "weight": 32
@@ -492,7 +451,6 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('tests/test_load_constant.py', '(func:2937:(test_output:2941))')", 
             "target": "('tests/__init__.py', '(func:3490:(compile:3494))')", 
             "weight": 62
@@ -508,13 +466,11 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('tests/test_folded_load.py', '(func:2147:(test_deref_fold_load:2151))')", 
             "target": "('tests/test_folded_load.py', '(func:2301:(__do_test:2305))')", 
             "weight": 24
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/elffile.py', '(func:3601:(__read_sections:3605))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:3080:(__objdump:3084))')", 
             "weight": 296
@@ -525,7 +481,6 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('tests/test_toplevel_extern.py', '(func:2386:(test_basic:2390))')", 
             "target": "('tests/test_toplevel_extern.py', '(func:2620:(__test_good:2624))')", 
             "weight": 6
@@ -546,7 +501,6 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/parser.py', '(func:16368:(build_tree:16372))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:4773:(consume:4777))')", 
             "weight": 13
@@ -557,13 +511,11 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/driver.py', '(func:7376:(compile:7380))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:16368:(build_tree:16372))')", 
             "weight": 28
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/driver.py', '(func:7376:(compile:7380))')", 
             "target": "('src/i8c/compiler/target.py', '(func:1101:(__init__:1105))')", 
             "weight": 30
@@ -574,25 +526,21 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/target.py', '(func:1171:(visit_toplevel:1175))')", 
             "target": "('src/i8c/compiler/target.py', '(func:2658:(guess_wordsize:2662))')", 
             "weight": 8
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/target.py', '(func:1171:(visit_toplevel:1175))')", 
             "target": "('src/i8c/compiler/exceptions.py', '(func:1003:(warn:1007))')", 
             "weight": 6
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/target.py', '(func:1171:(visit_toplevel:1175))')", 
             "target": "('src/i8c/compiler/target.py', '(func:2325:(__process_sco_args:2329))')", 
             "weight": 8
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/target.py', '(func:1171:(visit_toplevel:1175))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:5596:(wordsize_directives:5614))')", 
             "weight": 26
@@ -608,13 +556,11 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/functions.py', '(func:4718:(__load_externals:4722))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:4244:(__add__:4248))')", 
             "weight": 54
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/functions.py', '(func:4718:(__load_externals:4722))')", 
             "target": "('src/i8c/runtime/functions.py', '(func:9334:(__init__:9338))')", 
             "weight": 114
@@ -650,31 +596,26 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/elffile.py', '(func:2883:(__getitem__:2887))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:2988:(__init__:2992))')", 
             "weight": 84
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:11116:(emit_codeinfo:11120))')", 
             "target": "('src/i8c/archspec.py', '(func:1019:(encode:1023))')", 
             "weight": 22
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/operations.py', '(func:6453:(dwarfname:6471))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6744:(external:6762))')", 
             "weight": 54
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/operations.py', '(func:6453:(dwarfname:6471))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:7012:(basetype:7030))')", 
             "weight": 54
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/functions.py', '(func:9334:(__init__:9338))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:3561:(__getitem__:3565))')", 
             "weight": 78
@@ -685,25 +626,21 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/elffile.py', '(func:3969:(__read_relocations:3973))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:3601:(__read_sections:3605))')", 
             "weight": 350
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/elffile.py', '(func:3969:(__read_relocations:3973))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:3080:(__objdump:3084))')", 
             "weight": 374
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/operations.py', '(func:9985:(exec_load_external:9989))')", 
             "target": "('src/i8c/runtime/functions.py', '(func:9539:(resolve:9543))')", 
             "weight": 122
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/operations.py', '(func:9985:(exec_load_external:9989))')", 
             "target": "('src/i8c/runtime/operations.py', '(func:6573:(function:6591))')", 
             "weight": 106
@@ -714,19 +651,16 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('tests/test_externals.py', '(func:1338:(test_externals:1342))')", 
             "target": "('tests/__init__.py', '(func:3490:(compile:3494))')", 
             "weight": 64
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('tests/test_externals.py', '(func:1338:(test_externals:1342))')", 
             "target": "('tests/__init__.py', '(func:2884:(opnames:2902))')", 
             "weight": 6
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('tests/__init__.py', '(func:3490:(compile:3494))')", 
             "target": "('src/i8c/compiler/__init__.py', '(func:1081:(compile:1085))')", 
             "weight": 62
@@ -737,43 +671,36 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:16024:(visit_loadop:16028))')", 
             "target": "('src/i8c/compiler/emitter.py', '(func:3303:(visit_external:3307))')", 
             "weight": 117
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:16024:(visit_loadop:16028))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6744:(external:6762))')", 
             "weight": 33
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:16024:(visit_loadop:16028))')", 
             "target": "('src/i8c/compiler/emitter.py', '(func:3363:(index_of:3367))')", 
             "weight": 61
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:16024:(visit_loadop:16028))')", 
             "target": "('src/i8c/compiler/emitter.py', '(func:6707:(emit_op:6711))')", 
             "weight": 41
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:16024:(visit_loadop:16028))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:7012:(basetype:7030))')", 
             "weight": 33
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:16024:(visit_loadop:16028))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6453:(dwarfname:6471))')", 
             "weight": 83
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('tests/test_deref_offset_base.py', '(func:1140:(test_deref_offset_base:1144))')", 
             "target": "('tests/__init__.py', '(func:3490:(compile:3494))')", 
             "weight": 62
@@ -824,7 +751,6 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/elffile.py', '(func:5089:(relocation_at:5093))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:3969:(__read_relocations:3973))')", 
             "weight": 264
@@ -855,7 +781,6 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('tests/test_dup_over_equiv.py', '(func:1201:(test_dup_over_equiv:1205))')", 
             "target": "('tests/__init__.py', '(func:3490:(compile:3494))')", 
             "weight": 62
@@ -866,7 +791,6 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/context.py', '(func:2663:(import_notes:2667))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:1372:(__init__:1376))')", 
             "weight": 44
@@ -877,13 +801,11 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:3899:(emit:3903))')", 
             "target": "('src/i8c/compiler/emitter.py', '(func:4140:(emit:4144))')", 
             "weight": 96
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:3899:(emit:3903))')", 
             "target": "('src/i8c/compiler/emitter.py', '(func:4444:(emit:4448))')", 
             "weight": 58
@@ -909,49 +831,41 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/__init__.py', '(func:1081:(compile:1085))')", 
             "target": "('src/i8c/compiler/driver.py', '(func:7376:(compile:7380))')", 
             "weight": 28
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/elffile.py', '(func:3561:(__getitem__:3565))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:4395:(bytes:4413))')", 
             "weight": 18
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/elffile.py', '(func:3561:(__getitem__:3565))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:2883:(__getitem__:2887))')", 
             "weight": 38
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/elffile.py', '(func:3561:(__getitem__:3565))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:3012:(__getitem__:3016))')", 
             "weight": 22
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/driver.py', '(func:7809:(main:7813))')", 
             "target": "('src/i8c/compat.py', '(func:1192:(fprint:1196))')", 
             "weight": 6
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/driver.py', '(func:7809:(main:7813))')", 
             "target": "('src/i8c/compiler/driver.py', '(func:6860:(setup_output:6864))')", 
             "weight": 6
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/driver.py', '(func:7809:(main:7813))')", 
             "target": "('src/i8c/compiler/exceptions.py', '(func:1045:(__init__:1049))')", 
             "weight": 6
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/driver.py', '(func:7809:(main:7813))')", 
             "target": "('src/i8c/compiler/driver.py', '(func:7376:(compile:7380))')", 
             "weight": 30
@@ -962,25 +876,21 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/operations.py', '(func:6192:(decode_address:6214))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:3561:(__getitem__:3565))')", 
             "weight": 106
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/operations.py', '(func:6192:(decode_address:6214))')", 
             "target": "('src/i8c/runtime/testcase.py', '(func:1727:(lookup_symbol:1731))')", 
             "weight": 102
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/operations.py', '(func:6192:(decode_address:6214))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:7182:(symbol_names:7200))')", 
             "weight": 218
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('tests/test_load_slot.py', '(func:4582:(test_existing_name:4586))')", 
             "target": "('tests/__init__.py', '(func:3490:(compile:3494))')", 
             "weight": 62
@@ -991,7 +901,6 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('tests/test_load_slot.py', '(func:2563:(test_name_anonymous_slot:2567))')", 
             "target": "('tests/__init__.py', '(func:3490:(compile:3494))')", 
             "weight": 62
@@ -1022,49 +931,41 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/elffile.py', '(func:4244:(__add__:4248))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:2883:(__getitem__:2887))')", 
             "weight": 44
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/elffile.py', '(func:4244:(__add__:4248))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:3012:(__getitem__:3016))')", 
             "weight": 28
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:3941:(emit:3945))')", 
             "target": "('src/i8c/compiler/emitter.py', '(func:4444:(emit:4448))')", 
             "weight": 54
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/functions.py', '(func:4923:(__unpack_codeinfo:4927))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:4395:(bytes:4413))')", 
             "weight": 23
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/functions.py', '(func:4923:(__unpack_codeinfo:4927))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:5907:(wordsize:5925))')", 
             "weight": 33
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/functions.py', '(func:4923:(__unpack_codeinfo:4927))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:3561:(__getitem__:3565))')", 
             "weight": 17
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/functions.py', '(func:4923:(__unpack_codeinfo:4927))')", 
             "target": "('src/i8c/runtime/functions.py', '(func:1232:(byteorder:1250))')", 
             "weight": 13
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/functions.py', '(func:4923:(__unpack_codeinfo:4927))')", 
             "target": "('src/i8c/archspec.py', '(func:1019:(encode:1023))')", 
             "weight": 15
@@ -1095,7 +996,6 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/parser.py', '(func:5596:(wordsize_directives:5614))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:1853:(some_children:1857))')", 
             "weight": 24
@@ -1106,25 +1006,21 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/parser.py', '(func:11351:(consume:11355))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:4179:(consume:4183))')", 
             "weight": 64
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/parser.py', '(func:11351:(consume:11355))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:1195:(raise_unless_len:1199))')", 
             "weight": 64
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/parser.py', '(func:11351:(consume:11355))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:1663:(add_child:1667))')", 
             "weight": 64
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('tests/test_i8cfail_0001.py', '(func:1409:(test_i8cfail_0001:1413))')", 
             "target": "('tests/__init__.py', '(func:3490:(compile:3494))')", 
             "weight": 62
@@ -1140,7 +1036,6 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/elffile.py', '(func:3012:(__getitem__:3016))')", 
             "target": "('src/i8c/runtime/elffile.py', '(func:2988:(__init__:2992))')", 
             "weight": 68

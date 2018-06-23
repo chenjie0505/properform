@@ -85,13 +85,14 @@ function loadDiff(path, diff) {
 		var edgeSizeMapper = new Mapper('edge', 'weight', 'size', [1, 8], {
 			legendCfg: null
 		});
-		var nodeColorMapper = new Mapper('node', 'weight', 'color', ['#E0F5FF', '#BAE7FF', '#91D5FF', '#69C0FF', '#3DA0F2', '#1581E6', '#0860BF'], {
+		var nodeColorMapper = new Mapper('node', 'weight', 'color', ['#FF9900', '#FF9922', '#FF9955', '#FF9988', '#FF99AA', '#FF99CC', '#FF99FF'], {
 			legendCfg: null
 		});
 		var template = new Template();
 		var graph = new G6.Graph({
 			id: 'diffGraph', // dom id
 			height: $('#diffGraph').width() * 0.5,
+			fitView: 'cc',
 			plugins: [template, nodeSizeMapper, nodeColorMapper, edgeSizeMapper],
 			animate: true
 		});
@@ -123,13 +124,16 @@ function loadDiff(path, diff) {
 		}));
 
 		graph.on('node:click', ev => {
-			loadFunctionStatistics(path, ev.item.model.md5)
+			loadFunctionStatistics(path, ev.item.model.md5, ev.item.model.id)
 		});
 
+		var movedPoint = [0, 0];
 		(graph => {
 			var lastPoint = void 0;
 			graph.on('drag', ev => {
 				if (lastPoint) {
+					movedPoint[0] -= ev.domX - lastPoint.x;
+					movedPoint[1] -= ev.domY - lastPoint.y;
 					graph.translate(ev.domX - lastPoint.x, ev.domY - lastPoint.y);
 				}
 				lastPoint = {
@@ -142,17 +146,21 @@ function loadDiff(path, diff) {
 			});
 		})(graph);
 
-		return graph;
+		return [graph, movedPoint];
 	})();
+	$('.commitDiff').text(diff);
 	$.getJSON(path + "/diff/" + diff + ".json", data => {
-		diffGraph.read(data);
-		loadFunctionStatistics(path, data.nodes[0].md5)
+		diffGraph[0].translate(diffGraph[1][0], diffGraph[1][1]);
+		diffGraph[0].read(data);
+		diffGraph[1][0] = 0;
+		diffGraph[1][1] = 0;
+		loadFunctionStatistics(path, data.nodes[0].md5, data.nodes[0].id)
 	});
 }
 
 var functionStatistics;
 
-function loadFunctionStatistics(path, func) {
+function loadFunctionStatistics(path, func, id) {
 	functionStatistics = functionStatistics || (() => {
 		var ds = new DataSet();
 		var dv = ds.createView();
@@ -200,6 +208,7 @@ function loadFunctionStatistics(path, func) {
 		chart.render();
 		return [chart, dv];
 	})();
+	$('.funcTransition').text(id);
 	$.getJSON(path + "/func/" + func + ".json", data => {
 		functionStatistics[1].source(data);
 	});

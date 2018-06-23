@@ -11,7 +11,6 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/operations.py', '(func:8296:(__exec_optable:8300))')", 
             "target": "('src/i8c/runtime/operations.py', '(func:8750:(__exec_binary:8754))')", 
             "weight": 5
@@ -22,133 +21,111 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:13507:(visit_castop:13511))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:2349:(cast_slot:2353))')", 
             "weight": 35
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:13507:(visit_castop:13511))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6099:(slot:6117))')", 
             "weight": 28
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:2349:(cast_slot:2353))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:4249:(underflow_check:4253))')", 
             "weight": 16
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:2349:(cast_slot:2353))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:3326:(__get_name_cast_index:3330))')", 
             "weight": 107
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/operations.py', '(func:6499:(pickslot:6517))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6258:(is_pick:6276))')", 
             "weight": 58
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/operations.py', '(func:6379:(is_loadext:6397))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6258:(is_pick:6276))')", 
             "weight": 52
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/blocks.py', '(func:7584:(visit_dupop:7588))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:7891:(__init__:7895))')", 
             "weight": 58
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/operations.py', '(func:7676:(execute:7680))')", 
             "target": "('src/i8c/runtime/operations.py', '(func:9650:(exec_drop:9654))')", 
             "weight": 5
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/operations.py', '(func:7676:(execute:7680))')", 
             "target": "('src/i8c/runtime/operations.py', '(func:10340:(exec_rot:10344))')", 
             "weight": 5
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/operations.py', '(func:7676:(execute:7680))')", 
             "target": "('src/i8c/runtime/operations.py', '(func:10551:(exec_skip:10555))')", 
             "weight": 5
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/operations.py', '(func:7676:(execute:7680))')", 
             "target": "('src/i8c/runtime/operations.py', '(func:8296:(__exec_optable:8300))')", 
             "weight": 6
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/operations.py', '(func:7676:(execute:7680))')", 
             "target": "('src/i8c/runtime/operations.py', '(func:9985:(exec_load_external:9989))')", 
             "weight": 55
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/operations.py', '(func:7676:(execute:7680))')", 
             "target": "('src/i8c/runtime/operations.py', '(func:10617:(exec_swap:10621))')", 
             "weight": 5
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/operations.py', '(func:7676:(execute:7680))')", 
             "target": "('src/i8c/runtime/operations.py', '(func:8959:(exec_bra:8963))')", 
             "weight": 5
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/operations.py', '(func:7676:(execute:7680))')", 
             "target": "('src/i8c/runtime/operations.py', '(func:9792:(exec_GNU_i8call:9796))')", 
             "weight": 5
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/operations.py', '(func:7676:(execute:7680))')", 
             "target": "('src/i8c/runtime/operations.py', '(func:9947:(__exec_litN:9951))')", 
             "weight": 5
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/operations.py', '(func:7676:(execute:7680))')", 
             "target": "('src/i8c/runtime/operations.py', '(func:9714:(exec_dup:9718))')", 
             "weight": 5
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:9078:(__visit_function:9082))')", 
             "target": "('src/i8c/compiler/emitter.py', '(func:1838:(new:1842))')", 
             "weight": 20
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:9078:(__visit_function:9082))')", 
             "target": "('src/i8c/compiler/emitter.py', '(func:3145:(__init__:3149))')", 
             "weight": 23
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:9078:(__visit_function:9082))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:8492:(entry_stack:8510))')", 
             "weight": 44
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/names.py', '(func:1434:(without_provider:1438))')", 
             "target": "('src/i8c/compiler/names.py', '(func:998:(__init__:1002))')", 
             "weight": 50
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/parser.py', '(func:14800:(add_children:14804))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:4179:(consume:4183))')", 
             "weight": 27
@@ -164,73 +141,61 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/blocks.py', '(func:7941:(visit_overop:7945))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:7891:(__init__:7895))')", 
             "weight": 58
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:7697:(visit_function:7701))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:1260:(__init__:1264))')", 
             "weight": 72
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:7697:(visit_function:7701))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:8492:(entry_stack:8510))')", 
             "weight": 64
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:7697:(visit_function:7701))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:9596:(__enter_block:9600))')", 
             "weight": 40
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:2031:(name_slot:2035))')", 
             "target": "('src/i8c/compiler/externals.py', '(func:1676:(lookup:1680))')", 
             "weight": 73
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:2031:(name_slot:2035))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:4249:(underflow_check:4253))')", 
             "weight": 74
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:2031:(name_slot:2035))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:2748:(__raise_redef_error:2752))')", 
             "weight": 129
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:2031:(name_slot:2035))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:3326:(__get_name_cast_index:3330))')", 
             "weight": 165
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:2031:(name_slot:2035))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:2595:(indexes_for:2599))')", 
             "weight": 111
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:18180:(visit_stackslot:18184))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:15778:(__pick_by_slot:15782))')", 
             "weight": 62
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:18180:(visit_stackslot:18184))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6499:(pickslot:6517))')", 
             "weight": 64
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:15547:(visit_pickop:15551))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:7557:(operand:7575))')", 
             "weight": 110
@@ -241,43 +206,36 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/externals.py', '(func:2186:(visit_function:2190))')", 
             "target": "('src/i8c/compiler/externals.py', '(func:1414:(__init__:1418))')", 
             "weight": 8
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/externals.py', '(func:2186:(visit_function:2190))')", 
             "target": "('src/i8c/compiler/externals.py', '(func:1532:(add:1536))')", 
             "weight": 8
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/operations.py', '(func:7467:(name:7485))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:15574:(name:15592))')", 
             "weight": 52
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/names.py', '(func:2296:(visit_function:2300))')", 
             "target": "('src/i8c/compiler/names.py', '(func:3463:(check_provider:3467))')", 
             "weight": 126
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/names.py', '(func:2296:(visit_function:2300))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:8492:(entry_stack:8510))')", 
             "weight": 86
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/operations.py', '(func:7891:(__init__:7895))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6061:(__init__:6065))')", 
             "weight": 64
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/operations.py', '(func:7891:(__init__:7895))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6596:(pickslot:6621))')", 
             "weight": 68
@@ -288,25 +246,21 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/operations.py', '(func:6258:(is_pick:6276))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6163:(is_resolved:6181))')", 
             "weight": 54
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:3303:(visit_external:3307))')", 
             "target": "('src/i8c/compiler/types.py', '(func:3889:(basetype:3907))')", 
             "weight": 97
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:3303:(visit_external:3307))')", 
             "target": "('src/i8c/compiler/emitter.py', '(func:4079:(__init__:4083))')", 
             "weight": 105
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:3303:(visit_external:3307))')", 
             "target": "('src/i8c/compiler/externals.py', '(func:1311:(name:1329))')", 
             "weight": 99
@@ -317,37 +271,31 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:15284:(visit_loadop:15288))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:3801:(get_by_name:3805))')", 
             "weight": 156
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:15284:(visit_loadop:15288))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:7467:(name:7485))')", 
             "weight": 98
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:15284:(visit_loadop:15288))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6163:(is_resolved:6181))')", 
             "weight": 94
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:15284:(visit_loadop:15288))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6844:(external:6869))')", 
             "weight": 112
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:15284:(visit_loadop:15288))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6596:(pickslot:6621))')", 
             "weight": 112
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:15284:(visit_loadop:15288))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6499:(pickslot:6517))')", 
             "weight": 98
@@ -358,19 +306,16 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/names.py', '(func:3382:(visit_shortname:3386))')", 
             "target": "('src/i8c/compiler/names.py', '(func:1434:(without_provider:1438))')", 
             "weight": 138
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/names.py', '(func:3382:(visit_shortname:3386))')", 
             "target": "('src/i8c/compiler/names.py', '(func:3463:(check_provider:3467))')", 
             "weight": 168
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/names.py', '(func:3382:(visit_shortname:3386))')", 
             "target": "('src/i8c/compiler/names.py', '(func:998:(__init__:1002))')", 
             "weight": 116
@@ -386,49 +331,41 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/blocks.py', '(func:7070:(visit_loadop:7074))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6061:(__init__:6065))')", 
             "weight": 38
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/names.py', '(func:1318:(fileline:1336))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:1585:(fileline:1603))')", 
             "weight": 24
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:8632:(visit_external:8636))')", 
             "target": "('src/i8c/compiler/types.py', '(func:3889:(basetype:3907))')", 
             "weight": 108
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:8632:(visit_external:8636))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:6611:(__init__:6615))')", 
             "weight": 108
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:8632:(visit_external:8636))')", 
             "target": "('src/i8c/compiler/types.py', '(func:4126:(is_function:4144))')", 
             "weight": 108
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:10255:(visit_externals:10259))')", 
             "target": "('src/i8c/compiler/emitter.py', '(func:10341:(__visit_parameters:10345))')", 
             "weight": 32
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:18025:(visit_fullname:18029))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:15848:(__pick_by_name:15852))')", 
             "weight": 104
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:10166:(visit_parameters:10170))')", 
             "target": "('src/i8c/compiler/emitter.py', '(func:10341:(__visit_parameters:10345))')", 
             "weight": 36
@@ -444,91 +381,76 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/operations.py', '(func:6744:(external:6762))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6379:(is_loadext:6397))')", 
             "weight": 46
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/operations.py', '(func:6453:(dwarfname:6471))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6258:(is_pick:6276))')", 
             "weight": 64
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/operations.py', '(func:6453:(dwarfname:6471))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6379:(is_loadext:6397))')", 
             "weight": 52
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/operations.py', '(func:6453:(dwarfname:6471))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6499:(pickslot:6517))')", 
             "weight": 58
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/externals.py', '(func:1676:(lookup:1680))')", 
             "target": "('src/i8c/compiler/names.py', '(func:1320:(with_provider:1324))')", 
             "weight": 8
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/externals.py', '(func:1676:(lookup:1680))')", 
             "target": "('src/i8c/compiler/externals.py', '(func:1923:(__lookup:1927))')", 
             "weight": 8
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/operations.py', '(func:6596:(pickslot:6621))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6258:(is_pick:6276))')", 
             "weight": 72
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/operations.py', '(func:6596:(pickslot:6621))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6163:(is_resolved:6181))')", 
             "weight": 62
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/functions.py', '(func:5708:(execute:5712))')", 
             "target": "('src/i8c/runtime/operations.py', '(func:7676:(execute:7680))')", 
             "weight": 13
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:15848:(__pick_by_name:15852))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:2595:(indexes_for:2599))')", 
             "weight": 114
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('tests/test_externals.py', '(func:1338:(test_externals:1342))')", 
             "target": "('tests/__init__.py', '(func:2884:(opnames:2902))')", 
             "weight": 5
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/names.py', '(func:1320:(with_provider:1324))')", 
             "target": "('src/i8c/compiler/names.py', '(func:998:(__init__:1002))')", 
             "weight": 18
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/names.py', '(func:4326:(visit_shortname:4330))')", 
             "target": "('src/i8c/compiler/names.py', '(func:998:(__init__:1002))')", 
             "weight": 70
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/names.py', '(func:4326:(visit_shortname:4330))')", 
             "target": "('src/i8c/compiler/names.py', '(func:3382:(visit_shortname:3386))')", 
             "weight": 158
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/operations.py', '(func:7557:(operand:7575))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:11291:(operand:11309))')", 
             "weight": 30
@@ -539,73 +461,61 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:16024:(visit_loadop:16028))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6499:(pickslot:6517))')", 
             "weight": 72
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:16024:(visit_loadop:16028))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6379:(is_loadext:6397))')", 
             "weight": 66
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:16024:(visit_loadop:16028))')", 
             "target": "('src/i8c/compiler/emitter.py', '(func:3303:(visit_external:3307))')", 
             "weight": 141
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:16024:(visit_loadop:16028))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6744:(external:6762))')", 
             "weight": 72
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:16024:(visit_loadop:16028))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6453:(dwarfname:6471))')", 
             "weight": 78
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:16024:(visit_loadop:16028))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6258:(is_pick:6276))')", 
             "weight": 78
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:16024:(visit_loadop:16028))')", 
             "target": "('src/i8c/compiler/emitter.py', '(func:6707:(emit_op:6711))')", 
             "weight": 48
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/parser.py', '(func:11034:(consume:11038))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:11034:(consume:11038))')", 
             "weight": 216
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/parser.py', '(func:11034:(consume:11038))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:16033:(add_children:16037))')", 
             "weight": 110
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/parser.py', '(func:11034:(consume:11038))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:1663:(add_child:1667))')", 
             "weight": 110
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/parser.py', '(func:11034:(consume:11038))')", 
             "target": "('src/i8c/compiler/exceptions.py', '(func:1623:(__init__:1627))')", 
             "weight": 110
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/parser.py', '(func:11034:(consume:11038))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:14800:(add_children:14804))')", 
             "weight": 110
@@ -616,31 +526,26 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/operations.py', '(func:6844:(external:6869))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6379:(is_loadext:6397))')", 
             "weight": 60
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/operations.py', '(func:6844:(external:6869))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6163:(is_resolved:6181))')", 
             "weight": 62
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:3326:(__get_name_cast_index:3330))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:4249:(underflow_check:4253))')", 
             "weight": 101
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:3326:(__get_name_cast_index:3330))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:2595:(indexes_for:2599))')", 
             "weight": 138
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/types.py', '(func:7539:(visit_function:7543))')", 
             "target": "('src/i8c/compiler/types.py', '(func:2278:(__init__:2282))')", 
             "weight": 38
@@ -651,73 +556,61 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:18102:(visit_shortname:18106))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:15848:(__pick_by_name:15852))')", 
             "weight": 88
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:18102:(visit_shortname:18106))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:7315:(slot:7333))')", 
             "weight": 24
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:18102:(visit_shortname:18106))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:2031:(name_slot:2035))')", 
             "weight": 85
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/externals.py', '(func:2536:(visit_external:2540))')", 
             "target": "('src/i8c/compiler/externals.py', '(func:1532:(add:1536))')", 
             "weight": 8
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:15444:(visit_pickop:15448))')", 
             "target": "('src/i8c/compiler/emitter.py', '(func:6707:(emit_op:6711))')", 
             "weight": 50
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/emitter.py', '(func:15444:(visit_pickop:15448))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6453:(dwarfname:6471))')", 
             "weight": 80
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:15055:(visit_nameop:15059))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:2031:(name_slot:2035))')", 
             "weight": 185
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:15055:(visit_nameop:15059))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:7315:(slot:7333))')", 
             "weight": 124
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:15055:(visit_nameop:15059))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:2595:(indexes_for:2599))')", 
             "weight": 158
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/externals.py', '(func:1059:(__init__:1063))')", 
             "target": "('src/i8c/compiler/types.py', '(func:3889:(basetype:3907))')", 
             "weight": 6
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/externals.py', '(func:1059:(__init__:1063))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:6611:(__init__:6615))')", 
             "weight": 6
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/externals.py', '(func:1059:(__init__:1063))')", 
             "target": "('src/i8c/compiler/types.py', '(func:4126:(is_function:4144))')", 
             "weight": 6
@@ -728,7 +621,6 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:4698:(merge_into:4702))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:1260:(__init__:1264))')", 
             "weight": 36
@@ -754,7 +646,6 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/runtime/operations.py', '(func:9792:(exec_GNU_i8call:9796))')", 
             "target": "('src/i8c/runtime/functions.py', '(func:5708:(execute:5712))')", 
             "weight": 12
@@ -765,25 +656,21 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/names.py', '(func:3288:(visit_fullname:3292))')", 
             "target": "('src/i8c/compiler/names.py', '(func:998:(__init__:1002))')", 
             "weight": 62
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/names.py', '(func:3288:(visit_fullname:3292))')", 
             "target": "('src/i8c/compiler/names.py', '(func:3382:(visit_shortname:3386))')", 
             "weight": 150
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/externals.py', '(func:1532:(add:1536))')", 
             "target": "('src/i8c/compiler/externals.py', '(func:1059:(__init__:1063))')", 
             "weight": 8
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/names.py', '(func:2836:(visit_external:2840))')", 
             "target": "('src/i8c/compiler/types.py', '(func:4126:(is_function:4144))')", 
             "weight": 54
@@ -799,61 +686,51 @@
             "weight": 4
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/blocks.py', '(func:7295:(visit_pickop:7299))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:7891:(__init__:7895))')", 
             "weight": 40
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/blocks.py', '(func:7295:(visit_pickop:7299))')", 
             "target": "('src/i8c/compiler/parser.py', '(func:11291:(operand:11309))')", 
             "weight": 14
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:3801:(get_by_name:3805))')", 
             "target": "('src/i8c/compiler/externals.py', '(func:1676:(lookup:1680))')", 
             "weight": 88
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:3801:(get_by_name:3805))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:2595:(indexes_for:2599))')", 
             "weight": 126
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:2595:(indexes_for:2599))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:1481:(default_provider:1499))')", 
             "weight": 64
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:2595:(indexes_for:2599))')", 
             "target": "('src/i8c/compiler/names.py', '(func:1320:(with_provider:1324))')", 
             "weight": 46
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:2595:(indexes_for:2599))')", 
             "target": "('src/i8c/compiler/names.py', '(func:1434:(without_provider:1438))')", 
             "weight": 78
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/stack.py', '(func:2595:(indexes_for:2599))')", 
             "target": "('src/i8c/compiler/stack.py', '(func:3582:(__names_match:3586))')", 
             "weight": 57
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('src/i8c/compiler/operations.py', '(func:7006:(operands:7024))')", 
             "target": "('src/i8c/compiler/operations.py', '(func:6258:(is_pick:6276))')", 
             "weight": 80
         }, 
         {
-            "shape": "flowingEdge", 
             "source": "('tests/test_i8cfail_0001.py', '(func:1409:(test_i8cfail_0001:1413))')", 
             "target": "('tests/__init__.py', '(func:2884:(opnames:2902))')", 
             "weight": 6
