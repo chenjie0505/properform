@@ -160,56 +160,64 @@ function loadDiff(path, diff) {
 
 var functionStatistics;
 
-function loadFunctionStatistics(path, func, id) {
-	functionStatistics = functionStatistics || (() => {
-		var ds = new DataSet();
-		var dv = ds.createView();
-		dv.transform({
-			type: 'fold',
-			fields: ['AST Diff', 'Profile Diff'],
-			key: 'stat',
-			value: 'count'
-		});
-		var chart = new G2.Chart({
-			container: 'transition',
-			forceFit: true,
-			height: $('#transition').width() * 0.5
-		});
-		chart.source(dv, {
-			timestamp: {
-				alias: 'Commit time',
-				type: 'time',
-				mask: 'YYYY-MM-DD HH:mm:ss',
-				nice: false,
-				tickCount: 8
-			}
-		});
-		chart.axis('timestamp', {
-			label: {
-				formatter: val => {
-					if (val.substring(val.length - 9) == ' 00:00:00') {
-						return val.substring(0, val.length - 9);
-					}
-					return val;
+function initFunctionStatistics(data) {
+	var chart = new G2.Chart({
+		id: 'diffGraph',
+		forceFit: true,
+		height: 400,
+		padding: 80
+	});
+	chart.source(data);
+	chart.scale('timestamp', {
+		alias: 'Commit time',
+		type: 'time',
+		mask: 'YYYY-MM-DD HH:mm:ss',
+		nice: false,
+		tickCount: 8
+	});
+	chart.axis('timestamp', {
+		label: {
+			formatter: val => {
+				if (val.substring(val.length - 9) == ' 00:00:00') {
+					return val.substring(0, val.length - 9);
 				}
+				return val;
 			}
-		});
-		chart.tooltip({
-			crosshairs: {
-				type: 'line'
-			}
-		});
-		chart.line().position('timestamp*count').color('stat');
-		chart.point().position('timestamp*count').color('stat').size(4).shape('circle').style({
-			stroke: '#fff',
-			lineWidth: 1
-		});
+		}
+	});
+	chart.scale('astDiff', {
+		alias: 'AST Diff'
+	});
+	chart.scale('profileDiff', {
+		alias: 'Profile Diff',
+		formatter: function formatter(val) {
+			return val * 100 + '%';
+		}
+	});
+	chart.axis('profileDiff', {
+		grid: null
+	});
+	chart.line().position('timestamp*astDiff');
+	chart.point().position('timestamp*astDiff').size(2).shape('circle').style({
+		stroke: '#fff',
+		lineWidth: 1
+	});
+	chart.line().position('timestamp*profileDiff').color('#E47668');
+	chart.point().position('timestamp*profileDiff').color('#E47668').size(3).shape('circle').style({
+		stroke: '#fff',
+		lineWidth: 1
+	});
+	chart.render();
+	return chart;
+}
 
-		chart.render();
-		return [chart, dv];
-	})();
+function loadFunctionStatistics(path, func, id) {
 	$('.funcTransition').text(id);
 	$.getJSON(path + "/func/" + func + ".json", data => {
-		functionStatistics[1].source(data);
+		if (functionStatistics) {
+			functionStatistics.changeData(data);
+		} else {
+			functionStatistics = initFunctionStatistics(data);
+		}
 	});
 }
