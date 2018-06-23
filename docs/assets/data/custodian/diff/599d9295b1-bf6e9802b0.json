@@ -1,0 +1,97 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/ansible/actions.py', '(func:3356:(pull:3378))')", 
+            "target": "('custodian/ansible/actions.py', '(func:548:(get_nested_dict:552))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/nwchem/handlers.py', '(func:1969:(correct:1973))')", 
+            "target": "('custodian/ansible/interpreter.py', '(func:1137:(__init__:1141))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/ansible/actions.py', '(func:4129:(pop:4151))')", 
+            "target": "('custodian/ansible/actions.py', '(func:548:(get_nested_dict:552))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/ansible/interpreter.py', '(func:2162:(modify:2166))')", 
+            "target": "('custodian/ansible/actions.py', '(func:4129:(pop:4151))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/ansible/interpreter.py', '(func:2162:(modify:2166))')", 
+            "target": "('custodian/ansible/actions.py', '(func:3356:(pull:3378))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/ansible/tests/test_interpreter.py', '(func:442:(test_dict_modify:446))')", 
+            "target": "('custodian/ansible/interpreter.py', '(func:1137:(__init__:1141))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/ansible/tests/test_interpreter.py', '(func:442:(test_dict_modify:446))')", 
+            "target": "('custodian/ansible/interpreter.py', '(func:2162:(modify:2166))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/ansible/interpreter.py', '(func:2162:(modify:2166))')", 
+            "md5": "801273a221c687fdea1dc70853995cd7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/nwchem/handlers.py', '(func:1969:(correct:1973))')", 
+            "md5": "f1ed68fdab615b2508d6b9e7db2daa2d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/ansible/actions.py', '(func:4129:(pop:4151))')", 
+            "md5": "4cb5abd008af54b05ff0eebd2c4b61a8", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/ansible/interpreter.py', '(func:1137:(__init__:1141))')", 
+            "md5": "a4a5551c5ca273151fc76dfdca832791", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/ansible/tests/test_interpreter.py', '(func:442:(test_dict_modify:446))')", 
+            "md5": "ba0ab1f5cdb8074372d945ef092fc053", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/ansible/actions.py', '(func:548:(get_nested_dict:552))')", 
+            "md5": "7b7ab2baed65caa266cb080a75bc1a1d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/ansible/actions.py', '(func:3356:(pull:3378))')", 
+            "md5": "64331ecab7076c088212a1fa57fcc179", 
+            "weight": 2
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/util.py', '(func:12163:(__rpow__:12167))')", 
+            "target": "('abydos/util.py', '(func:12934:(__float__:12938))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_util.py', '(func:9965:(test_rational_arithmetic:9969))')", 
+            "target": "('abydos/util.py', '(func:12163:(__rpow__:12167))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_util.py', '(func:6514:(test_rational_comparisons:6518))')", 
+            "target": "('abydos/util.py', '(func:9072:(__gt__:9076))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_util.py', '(func:6514:(test_rational_comparisons:6518))')", 
+            "target": "('abydos/util.py', '(func:9281:(__ge__:9285))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_ngram.py', '(func:8798:(test_tf:8802))')", 
+            "target": "('abydos/ngram.py', '(func:5305:(tf:5309))')", 
+            "weight": 57
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_util.py', '(func:14407:(test_rational_casts:14411))')", 
+            "target": "('abydos/util.py', '(func:12934:(__float__:12938))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/stats.py', '(func:9493:(balanced_accuracy:9497))')", 
+            "target": "('abydos/stats.py', '(func:7211:(specificity:7215))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/test_util.py', '(func:14407:(test_rational_casts:14411))')", 
+            "md5": "a03b07a880271efbdf941333586dde53", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/util.py', '(func:12934:(__float__:12938))')", 
+            "md5": "eab92cc17edc4f43eee9c3eb9ffb65a6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/util.py', '(func:9072:(__gt__:9076))')", 
+            "md5": "237f3068c0e2b766a9bf115ee7997a4d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/stats.py', '(func:9493:(balanced_accuracy:9497))')", 
+            "md5": "f7d6df123ea73b6ef4efddf16beb1bd5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 6, 
+            "Profile Diff": null, 
+            "id": "('abydos/ngram.py', '(func:5305:(tf:5309))')", 
+            "md5": "55510a8e5a3d5bf0abbe8bc3d372e1bd", 
+            "weight": 7
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/util.py', '(func:9281:(__ge__:9285))')", 
+            "md5": "8fdefb559bc61ae0fe36848ddfdd8660", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/test_util.py', '(func:9965:(test_rational_arithmetic:9969))')", 
+            "md5": "6a1dcc35cea9c43dd55600fbc018f95d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/stats.py', '(func:7211:(specificity:7215))')", 
+            "md5": "89ba8d5b2f921bc7bd985fa0db28587c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 24, 
+            "Profile Diff": false, 
+            "id": "('tests/test_ngram.py', '(func:8798:(test_tf:8802))')", 
+            "md5": "4d86422f795e4da6a837edafab333c70", 
+            "weight": 50
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/test_util.py', '(func:6514:(test_rational_comparisons:6518))')", 
+            "md5": "027c524bcda6f49a0f0515dc61d9c948", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/util.py', '(func:12163:(__rpow__:12167))')", 
+            "md5": "ff89222539b9ce3876101bce80f79c75", 
+            "weight": 2
+        }
+    ]
+}

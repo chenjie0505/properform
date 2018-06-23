@@ -1,0 +1,106 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/messaging/adapter/model.py', '(class:Producer:18133)')", 
+            "target": "('src/gofer/messaging/adapter/model.py', '(func:1089:(model:1093))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/rmi/policy.py', '(class:Policy:2966)')", 
+            "target": "('src/gofer/common.py', '(func:5789:(released:5793))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:1867:(test_model:1909))')", 
+            "target": "('src/gofer/decorators.py', '(func:1099:(remote:1103))')", 
+            "weight": 88
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:3017:(test_call:3021))')", 
+            "target": "('src/gofer/decorators.py', '(func:2290:(fork:2294))')", 
+            "weight": 110
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:2729:(test_call:2733))')", 
+            "target": "('src/gofer/decorators.py', '(func:2011:(direct:2015))')", 
+            "weight": 110
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/messaging/adapter/model.py', '(class:Producer:18133)')", 
+            "md5": "d22b8c52699f7bdc39b266d0278d4f2b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 31, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_decorators.py', '(func:3017:(test_call:3021))')", 
+            "md5": "d8387456f6d4f89cab253fc97d39f4ae", 
+            "weight": 64
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/messaging/adapter/model.py', '(func:1089:(model:1093))')", 
+            "md5": "e5fb922c32e5ea50a1151360a825fff8", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/rmi/policy.py', '(class:Policy:2966)')", 
+            "md5": "a2ba200b4bbd1f515514bfc17341177d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 31, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_decorators.py', '(func:2729:(test_call:2733))')", 
+            "md5": "3486dc96300eb07cee383b2ffb28250f", 
+            "weight": 64
+        }, 
+        {
+            "AST Diff": 42, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_decorators.py', '(func:1867:(test_model:1909))')", 
+            "md5": "31f92a6fcbb2e05ec792958a0bb62285", 
+            "weight": 86
+        }, 
+        {
+            "AST Diff": 22, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/decorators.py', '(func:2011:(direct:2015))')", 
+            "md5": "394d447f92da8aa87fcf075cea5f6b3b", 
+            "weight": 46
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/decorators.py', '(func:1099:(remote:1103))')", 
+            "md5": "205dae030f9fb9e9a80b66a483f5f812", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/common.py', '(func:5789:(released:5793))')", 
+            "md5": "92e36c9365f8d826ba5d8be42cfbf1dd", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 22, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/decorators.py', '(func:2290:(fork:2294))')", 
+            "md5": "a4beee1c07e048337e985c05da00956a", 
+            "weight": 46
+        }
+    ]
+}

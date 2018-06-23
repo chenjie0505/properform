@@ -1,0 +1,46 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/test_fluent.py', '(func:1611:(test_values_container_convenience_methods:1615))')", 
+            "target": "('src/petl/base.py', '(func:2049:(sum:2053))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/transform/reshape.py', '(func:15537:(transpose:15541))')", 
+            "target": "('src/petl/transform/reshape.py', '(func:16576:(__init__:16580))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/base.py', '(func:2049:(sum:2053))')", 
+            "md5": "b1d2275d631f9d8a845cb7fd61b6388a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/test/test_fluent.py', '(func:1611:(test_values_container_convenience_methods:1615))')", 
+            "md5": "653ee7d8632ea9b27bdff16caf7c6ebd", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/transform/reshape.py', '(func:15537:(transpose:15541))')", 
+            "md5": "2d095074dc8b962743052a17ff35cc38", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/transform/reshape.py', '(func:16576:(__init__:16580))')", 
+            "md5": "6019ea01fc9eafa350ad4043145c6e0d", 
+            "weight": 2
+        }
+    ]
+}

@@ -1,0 +1,344 @@
+{
+    "edges": [
+        {
+            "source": "('trifusion/process/data.py', '(func:9226:(read_from_file:9230))')", 
+            "target": "('trifusion/process/data.py', '(func:7702:(reset:7706))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/data.py', '(func:9226:(read_from_file:9230))')", 
+            "target": "('trifusion/process/data.py', '(func:11523:(read_from_nexus_string:11527))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/data.py', '(func:9226:(read_from_file:9230))')", 
+            "target": "('trifusion/process/data.py', '(func:15379:(add_partition:15383))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:102894:(remove_taxa:102898))')", 
+            "target": "('trifusion/process/base.py', '(func:14586:(read_basic_csv:14590))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:102894:(remove_taxa:102898))')", 
+            "target": "('trifusion/process/sequence.py', '(func:37643:(remove_taxa:37647))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:5949:(__init__:5953))')", 
+            "target": "('trifusion/process/data.py', '(func:2556:(__init__:2560))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/tests/test_load_process_data.py', '(func:1138:(test_load_single_fas:1142))')", 
+            "target": "('trifusion/process/sequence.py', '(func:5949:(__init__:5953))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/tests/test_process_filters.py', '(func:2403:(test_no_data_aln_no_filters:2407))')", 
+            "target": "('trifusion/process/sequence.py', '(func:99143:(filter_codon_positions:99147))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:99143:(filter_codon_positions:99147))')", 
+            "target": "('trifusion/process/sequence.py', '(func:84230:(set_partition_from_alignment:84234))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:99143:(filter_codon_positions:99147))')", 
+            "target": "('trifusion/process/data.py', '(func:2556:(__init__:2560))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/tests/test_load_process_data.py', '(func:1474:(test_load_single_nex:1478))')", 
+            "target": "('trifusion/process/sequence.py', '(func:5949:(__init__:5953))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/tests/test_partitions.py', '(func:5088:(test_change_name:5092))')", 
+            "target": "('trifusion/process/data.py', '(func:9226:(read_from_file:9230))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/tests/test_process_filters.py', '(func:1713:(test_no_missing:1717))')", 
+            "target": "('trifusion/process/sequence.py', '(func:99143:(filter_codon_positions:99147))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:84230:(set_partition_from_alignment:84234))')", 
+            "target": "('trifusion/process/data.py', '(func:15379:(add_partition:15383))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:84230:(set_partition_from_alignment:84234))')", 
+            "target": "('trifusion/process/data.py', '(func:14551:(is_single:14555))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:49489:(filter_informative_sites:49493))')", 
+            "target": "('trifusion/process/sequence.py', '(func:46889:(_test_range:46911))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:85263:(add_alignments:85267))')", 
+            "target": "('trifusion/process/sequence.py', '(func:84230:(set_partition_from_alignment:84234))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:85263:(add_alignments:85267))')", 
+            "target": "('trifusion/process/sequence.py', '(func:119399:(_get_taxa_list:119403))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/tests/test_process_filters.py', '(func:3493:(test_filter_by_taxa_include:3497))')", 
+            "target": "('trifusion/process/sequence.py', '(func:97256:(filter_by_taxa:97260))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:97256:(filter_by_taxa:97260))')", 
+            "target": "('trifusion/process/sequence.py', '(func:119399:(_get_taxa_list:119403))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:97256:(filter_by_taxa:97260))')", 
+            "target": "('trifusion/process/base.py', '(func:14586:(read_basic_csv:14590))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/data.py', '(func:11523:(read_from_nexus_string:11527))')", 
+            "target": "('trifusion/process/data.py', '(func:15379:(add_partition:15383))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/tests/test_partitions.py', '(func:12354:(test_set_model_all:12358))')", 
+            "target": "('trifusion/process/data.py', '(func:9226:(read_from_file:9230))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/tests/test_partitions.py', '(func:12354:(test_set_model_all:12358))')", 
+            "target": "('trifusion/process/data.py', '(func:31291:(set_model:31295))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/tests/test_load_process_data.py', '(func:1812:(test_load_single_loci:1816))')", 
+            "target": "('trifusion/process/sequence.py', '(func:5949:(__init__:5953))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/data.py', '(func:23145:(remove_routine:23149))')", 
+            "target": "('trifusion/process/data.py', '(func:21885:(rm_part:21889))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:48033:(filter_segregating_sites:48037))')", 
+            "target": "('trifusion/process/sequence.py', '(func:46889:(_test_range:46911))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:5949:(__init__:5953))')", 
+            "md5": "6a81ac6bfee9fd89941a5be9f2064ed5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_process_filters.py', '(func:2403:(test_no_data_aln_no_filters:2407))')", 
+            "md5": "2801bab9a42a88204df8810b62fc7c26", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/data.py', '(func:23145:(remove_routine:23149))')", 
+            "md5": "5875c077cd31360cdfc4cf5cb58d5f3b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:85263:(add_alignments:85267))')", 
+            "md5": "1187d3b53b420ea73028c7c67488d259", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_process_filters.py', '(func:1713:(test_no_missing:1717))')", 
+            "md5": "1f9938ee42032f497bd1e6186cfeb964", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/data.py', '(func:21885:(rm_part:21889))')", 
+            "md5": "390f195b923c8f1b3b763dddcf661615", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_load_process_data.py', '(func:1138:(test_load_single_fas:1142))')", 
+            "md5": "b7173c9fe23b53e1efc221017d9b19b2", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/data.py', '(func:31291:(set_model:31295))')", 
+            "md5": "30b9f4e2fc4067e78cb9170b640736b7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/data.py', '(func:14551:(is_single:14555))')", 
+            "md5": "88998a4e3472aff4ed8b66706637790b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/data.py', '(func:11523:(read_from_nexus_string:11527))')", 
+            "md5": "3d991ce6ca4fc374251fd8a6760bb6fa", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/data.py', '(func:15379:(add_partition:15383))')", 
+            "md5": "450cb7bca63bc1dfc17f31b9c6db9c91", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:37643:(remove_taxa:37647))')", 
+            "md5": "15e6944250568a048690a67aafbe1765", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:99143:(filter_codon_positions:99147))')", 
+            "md5": "c09f7fbd35db867c8a9b011561a3b718", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/data.py', '(func:2556:(__init__:2560))')", 
+            "md5": "22c7da5607545ff18044f0d3db54535f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/data.py', '(func:7702:(reset:7706))')", 
+            "md5": "14ebf15165c930a6f32c1a0461c47bcb", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:84230:(set_partition_from_alignment:84234))')", 
+            "md5": "518d4a2d09750badc2a8a3d99743e8d9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_partitions.py', '(func:12354:(test_set_model_all:12358))')", 
+            "md5": "5d4198e06dab5fbcdd8445067798565d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_load_process_data.py', '(func:1812:(test_load_single_loci:1816))')", 
+            "md5": "f9a304f0df3c3227c62573d618fd8bda", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:49489:(filter_informative_sites:49493))')", 
+            "md5": "7378fc5bd25b10506edb51f091c94739", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:97256:(filter_by_taxa:97260))')", 
+            "md5": "afde7b107b5fa60747119b31c21054f7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:119399:(_get_taxa_list:119403))')", 
+            "md5": "22516723d675cae7aa24c5391fb4a450", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:48033:(filter_segregating_sites:48037))')", 
+            "md5": "e4314fa1c0eb9b34df9cb47c064f6b57", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/base.py', '(func:14586:(read_basic_csv:14590))')", 
+            "md5": "8228b811c809057bb335b94974d218a2", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:102894:(remove_taxa:102898))')", 
+            "md5": "4fd525b226ff787b44bd2233bbfcee27", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/data.py', '(func:9226:(read_from_file:9230))')", 
+            "md5": "8656e8eb6250eff2ed4b74256413005f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_process_filters.py', '(func:3493:(test_filter_by_taxa_include:3497))')", 
+            "md5": "9e7d441cd1fc2d3d3c7a29bf62ec2a87", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:46889:(_test_range:46911))')", 
+            "md5": "c0b7d804193ad2d1a3bdd2889a48d87c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_load_process_data.py', '(func:1474:(test_load_single_nex:1478))')", 
+            "md5": "5ac4cf63ad9ebeeb2142616959f9e0a0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_partitions.py', '(func:5088:(test_change_name:5092))')", 
+            "md5": "16afc29ae1209747ad0e5134e3da37bd", 
+            "weight": 2
+        }
+    ]
+}

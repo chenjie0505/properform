@@ -1,0 +1,98 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_process_filters.py', '(func:6962:(test_variation_var_sites:6966))')", 
+            "target": "('trifusion/process/sequence.py', '(func:101098:(filter_segregating_sites:101102))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:102894:(remove_taxa:102898))')", 
+            "target": "('trifusion/process/base.py', '(func:14586:(read_basic_csv:14590))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:102894:(remove_taxa:102898))')", 
+            "target": "('trifusion/process/sequence.py', '(func:37643:(remove_taxa:37647))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_load_process_data.py', '(func:5558:(test_remove_taxa_from_file:5562))')", 
+            "target": "('trifusion/process/sequence.py', '(func:102894:(remove_taxa:102898))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_load_process_data.py', '(func:6026:(test_remove_taxa_from_list_inverse:6030))')", 
+            "target": "('trifusion/process/sequence.py', '(func:102894:(remove_taxa:102898))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:37643:(remove_taxa:37647))')", 
+            "target": "('trifusion/process/sequence.py', '(func:38411:(remove:38415))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:38411:(remove:38415))')", 
+            "md5": "b8fd8f4b33d72d371e02480e8acf0916", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/base.py', '(func:14586:(read_basic_csv:14590))')", 
+            "md5": "8228b811c809057bb335b94974d218a2", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/tests/test_load_process_data.py', '(func:5558:(test_remove_taxa_from_file:5562))')", 
+            "md5": "5f150a750e7353b482900dd56fa89d9c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:102894:(remove_taxa:102898))')", 
+            "md5": "4fd525b226ff787b44bd2233bbfcee27", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/tests/test_load_process_data.py', '(func:6026:(test_remove_taxa_from_list_inverse:6030))')", 
+            "md5": "9e3e278f8ca561cc4ef9568f3dae1271", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:37643:(remove_taxa:37647))')", 
+            "md5": "15e6944250568a048690a67aafbe1765", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:101098:(filter_segregating_sites:101102))')", 
+            "md5": "444aa1098aa14a896ce53aede2091854", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/tests/test_process_filters.py', '(func:6962:(test_variation_var_sites:6966))')", 
+            "md5": "cd48424de9343c334d56f42f5d035bef", 
+            "weight": 2
+        }
+    ]
+}

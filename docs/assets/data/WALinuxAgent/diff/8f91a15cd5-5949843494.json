@@ -1,0 +1,79 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:21915:(uninstall:21919))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:34957:(get_uninstall_command:34961))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:21915:(uninstall:21919))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:28010:(load_manifest:28014))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/common/osutil/test_default.py', '(func:2491:(test_multiple_default_routes:2495))')", 
+            "target": "('tests/tools.py', '(func:2836:(open_patch:2840))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:42368:(write_to_tmp_file:42372))')", 
+            "target": "('azurelinuxagent/common/protocol/wire.py', '(func:20941:(save_cache:20945))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/tools.py', '(func:2836:(open_patch:2840))')", 
+            "md5": "d873960171160e5c887759e9012f1b0a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:20941:(save_cache:20945))')", 
+            "md5": "f23aa11552eba5bbdcc43d7afa01630d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/common/osutil/test_default.py', '(func:2491:(test_multiple_default_routes:2495))')", 
+            "md5": "e6ce98b1d1952d38eddfc53b3ffbae87", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:21915:(uninstall:21919))')", 
+            "md5": "73da119888f1ef7da9edd03d97a1054f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:34957:(get_uninstall_command:34961))')", 
+            "md5": "1b1638555c2065a9b35195d3a48d6167", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:42368:(write_to_tmp_file:42372))')", 
+            "md5": "7991e26e92e7cb8a7fa4812e3287b498", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:28010:(load_manifest:28014))')", 
+            "md5": "0d40ed318bbb203bbc238324959cf360", 
+            "weight": 2
+        }
+    ]
+}

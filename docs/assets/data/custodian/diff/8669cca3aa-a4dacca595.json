@@ -1,0 +1,46 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:3662:(test_mesh_symmetry:3666))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:10557:(__init__:10561))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/custodian.py', '(func:2568:(__init__:2572))')", 
+            "target": "('custodian/custodian.py', '(func:5726:(lambda:5726))')", 
+            "weight": 42
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 7, 
+            "Profile Diff": true, 
+            "id": "('custodian/custodian.py', '(func:5726:(lambda:5726))')", 
+            "md5": "ef6b24e868b1d7d2a572898ae9040a19", 
+            "weight": 16
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:3662:(test_mesh_symmetry:3666))')", 
+            "md5": "ab533eb44442cc4a896cded2a961455a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/handlers.py', '(func:10557:(__init__:10561))')", 
+            "md5": "df6c74af575717ace4ce83ba09716ff5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 12, 
+            "Profile Diff": true, 
+            "id": "('custodian/custodian.py', '(func:2568:(__init__:2572))')", 
+            "md5": "820575a381bbaeef088232b465ed2fd7", 
+            "weight": 26
+        }
+    ]
+}

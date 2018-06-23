@@ -1,0 +1,79 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/protocol/test_metadata.py', '(func:1674:(test_getters_no:1678))')", 
+            "target": "('tests/protocol/mockmetadata.py', '(func:1323:(__init__:1327))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/ga/test_update.py', '(func:3679:(create_error:3683))')", 
+            "target": "('tests/ga/test_update.py', '(func:3465:(get_error_file:3469))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/protocol/test_metadata.py', '(func:1541:(test_getters:1545))')", 
+            "target": "('tests/protocol/mockmetadata.py', '(func:1323:(__init__:1327))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/utils/test_flexible_version.py', '(func:8586:(test_patch:8590))')", 
+            "target": "('azurelinuxagent/common/utils/flexible_version.py', '(func:1811:(patch:1829))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/protocol/mockmetadata.py', '(func:1323:(__init__:1327))')", 
+            "md5": "66ba867020f4c751169a170e673f675c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/protocol/test_metadata.py', '(func:1541:(test_getters:1545))')", 
+            "md5": "09d4b0046b3571531f470b67d7fa815b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_update.py', '(func:3465:(get_error_file:3469))')", 
+            "md5": "4fa1fc2b14257071b27cda4febf630db", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/utils/test_flexible_version.py', '(func:8586:(test_patch:8590))')", 
+            "md5": "fe4abd3a00db3daafaef7b56159f5c93", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/protocol/test_metadata.py', '(func:1674:(test_getters_no:1678))')", 
+            "md5": "c382da879844826dfc88344feefe3f6b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_update.py', '(func:3679:(create_error:3683))')", 
+            "md5": "0d4ab3b77713953cc759c5bc800a7ae0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/utils/flexible_version.py', '(func:1811:(patch:1829))')", 
+            "md5": "26c2a5cd1beca0eaa948177197b9d22f", 
+            "weight": 2
+        }
+    ]
+}

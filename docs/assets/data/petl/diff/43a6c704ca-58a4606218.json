@@ -1,0 +1,46 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/transform/test_reductions.py', '(func:2304:(test_rangerowreduce:2308))')", 
+            "target": "('src/petl/transform/reductions.py', '(func:16383:(rangerowreduce:16387))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/transform/headers.py', '(func:3038:(setheader:3042))')", 
+            "target": "('src/petl/transform/headers.py', '(func:3835:(__init__:3839))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/transform/headers.py', '(func:3835:(__init__:3839))')", 
+            "md5": "39b1288c63c25ba3c2f0a2251f0f248d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/transform/reductions.py', '(func:16383:(rangerowreduce:16387))')", 
+            "md5": "ae4f084df831b02afa7dfaa667c74c4b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/transform/headers.py', '(func:3038:(setheader:3042))')", 
+            "md5": "7d2f9fdd287a6d00b1213e43226d457e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/test/transform/test_reductions.py', '(func:2304:(test_rangerowreduce:2308))')", 
+            "md5": "a858473592c70db8f90526b1e7e8b629", 
+            "weight": 2
+        }
+    ]
+}

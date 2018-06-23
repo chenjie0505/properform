@@ -1,0 +1,72 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/protocol/test_wire.py', '(func:4123:(test_get_host_ga_plugin:4127))')", 
+            "target": "('tests/protocol/mockwiredata.py', '(func:1754:(__init__:1758))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/ga/test_update.py', '(func:16215:(test_download:16347))')", 
+            "target": "('tests/tools.py', '(func:2209:(load_bin_data:2213))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/protocol/mockwiredata.py', '(func:1754:(__init__:1758))')", 
+            "target": "('tests/tools.py', '(func:2209:(load_bin_data:2213))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:26965:(launch_command:26969))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:33244:(get_base_dir:33248))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/tools.py', '(func:2209:(load_bin_data:2213))')", 
+            "md5": "aad20975bbe69ff425e46922062fa740", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:26965:(launch_command:26969))')", 
+            "md5": "0b85c4f8693d831b5e3094e37f91043e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/protocol/test_wire.py', '(func:4123:(test_get_host_ga_plugin:4127))')", 
+            "md5": "153970a42745d8a8ede516444f17a6f0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_update.py', '(func:16215:(test_download:16347))')", 
+            "md5": "a91a137422a522aaed8f37cf359483b5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:33244:(get_base_dir:33248))')", 
+            "md5": "fff24869880c1a5c4ac432b2da58ded6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/protocol/mockwiredata.py', '(func:1754:(__init__:1758))')", 
+            "md5": "68e2f0e4094227a674071b31af3bfc98", 
+            "weight": 2
+        }
+    ]
+}

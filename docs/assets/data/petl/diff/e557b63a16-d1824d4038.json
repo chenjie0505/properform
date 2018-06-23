@@ -1,0 +1,79 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/test_transform.py', '(func:91346:(_test_leftjoin_1:91350))')", 
+            "target": "('src/petl/transform.py', '(func:204925:(hashleftjoin:204929))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/test_io.py', '(func:2781:(test_fromsqlite3_connection:2785))')", 
+            "target": "('src/petl/io.py', '(func:12032:(__iter__:12036))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/io.py', '(func:18116:(_iter_dbapi_connection:18120))')", 
+            "target": "('src/petl/io.py', '(func:18361:(_iter_dbapi_cursor:18365))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/test_io.py', '(func:2011:(test_fromsqlite3:2015))')", 
+            "target": "('src/petl/io.py', '(func:12032:(__iter__:12036))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/test_io.py', '(func:2011:(test_fromsqlite3:2015))')", 
+            "md5": "72ee630afa0197c622f2976424962f34", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/io.py', '(func:18116:(_iter_dbapi_connection:18120))')", 
+            "md5": "351e303ef2fb45b6377da1929e98ad8e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/transform.py', '(func:204925:(hashleftjoin:204929))')", 
+            "md5": "5e17ecedd7c1315714ef76bbdaef12eb", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/test_io.py', '(func:2781:(test_fromsqlite3_connection:2785))')", 
+            "md5": "8443c1655008413ff857c4f4ed8a6086", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/test_transform.py', '(func:91346:(_test_leftjoin_1:91350))')", 
+            "md5": "168962bfe241c665a6630b1d56d08eb7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/io.py', '(func:18361:(_iter_dbapi_cursor:18365))')", 
+            "md5": "de6ec2bc28f61dfbb2620eee4bb77ff7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/io.py', '(func:12032:(__iter__:12036))')", 
+            "md5": "918f5f7e50b57218324cda73bda57d48", 
+            "weight": 2
+        }
+    ]
+}

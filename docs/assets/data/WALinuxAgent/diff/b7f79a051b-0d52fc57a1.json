@@ -1,0 +1,39 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:20905:(enable:20909))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:28010:(load_manifest:28014))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:21261:(disable:21265))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:28010:(load_manifest:28014))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:21261:(disable:21265))')", 
+            "md5": "83ce71f3a174604a0ca5893acc19c64a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:28010:(load_manifest:28014))')", 
+            "md5": "0d40ed318bbb203bbc238324959cf360", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:20905:(enable:20909))')", 
+            "md5": "6e0d73e2ff7d887f970c8b313cc6e8f5", 
+            "weight": 2
+        }
+    ]
+}

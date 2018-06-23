@@ -1,0 +1,124 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:146129:(allele_frequency_spectrum_gene:146148))')", 
+            "target": "('trifusion/process/sequence.py', '(func:147204:(retrieve_alignment:147208))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:86899:(add_alignment_files:86903))')", 
+            "target": "('trifusion/process/sequence.py', '(func:84230:(set_partition_from_alignment:84234))')", 
+            "weight": 66
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_process_filters.py', '(func:898:(test_filter_and_concat:902))')", 
+            "target": "('trifusion/process/sequence.py', '(func:86899:(add_alignment_files:86903))')", 
+            "weight": 42
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_secondary_ops.py', '(func:3247:(test_consensus_remove:3251))')", 
+            "target": "('trifusion/process/sequence.py', '(func:86899:(add_alignment_files:86903))')", 
+            "weight": 42
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_secondary_ops.py', '(func:2977:(test_consensus_soft_mask:2981))')", 
+            "target": "('trifusion/process/sequence.py', '(func:86899:(add_alignment_files:86903))')", 
+            "weight": 42
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_secondary_ops.py', '(func:2776:(test_consensus_single_file:2780))')", 
+            "target": "('trifusion/process/sequence.py', '(func:86899:(add_alignment_files:86903))')", 
+            "weight": 42
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_secondary_ops.py', '(func:701:(test_collapse_with_variation:705))')", 
+            "target": "('trifusion/process/sequence.py', '(func:86899:(add_alignment_files:86903))')", 
+            "weight": 42
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_secondary_ops.py', '(func:3510:(test_consensus_first_seq:3514))')", 
+            "target": "('trifusion/process/sequence.py', '(func:86899:(add_alignment_files:86903))')", 
+            "weight": 42
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:146129:(allele_frequency_spectrum_gene:146148))')", 
+            "md5": "5e2e494dd6c0c5fb38ae0bf6e6ddae9e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 12, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:84230:(set_partition_from_alignment:84234))')", 
+            "md5": "518d4a2d09750badc2a8a3d99743e8d9", 
+            "weight": 26
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_secondary_ops.py', '(func:3247:(test_consensus_remove:3251))')", 
+            "md5": "5a1747f73d5751fa361a35bc8a564eb8", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_process_filters.py', '(func:898:(test_filter_and_concat:902))')", 
+            "md5": "8c80b6bd09bf1126f2c6194612cbd7eb", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_secondary_ops.py', '(func:701:(test_collapse_with_variation:705))')", 
+            "md5": "53cfb937d409552dd7c350b3c672579d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_secondary_ops.py', '(func:2977:(test_consensus_soft_mask:2981))')", 
+            "md5": "194a20bb130b93c63019b823cc35adcf", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_secondary_ops.py', '(func:2776:(test_consensus_single_file:2780))')", 
+            "md5": "1151e811b803f23a63d5939627b8055c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_secondary_ops.py', '(func:3510:(test_consensus_first_seq:3514))')", 
+            "md5": "4387ced6ef3933572639b87d1197c3be", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:147204:(retrieve_alignment:147208))')", 
+            "md5": "52d3ddc3c3052c044ce402bc4fed24aa", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 39, 
+            "Profile Diff": null, 
+            "id": "('trifusion/process/sequence.py', '(func:86899:(add_alignment_files:86903))')", 
+            "md5": "b79c5baf4844e13234bb62d07efeb0e2", 
+            "weight": 40
+        }
+    ]
+}

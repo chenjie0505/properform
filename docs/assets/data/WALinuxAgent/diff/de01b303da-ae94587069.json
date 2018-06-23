@@ -1,0 +1,391 @@
+{
+    "edges": [
+        {
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:44388:(parse_plugin:44392))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:4598:(__init__:4602))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/pa/provision/default.py', '(func:3653:(provision:3657))')", 
+            "target": "('azurelinuxagent/pa/provision/default.py', '(func:4263:(config_user_account:4267))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_update.py', '(func:9761:(setUp:9765))')", 
+            "target": "('tests/ga/test_update.py', '(func:3829:(copy_agents:3833))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_update.py', '(func:9761:(setUp:9765))')", 
+            "target": "('tests/ga/test_update.py', '(func:2354:(get_agent_name:2358))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_update.py', '(func:17616:(test_ensure_downloaded:17678))')", 
+            "target": "('tests/tools.py', '(func:2209:(load_bin_data:2213))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_update.py', '(func:17616:(test_ensure_downloaded:17678))')", 
+            "target": "('tests/ga/test_update.py', '(func:5100:(remove_agents:5104))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_update.py', '(func:17616:(test_ensure_downloaded:17678))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:5014:(__init__:5018))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:38480:(__init__:38484))')", 
+            "target": "('azurelinuxagent/common/protocol/wire.py', '(func:38592:(parse:38596))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/ga/test_update.py', '(func:22675:(test_ensure_latest_agent_includes_old_agents:22679))')", 
+            "target": "('tests/ga/test_update.py', '(func:3294:(agent_versions:3298))')", 
+            "weight": 8
+        }, 
+        {
+            "source": "('tests/ga/test_update.py', '(func:9952:(tearDown:9956))')", 
+            "target": "('tests/ga/test_update.py', '(func:5100:(remove_agents:5104))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/ovfenv.py', '(func:1478:(__init__:1482))')", 
+            "target": "('azurelinuxagent/common/protocol/ovfenv.py', '(func:1892:(parse:1896))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/update.py', '(func:22493:(_unpack:22497))')", 
+            "target": "('azurelinuxagent/ga/update.py', '(func:16753:(get_agent_pkg_path:16757))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_update.py', '(func:40423:(create_packages:40427))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:5014:(__init__:5018))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/utils/shellutil.py', '(func:2017:(run:2021))')", 
+            "target": "('azurelinuxagent/common/utils/shellutil.py', '(func:2319:(run_get_output:2323))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_update.py', '(func:3294:(agent_versions:3298))')", 
+            "target": "('tests/ga/test_update.py', '(func:2897:(agent_dirs:2901))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/common/osutil/test_default.py', '(func:3418:(test_interface_flags:3422))')", 
+            "target": "('azurelinuxagent/common/osutil/default.py', '(func:20206:(is_primary_interface:20210))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_extension.py', '(func:7672:(test_ext_handler_no_reporting_status:7676))')", 
+            "target": "('tests/ga/test_extension.py', '(func:7297:(_assert_ext_status:7301))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/conf.py', '(func:4670:(get_password_crypt_salt_len:4674))')", 
+            "target": "('azurelinuxagent/common/conf.py', '(func:1880:(get_int:1884))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_update.py', '(func:12805:(test_is_downloaded:12879))')", 
+            "target": "('azurelinuxagent/ga/update.py', '(func:22493:(_unpack:22497))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/utils/cryptutil.py', '(func:1610:(get_pubkey_from_crt:1614))')", 
+            "target": "('azurelinuxagent/common/utils/shellutil.py', '(func:2319:(run_get_output:2323))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/pa/provision/default.py', '(func:4263:(config_user_account:4267))')", 
+            "target": "('azurelinuxagent/common/conf.py', '(func:4670:(get_password_crypt_salt_len:4674))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_update.py', '(func:13102:(test_mark_failure:13176))')", 
+            "target": "('azurelinuxagent/ga/update.py', '(func:17283:(mark_failure:17287))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/pa/provision/default.py', '(func:1487:(run:1491))')", 
+            "target": "('azurelinuxagent/pa/provision/default.py', '(func:6536:(report_not_ready:6540))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/pa/provision/default.py', '(func:1487:(run:1491))')", 
+            "target": "('azurelinuxagent/pa/provision/default.py', '(func:3653:(provision:3657))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/common/osutil/test_default.py', '(func:1892:(test_isprimary:1896))')", 
+            "target": "('azurelinuxagent/common/osutil/default.py', '(func:20206:(is_primary_interface:20210))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/utils/cryptutil.py', '(func:1610:(get_pubkey_from_crt:1614))')", 
+            "md5": "db676a41ec4f76732f8783f689886da4", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/utils/shellutil.py', '(func:2017:(run:2021))')", 
+            "md5": "4cae2e7fa2bada67868823e6415f5d2a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_update.py', '(func:9761:(setUp:9765))')", 
+            "md5": "355bbfde661eb14a85f60fa038b200f5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/ga/update.py', '(func:16753:(get_agent_pkg_path:16757))')", 
+            "md5": "192dc35165109bce281e5f78eebf723a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/common/osutil/test_default.py', '(func:1892:(test_isprimary:1896))')", 
+            "md5": "dab898f9f22e3565e7015770039ee207", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/pa/provision/default.py', '(func:6536:(report_not_ready:6540))')", 
+            "md5": "e96971842edf65beef27a6f7a454f25f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/restapi.py', '(func:5014:(__init__:5018))')", 
+            "md5": "7bcc899000cc75dfe702db62ee970efd", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/pa/provision/default.py', '(func:1487:(run:1491))')", 
+            "md5": "ae8b9e3a8d91c140fa8b43cb86aedbea", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_update.py', '(func:2897:(agent_dirs:2901))')", 
+            "md5": "275dccb04baaaf8c68b8adfa6c36e9b7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_update.py', '(func:3294:(agent_versions:3298))')", 
+            "md5": "403ac3dc2184e70633ad842266ede911", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/conf.py', '(func:4670:(get_password_crypt_salt_len:4674))')", 
+            "md5": "8563648e973b2b00cbe5872c2ed2640f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/conf.py', '(func:1880:(get_int:1884))')", 
+            "md5": "98d3f5453e66a1ecf2020af922cbb24e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_update.py', '(func:17616:(test_ensure_downloaded:17678))')", 
+            "md5": "5429a22809cf7db7b4bdac996aa33cbc", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/ovfenv.py', '(func:1892:(parse:1896))')", 
+            "md5": "333ac4698c55fb6a6d6e80ce4cf4a43d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:38592:(parse:38596))')", 
+            "md5": "a67bb2f97993c50e71d00e3f7db26492", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/pa/provision/default.py', '(func:4263:(config_user_account:4267))')", 
+            "md5": "36509bbc421a99947fc38677d8a09b85", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/common/osutil/test_default.py', '(func:3418:(test_interface_flags:3422))')", 
+            "md5": "280b5458e719982e8bf4be1c75e65264", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_update.py', '(func:3829:(copy_agents:3833))')", 
+            "md5": "6dd64d492f0c987c983d4dbe271599e6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_update.py', '(func:13102:(test_mark_failure:13176))')", 
+            "md5": "daf676a6ab2eda1b034798221d948f57", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/ovfenv.py', '(func:1478:(__init__:1482))')", 
+            "md5": "8bce6b605cb132ab828cde926355a3fa", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/tools.py', '(func:2209:(load_bin_data:2213))')", 
+            "md5": "aad20975bbe69ff425e46922062fa740", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/ga/update.py', '(func:22493:(_unpack:22497))')", 
+            "md5": "7374e8fa264a56b6a4ecf09c5bb704fd", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_update.py', '(func:5100:(remove_agents:5104))')", 
+            "md5": "883df5205e152992a4fe3d5825250a1c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/utils/shellutil.py', '(func:2319:(run_get_output:2323))')", 
+            "md5": "8f0a0d370f860224911b0eee598b0a42", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:44388:(parse_plugin:44392))')", 
+            "md5": "056623b8dee2d10447ec0c573d7b57c5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_extension.py', '(func:7672:(test_ext_handler_no_reporting_status:7676))')", 
+            "md5": "ffe736b6d157a3748e753b2602fede14", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_update.py', '(func:12805:(test_is_downloaded:12879))')", 
+            "md5": "6940853d0786f16f9e916ae25ceffb3c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_update.py', '(func:2354:(get_agent_name:2358))')", 
+            "md5": "b297cb696e342d59e093ae9882011b05", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:38480:(__init__:38484))')", 
+            "md5": "2b58d7bfbda2af8aeeea3c084d6e7b4c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/ga/update.py', '(func:17283:(mark_failure:17287))')", 
+            "md5": "d96fd7a49bd5010804e42336378ea3e9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/restapi.py', '(func:4598:(__init__:4602))')", 
+            "md5": "e567159d7017eff911a034f65cc7d12e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_update.py', '(func:40423:(create_packages:40427))')", 
+            "md5": "3eaf25c6162fe0edc51d81d7c292cef3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 5, 
+            "Profile Diff": null, 
+            "id": "('tests/ga/test_update.py', '(func:22675:(test_ensure_latest_agent_includes_old_agents:22679))')", 
+            "md5": "df01a2752d7d513a72a3754236fa87fa", 
+            "weight": 6
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_extension.py', '(func:7297:(_assert_ext_status:7301))')", 
+            "md5": "bf24b42df902cd374ae34e8c9d35ad8e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/pa/provision/default.py', '(func:3653:(provision:3657))')", 
+            "md5": "2d599974bb41b554e278a19cf0516da1", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/osutil/default.py', '(func:20206:(is_primary_interface:20210))')", 
+            "md5": "de80cabf05b8a4dd788b4b2365e8aa7c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_update.py', '(func:9952:(tearDown:9956))')", 
+            "md5": "69e000d507c6061116ffe98fe9c4d584", 
+            "weight": 2
+        }
+    ]
+}

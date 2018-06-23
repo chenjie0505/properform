@@ -1,0 +1,123 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/pipes/configure.py', '(func:166:(load:188))')", 
+            "target": "('lib/dataprocessor/configure.py', '(func:4375:(parse:4379))')", 
+            "weight": 20
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/configure.py', '(func:4375:(parse:4379))')", 
+            "target": "('lib/dataprocessor/configure.py', '(func:3197:(parse_yaml:3201))')", 
+            "weight": 23
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/configure.py', '(func:4375:(parse:4379))')", 
+            "target": "('lib/dataprocessor/configure.py', '(func:4496:(parse_json:4500))')", 
+            "weight": 44
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/configure.py', '(func:4375:(parse:4379))')", 
+            "target": "('lib/dataprocessor/configure.py', '(func:1391:(parse_ini:1395))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_configure.py', '(func:6421:(test_error:6425))')", 
+            "target": "('lib/dataprocessor/configure.py', '(func:3878:(key_or_root:3882))')", 
+            "weight": 98
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/configure.py', '(func:4496:(parse_json:4500))')", 
+            "target": "('lib/dataprocessor/configure.py', '(func:3878:(key_or_root:3882))')", 
+            "weight": 96
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_configure.py', '(func:6318:(test_root:6322))')", 
+            "target": "('lib/dataprocessor/configure.py', '(func:3878:(key_or_root:3882))')", 
+            "weight": 100
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/configure.py', '(func:3197:(parse_yaml:3201))')", 
+            "target": "('lib/dataprocessor/configure.py', '(func:3878:(key_or_root:3882))')", 
+            "weight": 75
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_configure.py', '(func:6232:(test_key:6236))')", 
+            "target": "('lib/dataprocessor/configure.py', '(func:3878:(key_or_root:3882))')", 
+            "weight": 90
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 17, 
+            "Profile Diff": null, 
+            "id": "('lib/dataprocessor/pipes/configure.py', '(func:166:(load:188))')", 
+            "md5": "a0c34b21787d4e81b22f7105b85dea37", 
+            "weight": 18
+        }, 
+        {
+            "AST Diff": 20, 
+            "Profile Diff": null, 
+            "id": "('lib/dataprocessor/configure.py', '(func:3197:(parse_yaml:3201))')", 
+            "md5": "b9a3c97942e34fee9d07a2f30060e620", 
+            "weight": 21
+        }, 
+        {
+            "AST Diff": 20, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/configure.py', '(func:4496:(parse_json:4500))')", 
+            "md5": "f1101be8fe5bbdcbc039dc44ebcfd556", 
+            "weight": 42
+        }, 
+        {
+            "AST Diff": 26, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/configure.py', '(func:3878:(key_or_root:3882))')", 
+            "md5": "f71038e52e8f71b8f8e3ed1a85bae393", 
+            "weight": 54
+        }, 
+        {
+            "AST Diff": 21, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/tests/test_configure.py', '(func:6421:(test_error:6425))')", 
+            "md5": "a0214be09740a02640a4b309f16ce285", 
+            "weight": 44
+        }, 
+        {
+            "AST Diff": 17, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/tests/test_configure.py', '(func:6232:(test_key:6236))')", 
+            "md5": "f68c3da8bee2f3c978e89062cb55e260", 
+            "weight": 36
+        }, 
+        {
+            "AST Diff": 22, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/tests/test_configure.py', '(func:6318:(test_root:6322))')", 
+            "md5": "99c298281c47095267d4cb148b8d1a2e", 
+            "weight": 46
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/configure.py', '(func:4375:(parse:4379))')", 
+            "md5": "2bd7a6aacd498758ba7e02e46dd783bb", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('lib/dataprocessor/configure.py', '(func:1391:(parse_ini:1395))')", 
+            "md5": "8e95044b6f7dd8cec997deeabbb06d7f", 
+            "weight": 2
+        }
+    ]
+}

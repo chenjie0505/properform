@@ -1,0 +1,112 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:11350:(__init__:11354))')", 
+            "target": "('azurelinuxagent/common/logger.py', '(func:2265:(add_appender:2269))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/protocol/restapi.py', '(func:3672:(__init__:3676))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:2651:(__init__:2655))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/utils/cryptutil.py', '(func:1349:(get_pubkey_from_prv:1353))')", 
+            "target": "('azurelinuxagent/common/utils/shellutil.py', '(func:2319:(run_get_output:2323))')", 
+            "weight": 33
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:45242:(parse_plugin_settings:45246))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:3975:(__init__:3979))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/protocol/restapi.py', '(func:5382:(__init__:5386))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:2651:(__init__:2655))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/ga/test_update.py', '(func:39905:(create_manifests:39909))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:3672:(__init__:3676))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_update.py', '(func:39905:(create_manifests:39909))')", 
+            "md5": "7f6848e96f52df7b149013d7c4d823ff", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/logger.py', '(func:2265:(add_appender:2269))')", 
+            "md5": "4bcf233cde7044bdbca77b617a6bba50", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/restapi.py', '(func:5382:(__init__:5386))')", 
+            "md5": "1a4d53f4dd78a270748a43ec80551392", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:11350:(__init__:11354))')", 
+            "md5": "7ec899a3b6a150132635a1d7e55fc3cf", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:45242:(parse_plugin_settings:45246))')", 
+            "md5": "e438b8b1237836ddc614ca0de2fbf7e0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 30, 
+            "Profile Diff": null, 
+            "id": "('azurelinuxagent/common/utils/shellutil.py', '(func:2319:(run_get_output:2323))')", 
+            "md5": "8f0a0d370f860224911b0eee598b0a42", 
+            "weight": 31
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/restapi.py', '(func:3975:(__init__:3979))')", 
+            "md5": "8e39cb40392af7995266557457a9d69c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/utils/cryptutil.py', '(func:1349:(get_pubkey_from_prv:1353))')", 
+            "md5": "82812570d01bf557b37349862c7fac66", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/restapi.py', '(func:2651:(__init__:2655))')", 
+            "md5": "41387c807e130e9f2d254a8a307c088c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/restapi.py', '(func:3672:(__init__:3676))')", 
+            "md5": "a07230fb60376acd360f74ca544dfc16", 
+            "weight": 2
+        }
+    ]
+}

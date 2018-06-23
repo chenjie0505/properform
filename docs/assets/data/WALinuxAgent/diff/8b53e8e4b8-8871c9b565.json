@@ -1,0 +1,92 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:7201:(handle_enable:7205))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:21261:(disable:21265))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/logger.py', '(func:3817:(verbose:3821))')", 
+            "target": "('azurelinuxagent/common/logger.py', '(func:1000:(verbose:1004))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:24199:(collect_ext_status:24203))')", 
+            "target": "('azurelinuxagent/common/logger.py', '(func:1000:(verbose:1004))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:8417:(handle_disable:8421))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:21261:(disable:21265))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:2904:(__init__:2908))')", 
+            "target": "('azurelinuxagent/common/protocol/wire.py', '(func:17978:(__init__:17982))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:24199:(collect_ext_status:24203))')", 
+            "md5": "bf3020f968e4e25be2b5910be0ec8255", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/logger.py', '(func:1000:(verbose:1004))')", 
+            "md5": "208dd9479bd1655944beea3cb73ed257", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:7201:(handle_enable:7205))')", 
+            "md5": "3a779899ece60cc8e20accc5fa1f7cbd", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/logger.py', '(func:3817:(verbose:3821))')", 
+            "md5": "f787f1500672d96a75e55c62aa49b20a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:2904:(__init__:2908))')", 
+            "md5": "c6e3a290aa5b1b438a4558f3931a5fd3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:8417:(handle_disable:8421))')", 
+            "md5": "926ca7cd323aa055694d4a8abbfcdb2f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:21261:(disable:21265))')", 
+            "md5": "83ce71f3a174604a0ca5893acc19c64a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:17978:(__init__:17982))')", 
+            "md5": "ce1510b01abacf5b42639892b7e2c1af", 
+            "weight": 2
+        }
+    ]
+}

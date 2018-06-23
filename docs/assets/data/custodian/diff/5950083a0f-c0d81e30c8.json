@@ -1,0 +1,39 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_jobs.py', '(func:4314:(test_run:4318))')", 
+            "target": "('custodian/vasp/jobs.py', '(func:33175:(run:33179))')", 
+            "weight": 362
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_jobs.py', '(func:4314:(test_run:4318))')", 
+            "target": "('custodian/vasp/jobs.py', '(func:32532:(__init__:32536))')", 
+            "weight": 248
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 25, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/jobs.py', '(func:32532:(__init__:32536))')", 
+            "md5": "99ec2b7ec023852a4d44d8966fc2ebba", 
+            "weight": 52
+        }, 
+        {
+            "AST Diff": 97, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/tests/test_jobs.py', '(func:4314:(test_run:4318))')", 
+            "md5": "805bef59e3df6956187ca371f8fd588e", 
+            "weight": 196
+        }, 
+        {
+            "AST Diff": 82, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/jobs.py', '(func:33175:(run:33179))')", 
+            "md5": "090748d9d9a40cf3542955c46d655300", 
+            "weight": 166
+        }
+    ]
+}

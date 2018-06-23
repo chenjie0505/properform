@@ -1,0 +1,39 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/io/test_tees.py', '(func:1068:(test_teetsv:1072))')", 
+            "target": "('petl/transform/conversions.py', '(func:8149:(convertnumbers:8153))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/io/test_tees.py', '(func:1068:(test_teetsv:1072))')", 
+            "target": "('petl/io/csv.py', '(func:1895:(fromtsv:1899))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/io/test_tees.py', '(func:1068:(test_teetsv:1072))')", 
+            "md5": "5b559e9d53b56ee70972de4fb1528b88", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/conversions.py', '(func:8149:(convertnumbers:8153))')", 
+            "md5": "4b441eaaf23aa743ea1e22c5a6acb23f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/csv.py', '(func:1895:(fromtsv:1899))')", 
+            "md5": "c5cf08e54a4ede5decee660e5abd9996", 
+            "weight": 2
+        }
+    ]
+}

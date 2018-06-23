@@ -1,0 +1,458 @@
+{
+    "edges": [
+        {
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:44388:(parse_plugin:44392))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:4679:(__init__:4683))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/protocol/test_metadata.py', '(func:1125:(_test_getters:1129))')", 
+            "target": "('azurelinuxagent/common/protocol/metadata.py', '(func:5677:(get_vminfo:5681))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/protocol/test_metadata.py', '(func:1125:(_test_getters:1129))')", 
+            "target": "('azurelinuxagent/common/protocol/metadata.py', '(func:7478:(get_ext_handler_pkgs:7482))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/protocol/test_metadata.py', '(func:1125:(_test_getters:1129))')", 
+            "target": "('azurelinuxagent/common/protocol/metadata.py', '(func:1716:(__init__:1720))')", 
+            "weight": 8
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/protocol/test_metadata.py', '(func:1125:(_test_getters:1129))')", 
+            "target": "('azurelinuxagent/common/protocol/metadata.py', '(func:5854:(get_certs:5858))')", 
+            "weight": 196
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/protocol/test_metadata.py', '(func:1125:(_test_getters:1129))')", 
+            "target": "('azurelinuxagent/common/protocol/metadata.py', '(func:4788:(detect:4792))')", 
+            "weight": 10
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/protocol/test_metadata.py', '(func:1125:(_test_getters:1129))')", 
+            "target": "('azurelinuxagent/common/protocol/metadata.py', '(func:7072:(get_ext_handlers:7076))')", 
+            "weight": 14
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/metadata.py', '(func:4407:(_get_trans_cert:4411))')", 
+            "target": "('azurelinuxagent/common/utils/textutil.py', '(func:6683:(get_bytes_from_pem:6687))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:22923:(update:22927))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:28010:(load_manifest:28014))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/protocol/metadata.py', '(func:5854:(get_certs:5858))')", 
+            "target": "('azurelinuxagent/common/protocol/metadata.py', '(func:4407:(_get_trans_cert:4411))')", 
+            "weight": 196
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/protocol/metadata.py', '(func:5854:(get_certs:5858))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:3151:(__init__:3155))')", 
+            "weight": 218
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/protocol/metadata.py', '(func:5854:(get_certs:5858))')", 
+            "target": "('azurelinuxagent/common/protocol/metadata.py', '(func:11021:(__init__:11025))')", 
+            "weight": 232
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/protocol/metadata.py', '(func:5854:(get_certs:5858))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:2132:(get_properties:2136))')", 
+            "weight": 196
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/protocol/metadata.py', '(func:10465:(update_goal_state:10469))')", 
+            "target": "('azurelinuxagent/common/protocol/metadata.py', '(func:10300:(update_certs:10304))')", 
+            "weight": 120
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:24111:(update_ext_conf:24115))')", 
+            "target": "('azurelinuxagent/common/protocol/wire.py', '(func:34129:(get_header:34133))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:24111:(update_ext_conf:24115))')", 
+            "target": "('azurelinuxagent/common/protocol/wire.py', '(func:42822:(__init__:42826))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:30568:(set_handler_state:30572))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:33433:(get_conf_dir:33437))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:23270:(update_shared_conf:23274))')", 
+            "target": "('azurelinuxagent/common/protocol/wire.py', '(func:34129:(get_header:34133))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:20905:(enable:20909))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:30568:(set_handler_state:30572))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:20905:(enable:20909))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:28010:(load_manifest:28014))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:21627:(install:21631))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:30568:(set_handler_state:30572))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:21627:(install:21631))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:28010:(load_manifest:28014))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/protocol/metadata.py', '(func:11021:(__init__:11025))')", 
+            "target": "('azurelinuxagent/common/protocol/metadata.py', '(func:11131:(parse:11135))')", 
+            "weight": 848
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/protocol/metadata.py', '(func:4788:(detect:4792))')", 
+            "target": "('azurelinuxagent/common/utils/cryptutil.py', '(func:1863:(get_thumbprint_from_crt:1867))')", 
+            "weight": 10
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/protocol/metadata.py', '(func:4788:(detect:4792))')", 
+            "target": "('azurelinuxagent/common/protocol/metadata.py', '(func:5677:(get_vminfo:5681))')", 
+            "weight": 10
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/protocol/metadata.py', '(func:4788:(detect:4792))')", 
+            "target": "('azurelinuxagent/common/protocol/metadata.py', '(func:10465:(update_goal_state:10469))')", 
+            "weight": 86
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/protocol/test_metadata.py', '(func:1541:(test_getters:1545))')", 
+            "target": "('tests/protocol/mockmetadata.py', '(func:1323:(__init__:1327))')", 
+            "weight": 36
+        }, 
+        {
+            "source": "('tests/protocol/test_metadata.py', '(func:1541:(test_getters:1545))')", 
+            "target": "('tests/protocol/test_metadata.py', '(func:1125:(_test_getters:1129))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:42822:(__init__:42826))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:3853:(__init__:3857))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/restapi.py', '(func:4679:(__init__:4683))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:4389:(__init__:4393))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/metadata.py', '(func:5677:(get_vminfo:5681))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:2792:(__init__:2796))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/protocol/metadata.py', '(func:7072:(get_ext_handlers:7076))')", 
+            "target": "('azurelinuxagent/common/protocol/metadata.py', '(func:4407:(_get_trans_cert:4411))')", 
+            "weight": 14
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/protocol/metadata.py', '(func:7072:(get_ext_handlers:7076))')", 
+            "target": "('azurelinuxagent/common/protocol/metadata.py', '(func:10465:(update_goal_state:10469))')", 
+            "weight": 90
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:21261:(disable:21265))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:30568:(set_handler_state:30572))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:21261:(disable:21265))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:28010:(load_manifest:28014))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/restapi.py', '(func:2132:(get_properties:2136))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:2132:(get_properties:2136))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/protocol/metadata.py', '(func:10300:(update_certs:10304))')", 
+            "target": "('azurelinuxagent/common/protocol/metadata.py', '(func:5854:(get_certs:5858))')", 
+            "weight": 236
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:28010:(load_manifest:28014))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:33622:(get_manifest_file:33626))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 33, 
+            "Profile Diff": null, 
+            "id": "('tests/protocol/mockmetadata.py', '(func:1323:(__init__:1327))')", 
+            "md5": "66ba867020f4c751169a170e673f675c", 
+            "weight": 34
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/restapi.py', '(func:2792:(__init__:2796))')", 
+            "md5": "9653d5ebae21aeba66d96c398e0e52f2", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/protocol/test_metadata.py', '(func:1541:(test_getters:1545))')", 
+            "md5": "09d4b0046b3571531f470b67d7fa815b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/utils/cryptutil.py', '(func:1863:(get_thumbprint_from_crt:1867))')", 
+            "md5": "730fb6a32e813c91e4b4b6c2d0048843", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:42822:(__init__:42826))')", 
+            "md5": "9c0d63bf0597cdcb3f7393bdd89a0aef", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/restapi.py', '(func:3853:(__init__:3857))')", 
+            "md5": "f8c14187eb3a78d114bc6268fa297b02", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:28010:(load_manifest:28014))')", 
+            "md5": "0d40ed318bbb203bbc238324959cf360", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/restapi.py', '(func:4679:(__init__:4683))')", 
+            "md5": "6b447a939cbfe619fe1ba2573efda2c5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:21261:(disable:21265))')", 
+            "md5": "83ce71f3a174604a0ca5893acc19c64a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 7, 
+            "Profile Diff": null, 
+            "id": "('azurelinuxagent/common/protocol/metadata.py', '(func:4788:(detect:4792))')", 
+            "md5": "a70c1e2f9599c0239cfb5ccd4d0327ea", 
+            "weight": 8
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:21627:(install:21631))')", 
+            "md5": "43444c16e0c2d6f900a217ffdec15313", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:33433:(get_conf_dir:33437))')", 
+            "md5": "fe8f46fe195acf0465bc4ccd0a0d2d44", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 5, 
+            "Profile Diff": null, 
+            "id": "('azurelinuxagent/common/protocol/metadata.py', '(func:1716:(__init__:1720))')", 
+            "md5": "78cfcdec5853ddee8e0751fa516b93ac", 
+            "weight": 6
+        }, 
+        {
+            "AST Diff": 404, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/metadata.py', '(func:11131:(parse:11135))')", 
+            "md5": "aab64487813f2269a0787290ecb7c819", 
+            "weight": 810
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/restapi.py', '(func:2132:(get_properties:2136))')", 
+            "md5": "7e5aec61a8a317cc107cb82dca1047dc", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:33622:(get_manifest_file:33626))')", 
+            "md5": "72256f8554ab3ad0ecc9b428c1e16198", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:44388:(parse_plugin:44392))')", 
+            "md5": "056623b8dee2d10447ec0c573d7b57c5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:34129:(get_header:34133))')", 
+            "md5": "133da56984b2787482d1c2a02935c5d3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/metadata.py', '(func:5677:(get_vminfo:5681))')", 
+            "md5": "49d1830688be275b8d780d986c93aca3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 38, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/metadata.py', '(func:10465:(update_goal_state:10469))')", 
+            "md5": "99c12596da3f41c75425fc8ae6c83a27", 
+            "weight": 78
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:30568:(set_handler_state:30572))')", 
+            "md5": "9601c71fb7494f287273d63f14933c11", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:24111:(update_ext_conf:24115))')", 
+            "md5": "e5e5b51df9aed5b118964717e524a884", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 5, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/metadata.py', '(func:7072:(get_ext_handlers:7076))')", 
+            "md5": "f8a917af8351b51ada1704d1432dc857", 
+            "weight": 12
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:23270:(update_shared_conf:23274))')", 
+            "md5": "bb5e0be1fd14cb5996a5eb7e94acd1a8", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/protocol/test_metadata.py', '(func:1125:(_test_getters:1129))')", 
+            "md5": "6d8f7ab6cde2a92b335d2a8c4e35f639", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/metadata.py', '(func:4407:(_get_trans_cert:4411))')", 
+            "md5": "1a06d222789714c5ca620ec864a43a95", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:22923:(update:22927))')", 
+            "md5": "689f80c07a2c760a24eee5e41995fb03", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/restapi.py', '(func:4389:(__init__:4393))')", 
+            "md5": "e08683376e5e302d0e2415002a271ff5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/metadata.py', '(func:7478:(get_ext_handler_pkgs:7482))')", 
+            "md5": "d85b704d36b0c1e2b9c7f0fd789a9eec", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 11, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/restapi.py', '(func:3151:(__init__:3155))')", 
+            "md5": "676be8e94bb5e17e22ac3c053edfc19a", 
+            "weight": 24
+        }, 
+        {
+            "AST Diff": 20, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/metadata.py', '(func:10300:(update_certs:10304))')", 
+            "md5": "e6b25facb7910793625e788f918decab", 
+            "weight": 42
+        }, 
+        {
+            "AST Diff": 18, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/metadata.py', '(func:11021:(__init__:11025))')", 
+            "md5": "17d984a5ddbe43dedf6117f294af3261", 
+            "weight": 38
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:20905:(enable:20909))')", 
+            "md5": "6e0d73e2ff7d887f970c8b313cc6e8f5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 96, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/metadata.py', '(func:5854:(get_certs:5858))')", 
+            "md5": "33a17c053c2b3f3bcadce07ee1c48780", 
+            "weight": 194
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/utils/textutil.py', '(func:6683:(get_bytes_from_pem:6687))')", 
+            "md5": "5e09592994f10da143be99e97ca6fd3f", 
+            "weight": 2
+        }
+    ]
+}

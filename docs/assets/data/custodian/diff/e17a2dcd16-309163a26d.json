@@ -1,0 +1,78 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "target": "('custodian/custodian.py', '(func:9746:(process_params:9750))')", 
+            "weight": 318
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "target": "('custodian/custodian.py', '<dictcomp>')", 
+            "weight": 130
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "target": "('custodian/custodian.py', '(func:9585:(load_class:9589))')", 
+            "weight": 130
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "target": "('custodian/vasp/validators.py', '(func:272:(__init__:276))')", 
+            "weight": 130
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/tests/test_custodian.py', '(func:3806:(test_from_spec:3810))')", 
+            "target": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "weight": 164
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 94, 
+            "Profile Diff": false, 
+            "id": "('custodian/custodian.py', '(func:9746:(process_params:9750))')", 
+            "md5": "58af5e2662399bbca5ec5a0ec401ce4c", 
+            "weight": 190
+        }, 
+        {
+            "AST Diff": 35, 
+            "Profile Diff": null, 
+            "id": "('custodian/tests/test_custodian.py', '(func:3806:(test_from_spec:3810))')", 
+            "md5": "b3de9a1e13e984b3041e55ec0bbe60f9", 
+            "weight": 36
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/custodian.py', '<dictcomp>')", 
+            "md5": "cd3164a6d2d33d2b2e85ba94919355e9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('custodian/custodian.py', '(func:9585:(load_class:9589))')", 
+            "md5": "b50bac3c00eb19e9d96c7a63f76d1466", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/validators.py', '(func:272:(__init__:276))')", 
+            "md5": "50f4d716db5e80aafeb737c7dceb399e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 63, 
+            "Profile Diff": false, 
+            "id": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "md5": "80418ba3edafbffbef1fc8769d89ab12", 
+            "weight": 128
+        }
+    ]
+}

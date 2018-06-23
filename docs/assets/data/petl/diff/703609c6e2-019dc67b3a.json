@@ -1,0 +1,66 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_selects.py', '(func:4757:(test_selectcontains:4761))')", 
+            "target": "('petl/transform/selects.py', '(func:6450:(selectcontains:6454))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_reshape.py', '(func:12193:(test_unflatten_2:12197))')", 
+            "target": "('petl/transform/reshape.py', '(func:19363:(unflatten:19367))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/transform/sorts.py', '(func:14389:(itermergesort:14393))')", 
+            "target": "('petl/transform/sorts.py', '(func:4256:(_shortlistmergesorted:4260))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/sorts.py', '(func:4256:(_shortlistmergesorted:4260))')", 
+            "md5": "1ba9e9e393640c07f1b1ec97efe9ccf6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/sorts.py', '(func:14389:(itermergesort:14393))')", 
+            "md5": "02afe7a1183f12a2b44f40347a17768e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/reshape.py', '(func:19363:(unflatten:19367))')", 
+            "md5": "9e7589eccf90d4cd46677717837009bd", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/selects.py', '(func:6450:(selectcontains:6454))')", 
+            "md5": "c660cc6881255b13568d728d0ae16576", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/test/transform/test_selects.py', '(func:4757:(test_selectcontains:4761))')", 
+            "md5": "32cd1f7e1d93b1b31fdaae7988bb939c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/test/transform/test_reshape.py', '(func:12193:(test_unflatten_2:12197))')", 
+            "md5": "dbc74d68b299611e9d978c25342a7ce2", 
+            "weight": 2
+        }
+    ]
+}

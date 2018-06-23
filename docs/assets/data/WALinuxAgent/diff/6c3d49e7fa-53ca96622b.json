@@ -1,0 +1,46 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:18726:(download:18730))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:29793:(create_handler_env:29797))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:4692:(__init__:4696))')", 
+            "target": "('azurelinuxagent/common/protocol/util.py', '(func:1774:(get_protocol_util:1778))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:18726:(download:18730))')", 
+            "md5": "7cc2265958800443ec32fbc979cbc168", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:29793:(create_handler_env:29797))')", 
+            "md5": "28b5610f6b8f55df7ba7ae607f10b74b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/util.py', '(func:1774:(get_protocol_util:1778))')", 
+            "md5": "3ec2eba36945792673fa6240953828b0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:4692:(__init__:4696))')", 
+            "md5": "1fcdd261d0909a57c0dd54546538df41", 
+            "weight": 2
+        }
+    ]
+}

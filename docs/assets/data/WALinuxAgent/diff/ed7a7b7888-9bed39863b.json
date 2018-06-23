@@ -1,0 +1,161 @@
+{
+    "edges": [
+        {
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:22811:(update_hosting_env:22815))')", 
+            "target": "('azurelinuxagent/common/protocol/wire.py', '(func:20941:(save_cache:20945))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/utils/cryptutil.py', '(func:2220:(decrypt_p7m:2224))')", 
+            "target": "('azurelinuxagent/common/utils/shellutil.py', '(func:2017:(run:2021))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:24111:(update_ext_conf:24115))')", 
+            "target": "('azurelinuxagent/common/protocol/wire.py', '(func:20941:(save_cache:20945))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/common/test_version.py', '(func:2942:(test_get_f5_platform_bigip_12_1_0_hf1:2946))')", 
+            "target": "('tests/tools.py', '(func:2836:(open_patch:2840))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/common/test_version.py', '(func:2942:(test_get_f5_platform_bigip_12_1_0_hf1:2946))')", 
+            "target": "('azurelinuxagent/common/version.py', '(func:4947:(get_f5_platform:4951))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:23719:(update_certs:23723))')", 
+            "target": "('azurelinuxagent/common/protocol/wire.py', '(func:20941:(save_cache:20945))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/distro/test_resourceDisk.py', '(func:2203:(test_mkfile_xfs_fs:2207))')", 
+            "target": "('azurelinuxagent/daemon/resourcedisk/default.py', '(func:6954:(mkfile:6958))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/common/osutil/test_bigip.py', '(func:8662:(ault:8893))')", 
+            "target": "('azurelinuxagent/common/osutil/bigip.py', '(func:8876:(mount_dvd:8880))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/daemon/main.py', '(func:1950:(get_daemon_handler:1954))')", 
+            "target": "('azurelinuxagent/daemon/main.py', '(func:2127:(__init__:2131))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/daemon/resourcedisk/default.py', '(func:6954:(mkfile:6958))')", 
+            "target": "('azurelinuxagent/common/utils/shellutil.py', '(func:2017:(run:2021))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/distro/test_resourceDisk.py', '(func:2203:(test_mkfile_xfs_fs:2207))')", 
+            "md5": "f00e73a6469e496a2ac9162df4134a62", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/utils/shellutil.py', '(func:2017:(run:2021))')", 
+            "md5": "4cae2e7fa2bada67868823e6415f5d2a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:20941:(save_cache:20945))')", 
+            "md5": "f23aa11552eba5bbdcc43d7afa01630d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/common/test_version.py', '(func:2942:(test_get_f5_platform_bigip_12_1_0_hf1:2946))')", 
+            "md5": "1cad8ac43aa4e0fa2380bfba0c0a4402", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:22811:(update_hosting_env:22815))')", 
+            "md5": "3f4022c51bfc7245b7dd25846091fe57", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/osutil/bigip.py', '(func:8876:(mount_dvd:8880))')", 
+            "md5": "61d6c70f43283733fd741848b08356a6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:23719:(update_certs:23723))')", 
+            "md5": "41b13dc7408e3ae8aed98570514b674a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/utils/cryptutil.py', '(func:2220:(decrypt_p7m:2224))')", 
+            "md5": "2ac993948772176fd0919e0a04ccf677", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/daemon/resourcedisk/default.py', '(func:6954:(mkfile:6958))')", 
+            "md5": "54d8dde9ce41769db86a5fc2e7a2de8e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/daemon/main.py', '(func:2127:(__init__:2131))')", 
+            "md5": "7379e5bb8cdeea03e686e80f4dd8eff2", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/common/osutil/test_bigip.py', '(func:8662:(ault:8893))')", 
+            "md5": "3eb668af2c3266d94426c177b0b2d483", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/daemon/main.py', '(func:1950:(get_daemon_handler:1954))')", 
+            "md5": "c7e17f4c1bd36e321928daaaea44d6bc", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/version.py', '(func:4947:(get_f5_platform:4951))')", 
+            "md5": "72906cb0ca1c5e2841328dab1c4e0273", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/tools.py', '(func:2836:(open_patch:2840))')", 
+            "md5": "d873960171160e5c887759e9012f1b0a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:24111:(update_ext_conf:24115))')", 
+            "md5": "e5e5b51df9aed5b118964717e524a884", 
+            "weight": 2
+        }
+    ]
+}

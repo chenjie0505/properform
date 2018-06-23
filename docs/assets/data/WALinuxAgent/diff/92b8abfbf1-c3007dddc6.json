@@ -1,0 +1,159 @@
+{
+    "edges": [
+        {
+            "source": "('azurelinuxagent/daemon/scvmm.py', '(func:1095:(detect_scvmm_env:1099))')", 
+            "target": "('azurelinuxagent/common/osutil/default.py', '(func:11349:(mount_dvd:11353))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/daemon/scvmm.py', '(func:1095:(detect_scvmm_env:1099))')", 
+            "target": "('azurelinuxagent/common/osutil/default.py', '(func:12492:(umount_dvd:12496))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/utils/cryptutil.py', '(func:2220:(decrypt_p7m:2224))')", 
+            "target": "('azurelinuxagent/common/utils/shellutil.py', '(func:2017:(run:2021))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/daemon/test_daemon.py', '(func:1201:(test_daemon_restart:1205))')", 
+            "target": "('azurelinuxagent/daemon/main.py', '(func:2215:(run:2219))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/osutil/default.py', '(func:11349:(mount_dvd:11353))')", 
+            "target": "('azurelinuxagent/common/osutil/default.py', '(func:27829:(get_mount_point:27833))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/distro/test_scvmm.py', '(func:1042:(test_scvmm_detection_with_file:1046))')", 
+            "target": "('azurelinuxagent/daemon/scvmm.py', '(func:2622:(run:2626))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/daemon/main.py', '(func:2215:(run:2219))')", 
+            "target": "('azurelinuxagent/common/event.py', '(func:3613:(add_event:3617))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/distro/test_scvmm.py', '(func:2725:(test_scvmm_detection_without_file:2729))')", 
+            "target": "('azurelinuxagent/daemon/scvmm.py', '(func:1095:(detect_scvmm_env:1099))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/osutil/default.py', '(func:13223:(load_atapiix_mod:13227))')", 
+            "target": "('azurelinuxagent/common/osutil/default.py', '(func:14034:(is_atapiix_mod_loaded:14038))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/osutil/default.py', '(func:14034:(is_atapiix_mod_loaded:14038))')", 
+            "target": "('azurelinuxagent/common/utils/shellutil.py', '(func:2017:(run:2021))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/daemon/scvmm.py', '(func:2622:(run:2626))')", 
+            "target": "('azurelinuxagent/daemon/scvmm.py', '(func:1095:(detect_scvmm_env:1099))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/daemon/scvmm.py', '(func:1095:(detect_scvmm_env:1099))')", 
+            "md5": "2d623b675031017f5e7ad575a9586e78", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/osutil/default.py', '(func:27829:(get_mount_point:27833))')", 
+            "md5": "64aeeb0f88ae142a04e7f1b2a6c1f77f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/utils/shellutil.py', '(func:2017:(run:2021))')", 
+            "md5": "4cae2e7fa2bada67868823e6415f5d2a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/daemon/main.py', '(func:2215:(run:2219))')", 
+            "md5": "fa905985f1dfcfe7e0147604ae31f89c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/osutil/default.py', '(func:11349:(mount_dvd:11353))')", 
+            "md5": "5ed4c55cbe28975648b8c52df948ed9d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/distro/test_scvmm.py', '(func:1042:(test_scvmm_detection_with_file:1046))')", 
+            "md5": "3b438cc9b2b6c9d3a140bbd7776ee7bc", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/daemon/test_daemon.py', '(func:1201:(test_daemon_restart:1205))')", 
+            "md5": "a8b37cdee180e63dd0ddc0eaa7cc9148", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/event.py', '(func:3613:(add_event:3617))')", 
+            "md5": "2c005f302e0e12ae7750b2a5709ba2d5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/osutil/default.py', '(func:12492:(umount_dvd:12496))')", 
+            "md5": "92ae8979033c26281105e5e17e9ff3c3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/osutil/default.py', '(func:13223:(load_atapiix_mod:13227))')", 
+            "md5": "884e946a981f9474f0cbffafe40b6fa7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/utils/cryptutil.py', '(func:2220:(decrypt_p7m:2224))')", 
+            "md5": "2ac993948772176fd0919e0a04ccf677", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/daemon/scvmm.py', '(func:2622:(run:2626))')", 
+            "md5": "2e042fee06634360c24579400b1266ea", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/distro/test_scvmm.py', '(func:2725:(test_scvmm_detection_without_file:2729))')", 
+            "md5": "444832d0e42635da97d4d0a0dfdb52ce", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/osutil/default.py', '(func:14034:(is_atapiix_mod_loaded:14038))')", 
+            "md5": "a3932f2e492f2991cf585aa19d75dcae", 
+            "weight": 2
+        }
+    ]
+}

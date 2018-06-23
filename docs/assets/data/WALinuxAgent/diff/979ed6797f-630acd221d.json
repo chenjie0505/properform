@@ -1,0 +1,221 @@
+{
+    "edges": [
+        {
+            "source": "('tests/ga/test_extension.py', '(func:5216:(test_migration_ignores_tree_remove_errors:5271))')", 
+            "target": "('tests/ga/test_extension.py', '(func:2005:(_prepare_handler_state:2009))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:35976:(__init__:35980))')", 
+            "target": "('azurelinuxagent/common/protocol/wire.py', '(func:36480:(parse:36484))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:7201:(handle_enable:7205))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:18726:(download:18730))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:7201:(handle_enable:7205))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:30568:(set_handler_state:30572))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:7201:(handle_enable:7205))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:21261:(disable:21265))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:18726:(download:18730))')", 
+            "target": "('azurelinuxagent/common/utils/fileutil.py', '(func:1120:(read_file:1124))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/pa/deprovision/default.py', '(func:3822:(setup:3826))')", 
+            "target": "('azurelinuxagent/pa/deprovision/default.py', '(func:2924:(del_dhcp_lease:2928))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_extension.py', '(func:2863:(test_migration_migrates:2867))')", 
+            "target": "('tests/ga/test_extension.py', '(func:2005:(_prepare_handler_state:2009))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:20214:(fetch_config:20218))')", 
+            "target": "('azurelinuxagent/common/protocol/wire.py', '(func:20025:(decode_config:20029))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:20214:(fetch_config:20218))')", 
+            "target": "('azurelinuxagent/common/protocol/wire.py', '(func:19145:(call_wireserver:19149))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/update.py', '(func:17024:(_is_orphaned:17042))')", 
+            "target": "('azurelinuxagent/common/utils/fileutil.py', '(func:1120:(read_file:1124))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/utils/test_file_util.py', '(func:1956:(test_append_file:1960))')", 
+            "target": "('azurelinuxagent/common/utils/fileutil.py', '(func:1120:(read_file:1124))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:21849:(fetch_manifest:21853))')", 
+            "target": "('azurelinuxagent/common/protocol/wire.py', '(func:20025:(decode_config:20029))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:21261:(disable:21265))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:30568:(set_handler_state:30572))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:39056:(parse:39060))')", 
+            "target": "('azurelinuxagent/common/protocol/wire.py', '(func:20941:(save_cache:20945))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:21261:(disable:21265))')", 
+            "md5": "83ce71f3a174604a0ca5893acc19c64a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:18726:(download:18730))')", 
+            "md5": "7cc2265958800443ec32fbc979cbc168", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/pa/deprovision/default.py', '(func:3822:(setup:3826))')", 
+            "md5": "41fe14ca67202f8f3b44871cc227585f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_extension.py', '(func:2005:(_prepare_handler_state:2009))')", 
+            "md5": "4a087f0fc139363081fdf7176ca3d82e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/utils/fileutil.py', '(func:1120:(read_file:1124))')", 
+            "md5": "6498a0d677320db71a182511d48936ad", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:20025:(decode_config:20029))')", 
+            "md5": "6e2561a20ecabc27a87b3c56cfc1708e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/utils/test_file_util.py', '(func:1956:(test_append_file:1960))')", 
+            "md5": "76eb8ec8de08b6f3569429020adf1b68", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:39056:(parse:39060))')", 
+            "md5": "da9d2b3ef0517b0c947f073bf4af7a90", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:7201:(handle_enable:7205))')", 
+            "md5": "3a779899ece60cc8e20accc5fa1f7cbd", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_extension.py', '(func:2863:(test_migration_migrates:2867))')", 
+            "md5": "4f38392d3ad27ade3a041c110d7c20bc", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:30568:(set_handler_state:30572))')", 
+            "md5": "9601c71fb7494f287273d63f14933c11", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:21849:(fetch_manifest:21853))')", 
+            "md5": "7caf37673c5debdf524823df44143365", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:19145:(call_wireserver:19149))')", 
+            "md5": "d31ba86d19cb13cf0f9787647a194f09", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/update.py', '(func:17024:(_is_orphaned:17042))')", 
+            "md5": "a721b0241dc0d17bca3bdab946731277", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:35976:(__init__:35980))')", 
+            "md5": "0986e14190ecc32eb92bd8e4e33a335b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:20214:(fetch_config:20218))')", 
+            "md5": "ed508c2bfdaf21aaae554f50fa556a2c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_extension.py', '(func:5216:(test_migration_ignores_tree_remove_errors:5271))')", 
+            "md5": "614d852f0d492f0d49e41cfe0820b363", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:20941:(save_cache:20945))')", 
+            "md5": "f23aa11552eba5bbdcc43d7afa01630d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/pa/deprovision/default.py', '(func:2924:(del_dhcp_lease:2928))')", 
+            "md5": "9a5ecf2e3889667f42c883174e239955", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:36480:(parse:36484))')", 
+            "md5": "59d9ac1703bbaa99916e31741758fb27", 
+            "weight": 2
+        }
+    ]
+}

@@ -1,0 +1,147 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:8247:(test_posmap:8251))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:4201:(correct:4205))')", 
+            "weight": 97
+        }, 
+        {
+            "source": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "target": "('custodian/custodian.py', '(func:2568:(__init__:2572))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/tests/test_custodian.py', '(func:2507:(test_unrecoverable:2511))')", 
+            "target": "('custodian/custodian.py', '(func:7480:(run:7484))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/tests/test_custodian.py', '(func:2507:(test_unrecoverable:2511))')", 
+            "target": "('custodian/custodian.py', '(func:2568:(__init__:2572))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/tests/test_custodian.py', '(func:2507:(test_unrecoverable:2511))')", 
+            "target": "('custodian/tests/test_custodian.py', '(func:463:(__init__:467))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/custodian.py', '(func:16534:(run_interrupted:16538))')", 
+            "target": "('custodian/tests/test_custodian.py', '(func:586:(setup:590))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/tests/test_custodian.py', '(func:2543:(test_run_interrupted:2547))')", 
+            "target": "('custodian/tests/test_custodian.py', '(func:676:(run:680))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/tests/test_custodian.py', '(func:2543:(test_run_interrupted:2547))')", 
+            "target": "('custodian/custodian.py', '(func:16534:(run_interrupted:16538))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/tests/test_custodian.py', '(func:2543:(test_run_interrupted:2547))')", 
+            "target": "('custodian/custodian.py', '(func:2568:(__init__:2572))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/tests/test_custodian.py', '(func:2543:(test_run_interrupted:2547))')", 
+            "target": "('custodian/tests/test_custodian.py', '(func:463:(__init__:467))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:1597:(test_subspace:1601))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:4201:(correct:4205))')", 
+            "weight": 279
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/custodian.py', '(func:7480:(run:7484))')", 
+            "md5": "c055bc781fc9a36c468cc1a87fb8140f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:8247:(test_posmap:8251))')", 
+            "md5": "acfee7e257cb8259c169ad25a144e696", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/tests/test_custodian.py', '(func:676:(run:680))')", 
+            "md5": "3775eba2332cae72ce12201d4f84b39e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 91, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:1597:(test_subspace:1601))')", 
+            "md5": "0156190577dabf68c6069591bdd9dbfc", 
+            "weight": 184
+        }, 
+        {
+            "AST Diff": 94, 
+            "Profile Diff": null, 
+            "id": "('custodian/vasp/handlers.py', '(func:4201:(correct:4205))')", 
+            "md5": "81ad84a6bc6a8e66ac3d10dcd7ffdc5d", 
+            "weight": 95
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/tests/test_custodian.py', '(func:2543:(test_run_interrupted:2547))')", 
+            "md5": "b4ebffd7e26315451c0fa938d53fbd91", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/tests/test_custodian.py', '(func:2507:(test_unrecoverable:2511))')", 
+            "md5": "7daa0fab0f07ebe1b3db2fdd8ef05958", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/tests/test_custodian.py', '(func:586:(setup:590))')", 
+            "md5": "cd16bb3f61474cf84e013685d7417e4f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/custodian.py', '(func:16534:(run_interrupted:16538))')", 
+            "md5": "a8a3146f44ddd350a9da0458c4250f87", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "md5": "80418ba3edafbffbef1fc8769d89ab12", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/custodian.py', '(func:2568:(__init__:2572))')", 
+            "md5": "820575a381bbaeef088232b465ed2fd7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/tests/test_custodian.py', '(func:463:(__init__:467))')", 
+            "md5": "a2cfb0ff68b8f6ef2a20453d87a9d8fa", 
+            "weight": 2
+        }
+    ]
+}

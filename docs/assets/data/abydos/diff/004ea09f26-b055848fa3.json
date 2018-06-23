@@ -1,0 +1,112 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_stemmer.py', '(func:23562:(test_clef_german:23566))')", 
+            "target": "('abydos/stemmer.py', '(func:36160:(clef_german:36164))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/stats.py', '(func:6243:(precision_gain:6247))')", 
+            "target": "('abydos/stats.py', '(func:5339:(cond_pos_pop:5343))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/stats.py', '(func:3277:(__eq__:3281))')", 
+            "target": "('abydos/stats.py', '(func:5759:(true_pos:5763))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/stats.py', '(func:3277:(__eq__:3281))')", 
+            "target": "('abydos/stats.py', '(func:6266:(false_neg:6270))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_stats.py', '(func:15848:(test_pr_cmean:15852))')", 
+            "target": "('abydos/stats.py', '(func:12000:(pr_cmean:12004))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_stats.py', '(func:7072:(test_cond_pos_pop:7076))')", 
+            "target": "('abydos/stats.py', '(func:5339:(cond_pos_pop:5343))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/stats.py', '(func:6243:(precision_gain:6247))')", 
+            "md5": "fbf8ca91205c986081451f3b1e31dc7a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/stats.py', '(func:3277:(__eq__:3281))')", 
+            "md5": "dbb4c746d38a8d0d90f87e7188ff8d67", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/test_stats.py', '(func:15848:(test_pr_cmean:15852))')", 
+            "md5": "f8bfdcd673b5f69bee39fb64392e1ed4", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/stats.py', '(func:5339:(cond_pos_pop:5343))')", 
+            "md5": "81543ac48245e2576bd7ac8f7f79dec8", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/stats.py', '(func:6266:(false_neg:6270))')", 
+            "md5": "a696c578ebac5a8f7fdb8d37ddb750c9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/stats.py', '(func:5759:(true_pos:5763))')", 
+            "md5": "60a44366a87f09784ca58f3af8770f34", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/test_stats.py', '(func:7072:(test_cond_pos_pop:7076))')", 
+            "md5": "72716e544967cfeeed824a8c4729d3ed", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/stats.py', '(func:12000:(pr_cmean:12004))')", 
+            "md5": "43cc667b4f709f8a319e14146657e69a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/test_stemmer.py', '(func:23562:(test_clef_german:23566))')", 
+            "md5": "555eb5cb2ee19200053ff269f253a003", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/stemmer.py', '(func:36160:(clef_german:36164))')", 
+            "md5": "6086615f9e009ff72850947c60e46561", 
+            "weight": 2
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/ga/test_extension.py', '(func:6943:(test_ext_handler_io_error:7001))')", 
+            "target": "('tests/ga/test_extension.py', '(func:2043:(_create_mock:2047))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/ga/test_extension.py', '(func:2043:(_create_mock:2047))')", 
+            "target": "('azurelinuxagent/common/protocol/wire.py', '(func:3114:(detect:3118))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_extension.py', '(func:2043:(_create_mock:2047))')", 
+            "md5": "09b29eed0c60eb909db137076b71f98d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_extension.py', '(func:6943:(test_ext_handler_io_error:7001))')", 
+            "md5": "51bb738b940b573ef38dce7c166f7e94", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:3114:(detect:3118))')", 
+            "md5": "87d966f0a0dcd4f10a96842c6b7cd9cf", 
+            "weight": 2
+        }
+    ]
+}

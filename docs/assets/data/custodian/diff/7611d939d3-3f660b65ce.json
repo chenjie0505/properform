@@ -1,0 +1,59 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/tests/test_custodian.py', '(func:2128:(test_run:2132))')", 
+            "target": "('custodian/tests/test_custodian.py', '(func:463:(__init__:467))')", 
+            "weight": 45
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/tests/test_custodian.py', '(func:3806:(test_from_spec:3810))')", 
+            "target": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "weight": 6
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/tests/test_custodian.py', '(func:2543:(test_run_interrupted:2547))')", 
+            "target": "('custodian/tests/test_custodian.py', '(func:463:(__init__:467))')", 
+            "weight": 64
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "md5": "80418ba3edafbffbef1fc8769d89ab12", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 6, 
+            "Profile Diff": null, 
+            "id": "('custodian/tests/test_custodian.py', '(func:2128:(test_run:2132))')", 
+            "md5": "2b362ae41cd7b0a818e8e683e52f61dc", 
+            "weight": 7
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": true, 
+            "id": "('custodian/tests/test_custodian.py', '(func:3806:(test_from_spec:3810))')", 
+            "md5": "b3de9a1e13e984b3041e55ec0bbe60f9", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 18, 
+            "Profile Diff": false, 
+            "id": "('custodian/tests/test_custodian.py', '(func:463:(__init__:467))')", 
+            "md5": "a2cfb0ff68b8f6ef2a20453d87a9d8fa", 
+            "weight": 38
+        }, 
+        {
+            "AST Diff": 12, 
+            "Profile Diff": true, 
+            "id": "('custodian/tests/test_custodian.py', '(func:2543:(test_run_interrupted:2547))')", 
+            "md5": "b4ebffd7e26315451c0fa938d53fbd91", 
+            "weight": 26
+        }
+    ]
+}

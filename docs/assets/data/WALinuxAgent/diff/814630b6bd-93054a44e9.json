@@ -1,0 +1,161 @@
+{
+    "edges": [
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:10299:(report_ext_handler_status:10303))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:32528:(get_handler_status:32532))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:21915:(uninstall:21919))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:18411:(set_operation:18415))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_update.py', '(func:45222:(test_run_emits_restart_event:45226))')", 
+            "target": "('tests/ga/test_update.py', '(func:36509:(_test_run:36513))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/restapi.py', '(func:1251:(set_properties:1255))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:1251:(set_properties:1255))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/logger.py', '(func:2265:(add_appender:2269))')", 
+            "target": "('azurelinuxagent/common/logger.py', '(func:4201:(_create_logger_appender:4205))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/distro/test_scvmm.py', '(func:1971:(test_scvmm_detection_with_multiple_cdroms:1975))')", 
+            "target": "('azurelinuxagent/daemon/scvmm.py', '(func:1095:(detect_scvmm_env:1099))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:32528:(get_handler_status:32532))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:1251:(set_properties:1255))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/pa/provision/default.py', '(func:1487:(run:1491))')", 
+            "target": "('azurelinuxagent/pa/provision/default.py', '(func:3653:(provision:3657))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/pa/provision/default.py', '(func:1487:(run:1491))')", 
+            "target": "('azurelinuxagent/common/conf.py', '(func:3896:(get_provision_enabled:3900))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_update.py', '(func:36509:(_test_run:36513))')", 
+            "target": "('azurelinuxagent/ga/update.py', '(func:7023:(run:7027))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/daemon/scvmm.py', '(func:1095:(detect_scvmm_env:1099))')", 
+            "md5": "2d623b675031017f5e7ad575a9586e78", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/restapi.py', '(func:1251:(set_properties:1255))')", 
+            "md5": "1d309dec7330666611c8747b584248d2", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/conf.py', '(func:3896:(get_provision_enabled:3900))')", 
+            "md5": "39e9d3b063d8e9ab41ab32bbf721f7e7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:10299:(report_ext_handler_status:10303))')", 
+            "md5": "9adf8989e6f679c079d3d79ebee72b91", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_update.py', '(func:36509:(_test_run:36513))')", 
+            "md5": "4cb79ab2cb8db99bd844e9d50fc1c8f4", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/logger.py', '(func:2265:(add_appender:2269))')", 
+            "md5": "4bcf233cde7044bdbca77b617a6bba50", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/update.py', '(func:7023:(run:7027))')", 
+            "md5": "3ce1d1a5f4350a7c6466ce4c527a41ad", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:32528:(get_handler_status:32532))')", 
+            "md5": "24dd0108604dbf27c22c04d2651335f3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:21915:(uninstall:21919))')", 
+            "md5": "73da119888f1ef7da9edd03d97a1054f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:18411:(set_operation:18415))')", 
+            "md5": "78b77c6b62aa0cefbcc11d8e36fab751", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_update.py', '(func:45222:(test_run_emits_restart_event:45226))')", 
+            "md5": "0ac6d785cc75443accb8bcd9395188c7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/pa/provision/default.py', '(func:3653:(provision:3657))')", 
+            "md5": "2d599974bb41b554e278a19cf0516da1", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/distro/test_scvmm.py', '(func:1971:(test_scvmm_detection_with_multiple_cdroms:1975))')", 
+            "md5": "ff4eb5881034ba00ca1fb10c7fd1f45e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/pa/provision/default.py', '(func:1487:(run:1491))')", 
+            "md5": "ae8b9e3a8d91c140fa8b43cb86aedbea", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/logger.py', '(func:4201:(_create_logger_appender:4205))')", 
+            "md5": "8b8140ef07b866cb75ccf301c1c17ee1", 
+            "weight": 2
+        }
+    ]
+}

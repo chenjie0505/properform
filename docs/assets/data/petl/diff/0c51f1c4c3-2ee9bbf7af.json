@@ -1,0 +1,180 @@
+{
+    "edges": [
+        {
+            "source": "('petl/util/counting.py', '(func:4550:(parsecounter:4554))')", 
+            "target": "('petl/util/base.py', '(func:6470:(itervalues:6474))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/transform/reshape.py', '(func:17749:(iterpivot:17753))')", 
+            "target": "('petl/util/base.py', '(func:6470:(itervalues:6474))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/util/test_base.py', '(func:2143:(test_records_unevenrows:2147))')", 
+            "target": "('petl/util/base.py', '(func:16409:(iterrecords:16413))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/transform/selects.py', '(func:3911:(iterrowselect:3915))')", 
+            "target": "('petl/test/transform/test_selects.py', '(func:1967:(lambda:1967))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/transform/selects.py', '(func:3911:(iterrowselect:3915))')", 
+            "target": "('petl/test/transform/test_selects.py', '(func:1406:(lambda:1406))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/transform/selects.py', '(func:3911:(iterrowselect:3915))')", 
+            "target": "('petl/test/transform/test_selects.py', '(func:2488:(lambda:2488))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/transform/test_reshape.py', '(func:9985:(test_transpose_empty:9989))')", 
+            "target": "('petl/transform/reshape.py', '(func:13731:(transpose:13735))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/transform/selects.py', '(func:3526:(iterfieldselect:3530))')", 
+            "target": "('petl/transform/selects.py', '(func:4671:(lambda:4671))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/transform/selects.py', '(func:3526:(iterfieldselect:3530))')", 
+            "target": "('petl/io/pickle.py', '(func:3937:(__iter__:3941))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/util/test_base.py', '(func:1725:(test_records:1729))')", 
+            "target": "('petl/util/base.py', '(func:16409:(iterrecords:16413))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/transform/test_joins.py', '(func:23556:(test_crossjoin:23560))')", 
+            "target": "('petl/transform/joins.py', '(func:16319:(crossjoin:16323))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/reshape.py', '(func:13731:(transpose:13735))')", 
+            "md5": "df8ac11d9c73ab6845d2802ecf5edd87", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_selects.py', '(func:1967:(lambda:1967))')", 
+            "md5": "6dc6558c2cfe217ad7c5a99eff9b86dd", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/util/base.py', '(func:16409:(iterrecords:16413))')", 
+            "md5": "e3772fe67bd1a07dbe3b54b9cb02c395", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/reshape.py', '(func:17749:(iterpivot:17753))')", 
+            "md5": "433500fa27aeeafce78fba15e6928c5b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/util/test_base.py', '(func:2143:(test_records_unevenrows:2147))')", 
+            "md5": "81702c83a8ecc9a6dbf32609141d8f49", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/selects.py', '(func:4671:(lambda:4671))')", 
+            "md5": "b7a5c5288cf2f7a7640f9d32087628a6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_selects.py', '(func:1406:(lambda:1406))')", 
+            "md5": "de18b059dcb14cf73ad497c24d2c7ce8", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/util/counting.py', '(func:4550:(parsecounter:4554))')", 
+            "md5": "4ed3fc0e98bd02003fdfdb525e5a3851", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/io/pickle.py', '(func:3937:(__iter__:3941))')", 
+            "md5": "dc181706912a8e9b758aa4b056e6eadf", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/util/test_base.py', '(func:1725:(test_records:1729))')", 
+            "md5": "f5b76e8f4d995cd36108116ba479b47c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/selects.py', '(func:3911:(iterrowselect:3915))')", 
+            "md5": "36c9ce0d0ed28f109026f2dd342b2e3a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/joins.py', '(func:16319:(crossjoin:16323))')", 
+            "md5": "15b77ed20ce5507d4117db100d6478d5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_joins.py', '(func:23556:(test_crossjoin:23560))')", 
+            "md5": "ca3df8e79bd203ee10bf5996c3940498", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_reshape.py', '(func:9985:(test_transpose_empty:9989))')", 
+            "md5": "11e1816e24f41a9b30adad59b49389ff", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/selects.py', '(func:3526:(iterfieldselect:3530))')", 
+            "md5": "663f39b98fa3e7ef34994d1357591fe8", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/util/base.py', '(func:6470:(itervalues:6474))')", 
+            "md5": "6620e15209d3f0562792157801c21644", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_selects.py', '(func:2488:(lambda:2488))')", 
+            "md5": "20257399fc990ba539651699967d779b", 
+            "weight": 2
+        }
+    ]
+}

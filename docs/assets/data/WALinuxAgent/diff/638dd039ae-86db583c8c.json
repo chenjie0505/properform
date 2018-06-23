@@ -1,0 +1,253 @@
+{
+    "edges": [
+        {
+            "source": "('tests/ga/test_extension.py', '(func:6943:(test_ext_handler_io_error:7001))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:4861:(run:4865))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_update.py', '(func:7736:(test_save:7740))')", 
+            "target": "('tests/ga/test_update.py', '(func:3679:(create_error:3683))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:23270:(update_shared_conf:23274))')", 
+            "target": "('azurelinuxagent/common/protocol/wire.py', '(func:20941:(save_cache:20945))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_update.py', '(func:3679:(create_error:3683))')", 
+            "target": "('tests/ga/test_update.py', '(func:3465:(get_error_file:3469))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:4861:(run:4865))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:9120:(report_ext_handlers_status:9124))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/utils/test_rest_util.py', '(func:3949:(test_http_request_with_retry:4037))')", 
+            "target": "('azurelinuxagent/common/utils/restutil.py', '(func:4875:(http_get:4879))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:23719:(update_certs:23723))')", 
+            "target": "('azurelinuxagent/common/protocol/wire.py', '(func:20941:(save_cache:20945))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_extension.py', '(func:1425:(setUp:1429))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:6641:(__init__:6645))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_update.py', '(func:9121:(test_str:9125))')", 
+            "target": "('tests/ga/test_update.py', '(func:3679:(create_error:3683))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/pa/provision/default.py', '(func:1487:(run:1491))')", 
+            "target": "('azurelinuxagent/pa/provision/default.py', '(func:6536:(report_not_ready:6540))')", 
+            "weight": 86
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/pa/provision/default.py', '(func:1487:(run:1491))')", 
+            "target": "('azurelinuxagent/common/protocol/util.py', '(func:2183:(copy_ovf_env:2187))')", 
+            "weight": 62
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/pa/provision/default.py', '(func:1487:(run:1491))')", 
+            "target": "('azurelinuxagent/pa/provision/default.py', '(func:6358:(report_event:6362))')", 
+            "weight": 62
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/pa/provision/default.py', '(func:1487:(run:1491))')", 
+            "target": "('azurelinuxagent/pa/provision/default.py', '(func:6923:(report_ready:6927))')", 
+            "weight": 86
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/pa/provision/default.py', '(func:1487:(run:1491))')", 
+            "target": "('azurelinuxagent/common/logger.py', '(func:4042:(error:4046))')", 
+            "weight": 62
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/pa/provision/default.py', '(func:1487:(run:1491))')", 
+            "target": "('azurelinuxagent/pa/provision/default.py', '(func:2781:(reg_ssh_host_key:2785))')", 
+            "weight": 66
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:3114:(detect:3118))')", 
+            "target": "('azurelinuxagent/common/protocol/wire.py', '(func:29229:(check_wire_protocol_version:29233))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:20941:(save_cache:20945))')", 
+            "md5": "f23aa11552eba5bbdcc43d7afa01630d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_extension.py', '(func:1425:(setUp:1429))')", 
+            "md5": "4e33e27ff60401c08fc41b0a1213904f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:23719:(update_certs:23723))')", 
+            "md5": "41b13dc7408e3ae8aed98570514b674a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/util.py', '(func:2183:(copy_ovf_env:2187))')", 
+            "md5": "994e7094c967e0ee818d8712883df6e4", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/utils/test_rest_util.py', '(func:3949:(test_http_request_with_retry:4037))')", 
+            "md5": "c04b68ea2429724c886fad6e09378adf", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_update.py', '(func:3679:(create_error:3683))')", 
+            "md5": "0d4ab3b77713953cc759c5bc800a7ae0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/restapi.py', '(func:6641:(__init__:6645))')", 
+            "md5": "7561355698fd6405e9b2a658cb48b0ef", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_update.py', '(func:3465:(get_error_file:3469))')", 
+            "md5": "4fa1fc2b14257071b27cda4febf630db", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 12, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/pa/provision/default.py', '(func:6536:(report_not_ready:6540))')", 
+            "md5": "e96971842edf65beef27a6f7a454f25f", 
+            "weight": 26
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_update.py', '(func:9121:(test_str:9125))')", 
+            "md5": "435dff05524ad571965f4d2a78ac3556", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/utils/restutil.py', '(func:4875:(http_get:4879))')", 
+            "md5": "90b0d5640e7ef0dfe02eacfb0a446229", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 12, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/pa/provision/default.py', '(func:6923:(report_ready:6927))')", 
+            "md5": "4043f5b52c018cb4b2184eb44830119f", 
+            "weight": 26
+        }, 
+        {
+            "AST Diff": 5, 
+            "Profile Diff": null, 
+            "id": "('azurelinuxagent/pa/provision/default.py', '(func:2781:(reg_ssh_host_key:2785))')", 
+            "md5": "7852e98a394e0feb834c8e25d14f1c31", 
+            "weight": 6
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:4861:(run:4865))')", 
+            "md5": "752081fee8f12faf9432c694c3635589", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:29229:(check_wire_protocol_version:29233))')", 
+            "md5": "a83729de99244893c988ae493549780e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_extension.py', '(func:6943:(test_ext_handler_io_error:7001))')", 
+            "md5": "51bb738b940b573ef38dce7c166f7e94", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:23270:(update_shared_conf:23274))')", 
+            "md5": "bb5e0be1fd14cb5996a5eb7e94acd1a8", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:3114:(detect:3118))')", 
+            "md5": "87d966f0a0dcd4f10a96842c6b7cd9cf", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/pa/provision/default.py', '(func:6358:(report_event:6362))')", 
+            "md5": "24f4ab747f919c6b1f324eaf810ccd33", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:9120:(report_ext_handlers_status:9124))')", 
+            "md5": "62e771bfcde7b6372ba4713048d83047", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 59, 
+            "Profile Diff": null, 
+            "id": "('azurelinuxagent/pa/provision/default.py', '(func:1487:(run:1491))')", 
+            "md5": "ae8b9e3a8d91c140fa8b43cb86aedbea", 
+            "weight": 60
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_update.py', '(func:7736:(test_save:7740))')", 
+            "md5": "007df788bf592296705ee23fa30e07e6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/logger.py', '(func:4042:(error:4046))')", 
+            "md5": "dc1dc814dbfcee6f56e7e0a11c3336a3", 
+            "weight": 2
+        }
+    ]
+}

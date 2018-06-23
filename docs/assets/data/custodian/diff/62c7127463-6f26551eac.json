@@ -1,0 +1,46 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:10846:(test_check_correct:10850))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:34947:(check:34951))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_validators.py', '(func:572:(test_as_dict:576))')", 
+            "target": "('custodian/vasp/validators.py', '(func:272:(__init__:276))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/handlers.py', '(func:34947:(check:34951))')", 
+            "md5": "eef64691469d663f6e1898dc604f8651", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/tests/test_validators.py', '(func:572:(test_as_dict:576))')", 
+            "md5": "7fb4c08abc20f459f42f8833e4ef9aef", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/validators.py', '(func:272:(__init__:276))')", 
+            "md5": "50f4d716db5e80aafeb737c7dceb399e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:10846:(test_check_correct:10850))')", 
+            "md5": "8405f7092a69fe569d7becec0d8826bd", 
+            "weight": 2
+        }
+    ]
+}

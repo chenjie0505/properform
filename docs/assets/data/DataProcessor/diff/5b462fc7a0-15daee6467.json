@@ -1,0 +1,336 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/pipes/add_tag.py', '(func:177:(add_tag:181))')", 
+            "target": "('lib/dataprocessor/utility.py', '(func:1651:(get_directory:1655))')", 
+            "weight": 8
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/pipes/add_tag.py', '(func:177:(add_tag:181))')", 
+            "target": "('lib/dataprocessor/basket.py', '(func:1001:(resolve_project_path:1005))')", 
+            "weight": 10
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/pipes/add_tag.py', '(func:177:(add_tag:181))')", 
+            "target": "('lib/dataprocessor/rc.py', '(func:6335:(resolve_project_path:6339))')", 
+            "weight": 122
+        }, 
+        {
+            "source": "('lib/dataprocessor/tests/test_dataframe.py', '(func:1644:(test_get_project:1648))')", 
+            "target": "('lib/dataprocessor/dataframe.py', '(func:386:(get_project:390))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_basket.py', '(func:289:(test_resolve_project_path_name:293))')", 
+            "target": "('lib/dataprocessor/basket.py', '(func:1001:(resolve_project_path:1005))')", 
+            "weight": 8
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_basket.py', '(func:677:(test_resolve_project_path_dot:681))')", 
+            "target": "('lib/dataprocessor/basket.py', '(func:1001:(resolve_project_path:1005))')", 
+            "weight": 8
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/rc.py', '(func:6335:(resolve_project_path:6339))')", 
+            "target": "('lib/dataprocessor/rc.py', '(func:5352:(_check_and_create_dir_abspath:5356))')", 
+            "weight": 118
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/rc.py', '(func:6335:(resolve_project_path:6339))')", 
+            "target": "('lib/dataprocessor/rc.py', '(func:5841:(_resolve_path:5845))')", 
+            "weight": 300
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/rc.py', '(func:6335:(resolve_project_path:6339))')", 
+            "target": "('lib/dataprocessor/utility.py', '(func:1135:(check_directory:1139))')", 
+            "weight": 118
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/basket.py', '(func:380:(get_tag_abspath:384))')", 
+            "target": "('lib/dataprocessor/basket.py', '(func:85:(_ready_basket:89))')", 
+            "weight": 8
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_filter.py', 'test_projects:21')", 
+            "target": "('lib/dataprocessor/filter.py', '(func:116:(project:120))')", 
+            "weight": 24
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/pipes/untag.py', '(func:170:(untag:174))')", 
+            "target": "('lib/dataprocessor/basket.py', '(func:1001:(resolve_project_path:1005))')", 
+            "weight": 6
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/pipes/untag.py', '(func:170:(untag:174))')", 
+            "target": "('lib/dataprocessor/rc.py', '(func:6335:(resolve_project_path:6339))')", 
+            "weight": 118
+        }, 
+        {
+            "source": "('lib/dataprocessor/tests/test_untag.py', '(func:601:(test_no_path:605))')", 
+            "target": "('lib/dataprocessor/pipes/untag.py', '(func:170:(untag:174))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('lib/dataprocessor/rc.py', '(func:5334:(get_configure_safe:5338))')", 
+            "target": "('lib/dataprocessor/rc.py', '(func:4639:(get_configure:4643))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/rc.py', '(func:5841:(_resolve_path:5845))')", 
+            "target": "('lib/dataprocessor/rc.py', '(func:5352:(_check_and_create_dir_abspath:5356))')", 
+            "weight": 186
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/rc.py', '(func:5841:(_resolve_path:5845))')", 
+            "target": "('lib/dataprocessor/rc.py', '(func:4639:(get_configure:4643))')", 
+            "weight": 186
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/rc.py', '(func:5841:(_resolve_path:5845))')", 
+            "target": "('lib/dataprocessor/utility.py', '(func:1135:(check_directory:1139))')", 
+            "weight": 186
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_basket.py', '(func:936:(test_resolve_project_path_dots:940))')", 
+            "target": "('lib/dataprocessor/basket.py', '(func:1001:(resolve_project_path:1005))')", 
+            "weight": 8
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/basket.py', '(func:85:(_ready_basket:89))')", 
+            "target": "('lib/dataprocessor/rc.py', '(func:4639:(get_configure:4643))')", 
+            "weight": 6
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/basket.py', '(func:85:(_ready_basket:89))')", 
+            "target": "('lib/dataprocessor/utility.py', '(func:1651:(get_directory:1655))')", 
+            "weight": 6
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/basket.py', '(func:85:(_ready_basket:89))')", 
+            "target": "('lib/dataprocessor/rc.py', '(func:5334:(get_configure_safe:5338))')", 
+            "weight": 6
+        }, 
+        {
+            "source": "('lib/dataprocessor/tests/test_dataframe.py', '(func:2461:(test_get_project_invalid_inputs:2465))')", 
+            "target": "('lib/dataprocessor/dataframe.py', '(func:386:(get_project:390))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/basket.py', '(func:1001:(resolve_project_path:1005))')", 
+            "target": "('lib/dataprocessor/basket.py', '(func:380:(get_tag_abspath:384))')", 
+            "weight": 8
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/basket.py', '(func:1001:(resolve_project_path:1005))')", 
+            "target": "('lib/dataprocessor/basket.py', '(func:1320:(_is_tag:1324))')", 
+            "weight": 8
+        }, 
+        {
+            "source": "('lib/dataprocessor/rc.py', '(func:5352:(_check_and_create_dir_abspath:5356))')", 
+            "target": "('lib/dataprocessor/utility.py', '(func:1651:(get_directory:1655))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/filter.py', '(func:116:(project:120))')", 
+            "target": "('lib/dataprocessor/rc.py', '(func:6335:(resolve_project_path:6339))')", 
+            "weight": 138
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/filter.py', '(func:116:(project:120))')", 
+            "target": "('lib/dataprocessor/basket.py', '(func:1001:(resolve_project_path:1005))')", 
+            "weight": 26
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_basket.py', '(func:474:(test_resolve_project_path_path:478))')", 
+            "target": "('lib/dataprocessor/basket.py', '(func:1001:(resolve_project_path:1005))')", 
+            "weight": 8
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/tests/test_filter.py', 'test_projects:21')", 
+            "md5": "f75c2477ff1ecf91c09c828c9720aee1", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('lib/dataprocessor/pipes/untag.py', '(func:170:(untag:174))')", 
+            "md5": "6c8ddb319605652294ea88afa17f2ccd", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/tests/test_dataframe.py', '(func:2461:(test_get_project_invalid_inputs:2465))')", 
+            "md5": "3c0ad728a8a00cee72f23f9321fd4979", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 5, 
+            "Profile Diff": null, 
+            "id": "('lib/dataprocessor/pipes/add_tag.py', '(func:177:(add_tag:181))')", 
+            "md5": "b37b9f055ee5443b0213e5006242bd75", 
+            "weight": 6
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/basket.py', '(func:1001:(resolve_project_path:1005))')", 
+            "md5": "6ce8f729db04d62a17906a39ea9f9b5d", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/tests/test_dataframe.py', '(func:1644:(test_get_project:1648))')", 
+            "md5": "603c099acba5c9b9972336daeef504b4", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/basket.py', '(func:85:(_ready_basket:89))')", 
+            "md5": "078e5f7f46528fd51730ff8eb20b6311", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/utility.py', '(func:1135:(check_directory:1139))')", 
+            "md5": "ff77697f278dff713563586d143ab6de", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/rc.py', '(func:5352:(_check_and_create_dir_abspath:5356))')", 
+            "md5": "4a8fb240d4765c11fe0507f30d7ff377", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/basket.py', '(func:1320:(_is_tag:1324))')", 
+            "md5": "a2f2497dcc4ca271fc9cf7a7d8922003", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/tests/test_basket.py', '(func:474:(test_resolve_project_path_path:478))')", 
+            "md5": "b2bb8fdd56b2649b682c5426b715dcf8", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/rc.py', '(func:5334:(get_configure_safe:5338))')", 
+            "md5": "7988e4b9db0305f08738746e3183ecbc", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 10, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/filter.py', '(func:116:(project:120))')", 
+            "md5": "7a097b0c3f2839cc3a8a285481d042f8", 
+            "weight": 22
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/utility.py', '(func:1651:(get_directory:1655))')", 
+            "md5": "d030a40edd9ac4e8699e817d8aaa951b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 57, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/rc.py', '(func:6335:(resolve_project_path:6339))')", 
+            "md5": "d42d68082b0406ed659e8f562a372d83", 
+            "weight": 116
+        }, 
+        {
+            "AST Diff": 91, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/rc.py', '(func:5841:(_resolve_path:5845))')", 
+            "md5": "c3665e03ac1926bed00aec56df2feb40", 
+            "weight": 184
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/dataframe.py', '(func:386:(get_project:390))')", 
+            "md5": "00d9ff7ba3d6877bd24edc80b37a5480", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('lib/dataprocessor/tests/test_untag.py', '(func:601:(test_no_path:605))')", 
+            "md5": "4d99fa82d0f78c25c9452121cd6e09b5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/tests/test_basket.py', '(func:936:(test_resolve_project_path_dots:940))')", 
+            "md5": "6dc8ad2a1d81227499d16fca0a5982b2", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/tests/test_basket.py', '(func:289:(test_resolve_project_path_name:293))')", 
+            "md5": "eee113b151f16f96d8e28be911eee9a6", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/basket.py', '(func:380:(get_tag_abspath:384))')", 
+            "md5": "b5155cf8013f7f17c63f8d2b0494e543", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/tests/test_basket.py', '(func:677:(test_resolve_project_path_dot:681))')", 
+            "md5": "838f0caced4215da470f692145a86043", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/rc.py', '(func:4639:(get_configure:4643))')", 
+            "md5": "689e57c9677d9e4fe04e555a1bf7eb62", 
+            "weight": 2
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/event.py', '(func:6166:(add_event:6170))')", 
+            "target": "('azurelinuxagent/common/event.py', '(func:2531:(add_event:2535))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/distro/test_scvmm.py', '(func:1971:(test_scvmm_detection_with_multiple_cdroms:1975))')", 
+            "target": "('azurelinuxagent/daemon/scvmm.py', '(func:1095:(detect_scvmm_env:1099))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/distro/test_scvmm.py', '(func:1971:(test_scvmm_detection_with_multiple_cdroms:1975))')", 
+            "target": "('azurelinuxagent/daemon/scvmm.py', '(func:1035:(__init__:1039))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/event.py', '(func:2531:(add_event:2535))')", 
+            "target": "('azurelinuxagent/common/event.py', '(func:1877:(_log_event:1881))')", 
+            "weight": 6
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_import.py', '(func:599:(test_get_handler:603))')", 
+            "target": "('azurelinuxagent/daemon/resourcedisk/factory.py', '(func:1004:(get_resourcedisk_handler:1008))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/distro/test_scvmm.py', '(func:2725:(test_scvmm_detection_without_file:2729))')", 
+            "target": "('azurelinuxagent/daemon/scvmm.py', '(func:1095:(detect_scvmm_env:1099))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/distro/test_scvmm.py', '(func:2725:(test_scvmm_detection_without_file:2729))')", 
+            "target": "('azurelinuxagent/daemon/scvmm.py', '(func:1035:(__init__:1039))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/distro/test_resourceDisk.py', '(func:1406:(test_mkfile_dd_fallback:1410))')", 
+            "target": "('azurelinuxagent/daemon/resourcedisk/factory.py', '(func:1004:(get_resourcedisk_handler:1008))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/daemon/scvmm.py', '(func:1095:(detect_scvmm_env:1099))')", 
+            "md5": "2d623b675031017f5e7ad575a9586e78", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/distro/test_resourceDisk.py', '(func:1406:(test_mkfile_dd_fallback:1410))')", 
+            "md5": "bddb38c5debc1a7aab86325f00eb81ca", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/test_import.py', '(func:599:(test_get_handler:603))')", 
+            "md5": "0c358be7d31a01a21313478945572014", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('azurelinuxagent/common/event.py', '(func:2531:(add_event:2535))')", 
+            "md5": "d68f3d9215fea1cf0cd44125733ae368", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/distro/test_scvmm.py', '(func:1971:(test_scvmm_detection_with_multiple_cdroms:1975))')", 
+            "md5": "ff4eb5881034ba00ca1fb10c7fd1f45e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/daemon/scvmm.py', '(func:1035:(__init__:1039))')", 
+            "md5": "1356e161d8a446fb200464b5ff8ff676", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/daemon/resourcedisk/factory.py', '(func:1004:(get_resourcedisk_handler:1008))')", 
+            "md5": "690e18fc19e835e0e1e7f74672ca3729", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/distro/test_scvmm.py', '(func:2725:(test_scvmm_detection_without_file:2729))')", 
+            "md5": "444832d0e42635da97d4d0a0dfdb52ce", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 3, 
+            "Profile Diff": null, 
+            "id": "('azurelinuxagent/common/event.py', '(func:1877:(_log_event:1881))')", 
+            "md5": "067f9fa31fd841ead073335d8f6625ae", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('azurelinuxagent/common/event.py', '(func:6166:(add_event:6170))')", 
+            "md5": "8a68b8ed44f08e2a4c54448b8942b42c", 
+            "weight": 2
+        }
+    ]
+}

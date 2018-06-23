@@ -1,0 +1,46 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/io/test_sources.py', '(func:2779:(test_bzip2source:2783))')", 
+            "target": "('petl/io/sources.py', '(func:999:(__init__:1003))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/transform/headers.py', '(func:6085:(skip:6089))')", 
+            "target": "('petl/transform/headers.py', '(func:6739:(__init__:6743))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/headers.py', '(func:6085:(skip:6089))')", 
+            "md5": "e8fdb505136d82a1f1ec863c54cde47a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/io/test_sources.py', '(func:2779:(test_bzip2source:2783))')", 
+            "md5": "e378f34a325ea2b50f6f38eb092f1983", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/headers.py', '(func:6739:(__init__:6743))')", 
+            "md5": "079e6e2bc0fdb1830cfeb1f24acf5819", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/sources.py', '(func:999:(__init__:1003))')", 
+            "md5": "28815527d6715cc901b8e6e0cbb5c729", 
+            "weight": 2
+        }
+    ]
+}

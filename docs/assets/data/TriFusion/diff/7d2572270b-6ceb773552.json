@@ -1,0 +1,65 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_triseq.py', '(func:691:(test_simple_concatenation:695))')", 
+            "target": "('trifusion/base/sanity.py', '(func:975:(triseq_arg_check:979))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_triseq.py', '(func:4616:(test_code_gaps:4620))')", 
+            "target": "('trifusion/base/sanity.py', '(func:975:(triseq_arg_check:979))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_triseq.py', '(func:3350:(test_collapse:3354))')", 
+            "target": "('trifusion/base/sanity.py', '(func:975:(triseq_arg_check:979))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_triseq.py', '(func:3007:(test_select_alignments:3011))')", 
+            "target": "('trifusion/base/sanity.py', '(func:975:(triseq_arg_check:979))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_triseq.py', '(func:3007:(test_select_alignments:3011))')", 
+            "md5": "777874b753510ec435f221ae0f5d3355", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_triseq.py', '(func:691:(test_simple_concatenation:695))')", 
+            "md5": "5cb7afaba624d7f6ce602c1a7493d075", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/base/sanity.py', '(func:975:(triseq_arg_check:979))')", 
+            "md5": "01b3ce56ffa77c4f60be7a09584d45cf", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_triseq.py', '(func:4616:(test_code_gaps:4620))')", 
+            "md5": "317cda9977bc3deafee364324cd758ca", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_triseq.py', '(func:3350:(test_collapse:3354))')", 
+            "md5": "08fab5cb4572f162d6b29e471025b3ff", 
+            "weight": 2
+        }
+    ]
+}

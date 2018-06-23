@@ -1,0 +1,473 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/pipes/configure.py', '(func:166:(load:188))')", 
+            "target": "('lib/dataprocessor/configure.py', '(func:922:(string_to_filetype:926))')", 
+            "weight": 80
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/pipes/configure.py', '(func:166:(load:188))')", 
+            "target": "('lib/dataprocessor/configure.py', '(func:377:(guess_filetype_from_path:381))')", 
+            "weight": 80
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/pipes/configure.py', '(func:166:(load:188))')", 
+            "target": "('lib/dataprocessor/configure.py', '(func:4375:(parse:4379))')", 
+            "weight": 80
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_configure.py', '(func:3812:(test_read_configure2:3816))')", 
+            "target": "('lib/dataprocessor/configure.py', '(func:2148:(parse_nosection:2152))')", 
+            "weight": 98
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_configure.py', '(func:3812:(test_read_configure2:3816))')", 
+            "target": "('lib/dataprocessor/tests/test_configure.py', '(func:4580:(create_file:4584))')", 
+            "weight": 136
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_configure.py', '(func:1709:(test_invalid_filetype:1713))')", 
+            "target": "('lib/dataprocessor/pipe.py', '(func:1576:(wrapper:1601))')", 
+            "weight": 62
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_configure.py', '(func:235:(setUp:239))')", 
+            "target": "('lib/dataprocessor/tests/test_configure.py', '(func:189:(_check_and_get_abspath:193))')", 
+            "weight": 128
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_utility.py', '(func:5230:(test_read_configure3:5234))')", 
+            "target": "('lib/dataprocessor/tests/test_utility.py', '(func:5582:(create_file:5586))')", 
+            "weight": 146
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_utility.py', '(func:5230:(test_read_configure3:5234))')", 
+            "target": "('lib/dataprocessor/utility.py', '(func:5497:(read_configure:5501))')", 
+            "weight": 258
+        }, 
+        {
+            "source": "('lib/dataprocessor/tests/test_scan.py', '(func:9171:(test_rescan_failed:9175))')", 
+            "target": "('lib/dataprocessor/pipes/scan.py', '(func:167:(directory:171))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('lib/dataprocessor/tests/test_scan.py', '(func:2074:(test_directory_for_first_scan1:2078))')", 
+            "target": "('lib/dataprocessor/pipes/scan.py', '(func:167:(directory:171))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_configure.py', '(func:189:(_check_and_get_abspath:193))')", 
+            "target": "('lib/dataprocessor/pipe.py', '(func:1576:(wrapper:1601))')", 
+            "weight": 126
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/configure.py', '(func:4375:(parse:4379))')", 
+            "target": "('lib/dataprocessor/configure.py', '(func:3811:(get_parser:3815))')", 
+            "weight": 8
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/configure.py', '(func:4375:(parse:4379))')", 
+            "target": "('lib/dataprocessor/configure.py', '(func:3197:(parse_yaml:3201))')", 
+            "weight": 8
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/configure.py', '(func:4375:(parse:4379))')", 
+            "target": "('lib/dataprocessor/configure.py', '(func:2148:(parse_nosection:2152))')", 
+            "weight": 8
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/configure.py', '(func:4375:(parse:4379))')", 
+            "target": "('lib/dataprocessor/configure.py', '(func:1391:(parse_ini:1395))')", 
+            "weight": 8
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_configure.py', '(func:1116:(setUp:1120))')", 
+            "target": "('lib/dataprocessor/tests/test_configure.py', '(func:189:(_check_and_get_abspath:193))')", 
+            "weight": 126
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_configure.py', '(func:1854:(setUp:1858))')", 
+            "target": "('lib/dataprocessor/tests/test_configure.py', '(func:189:(_check_and_get_abspath:193))')", 
+            "weight": 128
+        }, 
+        {
+            "source": "('lib/dataprocessor/pipe.py', '(func:1576:(wrapper:1601))')", 
+            "target": "('lib/dataprocessor/tests/test_pipe.py', '(func:177:(wrap_noraise:192))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/pipe.py', '(func:1576:(wrapper:1601))')", 
+            "target": "('lib/dataprocessor/pipes/configure.py', '(func:166:(load:188))')", 
+            "weight": 78
+        }, 
+        {
+            "source": "('lib/dataprocessor/pipe.py', '(func:1576:(wrapper:1601))')", 
+            "target": "('lib/dataprocessor/tests/test_pipe.py', '(func:251:(wrap_raise:266))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('lib/dataprocessor/pipe.py', '(func:1576:(wrapper:1601))')", 
+            "target": "('lib/dataprocessor/pipe.py', '(func:4399:(lambda:4399))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/pipe.py', '(func:1576:(wrapper:1601))')", 
+            "target": "('lib/dataprocessor/pipes/configure.py', '(func:138:(add:142))')", 
+            "weight": 166
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_configure.py', '(func:4225:(test_read_configure3:4229))')", 
+            "target": "('lib/dataprocessor/configure.py', '(func:2148:(parse_nosection:2152))')", 
+            "weight": 98
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_configure.py', '(func:4225:(test_read_configure3:4229))')", 
+            "target": "('lib/dataprocessor/tests/test_configure.py', '(func:4580:(create_file:4584))')", 
+            "weight": 136
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_configure.py', '(func:3475:(test_read_configure1:3479))')", 
+            "target": "('lib/dataprocessor/configure.py', '(func:2148:(parse_nosection:2152))')", 
+            "weight": 94
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_configure.py', '(func:3475:(test_read_configure1:3479))')", 
+            "target": "('lib/dataprocessor/tests/test_configure.py', '(func:4580:(create_file:4584))')", 
+            "weight": 132
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_utility.py', '(func:4820:(test_read_configure2:4824))')", 
+            "target": "('lib/dataprocessor/tests/test_utility.py', '(func:5582:(create_file:5586))')", 
+            "weight": 146
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_utility.py', '(func:4820:(test_read_configure2:4824))')", 
+            "target": "('lib/dataprocessor/utility.py', '(func:5497:(read_configure:5501))')", 
+            "weight": 258
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_utility.py', '(func:4486:(test_read_configure1:4490))')", 
+            "target": "('lib/dataprocessor/tests/test_utility.py', '(func:5582:(create_file:5586))')", 
+            "weight": 142
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_utility.py', '(func:4486:(test_read_configure1:4490))')", 
+            "target": "('lib/dataprocessor/utility.py', '(func:5497:(read_configure:5501))')", 
+            "weight": 254
+        }, 
+        {
+            "source": "('lib/dataprocessor/tests/test_scan.py', '(func:4356:(test_directory_for_first_scan3:4360))')", 
+            "target": "('lib/dataprocessor/pipes/scan.py', '(func:167:(directory:171))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_configure.py', '(func:341:(test_get_filetype:345))')", 
+            "target": "('lib/dataprocessor/configure.py', '(func:377:(guess_filetype_from_path:381))')", 
+            "weight": 124
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/pipes/configure.py', '(func:138:(add:142))')", 
+            "target": "('lib/dataprocessor/pipes/configure.py', '(func:212:(parse_ini:216))')", 
+            "weight": 266
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/pipes/configure.py', '(func:138:(add:142))')", 
+            "target": "('lib/dataprocessor/pipes/configure.py', '(func:1629:(get_filetype:1633))')", 
+            "weight": 252
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/pipes/configure.py', '(func:138:(add:142))')", 
+            "target": "('lib/dataprocessor/pipes/configure.py', '(func:581:(parse_yaml:585))')", 
+            "weight": 238
+        }, 
+        {
+            "source": "('lib/dataprocessor/tests/test_scan.py', '(func:6966:(test_directory_for_rescan:6970))')", 
+            "target": "('lib/dataprocessor/pipes/scan.py', '(func:167:(directory:171))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 44, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/tests/test_configure.py', '(func:3475:(test_read_configure1:3479))')", 
+            "md5": "56232bd4965367024dd6b7b2320b3825", 
+            "weight": 90
+        }, 
+        {
+            "AST Diff": 37, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/pipes/configure.py', '(func:166:(load:188))')", 
+            "md5": "a0c34b21787d4e81b22f7105b85dea37", 
+            "weight": 76
+        }, 
+        {
+            "AST Diff": 48, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/tests/test_utility.py', '(func:4820:(test_read_configure2:4824))')", 
+            "md5": "6d38d33e0993fb666b391333147418a4", 
+            "weight": 98
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/pipes/scan.py', '(func:167:(directory:171))')", 
+            "md5": "f5a37f999c06dc7c94f75b056ebe8567", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 20, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/tests/test_configure.py', '(func:4580:(create_file:4584))')", 
+            "md5": "dc2bd8b3cc4f74647ed106ad4ccea068", 
+            "weight": 42
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/configure.py', '(func:3811:(get_parser:3815))')", 
+            "md5": "e8e3116450a7a4a9bfc5352d94b4aad5", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/tests/test_pipe.py', '(func:177:(wrap_noraise:192))')", 
+            "md5": "8bf3129042217c9fc20e35cbb8385966", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/configure.py', '(func:377:(guess_filetype_from_path:381))')", 
+            "md5": "d2515fd5851e2aa2ff7216776ecf6ae5", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 81, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/pipes/configure.py', '(func:138:(add:142))')", 
+            "md5": "f5d12a72810b0da57d6ed1ce52dba5ac", 
+            "weight": 164
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/tests/test_scan.py', '(func:9171:(test_rescan_failed:9175))')", 
+            "md5": "13caa27978800f0e9f78cc5302d0aacf", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/configure.py', '(func:922:(string_to_filetype:926))')", 
+            "md5": "3fb256b99d8ab37ee30fafd637a2b0ad", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 48, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/tests/test_utility.py', '(func:5230:(test_read_configure3:5234))')", 
+            "md5": "74b08db13375870079ce666d9696972c", 
+            "weight": 98
+        }, 
+        {
+            "AST Diff": 29, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/tests/test_configure.py', '(func:1709:(test_invalid_filetype:1713))')", 
+            "md5": "7f50415e5ccb5cc9b0d627b56a37ab96", 
+            "weight": 60
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/tests/test_configure.py', '(func:235:(setUp:239))')", 
+            "md5": "4359a1375812937bd513661a42a74b8b", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 23, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/tests/test_utility.py', '(func:5582:(create_file:5586))')", 
+            "md5": "17c5111a01138bfd2d4414653278405c", 
+            "weight": 48
+        }, 
+        {
+            "AST Diff": 36, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/pipes/configure.py', '(func:581:(parse_yaml:585))')", 
+            "md5": "374da9fa94285ccdd668f9bddd6b9175", 
+            "weight": 74
+        }, 
+        {
+            "AST Diff": 61, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/tests/test_configure.py', '(func:189:(_check_and_get_abspath:193))')", 
+            "md5": "97969debfce9eff880f10a3fd378161b", 
+            "weight": 124
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/configure.py', '(func:4375:(parse:4379))')", 
+            "md5": "2bd7a6aacd498758ba7e02e46dd783bb", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 46, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/tests/test_utility.py', '(func:4486:(test_read_configure1:4490))')", 
+            "md5": "e10d94f3458d28232e3b005bced8737e", 
+            "weight": 94
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/configure.py', '(func:3197:(parse_yaml:3201))')", 
+            "md5": "b9a3c97942e34fee9d07a2f30060e620", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/tests/test_scan.py', '(func:6966:(test_directory_for_rescan:6970))')", 
+            "md5": "c6c1fb96ed900f1ea9cf80dd39923759", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 46, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/tests/test_configure.py', '(func:3812:(test_read_configure2:3816))')", 
+            "md5": "9ba834453dee9c89fde98bd498095f45", 
+            "weight": 94
+        }, 
+        {
+            "AST Diff": 79, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/utility.py', '(func:5497:(read_configure:5501))')", 
+            "md5": "2b00443d8962e626121ba0f03268b2b7", 
+            "weight": 160
+        }, 
+        {
+            "AST Diff": 43, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/pipes/configure.py', '(func:1629:(get_filetype:1633))')", 
+            "md5": "cf8cbbd7f9efd8dbc9a28ba81537e694", 
+            "weight": 88
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/tests/test_configure.py', '(func:1854:(setUp:1858))')", 
+            "md5": "08e4d70800d40650aa01be482fb27331", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/tests/test_scan.py', '(func:4356:(test_directory_for_first_scan3:4360))')", 
+            "md5": "1087bc9410079ab369a6f541884f4bda", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 59, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/tests/test_configure.py', '(func:341:(test_get_filetype:345))')", 
+            "md5": "f3eae12716f83d5dd6702e8327a21837", 
+            "weight": 120
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/configure.py', '(func:2148:(parse_nosection:2152))')", 
+            "md5": "d4195497b94aaeab25778815e2aa945b", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/pipe.py', '(func:1576:(wrapper:1601))')", 
+            "md5": "af799f1832836c3fec896eac13ba4ab2", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 50, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/pipes/configure.py', '(func:212:(parse_ini:216))')", 
+            "md5": "db1bba9e4fd45a43250d53bafb17e86a", 
+            "weight": 102
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/tests/test_scan.py', '(func:2074:(test_directory_for_first_scan1:2078))')", 
+            "md5": "c3d1c3e8a459c8553700d8caf19b2c9d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/tests/test_pipe.py', '(func:251:(wrap_raise:266))')", 
+            "md5": "6aac0eee17e4362268b5554254347bf9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('lib/dataprocessor/tests/test_configure.py', '(func:1116:(setUp:1120))')", 
+            "md5": "20d720d2615cdc2e99d7eae1dc2937fc", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/pipe.py', '(func:4399:(lambda:4399))')", 
+            "md5": "344779dbb72f05deba7b6026d0bed2fc", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 46, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/tests/test_configure.py', '(func:4225:(test_read_configure3:4229))')", 
+            "md5": "a13d0d2be0319dc0adf9f664e885c0eb", 
+            "weight": 94
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/configure.py', '(func:1391:(parse_ini:1395))')", 
+            "md5": "8e95044b6f7dd8cec997deeabbb06d7f", 
+            "weight": 4
+        }
+    ]
+}

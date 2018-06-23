@@ -1,0 +1,185 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/test_io.py', '(func:13441:(test_totsv_appendtsv:13445))')", 
+            "target": "('src/petl/io.py', '(func:69335:(totsv:69339))')", 
+            "weight": 74
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/test_io.py', '(func:13441:(test_totsv_appendtsv:13445))')", 
+            "target": "('src/petl/io.py', '(func:32262:(tocsv:32266))')", 
+            "weight": 93
+        }, 
+        {
+            "source": "('src/petl/test/transform/test_basics.py', '(func:9483:(test_tail_empty:9487))')", 
+            "target": "('src/petl/transform/basics.py', '(func:18852:(tail:18856))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/test/test_io.py', '(func:12001:(test_fromdicts_3:12005))')", 
+            "target": "('src/petl/io.py', '(func:30925:(fromdicts:30929))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/test_io.py', '(func:12355:(test_tocsv_appendcsv:12359))')", 
+            "target": "('src/petl/io.py', '(func:32262:(tocsv:32266))')", 
+            "weight": 162
+        }, 
+        {
+            "source": "('src/petl/test/transform/test_reductions.py', '(func:2304:(test_rangerowreduce:2308))')", 
+            "target": "('src/petl/transform/reductions.py', '(func:16383:(rangerowreduce:16387))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/test/test_util.py', '(func:17317:(test_stringpatterns:17321))')", 
+            "target": "('src/petl/util.py', '(func:70181:(stringpatterns:70185))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/io.py', '(func:69335:(totsv:69339))')", 
+            "target": "('src/petl/io.py', '(func:32262:(tocsv:32266))')", 
+            "weight": 29
+        }, 
+        {
+            "source": "('src/petl/util.py', '(func:70181:(stringpatterns:70185))')", 
+            "target": "('src/petl/util.py', '(func:69663:(stringpatterncounter:69667))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/test_io_unicode.py', '(func:802:(test_toucsv:806))')", 
+            "target": "('src/petl/io.py', '(func:33676:(toucsv:33680))')", 
+            "weight": 128
+        }, 
+        {
+            "source": "('src/petl/test/transform/test_reductions.py', '(func:888:(test_rowreduce_fieldnameaccess:892))')", 
+            "target": "('src/petl/transform/reductions.py', '(func:342:(rowreduce:346))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 68, 
+            "Profile Diff": false, 
+            "id": "('src/petl/test/test_io.py', '(func:12355:(test_tocsv_appendcsv:12359))')", 
+            "md5": "50691e245e864996886ddea3089e45e6", 
+            "weight": 138
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/test/transform/test_reductions.py', '(func:888:(test_rowreduce_fieldnameaccess:892))')", 
+            "md5": "2ceb37be9089133ee761e5409cd48d72", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/transform/reductions.py', '(func:342:(rowreduce:346))')", 
+            "md5": "f53ea75ce9a88e6dc39e2ae026fa5c60", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/test/transform/test_reductions.py', '(func:2304:(test_rangerowreduce:2308))')", 
+            "md5": "a858473592c70db8f90526b1e7e8b629", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 52, 
+            "Profile Diff": false, 
+            "id": "('src/petl/test/test_io_unicode.py', '(func:802:(test_toucsv:806))')", 
+            "md5": "5b8d55263aa3df935c696a4dbc8d9262", 
+            "weight": 106
+        }, 
+        {
+            "AST Diff": 21, 
+            "Profile Diff": null, 
+            "id": "('src/petl/io.py', '(func:33676:(toucsv:33680))')", 
+            "md5": "72f82ce1017049c3c1732af19427fc05", 
+            "weight": 22
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/test/transform/test_basics.py', '(func:9483:(test_tail_empty:9487))')", 
+            "md5": "f991e63b24fa7d5dae69aecbe51d9ca1", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 68, 
+            "Profile Diff": null, 
+            "id": "('src/petl/test/test_io.py', '(func:13441:(test_totsv_appendtsv:13445))')", 
+            "md5": "0fcd1697a745488ec708c4d2fa4454bf", 
+            "weight": 69
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/transform/reductions.py', '(func:16383:(rangerowreduce:16387))')", 
+            "md5": "ae4f084df831b02afa7dfaa667c74c4b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/transform/basics.py', '(func:18852:(tail:18856))')", 
+            "md5": "54893b3f8427f8dd49a0c0f750bb3ea6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/util.py', '(func:69663:(stringpatterncounter:69667))')", 
+            "md5": "17480fcec81d9411ffe2dbf7bde2a836", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/util.py', '(func:70181:(stringpatterns:70185))')", 
+            "md5": "1e16c680c3c44feffdd8fa753fcbf9a3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/io.py', '(func:30925:(fromdicts:30929))')", 
+            "md5": "af79335a659083692bc2953d21f7a6af", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 23, 
+            "Profile Diff": null, 
+            "id": "('src/petl/io.py', '(func:32262:(tocsv:32266))')", 
+            "md5": "1499b2886ab47d237b5b3a7ff85dc303", 
+            "weight": 24
+        }, 
+        {
+            "AST Diff": 4, 
+            "Profile Diff": null, 
+            "id": "('src/petl/io.py', '(func:69335:(totsv:69339))')", 
+            "md5": "c4b4ac9d900a580b8e66fb444e22a19a", 
+            "weight": 5
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/test/test_io.py', '(func:12001:(test_fromdicts_3:12005))')", 
+            "md5": "208b7d2187d9188e9e672765f3b26521", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/test/test_util.py', '(func:17317:(test_stringpatterns:17321))')", 
+            "md5": "7846a389ac1c6e533e0d3dfc2d283d7e", 
+            "weight": 2
+        }
+    ]
+}

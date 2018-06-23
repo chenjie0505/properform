@@ -1,0 +1,932 @@
+{
+    "edges": [
+        {
+            "source": "('src/gofer/messaging/adapter/model.py', '(class:Queue:8628)')", 
+            "target": "('src/gofer/messaging/adapter/model.py', '(func:1089:(model:1093))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/common.py', '(func:5887:(_fn:5891))')", 
+            "target": "('test/unit/test_common.py', '(func:2004:(bar:2022))')", 
+            "weight": 84
+        }, 
+        {
+            "source": "('src/gofer/messaging/adapter/model.py', '(class:Exchange:6069)')", 
+            "target": "('src/gofer/messaging/adapter/model.py', '(func:1089:(model:1093))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_config.py', '(func:6194:(test_read:6198))')", 
+            "target": "('src/gofer/config.py', '(func:5493:(open:5497))')", 
+            "weight": 84
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_config.py', '(func:6194:(test_read:6198))')", 
+            "target": "('src/gofer/config.py', '(func:4761:(__init__:4765))')", 
+            "weight": 71
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_config.py', '(func:6194:(test_read:6198))')", 
+            "target": "('src/gofer/config.py', '(func:5950:(read:5954))')", 
+            "weight": 156
+        }, 
+        {
+            "source": "('src/gofer/messaging/adapter/model.py', '(class:Producer:18133)')", 
+            "target": "('src/gofer/messaging/adapter/model.py', '(func:1089:(model:1093))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_config.py', '(func:17160:(test_read:17164))')", 
+            "target": "('src/gofer/config.py', '(func:16578:(read:16582))')", 
+            "weight": 338
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:2349:(test_call:2353))')", 
+            "target": "('src/gofer/decorators.py', '(func:2841:(inner:2845))')", 
+            "weight": 142
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:2349:(test_call:2353))')", 
+            "target": "('src/gofer/decorators.py', '(func:2427:(user:2431))')", 
+            "weight": 84
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:2349:(test_call:2353))')", 
+            "target": "('src/gofer/common.py', '(func:5178:(__str__:5182))')", 
+            "weight": 66
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_common.py', '(func:6554:(test_released:6605))')", 
+            "target": "('src/gofer/common.py', '(func:5887:(_fn:5891))')", 
+            "weight": 174
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:1224:(test_call:1266))')", 
+            "target": "('src/gofer/common.py', '(func:5178:(__str__:5182))')", 
+            "weight": 76
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:1224:(test_call:1266))')", 
+            "target": "('src/gofer/decorators.py', '(func:1099:(remote:1103))')", 
+            "weight": 122
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/decorators.py', '(func:2841:(inner:2845))')", 
+            "target": "('src/gofer/decorators.py', '(func:773:(options:777))')", 
+            "weight": 154
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/rmi/decorators.py', '(func:1361:(collated:1383))')", 
+            "target": "('src/gofer/collator.py', 'collate:33')", 
+            "weight": 6
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:2615:(test_call:2658))')", 
+            "target": "('src/gofer/decorators.py', '(func:3076:(action:3080))')", 
+            "weight": 70
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:2615:(test_call:2658))')", 
+            "target": "('src/gofer/decorators.py', '(func:3417:(inner:3421))')", 
+            "weight": 80
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/decorators.py', '(func:1338:(inner:1342))')", 
+            "target": "('src/gofer/decorators.py', '(func:773:(options:777))')", 
+            "weight": 162
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:1477:(test_secret:1519))')", 
+            "target": "('src/gofer/common.py', '(func:5178:(__str__:5182))')", 
+            "weight": 98
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:1477:(test_secret:1519))')", 
+            "target": "('src/gofer/decorators.py', '(func:1338:(inner:1342))')", 
+            "weight": 182
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:1477:(test_secret:1519))')", 
+            "target": "('src/gofer/decorators.py', '(func:1099:(remote:1103))')", 
+            "weight": 144
+        }, 
+        {
+            "source": "('src/gofer/messaging/adapter/model.py', '(class:Message:10995)')", 
+            "target": "('src/gofer/messaging/adapter/model.py', '(func:1089:(model:1093))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_config.py', '(func:5469:(test_init:5592))')", 
+            "target": "('src/gofer/config.py', '(func:4761:(__init__:4765))')", 
+            "weight": 35
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_common.py', '(func:9389:(test_all:9393))')", 
+            "target": "('src/gofer/common.py', '(func:7466:(__init__:7470))')", 
+            "weight": 214
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/config.py', '(func:5493:(open:5497))')", 
+            "target": "('src/gofer/config.py', '(func:17975:(__init__:17979))')", 
+            "weight": 46
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/config.py', '(func:5493:(open:5497))')", 
+            "target": "('src/gofer/config.py', '(func:18118:(read:18122))')", 
+            "weight": 112
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/rmi/decorators.py', '(func:2068:(remote:2072))')", 
+            "target": "('src/gofer/rmi/decorators.py', '(func:2282:(df:2286))')", 
+            "weight": 8
+        }, 
+        {
+            "source": "('src/gofer/pam.py', '(func:2928:(_authenticate:2932))')", 
+            "target": "('src/gofer/pam.py', '(func:1323:(__init__:1327))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/decorators.py', '(func:2189:(inner:2193))')", 
+            "target": "('src/gofer/decorators.py', '(func:773:(options:777))')", 
+            "weight": 154
+        }, 
+        {
+            "source": "('src/gofer/messaging/adapter/model.py', '(class:Reader:13332)')", 
+            "target": "('src/gofer/messaging/adapter/model.py', '(func:1089:(model:1093))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('test/unit/test_common.py', '(class:Thing3:1561)')", 
+            "target": "('src/gofer/common.py', '(func:3167:(conditional:3171))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/gofer/messaging/adapter/model.py', '(class:Sender:17069)')", 
+            "target": "('src/gofer/messaging/adapter/model.py', '(func:1089:(model:1093))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/config.py', '(func:18118:(read:18122))')", 
+            "target": "('src/gofer/config.py', '(func:16578:(read:16582))')", 
+            "weight": 330
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/config.py', '(func:18118:(read:18122))')", 
+            "target": "('src/gofer/config.py', '(func:17528:(read:17532))')", 
+            "weight": 132
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:3068:(test_initializer:3112))')", 
+            "target": "('src/gofer/decorators.py', '(func:3503:(load:3507))')", 
+            "weight": 94
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:2867:(test_load:2911))')", 
+            "target": "('src/gofer/decorators.py', '(func:3503:(load:3507))')", 
+            "weight": 94
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_config.py', '(func:5845:(test_open:5919))')", 
+            "target": "('src/gofer/config.py', '(func:5530:(open:5534))')", 
+            "weight": 65
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_config.py', '(func:5845:(test_open:5919))')", 
+            "target": "('src/gofer/config.py', '(func:5493:(open:5497))')", 
+            "weight": 35
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_config.py', '(func:5845:(test_open:5919))')", 
+            "target": "('src/gofer/config.py', '(func:4761:(__init__:4765))')", 
+            "weight": 22
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_common.py', '(class:Thing4:1977)')", 
+            "target": "('src/gofer/common.py', '(func:5789:(released:5793))')", 
+            "weight": 20
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/config.py', '(func:4761:(__init__:4765))')", 
+            "target": "('src/gofer/config.py', '(func:6292:(update:6296))')", 
+            "weight": 21
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:3283:(test_unload:3327))')", 
+            "target": "('src/gofer/decorators.py', '(func:3907:(unload:3911))')", 
+            "weight": 94
+        }, 
+        {
+            "source": "('src/gofer/pam.py', '(func:2383:(authenticate:2387))')", 
+            "target": "('src/gofer/pam.py', '(func:2928:(_authenticate:2932))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/decorators.py', '(func:1099:(remote:1103))')", 
+            "target": "('src/gofer/decorators.py', '(func:1338:(inner:1342))')", 
+            "weight": 134
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/agent/plugin.py', '(class:PluginLoader:12238)')", 
+            "target": "('src/gofer/rmi/decorators.py', '(func:1361:(collated:1383))')", 
+            "weight": 6
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:981:(test_options_already:985))')", 
+            "target": "('src/gofer/decorators.py', '(func:773:(options:777))')", 
+            "weight": 136
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:981:(test_options_already:985))')", 
+            "target": "('src/gofer/common.py', '(func:5178:(__str__:5182))')", 
+            "weight": 62
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:2065:(test_service:2069))')", 
+            "target": "('src/gofer/decorators.py', '(func:2189:(inner:2193))')", 
+            "weight": 146
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:2065:(test_service:2069))')", 
+            "target": "('src/gofer/common.py', '(func:5178:(__str__:5182))')", 
+            "weight": 70
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:2065:(test_service:2069))')", 
+            "target": "('src/gofer/decorators.py', '(func:1676:(pam:1680))')", 
+            "weight": 90
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_config.py', '(func:18581:(test_iread:18616))')", 
+            "target": "('src/gofer/config.py', '(func:18118:(read:18122))')", 
+            "weight": 216
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_config.py', '(func:18581:(test_iread:18616))')", 
+            "target": "('src/gofer/config.py', '(func:17975:(__init__:17979))')", 
+            "weight": 150
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/agent/builtin.py', '(class:Admin:1361)')", 
+            "target": "('src/gofer/rmi/decorators.py', '(func:2068:(remote:2072))')", 
+            "weight": 6
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_config.py', '(func:19295:(test_jread:19330))')", 
+            "target": "('src/gofer/config.py', '(func:17975:(__init__:17979))')", 
+            "weight": 132
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_config.py', '(func:19295:(test_jread:19330))')", 
+            "target": "('src/gofer/config.py', '(func:18118:(read:18122))')", 
+            "weight": 198
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:796:(test_options:800))')", 
+            "target": "('src/gofer/decorators.py', '(func:773:(options:777))')", 
+            "weight": 124
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:796:(test_options:800))')", 
+            "target": "('src/gofer/common.py', '(func:5178:(__str__:5182))')", 
+            "weight": 50
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_common.py', '(func:2080:(test_make:2110))')", 
+            "target": "('src/gofer/common.py', '(func:898:(mkdir:902))')", 
+            "weight": 94
+        }, 
+        {
+            "source": "('src/gofer/messaging/adapter/model.py', '(class:Domain:24724)')", 
+            "target": "('src/gofer/messaging/adapter/model.py', '(func:2311:(__init__:2315))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/rmi/decorators.py', '(func:2282:(df:2286))')", 
+            "target": "('src/gofer/rmi/decorators.py', '(func:864:(add:886))')", 
+            "weight": 8
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/rmi/decorators.py', '(func:2282:(df:2286))')", 
+            "target": "('src/gofer/rmi/decorators.py', '(func:1704:(__options:1708))')", 
+            "weight": 8
+        }, 
+        {
+            "source": "('src/gofer/messaging/adapter/model.py', '(class:Connection:20661)')", 
+            "target": "('src/gofer/messaging/adapter/model.py', '(func:1089:(model:1093))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('test/unit/test_pam.py', '(func:656:(test_authenticated:767))')", 
+            "target": "('src/gofer/pam.py', '(func:2383:(authenticate:2387))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:1830:(test_call:1834))')", 
+            "target": "('src/gofer/decorators.py', '(func:2189:(inner:2193))')", 
+            "weight": 144
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:1830:(test_call:1834))')", 
+            "target": "('src/gofer/common.py', '(func:5178:(__str__:5182))')", 
+            "weight": 68
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_decorators.py', '(func:1830:(test_call:1834))')", 
+            "target": "('src/gofer/decorators.py', '(func:1676:(pam:1680))')", 
+            "weight": 88
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_config.py', '(func:17786:(test_read:17790))')", 
+            "target": "('src/gofer/config.py', '(func:17528:(read:17532))')", 
+            "weight": 140
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_common.py', '(func:2231:(test_exists:2261))')", 
+            "target": "('src/gofer/common.py', '(func:898:(mkdir:902))')", 
+            "weight": 114
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_config.py', '(func:18414:(test_unsupported:18457))')", 
+            "target": "('src/gofer/config.py', '(func:17975:(__init__:17979))')", 
+            "weight": 64
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 1, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/rmi/decorators.py', '(func:1361:(collated:1383))')", 
+            "md5": "da09cf769208f7aea45265fc72dba89f", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 90, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_common.py', '(func:9389:(test_all:9393))')", 
+            "md5": "a7aba5b5fbf1ef85200662caa74e6d07", 
+            "weight": 182
+        }, 
+        {
+            "AST Diff": 29, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_decorators.py', '(func:981:(test_options_already:985))')", 
+            "md5": "c9c2b8353b6c583236eaa91e143ebf7c", 
+            "weight": 60
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/agent/plugin.py', '(class:PluginLoader:12238)')", 
+            "md5": "f9dc91bd8ea00f3e23b8430332a4e629", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/messaging/adapter/model.py', '(func:1089:(model:1093))')", 
+            "md5": "e5fb922c32e5ea50a1151360a825fff8", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 52, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_config.py', '(func:19295:(test_jread:19330))')", 
+            "md5": "52c6c5760abe81a22005d7e7ea19fb05", 
+            "weight": 106
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/common.py', '(func:3167:(conditional:3171))')", 
+            "md5": "090c24bcd8adf8fbc06e0e72da8ef2f1", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/common.py', '(func:5178:(__str__:5182))')", 
+            "md5": "eef332294f1298b4198aacc3e6c10d48", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 24, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/config.py', '(func:5530:(open:5534))')", 
+            "md5": "5b28d372d926e429296ee96459820577", 
+            "weight": 50
+        }, 
+        {
+            "AST Diff": 9, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/config.py', '(func:5493:(open:5497))')", 
+            "md5": "72bb92c5673590af3cd091a008f21d49", 
+            "weight": 20
+        }, 
+        {
+            "AST Diff": 12, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/config.py', '(func:17975:(__init__:17979))')", 
+            "md5": "2b9c30f1979c4629228867673ff0b452", 
+            "weight": 26
+        }, 
+        {
+            "AST Diff": 49, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_config.py', '(func:17786:(test_read:17790))')", 
+            "md5": "f1d8a27abdaed969e800361d21c46836", 
+            "weight": 100
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/rmi/decorators.py', '(func:2282:(df:2286))')", 
+            "md5": "19aed9f68a617c3ed829a0e349b403c7", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 19, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/config.py', '(func:17528:(read:17532))')", 
+            "md5": "52840e99d5c066ec939dc6e2da618489", 
+            "weight": 40
+        }, 
+        {
+            "AST Diff": 9, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/decorators.py', '(func:2427:(user:2431))')", 
+            "md5": "68133d17223d2d968a9ae1e7bcc6b4d7", 
+            "weight": 20
+        }, 
+        {
+            "AST Diff": 8, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/common.py', '(func:5789:(released:5793))')", 
+            "md5": "92e36c9365f8d826ba5d8be42cfbf1dd", 
+            "weight": 18
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/collator.py', 'collate:33')", 
+            "md5": "bf3d78a0000530a19ea898da915497f4", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/messaging/adapter/model.py', '(class:Domain:24724)')", 
+            "md5": "5c8c2ccfedf8516fe62e4910f9c47a86", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/messaging/adapter/model.py', '(class:Producer:18133)')", 
+            "md5": "d22b8c52699f7bdc39b266d0278d4f2b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 49, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_config.py', '(func:17160:(test_read:17164))')", 
+            "md5": "139d7254831d2dbac795519c2e9f9830", 
+            "weight": 100
+        }, 
+        {
+            "AST Diff": 45, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/config.py', '(func:18118:(read:18122))')", 
+            "md5": "f9ad9dd628b4e5ad592afa65b35fe08c", 
+            "weight": 92
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/pam.py', '(func:1323:(__init__:1327))')", 
+            "md5": "1e64d5e469ecdba028431f4df6c53e7a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 10, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/decorators.py', '(func:1676:(pam:1680))')", 
+            "md5": "da8c340467f795f65fb0ca41750b6b69", 
+            "weight": 22
+        }, 
+        {
+            "AST Diff": 29, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_decorators.py', '(func:3283:(test_unload:3327))')", 
+            "md5": "1e190bde8f1ded4240f523d7ac6a0403", 
+            "weight": 60
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/messaging/adapter/model.py', '(class:Sender:17069)')", 
+            "md5": "b86fdcbda499222a5c631af5a730c625", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/agent/builtin.py', '(class:Admin:1361)')", 
+            "md5": "833470574221c557305b8ad06d031349", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 37, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/decorators.py', '(func:773:(options:777))')", 
+            "md5": "15cabc009279f4f9c3d7b5e728a50c9c", 
+            "weight": 76
+        }, 
+        {
+            "AST Diff": 23, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_decorators.py', '(func:796:(test_options:800))')", 
+            "md5": "a72075ffbce375379c720f6d34e7ed3e", 
+            "weight": 48
+        }, 
+        {
+            "AST Diff": 27, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/common.py', '(func:898:(mkdir:902))')", 
+            "md5": "e3c4a2a149f3d21c9978b8e11a502e52", 
+            "weight": 56
+        }, 
+        {
+            "AST Diff": 25, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_decorators.py', '(func:2615:(test_call:2658))')", 
+            "md5": "68b3cc33c80758d0617bed1f5e3354e5", 
+            "weight": 52
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/rmi/decorators.py', '(func:2068:(remote:2072))')", 
+            "md5": "8486a57e4c122072b86826d89e31c651", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/messaging/adapter/model.py', '(func:2311:(__init__:2315))')", 
+            "md5": "3b0072f51da012223c6f723136d28eeb", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/messaging/adapter/model.py', '(class:Queue:8628)')", 
+            "md5": "1d5099c187c6241f299a59ddb69d028b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 36, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_decorators.py', '(func:1224:(test_call:1266))')", 
+            "md5": "8e0b00abaa2d7fef7eb19cd969779016", 
+            "weight": 74
+        }, 
+        {
+            "AST Diff": 32, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_decorators.py', '(func:1830:(test_call:1834))')", 
+            "md5": "3070ce9e54538828ad91adbaaebe0211", 
+            "weight": 66
+        }, 
+        {
+            "AST Diff": 18, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_common.py', '(func:2080:(test_make:2110))')", 
+            "md5": "5a15b948ac4d5d97afdd6b32c078e0a4", 
+            "weight": 38
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/rmi/decorators.py', '(func:864:(add:886))')", 
+            "md5": "dd4ebaeaa3d5a6188c1ec3b1f76d8979", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('test/unit/test_common.py', '(class:Thing3:1561)')", 
+            "md5": "e1ef379c36d9f8f6031f405b38eaf048", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 16, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/decorators.py', '(func:3907:(unload:3911))')", 
+            "md5": "621e69aa057d55cc7b16076ad660e5d9", 
+            "weight": 34
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/messaging/adapter/model.py', '(class:Reader:13332)')", 
+            "md5": "f28810fde1a488e49eda4cebdeb12caf", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 18, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_config.py', '(func:18414:(test_unsupported:18457))')", 
+            "md5": "72ee569ad48d814c286ad10e1f53f500", 
+            "weight": 38
+        }, 
+        {
+            "AST Diff": 35, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/common.py', '(func:5887:(_fn:5891))')", 
+            "md5": "dee57195ce6ff1ba248bcaf32569bbb8", 
+            "weight": 72
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/messaging/adapter/model.py', '(class:Exchange:6069)')", 
+            "md5": "d314bd7c4a0b7b2b4db7b16632cf5551", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_common.py', '(class:Thing4:1977)')", 
+            "md5": "b5c6004c931e2b8a26fb97713cf8ff0d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/messaging/adapter/model.py', '(class:Connection:20661)')", 
+            "md5": "ee6dc27db1d6c58d89006ff8ab44da97", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 31, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_config.py', '(func:6194:(test_read:6198))')", 
+            "md5": "041fe3609991732a2a0186f171537f48", 
+            "weight": 64
+        }, 
+        {
+            "AST Diff": 42, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/decorators.py', '(func:1338:(inner:1342))')", 
+            "md5": "4805c731d567a7e6288941d036fb9f0c", 
+            "weight": 86
+        }, 
+        {
+            "AST Diff": 8, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/decorators.py', '(func:3076:(action:3080))')", 
+            "md5": "c4b75e9be4fb88ed6f407c0919844102", 
+            "weight": 18
+        }, 
+        {
+            "AST Diff": 33, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_decorators.py', '(func:2065:(test_service:2069))')", 
+            "md5": "789172a572a948ba5978ce4d1895ed5d", 
+            "weight": 68
+        }, 
+        {
+            "AST Diff": 61, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_config.py', '(func:18581:(test_iread:18616))')", 
+            "md5": "7dba54f4364c6fca036b16266e3210fd", 
+            "weight": 124
+        }, 
+        {
+            "AST Diff": 31, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_decorators.py', '(func:2349:(test_call:2353))')", 
+            "md5": "6a94078ca622cd2971d1f045c5c962c8", 
+            "weight": 64
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_pam.py', '(func:656:(test_authenticated:767))')", 
+            "md5": "8626ce1a63287a494edb9e560e6867f1", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 118, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/config.py', '(func:16578:(read:16582))')", 
+            "md5": "d6ea24d17ef9ea955f8a3ab6a9d9fcb0", 
+            "weight": 238
+        }, 
+        {
+            "AST Diff": 6, 
+            "Profile Diff": null, 
+            "id": "('src/gofer/config.py', '(func:4761:(__init__:4765))')", 
+            "md5": "63a31f346ddf11aacff276ba4e775700", 
+            "weight": 7
+        }, 
+        {
+            "AST Diff": 13, 
+            "Profile Diff": true, 
+            "id": "('test/unit/test_config.py', '(func:5469:(test_init:5592))')", 
+            "md5": "cd8b20a4fe5e14ec8cda69c3e526e199", 
+            "weight": 28
+        }, 
+        {
+            "AST Diff": 15, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/common.py', '(func:7466:(__init__:7470))')", 
+            "md5": "6a4e2bde115ca9535972a3632840d463", 
+            "weight": 32
+        }, 
+        {
+            "AST Diff": 38, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/decorators.py', '(func:2189:(inner:2193))')", 
+            "md5": "6dec0634f09b07f7907e47d58e8d3c89", 
+            "weight": 78
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/pam.py', '(func:2928:(_authenticate:2932))')", 
+            "md5": "c1a31a6ffb4fb6089ebe9ba5a855936f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 5, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_common.py', '(func:2004:(bar:2022))')", 
+            "md5": "f8e5475be91461f7874ae5683315ba9d", 
+            "weight": 12
+        }, 
+        {
+            "AST Diff": 28, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_common.py', '(func:2231:(test_exists:2261))')", 
+            "md5": "799f4827126da372c02c76bd5b2d4e77", 
+            "weight": 58
+        }, 
+        {
+            "AST Diff": 47, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_decorators.py', '(func:1477:(test_secret:1519))')", 
+            "md5": "df76feb7fd25d6f4e395768f9ed7937a", 
+            "weight": 96
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/messaging/adapter/model.py', '(class:Message:10995)')", 
+            "md5": "dd7c1c868e9ef2dbc2ddcf4a751cf7ce", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 29, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_decorators.py', '(func:3068:(test_initializer:3112))')", 
+            "md5": "a415b3361a100220337e447a71a863c5", 
+            "weight": 60
+        }, 
+        {
+            "AST Diff": 23, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/decorators.py', '(func:1099:(remote:1103))')", 
+            "md5": "205dae030f9fb9e9a80b66a483f5f812", 
+            "weight": 48
+        }, 
+        {
+            "AST Diff": 38, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/decorators.py', '(func:2841:(inner:2845))')", 
+            "md5": "b3f2b69ba9b99e3f230bd1d4d9d358c7", 
+            "weight": 78
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/rmi/decorators.py', '(func:1704:(__options:1708))')", 
+            "md5": "d668e364ba59d057d126105e48b94d8c", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 29, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_decorators.py', '(func:2867:(test_load:2911))')", 
+            "md5": "578a149c947d1b0f9eddec7168aa74fd", 
+            "weight": 60
+        }, 
+        {
+            "AST Diff": 16, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/decorators.py', '(func:3503:(load:3507))')", 
+            "md5": "4cb30118681eaa8d596796624f3f730d", 
+            "weight": 34
+        }, 
+        {
+            "AST Diff": 13, 
+            "Profile Diff": null, 
+            "id": "('src/gofer/config.py', '(func:6292:(update:6296))')", 
+            "md5": "9aeb1dcc3f948648f60703af828ff321", 
+            "weight": 14
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/pam.py', '(func:2383:(authenticate:2387))')", 
+            "md5": "b6fd1d0319b6ce4a0c927f1ff2f15a81", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 50, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_common.py', '(func:6554:(test_released:6605))')", 
+            "md5": "c8ae805fa42f4fa6e32cc3090bb3faac", 
+            "weight": 102
+        }, 
+        {
+            "AST Diff": 14, 
+            "Profile Diff": null, 
+            "id": "('test/unit/test_config.py', '(func:5845:(test_open:5919))')", 
+            "md5": "3fab3f3ca92c705b07a670398047667a", 
+            "weight": 15
+        }, 
+        {
+            "AST Diff": 45, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/config.py', '(func:5950:(read:5954))')", 
+            "md5": "f8e2e771a57f5274c42ef1909842b134", 
+            "weight": 92
+        }, 
+        {
+            "AST Diff": 13, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/decorators.py', '(func:3417:(inner:3421))')", 
+            "md5": "a1e645614a9624e062791eb6e074d410", 
+            "weight": 28
+        }
+    ]
+}

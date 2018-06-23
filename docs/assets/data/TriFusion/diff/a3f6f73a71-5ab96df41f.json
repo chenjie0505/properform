@@ -1,0 +1,261 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:110171:(write_to_file:110175))')", 
+            "target": "('trifusion/process/sequence.py', '(func:124159:(_reset_pipes:124163))')", 
+            "weight": 40
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:110171:(write_to_file:110175))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 40
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:101993:(filter_informative_sites:101997))')", 
+            "target": "('trifusion/process/sequence.py', '(func:124159:(_reset_pipes:124163))')", 
+            "weight": 300
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:101993:(filter_informative_sites:101997))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 300
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:139617:(filter_codon_positions:139621))')", 
+            "target": "('trifusion/process/sequence.py', '(func:124159:(_reset_pipes:124163))')", 
+            "weight": 54
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:139617:(filter_codon_positions:139621))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 54
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:107251:(code_gaps:107255))')", 
+            "target": "('trifusion/process/sequence.py', '(func:124159:(_reset_pipes:124163))')", 
+            "weight": 354
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:107251:(code_gaps:107255))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 354
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:95939:(filter_min_taxa:95943))')", 
+            "target": "('trifusion/process/sequence.py', '(func:124159:(_reset_pipes:124163))')", 
+            "weight": 232
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:95939:(filter_min_taxa:95943))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 232
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:126220:(concatenate:126224))')", 
+            "target": "('trifusion/process/sequence.py', '(func:124159:(_reset_pipes:124163))')", 
+            "weight": 118
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:126220:(concatenate:126224))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 118
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:126220:(concatenate:126224))')", 
+            "target": "('trifusion/process/sequence.py', '(func:116286:(_create_table:116290))')", 
+            "weight": 146
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_process_filters.py', '(func:2903:(test_filter_min_taxa:2907))')", 
+            "target": "('trifusion/process/sequence.py', '(func:95939:(filter_min_taxa:95943))')", 
+            "weight": 232
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:107461:(collapse:107465))')", 
+            "target": "('trifusion/process/sequence.py', '(func:124159:(_reset_pipes:124163))')", 
+            "weight": 230
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:107461:(collapse:107465))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 230
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:108653:(consensus:108657))')", 
+            "target": "('trifusion/process/sequence.py', '(func:124159:(_reset_pipes:124163))')", 
+            "weight": 19
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:108653:(consensus:108657))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 19
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:108653:(consensus:108657))')", 
+            "target": "('trifusion/process/sequence.py', '(func:116286:(_create_table:116290))')", 
+            "weight": 47
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:141018:(filter_missing_data:141022))')", 
+            "target": "('trifusion/process/sequence.py', '(func:124159:(_reset_pipes:124163))')", 
+            "weight": 60
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:141018:(filter_missing_data:141022))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 60
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:97256:(filter_by_taxa:97260))')", 
+            "target": "('trifusion/process/sequence.py', '(func:124159:(_reset_pipes:124163))')", 
+            "weight": 220
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:97256:(filter_by_taxa:97260))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 220
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:101098:(filter_segregating_sites:101102))')", 
+            "target": "('trifusion/process/sequence.py', '(func:124159:(_reset_pipes:124163))')", 
+            "weight": 151
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:101098:(filter_segregating_sites:101102))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 151
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('trifusion/process/sequence.py', '(func:124159:(_reset_pipes:124163))')", 
+            "md5": "4a836e921c33a36f04598058ba862178", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 148, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:101993:(filter_informative_sites:101997))')", 
+            "md5": "22c80e03ebc558f2597728ac2e591380", 
+            "weight": 298
+        }, 
+        {
+            "AST Diff": 114, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:95939:(filter_min_taxa:95943))')", 
+            "md5": "e4de28a1f44c5d4f310070ae8d7bee40", 
+            "weight": 230
+        }, 
+        {
+            "AST Diff": 25, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:139617:(filter_codon_positions:139621))')", 
+            "md5": "0c75dace274c6870212005e41023ddf2", 
+            "weight": 52
+        }, 
+        {
+            "AST Diff": 108, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:97256:(filter_by_taxa:97260))')", 
+            "md5": "afde7b107b5fa60747119b31c21054f7", 
+            "weight": 218
+        }, 
+        {
+            "AST Diff": 113, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:107461:(collapse:107465))')", 
+            "md5": "96ed71d5028d99ba25fee8ffeb0106b7", 
+            "weight": 228
+        }, 
+        {
+            "AST Diff": 175, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:107251:(code_gaps:107255))')", 
+            "md5": "7f9ab0d24f81858144c1a44c56ff832a", 
+            "weight": 352
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_process_filters.py', '(func:2903:(test_filter_min_taxa:2907))')", 
+            "md5": "79895e4d0d0c491da1de1b1cda18f60b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "md5": "9aaae6b0020f53e345c90528d243cd50", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 115, 
+            "Profile Diff": null, 
+            "id": "('trifusion/process/sequence.py', '(func:126220:(concatenate:126224))')", 
+            "md5": "3377a4c7d7f48b77e276cb99646d3748", 
+            "weight": 116
+        }, 
+        {
+            "AST Diff": 28, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:141018:(filter_missing_data:141022))')", 
+            "md5": "7ea127b77c1970294ef604aa335ff824", 
+            "weight": 58
+        }, 
+        {
+            "AST Diff": 37, 
+            "Profile Diff": null, 
+            "id": "('trifusion/process/sequence.py', '(func:110171:(write_to_file:110175))')", 
+            "md5": "e087d9fdf021faa3962bc5a56598ecab", 
+            "weight": 38
+        }, 
+        {
+            "AST Diff": 148, 
+            "Profile Diff": null, 
+            "id": "('trifusion/process/sequence.py', '(func:101098:(filter_segregating_sites:101102))')", 
+            "md5": "444aa1098aa14a896ce53aede2091854", 
+            "weight": 149
+        }, 
+        {
+            "AST Diff": 14, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:116286:(_create_table:116290))')", 
+            "md5": "77ea77463202d4c8d2d48123e3990996", 
+            "weight": 30
+        }, 
+        {
+            "AST Diff": 16, 
+            "Profile Diff": null, 
+            "id": "('trifusion/process/sequence.py', '(func:108653:(consensus:108657))')", 
+            "md5": "e0f0d247f5586900847b0dd962cd036a", 
+            "weight": 17
+        }
+    ]
+}

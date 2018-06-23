@@ -1,0 +1,178 @@
+{
+    "edges": [
+        {
+            "source": "('src/petl/test/test_transform.py', '(func:75200:(test_rangeaggregate_multifield_2:75204))')", 
+            "target": "('src/petl/transform.py', '(func:140059:(rangeaggregate:140063))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/test_transform.py', '(func:72210:(test_rangeaggregate_minmax:72214))')", 
+            "target": "('src/petl/transform.py', '(func:140059:(rangeaggregate:140063))')", 
+            "weight": 7
+        }, 
+        {
+            "source": "('src/petl/test/test_transform.py', '(func:70754:(test_aggregate_empty:70758))')", 
+            "target": "('src/petl/transform.py', '(func:122656:(aggregate:122660))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/test_transform.py', '(func:69837:(test_aggregate_multiple_source_fields:69841))')", 
+            "target": "('src/petl/transform.py', '(func:122656:(aggregate:122660))')", 
+            "weight": 20
+        }, 
+        {
+            "source": "('src/petl/test/test_transform.py', '(func:73950:(test_rangeaggregate_multifield:73954))')", 
+            "target": "('src/petl/transform.py', '(func:140059:(rangeaggregate:140063))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/test_transform.py', '(func:71102:(test_rangeaggregate_simple:71106))')", 
+            "target": "('src/petl/transform.py', '(func:140059:(rangeaggregate:140063))')", 
+            "weight": 5
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/test_transform.py', '(func:65824:(test_aggregate_simple:65828))')", 
+            "target": "('src/petl/transform.py', '(func:122656:(aggregate:122660))')", 
+            "weight": 22
+        }, 
+        {
+            "source": "('src/petl/test/test_transform.py', '(func:68663:(test_aggregate_more:68667))')", 
+            "target": "('src/petl/transform.py', '(func:122656:(aggregate:122660))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/test/test_transform.py', '(func:67048:(test_aggregate_multifield:67052))')", 
+            "target": "('src/petl/transform.py', '(func:122656:(aggregate:122660))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/transform.py', '(func:131545:(itersimpleaggregate:131549))')", 
+            "target": "('src/petl/transform.py', '(func:132968:(lambda:132968))')", 
+            "weight": 108
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/transform.py', '(func:131545:(itersimpleaggregate:131549))')", 
+            "target": "('src/petl/transform.py', '(func:131651:(lambda:131651))')", 
+            "weight": 108
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/test_transform.py', '(func:73502:(test_rangeaggregate_empty:73506))')", 
+            "target": "('src/petl/transform.py', '(func:140059:(rangeaggregate:140063))')", 
+            "weight": 5
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('src/petl/test/test_transform.py', '(func:75200:(test_rangeaggregate_multifield_2:75204))')", 
+            "md5": "fb95716bce29bcb5f6f5364fd7836cb3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('src/petl/test/test_transform.py', '(func:68663:(test_aggregate_more:68667))')", 
+            "md5": "0cd14aff14399c2ca7a024355494a078", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 10, 
+            "Profile Diff": true, 
+            "id": "('src/petl/transform.py', '(func:131651:(lambda:131651))')", 
+            "md5": "042f7fc0f78f9e629810790207df701e", 
+            "weight": 22
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('src/petl/test/test_transform.py', '(func:70754:(test_aggregate_empty:70758))')", 
+            "md5": "cd41323c27ece5de6083276660969c9e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('src/petl/test/test_transform.py', '(func:73950:(test_rangeaggregate_multifield:73954))')", 
+            "md5": "56cf8fa42102cece63c3d515f4c9618b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 10, 
+            "Profile Diff": false, 
+            "id": "('src/petl/transform.py', '(func:132968:(lambda:132968))')", 
+            "md5": "4a02b2448aec78c1e10f01117e612ad0", 
+            "weight": 22
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('src/petl/test/test_transform.py', '(func:67048:(test_aggregate_multifield:67052))')", 
+            "md5": "b44362e9b00173f90e3812ea3e65d9da", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 17, 
+            "Profile Diff": null, 
+            "id": "('src/petl/test/test_transform.py', '(func:69837:(test_aggregate_multiple_source_fields:69841))')", 
+            "md5": "65d573836262548722cae1f1a3cc810a", 
+            "weight": 18
+        }, 
+        {
+            "AST Diff": 19, 
+            "Profile Diff": null, 
+            "id": "('src/petl/test/test_transform.py', '(func:65824:(test_aggregate_simple:65828))')", 
+            "md5": "fa23f860727d9b5b6103157af3e30fe6", 
+            "weight": 20
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('src/petl/transform.py', '(func:140059:(rangeaggregate:140063))')", 
+            "md5": "62c12887bd4c77e689a58c5c3773a807", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 2, 
+            "Profile Diff": null, 
+            "id": "('src/petl/test/test_transform.py', '(func:71102:(test_rangeaggregate_simple:71106))')", 
+            "md5": "6d506d5dada381df86bb417e02481588", 
+            "weight": 3
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('src/petl/transform.py', '(func:122656:(aggregate:122660))')", 
+            "md5": "2a27a3ab3646d38d450788957194cb2f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 85, 
+            "Profile Diff": null, 
+            "id": "('src/petl/transform.py', '(func:131545:(itersimpleaggregate:131549))')", 
+            "md5": "df25130aff1ff9d961b788a62ade7af0", 
+            "weight": 86
+        }, 
+        {
+            "AST Diff": 2, 
+            "Profile Diff": null, 
+            "id": "('src/petl/test/test_transform.py', '(func:73502:(test_rangeaggregate_empty:73506))')", 
+            "md5": "c4f0540bdc75580a6da541b7938d61f3", 
+            "weight": 3
+        }, 
+        {
+            "AST Diff": 4, 
+            "Profile Diff": null, 
+            "id": "('src/petl/test/test_transform.py', '(func:72210:(test_rangeaggregate_minmax:72214))')", 
+            "md5": "4bed98acc14f09aa486647858b430a85", 
+            "weight": 5
+        }
+    ]
+}

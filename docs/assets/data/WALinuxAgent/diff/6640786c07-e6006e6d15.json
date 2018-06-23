@@ -1,0 +1,46 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/ga/test_extension.py', '(func:2863:(test_migration_migrates:2867))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:31112:(get_handler_state:31116))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/osutil/ubuntu.py', '(func:1318:(get_dhcp_lease_endpoint:1322))')", 
+            "target": "('azurelinuxagent/common/osutil/default.py', '(func:21239:(get_endpoint_from_leases_path:21261))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/osutil/default.py', '(func:21239:(get_endpoint_from_leases_path:21261))')", 
+            "md5": "c56a48611b54b714940e0238884ba2a1", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/osutil/ubuntu.py', '(func:1318:(get_dhcp_lease_endpoint:1322))')", 
+            "md5": "42ba7dba6fbedacb3d0c6f527f4c274b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:31112:(get_handler_state:31116))')", 
+            "md5": "5519ca5cdaa1a1b6061b92129562bce2", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_extension.py', '(func:2863:(test_migration_migrates:2867))')", 
+            "md5": "4f38392d3ad27ade3a041c110d7c20bc", 
+            "weight": 2
+        }
+    ]
+}

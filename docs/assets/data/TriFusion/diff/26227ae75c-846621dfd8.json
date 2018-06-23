@@ -1,0 +1,167 @@
+{
+    "edges": [
+        {
+            "source": "('trifusion/process/sequence.py', '(func:114694:(get_summary_stats:114698))')", 
+            "target": "('trifusion/process/sequence.py', '(func:81100:(_reset_summary_stats:81104))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:114694:(get_summary_stats:114698))')", 
+            "target": "('trifusion/process/sequence.py', '(func:18791:(iter_columns:18813))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:5299:(__call__:5303))')", 
+            "target": "('trifusion/process/sequence.py', '(func:33412:(consensus:33416))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:5299:(__call__:5303))')", 
+            "target": "('trifusion/process/sequence.py', '(func:49000:(collapse:49023))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:49000:(collapse:49023))')", 
+            "target": "('trifusion/process/sequence.py', '(func:36342:(write_loci_correspondence:36364))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:107461:(collapse:107465))')", 
+            "target": "('trifusion/process/sequence.py', '(func:5299:(__call__:5303))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:107461:(collapse:107465))')", 
+            "target": "('trifusion/process/sequence.py', '(func:5143:(__get__:5147))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/tests/test_secondary_ops.py', '(func:354:(test_collapse_single:358))')", 
+            "target": "('trifusion/process/sequence.py', '(func:107461:(collapse:107465))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:108653:(consensus:108657))')", 
+            "target": "('trifusion/process/sequence.py', '(func:5299:(__call__:5303))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:108653:(consensus:108657))')", 
+            "target": "('trifusion/process/sequence.py', '(func:5143:(__get__:5147))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/tests/test_secondary_ops.py', '(func:1056:(test_collapse_after_concatenation:1060))')", 
+            "target": "('trifusion/process/sequence.py', '(func:5299:(__call__:5303))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/tests/test_secondary_ops.py', '(func:1056:(test_collapse_after_concatenation:1060))')", 
+            "target": "('trifusion/process/sequence.py', '(func:5143:(__get__:5147))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:33412:(consensus:33416))')", 
+            "target": "('trifusion/process/sequence.py', '(func:18791:(iter_columns:18813))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/tests/test_secondary_ops.py', '(func:3510:(test_consensus_first_seq:3514))')", 
+            "target": "('trifusion/process/sequence.py', '(func:108653:(consensus:108657))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:108653:(consensus:108657))')", 
+            "md5": "e0f0d247f5586900847b0dd962cd036a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:5299:(__call__:5303))')", 
+            "md5": "15e784b028f927de658d6a32529fd97d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:114694:(get_summary_stats:114698))')", 
+            "md5": "a74937c7bb41bb3ca0d2ebff0e346dfc", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:107461:(collapse:107465))')", 
+            "md5": "96ed71d5028d99ba25fee8ffeb0106b7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:81100:(_reset_summary_stats:81104))')", 
+            "md5": "25b8122ca91eb33526e0412687bef9d6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:49000:(collapse:49023))')", 
+            "md5": "cd532410edb214c505fb4ca5362e9110", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:33412:(consensus:33416))')", 
+            "md5": "91fa41afbf033ea591cabef7a1fc6d1c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/tests/test_secondary_ops.py', '(func:1056:(test_collapse_after_concatenation:1060))')", 
+            "md5": "49c9a044f7b6fd3643b0ed96e1cbecc7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:5143:(__get__:5147))')", 
+            "md5": "23946dcdafb9023f7ec7715925d3d227", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:18791:(iter_columns:18813))')", 
+            "md5": "10d6722c5752e953b07aebe06fb958d8", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:36342:(write_loci_correspondence:36364))')", 
+            "md5": "6af6cadae3a7ae328a53c17ea36bfa12", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/tests/test_secondary_ops.py', '(func:3510:(test_consensus_first_seq:3514))')", 
+            "md5": "4387ced6ef3933572639b87d1197c3be", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/tests/test_secondary_ops.py', '(func:354:(test_collapse_single:358))')", 
+            "md5": "096a634173bf1d3a0d5f3c521f3e8c0c", 
+            "weight": 2
+        }
+    ]
+}

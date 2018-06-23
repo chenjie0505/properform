@@ -1,0 +1,158 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/utils/test_rest_util.py', '(func:1920:(test_increment_other:1924))')", 
+            "target": "('azurelinuxagent/common/utils/restutil.py', '(func:3040:(set_protocol_endpoint:3062))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:7201:(handle_enable:7205))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:23161:(update_with_install:23165))')", 
+            "weight": 8
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:7201:(handle_enable:7205))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:28691:(update_settings:28695))')", 
+            "weight": 8
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:5956:(handle_ext_handlers:5960))')", 
+            "target": "('azurelinuxagent/common/conf.py', '(func:6134:(get_enable_overprovisioning:6138))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/distro/test_resourceDisk.py', '(func:2203:(test_mkfile_xfs_fs:2207))')", 
+            "target": "('azurelinuxagent/daemon/resourcedisk/default.py', '(func:6954:(mkfile:6958))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/utils/test_rest_util.py', '(func:1029:(test_increment_hostplugin:1033))')", 
+            "target": "('azurelinuxagent/common/utils/restutil.py', '(func:3040:(set_protocol_endpoint:3062))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/ga/test_extension.py', '(func:15648:(test_ext_handler_rollingupgrade:15652))')", 
+            "target": "('tests/ga/test_extension.py', '(func:1044:(_assert_handler_status:1048))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/ga/test_extension.py', '(func:2665:(test_ext_handler:2669))')", 
+            "target": "('tests/ga/test_extension.py', '(func:1044:(_assert_handler_status:1048))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/ga/test_extension.py', '(func:5407:(test_ext_handler_no_settings:5411))')", 
+            "target": "('tests/ga/test_extension.py', '(func:1044:(_assert_handler_status:1048))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/distro/test_resourceDisk.py', '(func:2203:(test_mkfile_xfs_fs:2207))')", 
+            "md5": "f00e73a6469e496a2ac9162df4134a62", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/utils/test_rest_util.py', '(func:1920:(test_increment_other:1924))')", 
+            "md5": "eeef057825b2f34bed96f526773e8bd1", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_extension.py', '(func:2665:(test_ext_handler:2669))')", 
+            "md5": "acb0bd91989ec4b8d02cd82eb71504fd", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_extension.py', '(func:5407:(test_ext_handler_no_settings:5411))')", 
+            "md5": "4f246c69fe62b867f80ba3397eb0ca48", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 5, 
+            "Profile Diff": null, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:7201:(handle_enable:7205))')", 
+            "md5": "3a779899ece60cc8e20accc5fa1f7cbd", 
+            "weight": 6
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_extension.py', '(func:1044:(_assert_handler_status:1048))')", 
+            "md5": "b71daeab9e11d292a081cc8ebe906ae1", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_extension.py', '(func:15648:(test_ext_handler_rollingupgrade:15652))')", 
+            "md5": "8ea82fd3fe0b78fa05e65fe0256f1e76", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:5956:(handle_ext_handlers:5960))')", 
+            "md5": "8bbb48f1ba25702191efab79360ce380", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/daemon/resourcedisk/default.py', '(func:6954:(mkfile:6958))')", 
+            "md5": "54d8dde9ce41769db86a5fc2e7a2de8e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:23161:(update_with_install:23165))')", 
+            "md5": "337da3e950ae38120f37ab7b53e14858", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:28691:(update_settings:28695))')", 
+            "md5": "95ae77752e9f6e0170b83b6c1497bcd4", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/conf.py', '(func:6134:(get_enable_overprovisioning:6138))')", 
+            "md5": "a9c0aba9f2f0038ff56dffd394d855cb", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/utils/restutil.py', '(func:3040:(set_protocol_endpoint:3062))')", 
+            "md5": "55d3d18473e61f410049b06ae5bfb74f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/utils/test_rest_util.py', '(func:1029:(test_increment_hostplugin:1033))')", 
+            "md5": "b736877c448dd52fe320d8e7519850db", 
+            "weight": 2
+        }
+    ]
+}

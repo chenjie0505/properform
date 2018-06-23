@@ -1,0 +1,85 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/pipes/configure.py', '(func:166:(load:188))')", 
+            "target": "('lib/dataprocessor/exception.py', '__str__:24')", 
+            "weight": 20
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/rc.py', '(func:2697:(load:2701))')", 
+            "target": "('lib/dataprocessor/io.py', '(func:880:(load:884))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/runner.py', '(func:667:(wrapper:698))')", 
+            "target": "('lib/dataprocessor/runner.py', '(func:313:(__init__:317))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/runner.py', '(func:667:(wrapper:698))')", 
+            "target": "('lib/dataprocessor/exception.py', '__str__:24')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_runner.py', '(func:333:(test_sync_except:337))')", 
+            "target": "('lib/dataprocessor/runner.py', '(func:667:(wrapper:698))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 17, 
+            "Profile Diff": null, 
+            "id": "('lib/dataprocessor/pipes/configure.py', '(func:166:(load:188))')", 
+            "md5": "a0c34b21787d4e81b22f7105b85dea37", 
+            "weight": 18
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/exception.py', '__str__:24')", 
+            "md5": "7607a644d78b2e8eefe9a699cbf7075f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/runner.py', '(func:667:(wrapper:698))')", 
+            "md5": "3f9fa23fef9084e959a69d95e208f874", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/io.py', '(func:880:(load:884))')", 
+            "md5": "ca9eb8c633d22f39ce2474194a488ef7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/tests/test_runner.py', '(func:333:(test_sync_except:337))')", 
+            "md5": "539c256a4c60644466a881094017b370", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/runner.py', '(func:313:(__init__:317))')", 
+            "md5": "b20e864fbf53cbca58d6822d4dbf78d3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/rc.py', '(func:2697:(load:2701))')", 
+            "md5": "0aa1561fcde54f045cd4899e467e41b1", 
+            "weight": 2
+        }
+    ]
+}

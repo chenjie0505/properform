@@ -1,0 +1,66 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_config.py', '(func:19002:(test_read_invalid_json:19006))')", 
+            "target": "('src/gofer/config.py', '(func:17528:(read:17532))')", 
+            "weight": 52
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_config.py', '(func:15338:(test_unicode:15342))')", 
+            "target": "('src/gofer/config.py', '(func:15313:(__str__:15317))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_common.py', '(class:Thing4:1977)')", 
+            "target": "('src/gofer/common.py', '(func:5789:(released:5793))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_common.py', '(class:Thing4:1977)')", 
+            "md5": "b5c6004c931e2b8a26fb97713cf8ff0d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/config.py', '(func:15313:(__str__:15317))')", 
+            "md5": "b80c08480619943387cc78a4abc47e74", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 24, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_config.py', '(func:19002:(test_read_invalid_json:19006))')", 
+            "md5": "e6a4cc9443a20af4b2d893e922f3e3c4", 
+            "weight": 50
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('test/unit/test_config.py', '(func:15338:(test_unicode:15342))')", 
+            "md5": "37a000f448c9ba8eeaac3eae2227150e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/config.py', '(func:17528:(read:17532))')", 
+            "md5": "52840e99d5c066ec939dc6e2da618489", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/common.py', '(func:5789:(released:5793))')", 
+            "md5": "92e36c9365f8d826ba5d8be42cfbf1dd", 
+            "weight": 2
+        }
+    ]
+}

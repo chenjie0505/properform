@@ -1,0 +1,143 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_triseq.py', '(func:2314:(teste_single_concatenation_with_zorro:2318))')", 
+            "target": "('trifusion/base/sanity.py', '(func:975:(triseq_arg_check:979))')", 
+            "weight": 123
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_triseq.py', '(func:1456:(test_conversion_and_reverse:1460))')", 
+            "target": "('trifusion/base/sanity.py', '(func:975:(triseq_arg_check:979))')", 
+            "weight": 81
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/base/sanity.py', '(func:975:(triseq_arg_check:979))')", 
+            "target": "('trifusion/process/base.py', '(func:5133:(print_col:5137))')", 
+            "weight": 35
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_triseq.py', '(func:1188:(test_gap_coding_warning:1192))')", 
+            "target": "('trifusion/base/sanity.py', '(func:975:(triseq_arg_check:979))')", 
+            "weight": 87
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_triseq.py', '(func:1988:(teste_no_ima2_params:1992))')", 
+            "target": "('trifusion/base/sanity.py', '(func:975:(triseq_arg_check:979))')", 
+            "weight": 125
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_triseq.py', '(func:2971:(teste_consensus_single_file:2975))')", 
+            "target": "('trifusion/base/sanity.py', '(func:975:(triseq_arg_check:979))')", 
+            "weight": 79
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_triseq.py', '(func:2651:(teste_consensus_outformats:2655))')", 
+            "target": "('trifusion/base/sanity.py', '(func:975:(triseq_arg_check:979))')", 
+            "weight": 119
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_triseq.py', '(func:1668:(teste_no_output_concatenation:1672))')", 
+            "target": "('trifusion/base/sanity.py', '(func:975:(triseq_arg_check:979))')", 
+            "weight": 121
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_triseq.py', '(func:4616:(test_code_gaps:4620))')", 
+            "target": "('trifusion/base/sanity.py', '(func:975:(triseq_arg_check:979))')", 
+            "weight": 35
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_triseq.py', '(func:825:(test_gap_coding_outformat:829))')", 
+            "target": "('trifusion/base/sanity.py', '(func:975:(triseq_arg_check:979))')", 
+            "weight": 125
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 32, 
+            "Profile Diff": null, 
+            "id": "('trifusion/base/sanity.py', '(func:975:(triseq_arg_check:979))')", 
+            "md5": "01b3ce56ffa77c4f60be7a09584d45cf", 
+            "weight": 33
+        }, 
+        {
+            "AST Diff": 23, 
+            "Profile Diff": false, 
+            "id": "('trifusion/tests/test_triseq.py', '(func:1456:(test_conversion_and_reverse:1460))')", 
+            "md5": "b106abd3a5cb7e6fa8d237923e29a7fe", 
+            "weight": 48
+        }, 
+        {
+            "AST Diff": 26, 
+            "Profile Diff": false, 
+            "id": "('trifusion/tests/test_triseq.py', '(func:1188:(test_gap_coding_warning:1192))')", 
+            "md5": "f23542f2a9a3f1ff3f0fffa15ac29b93", 
+            "weight": 54
+        }, 
+        {
+            "AST Diff": 45, 
+            "Profile Diff": false, 
+            "id": "('trifusion/tests/test_triseq.py', '(func:1988:(teste_no_ima2_params:1992))')", 
+            "md5": "fab165cda5f1717fc9369b07bc866c83", 
+            "weight": 92
+        }, 
+        {
+            "AST Diff": 45, 
+            "Profile Diff": false, 
+            "id": "('trifusion/tests/test_triseq.py', '(func:825:(test_gap_coding_outformat:829))')", 
+            "md5": "bfbbfa0f3e8cbffea512d825d17bd14b", 
+            "weight": 92
+        }, 
+        {
+            "AST Diff": 44, 
+            "Profile Diff": false, 
+            "id": "('trifusion/tests/test_triseq.py', '(func:2314:(teste_single_concatenation_with_zorro:2318))')", 
+            "md5": "d07ad2a22e9c71e391049bbfeae989f2", 
+            "weight": 90
+        }, 
+        {
+            "AST Diff": 43, 
+            "Profile Diff": false, 
+            "id": "('trifusion/tests/test_triseq.py', '(func:1668:(teste_no_output_concatenation:1672))')", 
+            "md5": "d3516af2a3033e50a9f9a0259e1b913a", 
+            "weight": 88
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_triseq.py', '(func:4616:(test_code_gaps:4620))')", 
+            "md5": "317cda9977bc3deafee364324cd758ca", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/base.py', '(func:5133:(print_col:5137))')", 
+            "md5": "59eb5a782ee6588d169ccef6b4b478f7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 42, 
+            "Profile Diff": false, 
+            "id": "('trifusion/tests/test_triseq.py', '(func:2651:(teste_consensus_outformats:2655))')", 
+            "md5": "6672bd10ad53556bbb0a8a2ddeae6ae8", 
+            "weight": 86
+        }, 
+        {
+            "AST Diff": 22, 
+            "Profile Diff": false, 
+            "id": "('trifusion/tests/test_triseq.py', '(func:2971:(teste_consensus_single_file:2975))')", 
+            "md5": "64fa951532c27d1486bb2403cc6447aa", 
+            "weight": 46
+        }
+    ]
+}

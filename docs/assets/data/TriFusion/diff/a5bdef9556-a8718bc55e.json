@@ -1,0 +1,98 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:49000:(collapse:49023))')", 
+            "target": "('trifusion/process/sequence.py', '(func:19865:(_update_pipes:19869))')", 
+            "weight": 244
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:49000:(collapse:49023))')", 
+            "target": "('trifusion/process/sequence.py', '(func:20148:(_reset_pipes:20152))')", 
+            "weight": 224
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:49000:(collapse:49023))')", 
+            "target": "('trifusion/process/sequence.py', '(func:36342:(write_loci_correspondence:36364))')", 
+            "weight": 220
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:49000:(collapse:49023))')", 
+            "target": "('trifusion/process/sequence.py', '(func:19591:(_set_pipes:19595))')", 
+            "weight": 222
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:40141:(collapse:40164))')", 
+            "target": "('trifusion/process/sequence.py', '(func:36342:(write_loci_correspondence:36364))')", 
+            "weight": 492
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:17108:(read_alignment:17112))')", 
+            "target": "('trifusion/process/sequence.py', '(func:26743:(_read_interleave_phylip:26747))')", 
+            "weight": 13
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 15, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:19865:(_update_pipes:19869))')", 
+            "md5": "cdb989b2c0dc74197b558c01577e7de6", 
+            "weight": 32
+        }, 
+        {
+            "AST Diff": 241, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:40141:(collapse:40164))')", 
+            "md5": "0ade865ab38137183a4ffc6c0c34b4f9", 
+            "weight": 484
+        }, 
+        {
+            "AST Diff": 5, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:20148:(_reset_pipes:20152))')", 
+            "md5": "9d52c203e3e93d332d3fb0543cc5d92d", 
+            "weight": 12
+        }, 
+        {
+            "AST Diff": 7, 
+            "Profile Diff": null, 
+            "id": "('trifusion/process/sequence.py', '(func:26743:(_read_interleave_phylip:26747))')", 
+            "md5": "27bd4fcacae93150bfa5f0d2ed313229", 
+            "weight": 8
+        }, 
+        {
+            "AST Diff": 105, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:49000:(collapse:49023))')", 
+            "md5": "cd532410edb214c505fb4ca5362e9110", 
+            "weight": 212
+        }, 
+        {
+            "AST Diff": 4, 
+            "Profile Diff": null, 
+            "id": "('trifusion/process/sequence.py', '(func:17108:(read_alignment:17112))')", 
+            "md5": "976ef24ecf9c54c529ca01df626d6e9c", 
+            "weight": 5
+        }, 
+        {
+            "AST Diff": 7, 
+            "Profile Diff": null, 
+            "id": "('trifusion/process/sequence.py', '(func:36342:(write_loci_correspondence:36364))')", 
+            "md5": "6af6cadae3a7ae328a53c17ea36bfa12", 
+            "weight": 8
+        }, 
+        {
+            "AST Diff": 4, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:19591:(_set_pipes:19595))')", 
+            "md5": "c24600f2532a59fde3d063b8996181e4", 
+            "weight": 10
+        }
+    ]
+}

@@ -1,0 +1,747 @@
+{
+    "edges": [
+        {
+            "source": "('tests/test_distance.py', '(func:37713:(test_sim_jaro_winkler:37717))')", 
+            "target": "('abydos/distance.py', '(func:30625:(sim_jaro_winkler:30629))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_distance.py', '(func:31304:(test_tanimoto:31308))')", 
+            "target": "('abydos/distance.py', '(func:23057:(tanimoto:23061))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:19966:(dist_dice:19970))')", 
+            "target": "('abydos/distance.py', '(func:19440:(sim_dice:19444))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/distance.py', '(func:59446:(sim_mlipns:59450))')", 
+            "target": "('abydos/distance.py', '(func:13482:(hamming:13486))')", 
+            "weight": 6
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/distance.py', '(func:35073:(dist_jaro_winkler:35077))')", 
+            "target": "('abydos/distance.py', '(func:30625:(sim_jaro_winkler:30629))')", 
+            "weight": 6
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:49291:(dist_monge_elkan:49295))')", 
+            "target": "('abydos/distance.py', '(func:47881:(sim_monge_elkan:47885))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:7054:(sim_levenshtein:7058))')", 
+            "target": "('abydos/distance.py', '(func:5385:(dist_levenshtein:5389))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/distance.py', '(func:43481:(mra_compare:43485))')", 
+            "target": "('abydos/phonetic.py', '(func:19625:(mra:19629))')", 
+            "weight": 6
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/distance.py', '(func:44706:(sim_mra:44710))')", 
+            "target": "('abydos/distance.py', '(func:43481:(mra_compare:43485))')", 
+            "weight": 6
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:45030:(dist_mra:45034))')", 
+            "target": "('abydos/distance.py', '(func:44706:(sim_mra:44710))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:2457:(levenshtein:2461))')", 
+            "target": "('abydos/distance.py', '(func:8314:(damerau_levenshtein:8318))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/distance.py', '(func:19440:(sim_dice:19444))')", 
+            "target": "('abydos/distance.py', '(func:15901:(sim_tversky:15905))')", 
+            "weight": 6
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:66788:(sim_editex:66792))')", 
+            "target": "('abydos/distance.py', '(func:65830:(dist_editex:65834))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_distance.py', '(func:86845:(test_dist_mlipns:86849))')", 
+            "target": "('abydos/distance.py', '(func:60887:(dist_mlipns:60891))')", 
+            "weight": 6
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/distance.py', '(func:62111:(sim_bag:62115))')", 
+            "target": "('abydos/distance.py', '(func:62375:(dist_bag:62379))')", 
+            "weight": 6
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:47344:(sim_compression:47348))')", 
+            "target": "('abydos/distance.py', '(func:45356:(dist_compression:45360))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:69323:(dist:69327))')", 
+            "target": "('abydos/distance.py', '(func:7054:(sim_levenshtein:7058))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/distance.py', '(func:20346:(sim_jaccard:20350))')", 
+            "target": "('abydos/distance.py', '(func:15901:(sim_tversky:15905))')", 
+            "weight": 6
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:37840:(sim_lcsseq:37844))')", 
+            "target": "('abydos/distance.py', '(func:36560:(lcsseq:36564))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:14844:(dist_hamming:14848))')", 
+            "target": "('abydos/distance.py', '(func:13482:(hamming:13486))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_distance.py', '(func:91332:(test_sim:91336))')", 
+            "target": "('abydos/distance.py', '(func:7054:(sim_levenshtein:7058))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_distance.py', '(func:91332:(test_sim:91336))')", 
+            "target": "('abydos/distance.py', '(func:68867:(sim:68871))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:39743:(sim_lcsstr:39747))')", 
+            "target": "('abydos/distance.py', '(func:38678:(lcsstr:38682))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:38323:(dist_lcsseq:38327))')", 
+            "target": "('abydos/distance.py', '(func:37840:(sim_lcsseq:37844))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:15366:(sim_hamming:15370))')", 
+            "target": "('abydos/distance.py', '(func:14844:(dist_hamming:14848))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_distance.py', '(func:82828:(test_sim_suffix:82832))')", 
+            "target": "('abydos/distance.py', '(func:58531:(sim_suffix:58535))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_distance.py', '(func:79486:(test_sim_prefix:79490))')", 
+            "target": "('abydos/distance.py', '(func:57616:(sim_prefix:57620))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:22182:(dist_overlap:22186))')", 
+            "target": "('abydos/distance.py', '(func:21237:(sim_overlap:21241))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:23057:(tanimoto:23061))')", 
+            "target": "('abydos/distance.py', '(func:20346:(sim_jaccard:20350))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/distance.py', '(func:18592:(dist_tversky:18596))')", 
+            "target": "('abydos/distance.py', '(func:15901:(sim_tversky:15905))')", 
+            "weight": 6
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:58288:(dist_prefix:58292))')", 
+            "target": "('abydos/distance.py', '(func:57616:(sim_prefix:57620))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:47881:(sim_monge_elkan:47885))')", 
+            "target": "('abydos/distance.py', '(func:47881:(sim_monge_elkan:47885))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:47881:(sim_monge_elkan:47885))')", 
+            "target": "('abydos/distance.py', '(func:68867:(sim:68871))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:47881:(sim_monge_elkan:47885))')", 
+            "target": "('abydos/distance.py', '(func:7054:(sim_levenshtein:7058))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:5385:(dist_levenshtein:5389))')", 
+            "target": "('abydos/distance.py', '(func:2457:(levenshtein:2461))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:22550:(sim_tanimoto:22554))')", 
+            "target": "('abydos/distance.py', '(func:20346:(sim_jaccard:20350))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:65830:(dist_editex:65834))')", 
+            "target": "('abydos/distance.py', '(func:62778:(editex:62782))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/distance.py', '(func:60887:(dist_mlipns:60891))')", 
+            "target": "('abydos/distance.py', '(func:59446:(sim_mlipns:59450))')", 
+            "weight": 8
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:11832:(dist_damerau:11836))')", 
+            "target": "('abydos/distance.py', '(func:8314:(damerau_levenshtein:8318))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_distance.py', '(func:40832:(test_dist_jaro_winkler:40836))')", 
+            "target": "('abydos/distance.py', '(func:35073:(dist_jaro_winkler:35077))')", 
+            "weight": 6
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:40223:(dist_lcsstr:40227))')", 
+            "target": "('abydos/distance.py', '(func:39743:(sim_lcsstr:39747))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:24488:(dist_cosine:24492))')", 
+            "target": "('abydos/distance.py', '(func:23512:(sim_cosine:23516))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:62375:(dist_bag:62379))')", 
+            "target": "('abydos/distance.py', '(func:61619:(bag:61623))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:12882:(sim_damerau:12886))')", 
+            "target": "('abydos/distance.py', '(func:11832:(dist_damerau:11836))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:43149:(dist_ratcliff_obershelp:43153))')", 
+            "target": "('abydos/distance.py', '(func:40573:(sim_ratcliff_obershelp:40577))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:57373:(dist_length:57377))')", 
+            "target": "('abydos/distance.py', '(func:56965:(sim_length:56969))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/distance.py', '(func:20869:(dist_jaccard:20873))')", 
+            "target": "('abydos/distance.py', '(func:20346:(sim_jaccard:20350))')", 
+            "weight": 6
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:59203:(dist_suffix:59207))')", 
+            "target": "('abydos/distance.py', '(func:58531:(sim_suffix:58535))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_distance.py', '(func:60680:(test_sim_mra:60684))')", 
+            "target": "('abydos/distance.py', '(func:44706:(sim_mra:44710))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:68867:(sim:68871))')", 
+            "target": "('abydos/distance.py', '(func:7054:(sim_levenshtein:7058))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:50491:(dist_ident:50495))')", 
+            "target": "('abydos/distance.py', '(func:50253:(sim_ident:50257))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:29984:(dist_strcmp95:29988))')", 
+            "target": "('abydos/distance.py', '(func:24861:(sim_strcmp95:24865))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 1, 
+            "Profile Diff": false, 
+            "id": "('abydos/distance.py', '(func:35073:(dist_jaro_winkler:35077))')", 
+            "md5": "b597d1ceba4a4eaf48e2be9dd309d65e", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": false, 
+            "id": "('abydos/distance.py', '(func:60887:(dist_mlipns:60891))')", 
+            "md5": "36454b21d5f06b6bf337f76b435bdd81", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:39743:(sim_lcsstr:39747))')", 
+            "md5": "143b8edc61a6dad3dbbfbd9652aea68d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:47881:(sim_monge_elkan:47885))')", 
+            "md5": "b66b75eaab747703ef68cef4be2c9ea2", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:68867:(sim:68871))')", 
+            "md5": "aa05fd115aa8870629341695dba0d735", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:38678:(lcsstr:38682))')", 
+            "md5": "e9f5eb513377ea426e88ce3b2a346902", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:5385:(dist_levenshtein:5389))')", 
+            "md5": "0f27495e1ec99cc32e6f1498762919bd", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:62375:(dist_bag:62379))')", 
+            "md5": "cb35c9e2f14f376d622b56e50b6314ec", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:36560:(lcsseq:36564))')", 
+            "md5": "1bbd1891259f8bd6e9991de54b2aca1b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:45030:(dist_mra:45034))')", 
+            "md5": "35fe99544f93ad9cc420ca830cd37d99", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_distance.py', '(func:82828:(test_sim_suffix:82832))')", 
+            "md5": "60757f1698e9b5dc6b6db731bf075e81", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": true, 
+            "id": "('abydos/distance.py', '(func:62111:(sim_bag:62115))')", 
+            "md5": "7f8490e9d49e0ef25c0c147ed325a309", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:69323:(dist:69327))')", 
+            "md5": "1139077766c05563f0569ceb02c896f7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": false, 
+            "id": "('abydos/distance.py', '(func:15901:(sim_tversky:15905))')", 
+            "md5": "b78d0e0018d6f2010927da6ddb9b39f2", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:65830:(dist_editex:65834))')", 
+            "md5": "e2d4fd8aea15a337938450b72623fe1e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:40223:(dist_lcsstr:40227))')", 
+            "md5": "4a10bd9d5c370139decd819133c3bd72", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:8314:(damerau_levenshtein:8318))')", 
+            "md5": "7fc7b1bae9b076cef31a731e6d2ae2ba", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_distance.py', '(func:79486:(test_sim_prefix:79490))')", 
+            "md5": "17fa374bab69c60fc3dc454bb25af10e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:14844:(dist_hamming:14848))')", 
+            "md5": "05b4be209f682d2d23039cb66d1a2bbc", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:50253:(sim_ident:50257))')", 
+            "md5": "396eac7b3533e1a503b8bd078b8c5b38", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:49291:(dist_monge_elkan:49295))')", 
+            "md5": "2cc8425094a1d4af6c4494407563873e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:2457:(levenshtein:2461))')", 
+            "md5": "585c6356468f77ede3bf40379598d970", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:20346:(sim_jaccard:20350))')", 
+            "md5": "636e5adeb14c4c181dcee5acd7233aa6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:61619:(bag:61623))')", 
+            "md5": "eecf9a66aee45fde7c290d5672afe06e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_distance.py', '(func:37713:(test_sim_jaro_winkler:37717))')", 
+            "md5": "9646d9e85e4af68bf082ef1917726a63", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:7054:(sim_levenshtein:7058))')", 
+            "md5": "9c233aaddc8bddf151648cf8d464614e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:38323:(dist_lcsseq:38327))')", 
+            "md5": "162ba1ae59bf24afbf901a6722fe43d6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_distance.py', '(func:31304:(test_tanimoto:31308))')", 
+            "md5": "29cc80058832716eb755556886231936", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:22182:(dist_overlap:22186))')", 
+            "md5": "4395763b85177f4c2642dcf6d20c7900", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:21237:(sim_overlap:21241))')", 
+            "md5": "a2f230da55cffd37cf485eb44527e9d0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:24861:(sim_strcmp95:24865))')", 
+            "md5": "d8575ffa21e20689c9b185da418fcd88", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:13482:(hamming:13486))')", 
+            "md5": "989b307a45850c1a5ba34907105e60de", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": false, 
+            "id": "('abydos/distance.py', '(func:43481:(mra_compare:43485))')", 
+            "md5": "9a400c325d852da94c3b625bcef6e9e3", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:19966:(dist_dice:19970))')", 
+            "md5": "0f192a2723e0af7aa7280b826338777f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:19440:(sim_dice:19444))')", 
+            "md5": "bd58f12c53e1eb6bbc4128d5026f886c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:23512:(sim_cosine:23516))')", 
+            "md5": "67f9bf2de9ef02c0150ddb20bedb588b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:12882:(sim_damerau:12886))')", 
+            "md5": "9f9c0abaef584f17b105c97761a5585e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:22550:(sim_tanimoto:22554))')", 
+            "md5": "f32dbed1ba77988e269423af283cfe2d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:44706:(sim_mra:44710))')", 
+            "md5": "9dc856a2442a7a83e12a2b23433d5dfa", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:18592:(dist_tversky:18596))')", 
+            "md5": "5659b4098f43d878931da89f571dca10", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:62778:(editex:62782))')", 
+            "md5": "88a20c3473e074c78bf80310ce025b4f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:58531:(sim_suffix:58535))')", 
+            "md5": "bd85a1310a9b2a25a1bb0b22c2064b32", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/phonetic.py', '(func:19625:(mra:19629))')", 
+            "md5": "93824deca23f13a804cb016674c49e6c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:30625:(sim_jaro_winkler:30629))')", 
+            "md5": "81ef43b4fd5de02264595a3b6eeae491", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:23057:(tanimoto:23061))')", 
+            "md5": "fda3e7083ab3ce8c41b091e8917f243f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_distance.py', '(func:60680:(test_sim_mra:60684))')", 
+            "md5": "197c5a9db741e24f16603d0ebe5bc6f5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:57373:(dist_length:57377))')", 
+            "md5": "c3a28061be3e795bb1708a197e8e3ca9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:37840:(sim_lcsseq:37844))')", 
+            "md5": "94782f2466530b1353e91f768788107f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:11832:(dist_damerau:11836))')", 
+            "md5": "53bbaac53484f824903a77316775de12", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:47344:(sim_compression:47348))')", 
+            "md5": "a1f0a89f08e05fd27d69e4bda77236ec", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:43149:(dist_ratcliff_obershelp:43153))')", 
+            "md5": "cbdc3024efce381c63e66e9534585864", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:40573:(sim_ratcliff_obershelp:40577))')", 
+            "md5": "aab056f057515e95fbdf40b780d6bcc8", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:45356:(dist_compression:45360))')", 
+            "md5": "6c12b3212887bf92e3fdd12801fd5fa3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": false, 
+            "id": "('abydos/distance.py', '(func:59446:(sim_mlipns:59450))')", 
+            "md5": "7d55c97abe3a57727ebd2bfa0e43b915", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": false, 
+            "id": "('abydos/distance.py', '(func:20869:(dist_jaccard:20873))')", 
+            "md5": "8e6c3b93742403d96fb0fb5a255f13d2", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_distance.py', '(func:40832:(test_dist_jaro_winkler:40836))')", 
+            "md5": "965ba8e2a63e19c311c744cb67f9fd0d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:56965:(sim_length:56969))')", 
+            "md5": "2d145291c00be77e3425082ea9b416ef", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:66788:(sim_editex:66792))')", 
+            "md5": "975669b13117b2e6c915850145ee5ecf", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_distance.py', '(func:91332:(test_sim:91336))')", 
+            "md5": "0d6deb64f49a08d4fa1cad104d91dfad", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_distance.py', '(func:86845:(test_dist_mlipns:86849))')", 
+            "md5": "ab873becb38d7ad57fad666c89558c73", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:59203:(dist_suffix:59207))')", 
+            "md5": "379ee3b409ca189abe2c7302b6ac5d94", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:24488:(dist_cosine:24492))')", 
+            "md5": "89e505e5cbe6b1e916bfe8874d52ff7c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:29984:(dist_strcmp95:29988))')", 
+            "md5": "00ac24e36fe3fb93d2ecd09d85979a17", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:50491:(dist_ident:50495))')", 
+            "md5": "c83323cfcb4f059743bf74ce0b1ee7a1", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:58288:(dist_prefix:58292))')", 
+            "md5": "beb5fb992d9b2623ad31360a17b2c712", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:15366:(sim_hamming:15370))')", 
+            "md5": "d94d2e76c5bfa5f0cebdee7cfe522dea", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/distance.py', '(func:57616:(sim_prefix:57620))')", 
+            "md5": "116f487c7e9ca77e6a2c7214d6a59af1", 
+            "weight": 2
+        }
+    ]
+}

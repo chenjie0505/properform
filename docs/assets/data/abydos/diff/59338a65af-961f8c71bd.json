@@ -1,0 +1,118 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_distance.py', '(func:65001:(test_sim_compression:65005))')", 
+            "target": "('abydos/distance.py', '(func:47344:(sim_compression:47348))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/util.py', '(func:1721:(jitter:1725))')", 
+            "target": "('abydos/util.py', '(func:1721:(jitter:1725))')", 
+            "weight": 48
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/util.py', '(func:1721:(jitter:1725))')", 
+            "target": "('abydos/util.py', '(func:4977:(_rand_user:4981))')", 
+            "weight": 44
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_stemmer.py', '(func:29363:(test_caumanns:29367))')", 
+            "target": "('abydos/stemmer.py', '(func:39601:(lancaster:39605))')", 
+            "weight": 121
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_distance.py', '(func:90114:(test_sim_bag:90118))')", 
+            "target": "('abydos/distance.py', '(func:66788:(sim_editex:66792))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_util.py', '(func:2197:(test_jitter:2201))')", 
+            "target": "('abydos/util.py', '(func:1721:(jitter:1725))')", 
+            "weight": 98
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/util.py', '(func:4977:(_rand_user:4981))')", 
+            "target": "('tests/test_util.py', '(func:3646:(lambda:3646))')", 
+            "weight": 34
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 11, 
+            "Profile Diff": false, 
+            "id": "('abydos/util.py', '(func:1721:(jitter:1725))')", 
+            "md5": "122cee335a80bdab311ddcfd91839764", 
+            "weight": 24
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/test_distance.py', '(func:90114:(test_sim_bag:90118))')", 
+            "md5": "e7fa721c656b17aa6ce4637ce5be3f1f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 118, 
+            "Profile Diff": null, 
+            "id": "('abydos/stemmer.py', '(func:39601:(lancaster:39605))')", 
+            "md5": "684d2ba64c5073e36122db799c1bd00e", 
+            "weight": 119
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/distance.py', '(func:66788:(sim_editex:66792))')", 
+            "md5": "975669b13117b2e6c915850145ee5ecf", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('tests/test_stemmer.py', '(func:29363:(test_caumanns:29367))')", 
+            "md5": "8cedf09d0fd45de41043635db724e335", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 36, 
+            "Profile Diff": false, 
+            "id": "('tests/test_util.py', '(func:2197:(test_jitter:2201))')", 
+            "md5": "4bf8c671e621ac1b3a71ad5998f9d881", 
+            "weight": 74
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/test_distance.py', '(func:65001:(test_sim_compression:65005))')", 
+            "md5": "a3214c8b4be986f758a792523ecc1c09", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/distance.py', '(func:47344:(sim_compression:47348))')", 
+            "md5": "a1f0a89f08e05fd27d69e4bda77236ec", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 9, 
+            "Profile Diff": false, 
+            "id": "('abydos/util.py', '(func:4977:(_rand_user:4981))')", 
+            "md5": "a018891a580aff74131c31bf5cc4e72c", 
+            "weight": 20
+        }, 
+        {
+            "AST Diff": 6, 
+            "Profile Diff": false, 
+            "id": "('tests/test_util.py', '(func:3646:(lambda:3646))')", 
+            "md5": "02fc17916ff0467611b23d69d5a4488d", 
+            "weight": 14
+        }
+    ]
+}

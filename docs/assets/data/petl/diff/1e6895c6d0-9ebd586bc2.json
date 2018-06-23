@@ -1,0 +1,79 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/test_transform.py', '(func:101921:(test_crossjoin:101925))')", 
+            "target": "('src/petl/transform.py', '(func:184390:(crossjoin:184394))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/transform.py', '(func:277598:(selectwithcontext:277602))')", 
+            "target": "('src/petl/transform.py', '(func:278683:(__init__:278687))')", 
+            "weight": 60
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/transform.py', '(func:278859:(iterselectwithcontext:278863))')", 
+            "target": "('src/petl/test/test_transform.py', '(func:135825:(query:135829))')", 
+            "weight": 204
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/test_transform.py', '(func:135584:(test_selectwithcontext:135588))')", 
+            "target": "('src/petl/transform.py', '(func:277598:(selectwithcontext:277602))')", 
+            "weight": 126
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/transform.py', '(func:184390:(crossjoin:184394))')", 
+            "md5": "47e88eb77dcdb811b262a78339aa7e1b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 34, 
+            "Profile Diff": false, 
+            "id": "('src/petl/test/test_transform.py', '(func:135825:(query:135829))')", 
+            "md5": "eb0293b1a12b3d9e81dee02f9425869c", 
+            "weight": 70
+        }, 
+        {
+            "AST Diff": 66, 
+            "Profile Diff": false, 
+            "id": "('src/petl/transform.py', '(func:278859:(iterselectwithcontext:278863))')", 
+            "md5": "f2addd4c7717dfef31a02cf24690a50c", 
+            "weight": 134
+        }, 
+        {
+            "AST Diff": 49, 
+            "Profile Diff": false, 
+            "id": "('src/petl/test/test_transform.py', '(func:135584:(test_selectwithcontext:135588))')", 
+            "md5": "f2a4b926c7b2b7207c5829d44bdb61cf", 
+            "weight": 100
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/test_transform.py', '(func:101921:(test_crossjoin:101925))')", 
+            "md5": "ca423d352c94faa911515c2fa9332e80", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 12, 
+            "Profile Diff": false, 
+            "id": "('src/petl/transform.py', '(func:277598:(selectwithcontext:277602))')", 
+            "md5": "a0471674f30a4d4854fab385ca36e645", 
+            "weight": 26
+        }, 
+        {
+            "AST Diff": 16, 
+            "Profile Diff": false, 
+            "id": "('src/petl/transform.py', '(func:278683:(__init__:278687))')", 
+            "md5": "ebe160125f4f1d32d59cabc61eb67da4", 
+            "weight": 34
+        }
+    ]
+}

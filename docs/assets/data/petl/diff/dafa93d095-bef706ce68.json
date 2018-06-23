@@ -1,0 +1,46 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/transform/selects.py', '(func:4766:(selecteq:4770))')", 
+            "target": "('petl/transform/selects.py', '(func:4468:(selectop:4472))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/io/test_sqlite3.py', '(func:4118:(test_tosqlite3_identifiers:4122))')", 
+            "target": "('petl/io/db.py', '(func:6938:(todb:6942))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/selects.py', '(func:4468:(selectop:4472))')", 
+            "md5": "f395342d694a0b0621b746ab4e23a40f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/io/test_sqlite3.py', '(func:4118:(test_tosqlite3_identifiers:4122))')", 
+            "md5": "041f171f44e619abacb7ed533b35ebc5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/selects.py', '(func:4766:(selecteq:4770))')", 
+            "md5": "4b3e5c6599ef787452a3f64cf5349ab3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/io/db.py', '(func:6938:(todb:6942))')", 
+            "md5": "1b8937e322a51101e9d682e8da2dcf16", 
+            "weight": 2
+        }
+    ]
+}

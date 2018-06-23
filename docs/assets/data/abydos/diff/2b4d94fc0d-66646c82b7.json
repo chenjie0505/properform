@@ -1,0 +1,154 @@
+{
+    "edges": [
+        {
+            "source": "('tests/test_stemmer.py', '(func:20485:(test_sb_dutch_snowball:20489))')", 
+            "target": "('abydos/stemmer.py', '(func:26257:(sb_dutch:26261))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_distance.py', '(func:64187:(test_dist_compression_arith:64191))')", 
+            "target": "('abydos/distance.py', '(func:45356:(dist_compression:45360))')", 
+            "weight": 150
+        }, 
+        {
+            "source": "('tests/test_stemmer.py', '(func:17366:(test_sb_german_snowball:17370))')", 
+            "target": "('abydos/stemmer.py', '(func:22170:(sb_german:22174))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_distance.py', '(func:62511:(test_dist_compression:62515))')", 
+            "target": "('abydos/distance.py', '(func:45356:(dist_compression:45360))')", 
+            "weight": 150
+        }, 
+        {
+            "source": "('abydos/stemmer.py', '(func:22170:(sb_german:22174))')", 
+            "target": "('abydos/stemmer.py', '(func:11952:(_sb_r2:11956))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/stemmer.py', '(func:22170:(sb_german:22174))')", 
+            "target": "('abydos/stemmer.py', '(func:11440:(_sb_r1:11444))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_distance.py', '(func:65534:(test_dist_compression_rle:65538))')", 
+            "target": "('abydos/distance.py', '(func:45356:(dist_compression:45360))')", 
+            "weight": 342
+        }, 
+        {
+            "source": "('abydos/stemmer.py', '(func:26257:(sb_dutch:26261))')", 
+            "target": "('abydos/stemmer.py', '(func:26675:(_undouble:26679))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/stemmer.py', '(func:26257:(sb_dutch:26261))')", 
+            "target": "('abydos/stemmer.py', '(func:11952:(_sb_r2:11956))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/stemmer.py', '(func:26257:(sb_dutch:26261))')", 
+            "target": "('abydos/stemmer.py', '(func:11440:(_sb_r1:11444))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/distance.py', '(func:45356:(dist_compression:45360))')", 
+            "target": "('abydos/compression.py', '(func:2195:(ac_encode:2199))')", 
+            "weight": 150
+        }, 
+        {
+            "source": "('abydos/stemmer.py', '(func:11952:(_sb_r2:11956))')", 
+            "target": "('abydos/stemmer.py', '(func:11440:(_sb_r1:11444))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_stemmer.py', '(func:20485:(test_sb_dutch_snowball:20489))')", 
+            "md5": "3e5e6f6be9afcddf2f87f02be2d76dd4", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_stemmer.py', '(func:17366:(test_sb_german_snowball:17370))')", 
+            "md5": "8cd1ee4ed2e541a93af0c3f1600d6386", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/stemmer.py', '(func:26675:(_undouble:26679))')", 
+            "md5": "52547d286af9481df9bc6792511a4563", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/stemmer.py', '(func:22170:(sb_german:22174))')", 
+            "md5": "b34b59c2a52e2f0b42d141bf617df4b0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_distance.py', '(func:64187:(test_dist_compression_arith:64191))')", 
+            "md5": "382618ee4f6d37c32b55877a9df0bf0c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/compression.py', '(func:2195:(ac_encode:2199))')", 
+            "md5": "7e7d313f6ca571c2d6b78cd120c3b0dc", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_distance.py', '(func:62511:(test_dist_compression:62515))')", 
+            "md5": "9147f2e6683e39b66150e5e30deb16bf", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 96, 
+            "Profile Diff": false, 
+            "id": "('tests/test_distance.py', '(func:65534:(test_dist_compression_rle:65538))')", 
+            "md5": "4880938edcda43bf55583a1b6b8c41e6", 
+            "weight": 194
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/stemmer.py', '(func:26257:(sb_dutch:26261))')", 
+            "md5": "0b06dd6908cf8f31278280fb8d4d2912", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/stemmer.py', '(func:11440:(_sb_r1:11444))')", 
+            "md5": "c20f6414767cd3b07ddaa0ccecaac742", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 73, 
+            "Profile Diff": false, 
+            "id": "('abydos/distance.py', '(func:45356:(dist_compression:45360))')", 
+            "md5": "6c12b3212887bf92e3fdd12801fd5fa3", 
+            "weight": 148
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/stemmer.py', '(func:11952:(_sb_r2:11956))')", 
+            "md5": "908b128a3201c027245d40860fdde8f2", 
+            "weight": 2
+        }
+    ]
+}

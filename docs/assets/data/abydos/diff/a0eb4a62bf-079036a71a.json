@@ -1,0 +1,138 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_corpus.py', '(func:3834:(test_corpus:3838))')", 
+            "target": "('abydos/corpus.py', '(func:1217:(__init__:1221))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/ngram.py', '(func:1559:(__init__:1563))')", 
+            "target": "('abydos/ngram.py', '(func:2150:(corpus_importer:2154))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/ngram.py', '(func:2150:(corpus_importer:2154))')", 
+            "target": "('abydos/corpus.py', '(func:3303:(sents:3307))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/corpus.py', '(func:3557:(words:3561))')", 
+            "target": "('abydos/corpus.py', '(func:3303:(sents:3307))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/ngram.py', '(func:2455:(get_count:2459))')", 
+            "target": "('abydos/ngram.py', '(func:2455:(get_count:2459))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/corpus.py', '(func:2880:(paras:2884))')", 
+            "target": "('abydos/corpus.py', '(func:2600:(docs:2604))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/corpus.py', '(func:4479:(idf:4483))')", 
+            "target": "('abydos/corpus.py', '(func:3717:(docs_of_words:3721))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/ngram.py', '(func:5305:(tf:5309))')", 
+            "target": "('abydos/ngram.py', '(func:2455:(get_count:2459))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/ngram.py', '(func:2455:(get_count:2459))')", 
+            "md5": "dcefc7afa6ab2252c9c411f117798d6d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/corpus.py', '(func:4479:(idf:4483))')", 
+            "md5": "dfde78c40a8ea8890fa2e583b46a3d36", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/corpus.py', '(func:3303:(sents:3307))')", 
+            "md5": "baab0cc06497f3440ceb8455efbfbd94", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/ngram.py', '(func:5305:(tf:5309))')", 
+            "md5": "55510a8e5a3d5bf0abbe8bc3d372e1bd", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/corpus.py', '(func:2880:(paras:2884))')", 
+            "md5": "8a67f35bffcae682a8d233734eedd5b9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_corpus.py', '(func:3834:(test_corpus:3838))')", 
+            "md5": "fce4760d41fed31216f1e4a9c23cee37", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/ngram.py', '(func:1559:(__init__:1563))')", 
+            "md5": "89de0fd79760f4ff34ec93778d125f25", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/corpus.py', '(func:2600:(docs:2604))')", 
+            "md5": "52ea1337de58a70aa6ec8f56a10b465a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/corpus.py', '(func:1217:(__init__:1221))')", 
+            "md5": "252b23b14b225a97455201b46066c571", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/corpus.py', '(func:3717:(docs_of_words:3721))')", 
+            "md5": "dcedc8406f5e7c008ee5b43834d77482", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/ngram.py', '(func:2150:(corpus_importer:2154))')", 
+            "md5": "4a4bd7f04ee3e2a68d312fc3541da959", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('abydos/corpus.py', '(func:3557:(words:3561))')", 
+            "md5": "431f11689c55d7e5321c6d55e1d57e2e", 
+            "weight": 2
+        }
+    ]
+}

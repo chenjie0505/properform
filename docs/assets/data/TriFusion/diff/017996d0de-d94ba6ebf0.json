@@ -1,0 +1,79 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/progressbar/six.py', '(func:1881:(with_metaclass:1885))')", 
+            "target": "('trifusion/progressbar/six.py', '(class:metaclass:2150)')", 
+            "weight": 6
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:107461:(collapse:107465))')", 
+            "target": "('trifusion/process/sequence.py', '(func:124159:(_reset_pipes:124163))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_process_write.py', '(func:1489:(test_custom_taxaset_nexus:1493))')", 
+            "target": "('trifusion/process/sequence.py', '(func:83299:(update_taxa_names:83303))')", 
+            "weight": 154
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:83299:(update_taxa_names:83303))')", 
+            "target": "('trifusion/process/sequence.py', '(func:24265:(shelve_taxa:24269))')", 
+            "weight": 36
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:124159:(_reset_pipes:124163))')", 
+            "md5": "4a836e921c33a36f04598058ba862178", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/progressbar/six.py', '(class:metaclass:2150)')", 
+            "md5": "1dedab2986388adc3b2073fab5a05504", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 16, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:24265:(shelve_taxa:24269))')", 
+            "md5": "00d5aaaf594cfb5a68b36fdbaf67d79c", 
+            "weight": 34
+        }, 
+        {
+            "AST Diff": 75, 
+            "Profile Diff": false, 
+            "id": "('trifusion/tests/test_process_write.py', '(func:1489:(test_custom_taxaset_nexus:1493))')", 
+            "md5": "b60953a9e08f91dd922d0ed67c160cb1", 
+            "weight": 152
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:107461:(collapse:107465))')", 
+            "md5": "96ed71d5028d99ba25fee8ffeb0106b7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": false, 
+            "id": "('trifusion/progressbar/six.py', '(func:1881:(with_metaclass:1885))')", 
+            "md5": "6655255a8744bf7d1a20e99376ff2742", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:83299:(update_taxa_names:83303))')", 
+            "md5": "899b74ff273030d18bec4ad8d4c85190", 
+            "weight": 2
+        }
+    ]
+}

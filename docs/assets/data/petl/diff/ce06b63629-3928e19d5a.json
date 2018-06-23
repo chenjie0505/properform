@@ -1,0 +1,163 @@
+{
+    "edges": [
+        {
+            "source": "('petl/io/sources.py', '(func:5172:(write_source_from_arg:5176))')", 
+            "target": "('petl/io/sources.py', '(func:669:(__init__:673))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/io/test_csv.py', '(func:5407:(test_tocsv_appendcsv_gz:5411))')", 
+            "target": "('petl/io/csv.py', '(func:3394:(appendcsv:3398))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/io/csv.py', '(func:3394:(appendcsv:3398))')", 
+            "target": "('petl/io/sources.py', '(func:5172:(write_source_from_arg:5176))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/io/csv.py', '(func:3394:(appendcsv:3398))')", 
+            "target": "('petl/io/csv_py2.py', '(func:1301:(appendcsv_impl:1305))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/io/test_sources.py', '(func:2207:(test_gzipsource:2211))')", 
+            "target": "('petl/io/sources.py', '(func:669:(__init__:673))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_validation.py', '(func:1523:(test_non_optional_constraint_with_missing_field:1556))')", 
+            "target": "('petl/transform/validation.py', '(func:197:(validate:201))')", 
+            "weight": 71
+        }, 
+        {
+            "source": "('petl/test/io/test_csv.py', '(func:2579:(test_tocsv_appendcsv:2583))')", 
+            "target": "('petl/io/csv.py', '(func:3394:(appendcsv:3398))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/io/test_sources.py', '(func:324:(test_stringsource:328))')", 
+            "target": "('petl/io/csv.py', '(func:3394:(appendcsv:3398))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_validation.py', '(func:1447:(test_row_length:1451))')", 
+            "target": "('petl/transform/validation.py', '(func:197:(validate:201))')", 
+            "weight": 5
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/transform/validation.py', '(func:4604:(iterproblems:4608))')", 
+            "target": "('petl/transform/validation.py', '(func:3865:(normalize_constraints:3869))')", 
+            "weight": 114
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_validation.py', '(func:1808:(test_optional_constraint_with_missing_field:1812))')", 
+            "target": "('petl/transform/validation.py', '(func:197:(validate:201))')", 
+            "weight": 103
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 49, 
+            "Profile Diff": false, 
+            "id": "('petl/test/transform/test_validation.py', '(func:1808:(test_optional_constraint_with_missing_field:1812))')", 
+            "md5": "4ea6d2b684f8974f56d13bc9bb1cc85c", 
+            "weight": 100
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/io/sources.py', '(func:5172:(write_source_from_arg:5176))')", 
+            "md5": "503703874580605544afbd7d9d5da69f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/io/csv_py2.py', '(func:1301:(appendcsv_impl:1305))')", 
+            "md5": "4df20cb4c2952cddabfae6f3f546237a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/io/test_sources.py', '(func:324:(test_stringsource:328))')", 
+            "md5": "124ebc29e6d129bd580c7661bd0a24f3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_validation.py', '(func:1447:(test_row_length:1451))')", 
+            "md5": "85ac650ec1e80b89c873544bed137076", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 33, 
+            "Profile Diff": false, 
+            "id": "('petl/test/transform/test_validation.py', '(func:1523:(test_non_optional_constraint_with_missing_field:1556))')", 
+            "md5": "f43299107694a406466c4d3715a1f54e", 
+            "weight": 68
+        }, 
+        {
+            "AST Diff": 20, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/validation.py', '(func:4604:(iterproblems:4608))')", 
+            "md5": "ffccc3d82dce6009b1c38aab0ea17894", 
+            "weight": 42
+        }, 
+        {
+            "AST Diff": 35, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/validation.py', '(func:3865:(normalize_constraints:3869))')", 
+            "md5": "46f2de81d83b00cba1e53dcb2c54861c", 
+            "weight": 72
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/io/test_sources.py', '(func:2207:(test_gzipsource:2211))')", 
+            "md5": "76f358f14b0491cf15655fc3271b0467", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/io/sources.py', '(func:669:(__init__:673))')", 
+            "md5": "841cd7925cc8e35f54c53aa3334831d9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 2, 
+            "Profile Diff": null, 
+            "id": "('petl/transform/validation.py', '(func:197:(validate:201))')", 
+            "md5": "839504d4ee5ead7f0623f1258116ddb5", 
+            "weight": 3
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/io/csv.py', '(func:3394:(appendcsv:3398))')", 
+            "md5": "0c33900bac8b0ada1807df3ffbcc2246", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/io/test_csv.py', '(func:5407:(test_tocsv_appendcsv_gz:5411))')", 
+            "md5": "f0a5b2f103df95637a224c5d8a7b8881", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/io/test_csv.py', '(func:2579:(test_tocsv_appendcsv:2583))')", 
+            "md5": "616f834e66744ea0f14a5a3b35d8ed86", 
+            "weight": 2
+        }
+    ]
+}

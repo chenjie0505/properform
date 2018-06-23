@@ -1,0 +1,78 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:46361:(read_alignment:46365))')", 
+            "target": "('trifusion/process/sequence.py', '(func:44948:(_read_stockholm:44952))')", 
+            "weight": 24
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:46361:(read_alignment:46365))')", 
+            "target": "('trifusion/process/sequence.py', '(func:33020:(_read_phylip:33024))')", 
+            "weight": 37
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:46361:(read_alignment:46365))')", 
+            "target": "('trifusion/process/sequence.py', '(func:36462:(_read_fasta:36466))')", 
+            "weight": 37
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:46361:(read_alignment:46365))')", 
+            "target": "('trifusion/process/sequence.py', '(func:40168:(_read_nexus:40172))')", 
+            "weight": 37
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:46361:(read_alignment:46365))')", 
+            "target": "('trifusion/process/sequence.py', '(func:38377:(_read_loci:38381))')", 
+            "weight": 192
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 5, 
+            "Profile Diff": null, 
+            "id": "('trifusion/process/sequence.py', '(func:44948:(_read_stockholm:44952))')", 
+            "md5": "be692184e4dc1da400169ae312fe1f19", 
+            "weight": 6
+        }, 
+        {
+            "AST Diff": 17, 
+            "Profile Diff": null, 
+            "id": "('trifusion/process/sequence.py', '(func:46361:(read_alignment:46365))')", 
+            "md5": "86e03b576817e7cd99cb395c092202f3", 
+            "weight": 18
+        }, 
+        {
+            "AST Diff": 18, 
+            "Profile Diff": null, 
+            "id": "('trifusion/process/sequence.py', '(func:33020:(_read_phylip:33024))')", 
+            "md5": "5f687807c49565e449c381db521e5f80", 
+            "weight": 19
+        }, 
+        {
+            "AST Diff": 18, 
+            "Profile Diff": null, 
+            "id": "('trifusion/process/sequence.py', '(func:36462:(_read_fasta:36466))')", 
+            "md5": "87932f29c0b85a58d3b4bcbb2a932535", 
+            "weight": 19
+        }, 
+        {
+            "AST Diff": 18, 
+            "Profile Diff": null, 
+            "id": "('trifusion/process/sequence.py', '(func:40168:(_read_nexus:40172))')", 
+            "md5": "a397733959759f1445e767352b96bf57", 
+            "weight": 19
+        }, 
+        {
+            "AST Diff": 86, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:38377:(_read_loci:38381))')", 
+            "md5": "7d0abb944c8e38010f622d765f3d3af5", 
+            "weight": 174
+        }
+    ]
+}

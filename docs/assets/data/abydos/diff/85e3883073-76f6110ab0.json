@@ -1,0 +1,46 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_distance.py', '(func:8570:(test_damerau_levenshtein:8574))')", 
+            "target": "('abydos/distance.py', '(func:8314:(damerau_levenshtein:8318))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/distance.py', '(func:57373:(dist_length:57377))')", 
+            "target": "('abydos/distance.py', '(func:56965:(sim_length:56969))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/distance.py', '(func:57373:(dist_length:57377))')", 
+            "md5": "c3a28061be3e795bb1708a197e8e3ca9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/distance.py', '(func:56965:(sim_length:56969))')", 
+            "md5": "2d145291c00be77e3425082ea9b416ef", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_distance.py', '(func:8570:(test_damerau_levenshtein:8574))')", 
+            "md5": "8afb67f813436af69acb5ca782f5d43d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/distance.py', '(func:8314:(damerau_levenshtein:8318))')", 
+            "md5": "7fc7b1bae9b076cef31a731e6d2ae2ba", 
+            "weight": 2
+        }
+    ]
+}

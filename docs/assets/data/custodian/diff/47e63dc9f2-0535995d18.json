@@ -1,0 +1,46 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:2151:(test_aliasing:2155))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:11267:(__init__:11271))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/handlers.py', '(func:13553:(correct:13557))')", 
+            "target": "('custodian/utils.py', '(func:342:(backup:346))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:2151:(test_aliasing:2155))')", 
+            "md5": "443b9a3fdb4fee2a32071b4b722f96e3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/utils.py', '(func:342:(backup:346))')", 
+            "md5": "afcfa848bbc1ef2271d6f0c4cfe0d206", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/handlers.py', '(func:13553:(correct:13557))')", 
+            "md5": "2e6d335627e046db506bac437be71383", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/handlers.py', '(func:11267:(__init__:11271))')", 
+            "md5": "7ca299e44bbcfd02a4f9f090b47e47ec", 
+            "weight": 2
+        }
+    ]
+}

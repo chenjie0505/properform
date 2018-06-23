@@ -1,0 +1,130 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/qchem/tests/test_handlers.py', '(func:36032:(test_pcm_solvent_deprecated:36259))')", 
+            "target": "('custodian/qchem/handlers.py', '(func:2173:(check:2177))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/qchem/tests/test_handlers.py', '(func:10192:(test_scf_fon:10196))')", 
+            "target": "('custodian/qchem/handlers.py', '(func:2173:(check:2177))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/qchem/tests/test_handlers.py', '(func:10192:(test_scf_fon:10196))')", 
+            "target": "('custodian/qchem/tests/test_handlers.py', '(func:848:(_revert_scf_fix_strategy_to_version:869))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/qchem/tests/test_handlers.py', '(func:25217:(test_exit_code_134:25221))')", 
+            "target": "('custodian/qchem/handlers.py', '(func:2173:(check:2177))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/qchem/tests/test_handlers.py', '(func:9305:(test_scf_gdm:9309))')", 
+            "target": "('custodian/qchem/handlers.py', '(func:2173:(check:2177))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/qchem/tests/test_handlers.py', '(func:9305:(test_scf_gdm:9309))')", 
+            "target": "('custodian/qchem/tests/test_handlers.py', '(func:848:(_revert_scf_fix_strategy_to_version:869))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/qchem/tests/test_handlers.py', '(func:19716:(test_autoz_error:19720))')", 
+            "target": "('custodian/qchem/handlers.py', '(func:2173:(check:2177))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/qchem/tests/test_handlers.py', '(func:34416:(test_freq_job_too_small:34420))')", 
+            "target": "('custodian/qchem/handlers.py', '(func:2173:(check:2177))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/ansible/actions.py', '(func:3762:(pull_all:3784))')", 
+            "target": "('custodian/ansible/actions.py', '(func:3356:(pull:3378))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/handlers.py', '(func:2173:(check:2177))')", 
+            "md5": "5d4d399761ce7629824222beaf0fd9ab", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/ansible/actions.py', '(func:3762:(pull_all:3784))')", 
+            "md5": "a06dcb3e13d4d6092c904728e3e5e7f7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/tests/test_handlers.py', '(func:19716:(test_autoz_error:19720))')", 
+            "md5": "f4fafa25461c0e6b4ebdaacf9355cbee", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/tests/test_handlers.py', '(func:9305:(test_scf_gdm:9309))')", 
+            "md5": "5b8ec7e7e9faca5c05a6a70d1f87c61e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/tests/test_handlers.py', '(func:25217:(test_exit_code_134:25221))')", 
+            "md5": "b4fad5b16f1c90f3ca377276bb2d6d82", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/tests/test_handlers.py', '(func:36032:(test_pcm_solvent_deprecated:36259))')", 
+            "md5": "17592099b9b5c0de6b240dbe6a5ce4fa", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/tests/test_handlers.py', '(func:34416:(test_freq_job_too_small:34420))')", 
+            "md5": "bec16c3ff406862615add7a00032c1d9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/tests/test_handlers.py', '(func:848:(_revert_scf_fix_strategy_to_version:869))')", 
+            "md5": "7d4140fe1c633f21adecdc9f313bdc74", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/tests/test_handlers.py', '(func:10192:(test_scf_fon:10196))')", 
+            "md5": "bebedc98cacdfd71b3eb424cde8a9b41", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/ansible/actions.py', '(func:3356:(pull:3378))')", 
+            "md5": "64331ecab7076c088212a1fa57fcc179", 
+            "weight": 2
+        }
+    ]
+}

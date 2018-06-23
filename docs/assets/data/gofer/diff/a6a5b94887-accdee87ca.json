@@ -1,0 +1,174 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_common.py', '(func:13795:(test_default:13799))')", 
+            "target": "('src/gofer/common.py', '(func:4351:(__init__:4355))')", 
+            "weight": 188
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_common.py', '(func:13795:(test_default:13799))')", 
+            "target": "('src/gofer/common.py', '(func:4574:(__getattr__:4578))')", 
+            "weight": 262
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/common.py', '(func:1826:(all:1848))')", 
+            "target": "('src/gofer/common.py', '(func:4574:(__getattr__:4578))')", 
+            "weight": 170
+        }, 
+        {
+            "source": "('src/gofer/config.py', '(func:19961:(__call__:19965))')", 
+            "target": "('src/gofer/config.py', '(func:17088:(__init__:17092))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_common.py', '(func:13323:(test_getset:13327))')", 
+            "target": "('src/gofer/common.py', '(func:4478:(__setattr__:4482))')", 
+            "weight": 182
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_common.py', '(func:13323:(test_getset:13327))')", 
+            "target": "('src/gofer/common.py', '(func:4351:(__init__:4355))')", 
+            "weight": 196
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_common.py', '(func:13323:(test_getset:13327))')", 
+            "target": "('src/gofer/common.py', '(func:4574:(__getattr__:4578))')", 
+            "weight": 270
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_common.py', '(func:6012:(test_current:6058))')", 
+            "target": "('src/gofer/common.py', '(func:3280:(current:3302))')", 
+            "weight": 54
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/common.py', '(func:2122:(aborted:2144))')", 
+            "target": "('src/gofer/common.py', '(func:3280:(current:3302))')", 
+            "weight": 23
+        }, 
+        {
+            "source": "('test/unit/test_decorators.py', '(func:2729:(test_call:2733))')", 
+            "target": "('src/gofer/decorators.py', '(func:2011:(direct:2015))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/common.py', '(func:4549:(purge:4571))')", 
+            "target": "('src/gofer/common.py', '(func:4478:(__setattr__:4482))')", 
+            "weight": 42
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/common.py', '(func:4549:(purge:4571))')", 
+            "target": "('src/gofer/common.py', '(func:1826:(all:1848))')", 
+            "weight": 44
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/config.py', '(func:17088:(__init__:17092))')", 
+            "md5": "467a3cf48b8ea1fe83481f3ddd196a77", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 66, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_common.py', '(func:13795:(test_default:13799))')", 
+            "md5": "6d03a0ee75e1952ca17c5ecfcfe397bf", 
+            "weight": 134
+        }, 
+        {
+            "AST Diff": 20, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/common.py', '(func:1826:(all:1848))')", 
+            "md5": "ba55c2592078c384dcc3c7ce04562774", 
+            "weight": 42
+        }, 
+        {
+            "AST Diff": 70, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_common.py', '(func:13323:(test_getset:13327))')", 
+            "md5": "356c0329ee09e0f74d727034a69f10eb", 
+            "weight": 142
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('src/gofer/common.py', '(func:4549:(purge:4571))')", 
+            "md5": "03766312301c730c727f86e45eeddcb6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('test/unit/test_decorators.py', '(func:2729:(test_call:2733))')", 
+            "md5": "3486dc96300eb07cee383b2ffb28250f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 4, 
+            "Profile Diff": null, 
+            "id": "('src/gofer/common.py', '(func:2122:(aborted:2144))')", 
+            "md5": "fdf4f891234127c70b5a4601965e50c1", 
+            "weight": 5
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/config.py', '(func:19961:(__call__:19965))')", 
+            "md5": "909db9d2f217ccaafd29a068ea02026c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 8, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/common.py', '(func:3280:(current:3302))')", 
+            "md5": "efc1be265032e2de04a1e5bf94676500", 
+            "weight": 18
+        }, 
+        {
+            "AST Diff": 26, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/common.py', '(func:4351:(__init__:4355))')", 
+            "md5": "91dfcc2a7b08b1ca411b40b060ab0d23", 
+            "weight": 54
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/decorators.py', '(func:2011:(direct:2015))')", 
+            "md5": "394d447f92da8aa87fcf075cea5f6b3b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 17, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_common.py', '(func:6012:(test_current:6058))')", 
+            "md5": "7d580a74bf07ca6006c2c23886d1f5e2", 
+            "weight": 36
+        }, 
+        {
+            "AST Diff": 63, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/common.py', '(func:4574:(__getattr__:4578))')", 
+            "md5": "b87d0867417a29131c210b11616ed6f0", 
+            "weight": 128
+        }, 
+        {
+            "AST Diff": 19, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/common.py', '(func:4478:(__setattr__:4482))')", 
+            "md5": "5e71df9a51d5a674d15a52aacc8baf6f", 
+            "weight": 40
+        }
+    ]
+}

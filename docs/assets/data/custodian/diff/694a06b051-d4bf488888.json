@@ -1,0 +1,39 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:8754:(test_first_step:8758))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:4201:(correct:4205))')", 
+            "weight": 209
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:9144:(test_potim_correction:9148))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:4201:(correct:4205))')", 
+            "weight": 229
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 60, 
+            "Profile Diff": null, 
+            "id": "('custodian/vasp/handlers.py', '(func:4201:(correct:4205))')", 
+            "md5": "81ad84a6bc6a8e66ac3d10dcd7ffdc5d", 
+            "weight": 61
+        }, 
+        {
+            "AST Diff": 73, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:8754:(test_first_step:8758))')", 
+            "md5": "a56ce2915683dc61a9f7dc9997093bc8", 
+            "weight": 148
+        }, 
+        {
+            "AST Diff": 83, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:9144:(test_potim_correction:9148))')", 
+            "md5": "28ec588e0d9c3269647a325e6b23aa3b", 
+            "weight": 168
+        }
+    ]
+}

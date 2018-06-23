@@ -1,0 +1,597 @@
+{
+    "edges": [
+        {
+            "source": "('src/petl/transform/basics.py', '(func:30567:(iteraddfieldusingcontext:30571))')", 
+            "target": "('src/petl/test/transform/test_basics.py', '(func:13300:(upstream:13304))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/transform/basics.py', '(func:30567:(iteraddfieldusingcontext:30571))')", 
+            "target": "('src/petl/transform/basics.py', '(func:30567:(iteraddfieldusingcontext:30571))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/test/io/test_json_unicode.py', '(func:241:(test_json_unicode:245))')", 
+            "target": "('src/petl/io/json.py', '(func:387:(fromjson:391))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/test/io/test_json.py', '(func:280:(test_fromjson_1:284))')", 
+            "target": "('src/petl/io/json.py', '(func:387:(fromjson:391))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/test/test_util.py', '(func:7045:(test_valuecounts:7049))')", 
+            "target": "('src/petl/util.py', '(func:27611:(valuecounts:27615))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/base.py', '(func:696:(__len__:700))')", 
+            "target": "('src/petl/fluent.py', '(func:389:(__iter__:393))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/test/transform/test_basics.py', '(func:11422:(test_addrownumbers:11426))')", 
+            "target": "('src/petl/transform/basics.py', '(func:25225:(addrownumbers:25229))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/test/io/test_xml.py', '(func:3278:(test_fromxml_6:3282))')", 
+            "target": "('src/petl/io/xml.py', '(func:336:(fromxml:340))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/io/pickle.py', '(func:2908:(appendpickle:2912))')", 
+            "target": "('src/petl/io/sources.py', '(func:4774:(write_source_from_arg:4778))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/test/transform/test_conversions.py', '(func:190:(test_convert:194))')", 
+            "target": "('src/petl/transform/conversions.py', '(func:151:(convert:155))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/test/transform/test_joins.py', '(func:22557:(test_antijoin:22561))')", 
+            "target": "('src/petl/test/transform/test_joins.py', '(func:22399:(_test_antijoin:22403))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/test/io/test_json.py', '(func:706:(test_fromjson_2:710))')", 
+            "target": "('src/petl/io/json.py', '(func:387:(fromjson:391))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/test_push.py', '(func:4528:(test_sort_buffered:4532))')", 
+            "target": "('src/petl/base.py', '(func:696:(__len__:700))')", 
+            "weight": 12
+        }, 
+        {
+            "source": "('src/petl/test/transform/test_headers.py', '(func:2381:(test_rename:2385))')", 
+            "target": "('src/petl/transform/headers.py', '(func:80:(rename:84))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/test/transform/test_headers.py', '(func:2381:(test_rename:2385))')", 
+            "target": "('src/petl/util.py', '(func:1354:(fieldnames:1358))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/io/csv.py', '(func:341:(fromcsv:345))')", 
+            "target": "('src/petl/io/csv.py', '(func:1894:(__init__:1898))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/test/transform/test_basics.py', '(func:9483:(test_tail_empty:9487))')", 
+            "target": "('src/petl/transform/basics.py', '(func:18852:(tail:18856))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/transform/dedup.py', '(func:7290:(conflicts:7294))')", 
+            "target": "('src/petl/transform/dedup.py', '(func:9842:(__init__:9846))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/util.py', '(func:1354:(fieldnames:1358))')", 
+            "target": "('src/petl/transform/headers.py', '(func:2670:(iterrename:2674))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/io/db.py', '(func:340:(fromdb:344))')", 
+            "target": "('src/petl/io/db.py', '(func:3972:(__init__:3976))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/test/transform/test_conversions.py', '(func:6744:(test_convertnumbers:6748))')", 
+            "target": "('src/petl/transform/conversions.py', '(func:9118:(convertnumbers:9122))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/transform/selects.py', '(func:5648:(iterfieldselect:5652))')", 
+            "target": "('src/petl/io/text.py', '(func:8086:(__iter__:8090))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/test/io/test_csv.py', '(func:311:(test_fromcsv:315))')", 
+            "target": "('src/petl/io/csv.py', '(func:341:(fromcsv:345))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/io/text.py', '(func:8086:(__iter__:8090))')", 
+            "target": "('src/petl/io/sources.py', '(func:4774:(write_source_from_arg:4778))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/transform/basics.py', '(func:28605:(addfieldusingcontext:28609))')", 
+            "target": "('src/petl/transform/basics.py', '(func:30342:(__init__:30346))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/test/test_util.py', '(func:14290:(test_rowlengths:14294))')", 
+            "target": "('src/petl/util.py', '(func:48769:(rowlengths:48773))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/test/transform/test_basics.py', '(func:12963:(test_addfieldusingcontext:12967))')", 
+            "target": "('src/petl/transform/basics.py', '(func:28605:(addfieldusingcontext:28609))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/transform/conversions.py', '(func:13033:(transform_value:13037))')", 
+            "target": "('src/petl/test/transform/test_conversions.py', '(func:7734:(lambda:7734))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/transform/conversions.py', '(func:13033:(transform_value:13037))')", 
+            "target": "('src/petl/test/transform/test_conversions.py', '(func:509:(lambda:509))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/transform/conversions.py', '(func:13033:(transform_value:13037))')", 
+            "target": "('src/petl/test/transform/test_conversions.py', '(func:2409:(lambda:2409))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/transform/conversions.py', '(func:13033:(transform_value:13037))')", 
+            "target": "('src/petl/transform/conversions.py', '(func:14191:(conv:14195))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/io/text.py', '(func:7386:(teetext:7390))')", 
+            "target": "('src/petl/io/text.py', '(func:7824:(__init__:7828))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/transform/test_reshape.py', '(func:11111:(test_unflatten_empty:11115))')", 
+            "target": "('src/petl/base.py', '(func:696:(__len__:700))')", 
+            "weight": 12
+        }, 
+        {
+            "source": "('src/petl/test/io/test_db.py', '(func:1374:(test_fromdb_mkcursor:1378))')", 
+            "target": "('src/petl/io/db.py', '(func:340:(fromdb:344))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/test/transform/test_dedup.py', '(func:2902:(test_conflicts:2906))')", 
+            "target": "('src/petl/transform/dedup.py', '(func:7290:(conflicts:7294))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/test/test_push.py', '(func:1065:(test_tocsv:1069))')", 
+            "target": "('src/petl/io/csv.py', '(func:341:(fromcsv:345))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/test/io/test_db.py', '(func:522:(test_fromdb:526))')", 
+            "target": "('src/petl/io/db.py', '(func:340:(fromdb:344))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('src/petl/test/transform/test_reshape.py', '(func:1867:(test_melt_1_shortrow:1871))')", 
+            "target": "('src/petl/transform/reshape.py', '(func:225:(melt:229))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/transform/test_conversions.py', '(func:7734:(lambda:7734))')", 
+            "md5": "2d30123d387c6125ca42c3532d3fc326", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/io/csv.py', '(func:1894:(__init__:1898))')", 
+            "md5": "55b1c9a73dc1564b82cbe2300c888dce", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/transform/test_conversions.py', '(func:509:(lambda:509))')", 
+            "md5": "9ff38c0ca81ed406db17b3583f407183", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/io/test_json_unicode.py', '(func:241:(test_json_unicode:245))')", 
+            "md5": "f0e97a993970751cb1af1d747aa7501f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('src/petl/test/io/test_xml.py', '(func:3278:(test_fromxml_6:3282))')", 
+            "md5": "bc3b298d94a05eee5db019b3ec2b71d5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/util.py', '(func:48769:(rowlengths:48773))')", 
+            "md5": "8ac9a9de1717daf70b0dc59b8099236c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/io/text.py', '(func:8086:(__iter__:8090))')", 
+            "md5": "41de9f49f97b92ce1ffe527bf08d928e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('src/petl/io/xml.py', '(func:336:(fromxml:340))')", 
+            "md5": "0f3b3b07fba18f0348674a1e05372b0c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/transform/test_joins.py', '(func:22557:(test_antijoin:22561))')", 
+            "md5": "ace434184cf09fbc1df954bc4cb3981a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/transform/test_conversions.py', '(func:6744:(test_convertnumbers:6748))')", 
+            "md5": "8c3a4810ae75efd37512212a3ac35d55", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/io/sources.py', '(func:4774:(write_source_from_arg:4778))')", 
+            "md5": "8479a9de843bab68bfede4364657c756", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/transform/test_reshape.py', '(func:1867:(test_melt_1_shortrow:1871))')", 
+            "md5": "6eac0a1c119fcc4337c9c5be1c81d93c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/io/test_db.py', '(func:1374:(test_fromdb_mkcursor:1378))')", 
+            "md5": "317e91cc519e070b0d03109448c0af3b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/transform/test_conversions.py', '(func:2409:(lambda:2409))')", 
+            "md5": "e5dda9a9441f709de434a8f67f454638", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/io/test_json.py', '(func:706:(test_fromjson_2:710))')", 
+            "md5": "f038d21a2e3701e0bd333c9df2033cc4", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/test/test_util.py', '(func:14290:(test_rowlengths:14294))')", 
+            "md5": "090aea6d71918834d6a73189fbbb9e57", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/transform/basics.py', '(func:28605:(addfieldusingcontext:28609))')", 
+            "md5": "15e91a602f321bbee078ed837fc4ea26", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/transform/test_basics.py', '(func:9483:(test_tail_empty:9487))')", 
+            "md5": "f991e63b24fa7d5dae69aecbe51d9ca1", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/transform/test_dedup.py', '(func:2902:(test_conflicts:2906))')", 
+            "md5": "84da229611fe9533a3b22a70928ee146", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/transform/test_joins.py', '(func:22399:(_test_antijoin:22403))')", 
+            "md5": "252e54f776142dc810d274c1febca999", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/io/test_json.py', '(func:280:(test_fromjson_1:284))')", 
+            "md5": "3338a32e863b4cc20186cf1765f7505c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/transform/basics.py', '(func:18852:(tail:18856))')", 
+            "md5": "54893b3f8427f8dd49a0c0f750bb3ea6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/io/pickle.py', '(func:2908:(appendpickle:2912))')", 
+            "md5": "6eca26a23936aeb2e22fe17ad18c9dde", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/transform/reshape.py', '(func:225:(melt:229))')", 
+            "md5": "0627c17a13998177f7604ad7dcae531a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/transform/test_conversions.py', '(func:190:(test_convert:194))')", 
+            "md5": "dca0db6121ee959f4e1caad23b73936b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 4, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/transform/test_reshape.py', '(func:11111:(test_unflatten_empty:11115))')", 
+            "md5": "40b2637b6361cf88ff29277a8c75e4ad", 
+            "weight": 10
+        }, 
+        {
+            "AST Diff": 4, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/test_push.py', '(func:4528:(test_sort_buffered:4532))')", 
+            "md5": "54a4aa3b386b35f67448ef0c1d525be4", 
+            "weight": 10
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/fluent.py', '(func:389:(__iter__:393))')", 
+            "md5": "60efa64f69f00b0e760bcdc9b9598384", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/transform/test_headers.py', '(func:2381:(test_rename:2385))')", 
+            "md5": "8af0de3fcb643fbc0711cc9f7f7c81f9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/util.py', '(func:1354:(fieldnames:1358))')", 
+            "md5": "5858ff1f72aec0ac18f84c00dcdfcf65", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/io/db.py', '(func:3972:(__init__:3976))')", 
+            "md5": "095be72548511a01d9fe6a540a889012", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/transform/test_basics.py', '(func:13300:(upstream:13304))')", 
+            "md5": "bb463bd41b0e97502970f58e63eadb03", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/transform/conversions.py', '(func:151:(convert:155))')", 
+            "md5": "bea3cf7a75b1e61bfbe1cbd9657668b1", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/io/csv.py', '(func:341:(fromcsv:345))')", 
+            "md5": "4ca12164bb015db60f10a0a3d5f12469", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/base.py', '(func:696:(__len__:700))')", 
+            "md5": "26c1f841d93469999040d9a0c3024387", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/transform/headers.py', '(func:2670:(iterrename:2674))')", 
+            "md5": "d6df87c29bc57680e6a861d837816d01", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/transform/headers.py', '(func:80:(rename:84))')", 
+            "md5": "71d0270959ed7b476f2bc5234716cd75", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/transform/test_basics.py', '(func:11422:(test_addrownumbers:11426))')", 
+            "md5": "095a82d15a6bf2cf8f9da890961125c0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/io/db.py', '(func:340:(fromdb:344))')", 
+            "md5": "cd166fb0cef552dc2522ed5aca054758", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/transform/conversions.py', '(func:9118:(convertnumbers:9122))')", 
+            "md5": "ae70f6a3dc4f2f31537d7cc79a178e68", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/transform/basics.py', '(func:30342:(__init__:30346))')", 
+            "md5": "89725c517441cf06dcff5ffa5f824c5a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/io/json.py', '(func:387:(fromjson:391))')", 
+            "md5": "5cd4eb6fc97a6e6550e0b532fa26d12a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/transform/dedup.py', '(func:9842:(__init__:9846))')", 
+            "md5": "bc70d48d59d023f3629823901b47d93b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/transform/basics.py', '(func:25225:(addrownumbers:25229))')", 
+            "md5": "e4061aaa7c045c263cabbb081029327c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/transform/selects.py', '(func:5648:(iterfieldselect:5652))')", 
+            "md5": "e0c2af3902b15c67de80bb0e9c526356", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/transform/basics.py', '(func:30567:(iteraddfieldusingcontext:30571))')", 
+            "md5": "7278ecb8c343b2af34dee2ff6535292f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/io/test_db.py', '(func:522:(test_fromdb:526))')", 
+            "md5": "5f1669e8d52561c71fc2d7a702e9603b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/transform/conversions.py', '(func:13033:(transform_value:13037))')", 
+            "md5": "58439d442b6fc708255467794e819d8d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/io/text.py', '(func:7386:(teetext:7390))')", 
+            "md5": "fc26a3da10d20ddd476a1ed46273a589", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/io/test_csv.py', '(func:311:(test_fromcsv:315))')", 
+            "md5": "8da2a83974a1f78615783f7cce824cba", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/test_util.py', '(func:7045:(test_valuecounts:7049))')", 
+            "md5": "a06f4a2ac969f5de51e5845d6970260c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/transform/dedup.py', '(func:7290:(conflicts:7294))')", 
+            "md5": "f805ffca30d28a5d823bb35872a7b91d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/transform/test_basics.py', '(func:12963:(test_addfieldusingcontext:12967))')", 
+            "md5": "bb06a69bd7fc11344c242e11e963e04f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/util.py', '(func:27611:(valuecounts:27615))')", 
+            "md5": "28db573b12fd525820c9666170597f84", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/test_push.py', '(func:1065:(test_tocsv:1069))')", 
+            "md5": "fa5982c1dc578bbe5d3321085ece1ce9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/transform/conversions.py', '(func:14191:(conv:14195))')", 
+            "md5": "9a69916c7ffa852cc488765954596c71", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/io/text.py', '(func:7824:(__init__:7828))')", 
+            "md5": "37a701675029ef416cb68295d8cb1f3e", 
+            "weight": 2
+        }
+    ]
+}

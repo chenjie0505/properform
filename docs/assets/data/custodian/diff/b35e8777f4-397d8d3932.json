@@ -1,0 +1,186 @@
+{
+    "edges": [
+        {
+            "source": "('custodian/vasp/handlers.py', '(func:20137:(correct:20141))')", 
+            "target": "('custodian/utils.py', '(func:342:(backup:346))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/vasp/handlers.py', '(func:20137:(correct:20141))')", 
+            "target": "('custodian/vasp/interpreter.py', '(func:184:(__init__:188))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/vasp/handlers.py', '(func:20137:(correct:20141))')", 
+            "target": "('custodian/vasp/interpreter.py', '(func:1211:(apply_actions:1215))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_validators.py', '(func:1545:(test_check_and_correct:1549))')", 
+            "target": "('custodian/vasp/validators.py', '(func:1048:(check:1052))')", 
+            "weight": 272
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_validators.py', '(func:1545:(test_check_and_correct:1549))')", 
+            "target": "('custodian/vasp/validators.py', '(func:1010:(__init__:1014))')", 
+            "weight": 162
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_validators.py', '(func:2006:(test_as_dict:2010))')", 
+            "target": "('custodian/vasp/validators.py', '(func:1010:(__init__:1014))')", 
+            "weight": 70
+        }, 
+        {
+            "source": "('custodian/vasp/interpreter.py', '(func:1211:(apply_actions:1215))')", 
+            "target": "('custodian/ansible/interpreter.py', '(func:3068:(modify_object:3072))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/vasp/interpreter.py', '(func:1211:(apply_actions:1215))')", 
+            "target": "('custodian/ansible/interpreter.py', '(func:2162:(modify:2166))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "target": "('custodian/custodian.py', '(func:9746:(process_params:9750))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:2872:(test_aliasing_incar:2876))')", 
+            "target": "('custodian/vasp/tests/test_handlers.py', '(func:765:(clean_dir:769))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:6034:(tearDown:6038))')", 
+            "target": "('custodian/vasp/tests/test_handlers.py', '(func:765:(clean_dir:769))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/ansible/interpreter.py', '(func:3068:(modify_object:3072))')", 
+            "target": "('custodian/ansible/interpreter.py', '(func:2162:(modify:2166))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/vasp/interpreter.py', '(func:184:(__init__:188))')", 
+            "target": "('custodian/ansible/interpreter.py', '(func:1137:(__init__:1141))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/handlers.py', '(func:20137:(correct:20141))')", 
+            "md5": "14e8cfab4485e874e77047af4b71e1aa", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:765:(clean_dir:769))')", 
+            "md5": "50d8a264f089246fce03189c6339fc14", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 60, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/validators.py', '(func:1048:(check:1052))')", 
+            "md5": "6c0b8dd2b39af124fc2909e9da117521", 
+            "weight": 122
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/custodian.py', '(func:9746:(process_params:9750))')", 
+            "md5": "58af5e2662399bbca5ec5a0ec401ce4c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 5, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/validators.py', '(func:1010:(__init__:1014))')", 
+            "md5": "2ca712a95b4299fbc8363a1f4462b0af", 
+            "weight": 12
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/ansible/interpreter.py', '(func:2162:(modify:2166))')", 
+            "md5": "801273a221c687fdea1dc70853995cd7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/utils.py', '(func:342:(backup:346))')", 
+            "md5": "afcfa848bbc1ef2271d6f0c4cfe0d206", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/interpreter.py', '(func:184:(__init__:188))')", 
+            "md5": "7ea8ea73a5cfc293e1cff22594442c6c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 28, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/tests/test_validators.py', '(func:2006:(test_as_dict:2010))')", 
+            "md5": "b3336f431a444871e6baa7d4d4071a0c", 
+            "weight": 58
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:6034:(tearDown:6038))')", 
+            "md5": "d188f5b1f4d9ed81eb3b965216009e5e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/ansible/interpreter.py', '(func:3068:(modify_object:3072))')", 
+            "md5": "2315927d8eed54cfb6f9f44f32020170", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 74, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/tests/test_validators.py', '(func:1545:(test_check_and_correct:1549))')", 
+            "md5": "30ce63d5139b5c63e011c9bd385944e8", 
+            "weight": 150
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/ansible/interpreter.py', '(func:1137:(__init__:1141))')", 
+            "md5": "a4a5551c5ca273151fc76dfdca832791", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "md5": "80418ba3edafbffbef1fc8769d89ab12", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/interpreter.py', '(func:1211:(apply_actions:1215))')", 
+            "md5": "e8b466b11b6167a8e48236e1f4bf1980", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:2872:(test_aliasing_incar:2876))')", 
+            "md5": "81c0b41557461f7349608e702f0202a5", 
+            "weight": 2
+        }
+    ]
+}

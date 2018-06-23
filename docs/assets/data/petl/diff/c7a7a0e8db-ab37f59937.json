@@ -1,0 +1,105 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/io/html.py', '(func:404:(tohtml:408))')", 
+            "target": "('petl/io/html.py', '(func:8259:(_write_end:8263))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/io/pytables.py', '(func:5826:(fromhdf5sorted:5830))')", 
+            "target": "('petl/io/pytables.py', '(func:7899:(__init__:7903))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/io/xlutils_view.py', '(func:3918:(__getitem__:3922))')", 
+            "target": "('petl/io/xlutils_view.py', '(func:1189:(__init__:1193))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/io/test_pytables.py', '(func:2227:(test_fromhdf5sorted:2231))')", 
+            "target": "('petl/io/pytables.py', '(func:5826:(fromhdf5sorted:5830))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/io/xls.py', '(func:591:(__iter__:595))')", 
+            "target": "('petl/io/xlutils_view.py', '(func:2430:(__row:2434))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/io/xls.py', '(func:591:(__iter__:595))')", 
+            "target": "('petl/io/xlutils_view.py', '(func:3918:(__getitem__:3922))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/html.py', '(func:404:(tohtml:408))')", 
+            "md5": "69a84c75403a976540a8295fa37337c6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/xlutils_view.py', '(func:1189:(__init__:1193))')", 
+            "md5": "b9a9e483f3e30221c9428aa123e58d7b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/io/html.py', '(func:8259:(_write_end:8263))')", 
+            "md5": "67003142c558b6a2a28562ac7b8e2819", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/test/io/test_pytables.py', '(func:2227:(test_fromhdf5sorted:2231))')", 
+            "md5": "6e16109f863def8f9a26e74c9f797650", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/pytables.py', '(func:7899:(__init__:7903))')", 
+            "md5": "92406045c6b68f27795b417a9f9728ba", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/pytables.py', '(func:5826:(fromhdf5sorted:5830))')", 
+            "md5": "a32d9163fb4c623463cdcc9b06df007d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/xlutils_view.py', '(func:2430:(__row:2434))')", 
+            "md5": "998f0c7366d75f005ae2add163361417", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/xlutils_view.py', '(func:3918:(__getitem__:3922))')", 
+            "md5": "40e6e6778e37daa4fbe8c693ec2683be", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/xls.py', '(func:591:(__iter__:595))')", 
+            "md5": "6f46a1b65d9e323576e729501c56844e", 
+            "weight": 2
+        }
+    ]
+}

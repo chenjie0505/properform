@@ -1,0 +1,92 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/tests/test_custodian.py', '(func:3006:(test_validators:3010))')", 
+            "target": "('custodian/tests/test_custodian.py', '(func:463:(__init__:467))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "target": "('custodian/custodian.py', '(func:9585:(load_class:9589))')", 
+            "weight": 438
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "target": "('custodian/custodian.py', '<dictcomp>')", 
+            "weight": 376
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/qchem/handlers.py', '(func:8255:(fix_scf:8259))')", 
+            "target": "('custodian/qchem/handlers.py', '(func:13492:(set_scf_initial_guess:13496))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/tests/test_custodian.py', '(func:3806:(test_from_spec:3810))')", 
+            "target": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "weight": 508
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 66, 
+            "Profile Diff": false, 
+            "id": "('custodian/tests/test_custodian.py', '(func:3806:(test_from_spec:3810))')", 
+            "md5": "b3de9a1e13e984b3041e55ec0bbe60f9", 
+            "weight": 134
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/handlers.py', '(func:13492:(set_scf_initial_guess:13496))')", 
+            "md5": "d38a8a80801716fca2c5964f2ec03ad8", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/tests/test_custodian.py', '(func:3006:(test_validators:3010))')", 
+            "md5": "2d46e1d21fe9b30c76db1866ba978e77", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/custodian.py', '<dictcomp>')", 
+            "md5": "cd3164a6d2d33d2b2e85ba94919355e9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 31, 
+            "Profile Diff": false, 
+            "id": "('custodian/custodian.py', '(func:9585:(load_class:9589))')", 
+            "md5": "b50bac3c00eb19e9d96c7a63f76d1466", 
+            "weight": 64
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/handlers.py', '(func:8255:(fix_scf:8259))')", 
+            "md5": "d913def6633c6159e21538708a4dc48f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 186, 
+            "Profile Diff": false, 
+            "id": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "md5": "80418ba3edafbffbef1fc8769d89ab12", 
+            "weight": 374
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/tests/test_custodian.py', '(func:463:(__init__:467))')", 
+            "md5": "a2cfb0ff68b8f6ef2a20453d87a9d8fa", 
+            "weight": 2
+        }
+    ]
+}

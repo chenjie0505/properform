@@ -1,0 +1,387 @@
+{
+    "edges": [
+        {
+            "source": "('trifusion/process/sequence.py', '(func:238096:(_write_snapp:238100))')", 
+            "target": "('trifusion/process/sequence.py', '(func:218127:(_get_partition_data:218131))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:238096:(_write_snapp:238100))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:238096:(_write_snapp:238100))')", 
+            "target": "('trifusion/process/sequence.py', '(func:220087:(_setup_newfile:220091))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:221333:(_write_fasta:221337))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:221333:(_write_fasta:221337))')", 
+            "target": "('trifusion/process/sequence.py', '(func:117621:(iter_alignments:117625))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:221333:(_write_fasta:221337))')", 
+            "target": "('trifusion/process/sequence.py', '(func:220087:(_setup_newfile:220091))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:140831:(sequence_segregation_per_species:140850))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:148170:(cumulative_missing_genes:148189))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:125005:(average_seqsize_per_species:125024))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:125005:(average_seqsize_per_species:125024))')", 
+            "target": "('trifusion/process/sequence.py', '(func:117621:(iter_alignments:117625))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:236249:(_write_stockholm:236253))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:236249:(_write_stockholm:236253))')", 
+            "target": "('trifusion/process/sequence.py', '(func:117621:(iter_alignments:117625))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:236249:(_write_stockholm:236253))')", 
+            "target": "('trifusion/process/sequence.py', '(func:220087:(_setup_newfile:220091))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:150074:(outlier_missing_data:150093))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:150074:(outlier_missing_data:150093))')", 
+            "target": "('trifusion/process/sequence.py', '(func:117621:(iter_alignments:117625))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:225002:(_write_phylip:225006))')", 
+            "target": "('trifusion/process/sequence.py', '(func:223955:(_write_phylip_partitions:223959))')", 
+            "weight": 48
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:225002:(_write_phylip:225006))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:225002:(_write_phylip:225006))')", 
+            "target": "('trifusion/process/sequence.py', '(func:117621:(iter_alignments:117625))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:225002:(_write_phylip:225006))')", 
+            "target": "('trifusion/process/sequence.py', '(func:220087:(_setup_newfile:220091))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:178590:(filter_informative_sites:178594))')", 
+            "target": "('trifusion/process/sequence.py', '(func:124159:(_reset_pipes:124163))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:178590:(filter_informative_sites:178594))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:178590:(filter_informative_sites:178594))')", 
+            "target": "('trifusion/process/sequence.py', '(func:46889:(_test_range:46911))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:237165:(_write_gphocs:237169))')", 
+            "target": "('trifusion/process/sequence.py', '(func:218127:(_get_partition_data:218131))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:237165:(_write_gphocs:237169))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:237165:(_write_gphocs:237169))')", 
+            "target": "('trifusion/process/sequence.py', '(func:220087:(_setup_newfile:220091))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:232717:(_write_nexus:232721))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:232717:(_write_nexus:232721))')", 
+            "target": "('trifusion/process/sequence.py', '(func:117621:(iter_alignments:117625))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:232717:(_write_nexus:232721))')", 
+            "target": "('trifusion/process/sequence.py', '(func:220087:(_setup_newfile:220091))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:126728:(characters_proportion:126747))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:126728:(characters_proportion:126747))')", 
+            "target": "('trifusion/process/sequence.py', '(func:117621:(iter_alignments:117625))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:242124:(_write_mcmctree:242128))')", 
+            "target": "('trifusion/process/sequence.py', '(func:218127:(_get_partition_data:218131))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:242124:(_write_mcmctree:242128))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:242124:(_write_mcmctree:242128))')", 
+            "target": "('trifusion/process/sequence.py', '(func:220087:(_setup_newfile:220091))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:285779:(length_polymorphism_correlation:285799))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:218127:(_get_partition_data:218131))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:218127:(_get_partition_data:218131))')", 
+            "target": "('trifusion/process/sequence.py', '(func:117621:(iter_alignments:117625))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:218127:(_get_partition_data:218131))')", 
+            "target": "('trifusion/process/sequence.py', '(func:223364:(get_partition_seq:223368))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:218127:(_get_partition_data:218131))')", 
+            "target": "('trifusion/process/sequence.py', '(func:215924:(_get_part_names:215928))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:215924:(_get_part_names:215928))')", 
+            "target": "('trifusion/process/data.py', '(func:7304:(__iter__:7308))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:127968:(characters_proportion_per_species:127987))')", 
+            "target": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('trifusion/process/sequence.py', '(func:127968:(characters_proportion_per_species:127987))')", 
+            "target": "('trifusion/process/sequence.py', '(func:117621:(iter_alignments:117625))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:140831:(sequence_segregation_per_species:140850))')", 
+            "md5": "e8ef70733d0c9779b2aa3ae25187a796", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:123872:(_update_pipes:123876))')", 
+            "md5": "9aaae6b0020f53e345c90528d243cd50", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:127968:(characters_proportion_per_species:127987))')", 
+            "md5": "254a8c7e33d4d5f58e109f059ff41dbe", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:221333:(_write_fasta:221337))')", 
+            "md5": "4d5c4d96399e22c3a43203dfa88a01bc", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:124159:(_reset_pipes:124163))')", 
+            "md5": "4a836e921c33a36f04598058ba862178", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:285779:(length_polymorphism_correlation:285799))')", 
+            "md5": "edd9dae7d4b935df767ac7ec73816c51", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:218127:(_get_partition_data:218131))')", 
+            "md5": "860ad1ab21e9d18da22a362fd5525ed9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:126728:(characters_proportion:126747))')", 
+            "md5": "423952469759c0dc5f04b2adb7beeb15", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:117621:(iter_alignments:117625))')", 
+            "md5": "4bc32ea67a46d4b927e2a16dac1901a2", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:178590:(filter_informative_sites:178594))')", 
+            "md5": "5cce510922a2d7efca51a7be5543cc8a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:220087:(_setup_newfile:220091))')", 
+            "md5": "d8e0d3127d1900e350b9b29ebddc7271", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:148170:(cumulative_missing_genes:148189))')", 
+            "md5": "b8766438f44dc47b3db5ebeea38818b3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:125005:(average_seqsize_per_species:125024))')", 
+            "md5": "e0c86673c29179b125101a782d2624d4", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:237165:(_write_gphocs:237169))')", 
+            "md5": "a9ad34b6bdbed87d8e8501725402ea26", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:242124:(_write_mcmctree:242128))')", 
+            "md5": "8606de4a68f67253e9a5a9ef7f0884e6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 22, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:223955:(_write_phylip_partitions:223959))')", 
+            "md5": "43cf1a864516d0b0151a49e8908587d3", 
+            "weight": 46
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:238096:(_write_snapp:238100))')", 
+            "md5": "9e65c54f0fb7afb22db88539d2655fa7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:236249:(_write_stockholm:236253))')", 
+            "md5": "1cdc314eb6263f20c66a8d29de969726", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/data.py', '(func:7304:(__iter__:7308))')", 
+            "md5": "1481b9b0e2809ea1bafc96246a8d2260", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:150074:(outlier_missing_data:150093))')", 
+            "md5": "3b469013f96a85f086cc34b258ccdc5a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:225002:(_write_phylip:225006))')", 
+            "md5": "23cee117dea49bbafefa6bfece10016d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:223364:(get_partition_seq:223368))')", 
+            "md5": "9ae68a1fdd252aa8bba04f35173d4a75", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:215924:(_get_part_names:215928))')", 
+            "md5": "3d2e4040367c15ce3326a1ce4ac8831e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:46889:(_test_range:46911))')", 
+            "md5": "c0b7d804193ad2d1a3bdd2889a48d87c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:232717:(_write_nexus:232721))')", 
+            "md5": "f123b9b15cd1c7c6e8ff8dd364a1efee", 
+            "weight": 2
+        }
+    ]
+}

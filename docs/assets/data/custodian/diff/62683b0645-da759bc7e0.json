@@ -1,0 +1,85 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:1294:(test_check_correct:1298))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:4201:(correct:4205))')", 
+            "weight": 24
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:4008:(test_dentet:4012))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:4201:(correct:4205))')", 
+            "weight": 24
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:6269:(test_pssyevx:6273))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:4201:(correct:4205))')", 
+            "weight": 124
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/jobs.py', '(func:11308:(from_dict:11329))')", 
+            "target": "('custodian/vasp/jobs.py', '(func:1247:(__init__:1251))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:4753:(test_too_few_bands:4757))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:4201:(correct:4205))')", 
+            "weight": 24
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/jobs.py', '(func:11308:(from_dict:11329))')", 
+            "md5": "d976b72087ad59728e6ee78e8087e52e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/jobs.py', '(func:1247:(__init__:1251))')", 
+            "md5": "7621f8d711a088eaf9ef0a84a39f8780", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:4008:(test_dentet:4012))')", 
+            "md5": "550439ba26625f8cfb9f4e92c45dddd1", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 50, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:6269:(test_pssyevx:6273))')", 
+            "md5": "e39a62ad96808d928f8c733943cca0b8", 
+            "weight": 102
+        }, 
+        {
+            "AST Diff": 21, 
+            "Profile Diff": null, 
+            "id": "('custodian/vasp/handlers.py', '(func:4201:(correct:4205))')", 
+            "md5": "81ad84a6bc6a8e66ac3d10dcd7ffdc5d", 
+            "weight": 22
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:1294:(test_check_correct:1298))')", 
+            "md5": "05f19795a582961be12e031bdd09427c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:4753:(test_too_few_bands:4757))')", 
+            "md5": "46bee6d88035b44223ff5f489843569c", 
+            "weight": 2
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_basket.py', '(func:677:(test_resolve_project_path_dot:681))')", 
+            "target": "('lib/dataprocessor/basket.py', '(func:1001:(resolve_project_path:1005))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/basket.py', '(func:1001:(resolve_project_path:1005))')", 
+            "target": "('lib/dataprocessor/basket.py', '(func:1320:(_is_tag:1324))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/basket.py', '(func:1001:(resolve_project_path:1005))')", 
+            "md5": "6ce8f729db04d62a17906a39ea9f9b5d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/tests/test_basket.py', '(func:677:(test_resolve_project_path_dot:681))')", 
+            "md5": "838f0caced4215da470f692145a86043", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/basket.py', '(func:1320:(_is_tag:1324))')", 
+            "md5": "a2f2497dcc4ca271fc9cf7a7d8922003", 
+            "weight": 2
+        }
+    ]
+}

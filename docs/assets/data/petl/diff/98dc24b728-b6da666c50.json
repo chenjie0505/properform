@@ -1,0 +1,182 @@
+{
+    "edges": [
+        {
+            "source": "('petl/transform/basics.py', '(func:27067:(iteraddfieldusingcontext:27071))')", 
+            "target": "('petl/test/transform/test_basics.py', '(func:13872:(upstream:13876))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/transform/test_basics.py', '(func:5446:(test_addfield:5450))')", 
+            "target": "('petl/util/base.py', '(func:16698:(expr:16702))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/transform/test_joins.py', '(func:23672:(test_outerjoin_novaluefield:23676))')", 
+            "target": "('petl/transform/joins.py', '(func:10084:(outerjoin:10088))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/transform/basics.py', '(func:12934:(iteraddfield:12938))')", 
+            "target": "('petl/test/transform/test_basics.py', '(func:5852:(lambda:5852))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/transform/basics.py', '(func:12934:(iteraddfield:12938))')", 
+            "target": "('petl/transform/basics.py', '(func:12830:(iterstack:12834))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/util/vis.py', '(func:14622:(_display_html:14626))')", 
+            "target": "('petl/io/sources.py', '(func:3786:(getvalue:3790))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/util/vis.py', '(func:14622:(_display_html:14626))')", 
+            "target": "('petl/io/sources.py', '(func:2698:(__init__:2702))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/io/sources.py', '(func:1925:(open:1949))')", 
+            "target": "('petl/io/sources.py', '(func:1959:(__init__:1963))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/transform/test_reductions.py', '(func:8389:(test_mergeduplicates_shortrows:8393))')", 
+            "target": "('petl/transform/reductions.py', '(func:14217:(mergeduplicates:14221))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/io/test_numpy.py', '(func:4975:(test_integration:4979))')", 
+            "target": "('petl/io/numpy.py', '(func:3368:(fromarray:3372))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/util/base.py', '(func:16698:(expr:16702))')", 
+            "md5": "aa4d600146c83e42d7fb7ac9d371b25b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/basics.py', '(func:12934:(iteraddfield:12938))')", 
+            "md5": "dc9b4dc0f323a90c5f99a563355ce388", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/sources.py', '(func:1959:(__init__:1963))')", 
+            "md5": "aa85c1fb67bfb9ded70b86b892c44c60", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/basics.py', '(func:27067:(iteraddfieldusingcontext:27071))')", 
+            "md5": "61488979a34d5e0cf39d0e90f77d3481", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/sources.py', '(func:1925:(open:1949))')", 
+            "md5": "98365ff561f9094fac9120f3d3c7a60b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/sources.py', '(func:3786:(getvalue:3790))')", 
+            "md5": "6d303dc026843a1c78b512d5f42f0836", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/test/transform/test_basics.py', '(func:5852:(lambda:5852))')", 
+            "md5": "ede4d54d4bf5fd8b3bcc45be4c2d3e29", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/test/transform/test_joins.py', '(func:23672:(test_outerjoin_novaluefield:23676))')", 
+            "md5": "f7c03d85b4c527338edf44c4ed8806bb", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/test/io/test_numpy.py', '(func:4975:(test_integration:4979))')", 
+            "md5": "c4050c55aa89f46ca647570204fe10e4", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/test/transform/test_basics.py', '(func:13872:(upstream:13876))')", 
+            "md5": "42bee10fe4acd78cf35f66e37d677e37", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/util/vis.py', '(func:14622:(_display_html:14626))')", 
+            "md5": "b92f72168aeb17d1bf3243ced5ed878f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/basics.py', '(func:12830:(iterstack:12834))')", 
+            "md5": "07b5c5b8d58712ccfdc3ea59f9bf8043", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/test/transform/test_basics.py', '(func:5446:(test_addfield:5450))')", 
+            "md5": "f7fac20b977bd4c32447bbd4bcbbaac0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/sources.py', '(func:2698:(__init__:2702))')", 
+            "md5": "aca56f08d7a6808c1bcebc1a0a48f9b9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/reductions.py', '(func:14217:(mergeduplicates:14221))')", 
+            "md5": "d3ed4a6c6a9a0ac34d07f73211b26681", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/test/transform/test_reductions.py', '(func:8389:(test_mergeduplicates_shortrows:8393))')", 
+            "md5": "29c0832e3e133a15d651fb36ad918aec", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/joins.py', '(func:10084:(outerjoin:10088))')", 
+            "md5": "8008c69a7cbac6601785e383cec9488d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/numpy.py', '(func:3368:(fromarray:3372))')", 
+            "md5": "0b0d3597a7d3f964097f794529186e92", 
+            "weight": 2
+        }
+    ]
+}

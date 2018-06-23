@@ -1,0 +1,126 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/io/sources.py', '(func:2777:(open:2801))')", 
+            "target": "('petl/io/sources.py', '(func:1959:(__init__:1963))')", 
+            "weight": 12
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/io/csv_py2.py', '(func:4125:(__init__:4129))')", 
+            "target": "('petl/io/base.py', '(func:97:(getcodec:101))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/io/test_pytables.py', '(func:3216:(test_tohdf5:3220))')", 
+            "target": "('petl/io/pytables.py', '(func:8966:(tohdf5:8970))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/io/test_sources.py', '(func:2779:(test_bzip2source:2783))')", 
+            "target": "('petl/io/sources.py', '(func:999:(__init__:1003))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/io/pickle.py', '(func:1489:(topickle:1493))')", 
+            "target": "('petl/io/pickle.py', '(func:3057:(_writepickle:3061))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/io/test_csv_unicode.py', '(func:2306:(test_appendcsv:2310))')", 
+            "target": "('petl/io/csv.py', '(func:3394:(appendcsv:3398))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/pickle.py', '(func:3057:(_writepickle:3061))')", 
+            "md5": "d8ff2aa5432f09f7305d7167689c2956", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/sources.py', '(func:1959:(__init__:1963))')", 
+            "md5": "aa85c1fb67bfb9ded70b86b892c44c60", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/test/io/test_pytables.py', '(func:3216:(test_tohdf5:3220))')", 
+            "md5": "1328471980560592afc4dd7411bdff6c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/base.py', '(func:97:(getcodec:101))')", 
+            "md5": "43a973770e3656f668c5657a64df0bb3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/test/io/test_sources.py', '(func:2779:(test_bzip2source:2783))')", 
+            "md5": "e378f34a325ea2b50f6f38eb092f1983", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/pickle.py', '(func:1489:(topickle:1493))')", 
+            "md5": "736c6d8b361530356a3946f9f3cf41ba", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/sources.py', '(func:999:(__init__:1003))')", 
+            "md5": "28815527d6715cc901b8e6e0cbb5c729", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/csv_py2.py', '(func:4125:(__init__:4129))')", 
+            "md5": "8bdbb8fa1c419e2d390d388183872cea", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/pytables.py', '(func:8966:(tohdf5:8970))')", 
+            "md5": "abde2aece0334184f3c5a4e0c383160a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/test/io/test_csv_unicode.py', '(func:2306:(test_appendcsv:2310))')", 
+            "md5": "bdc5a68851ffab4388f00b4c187c9845", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/csv.py', '(func:3394:(appendcsv:3398))')", 
+            "md5": "0c33900bac8b0ada1807df3ffbcc2246", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 4, 
+            "Profile Diff": false, 
+            "id": "('petl/io/sources.py', '(func:2777:(open:2801))')", 
+            "md5": "5937f9e2edeac68c34d4063e6636add7", 
+            "weight": 10
+        }
+    ]
+}

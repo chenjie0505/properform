@@ -1,0 +1,85 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:6531:(test_gradient_not_orthogonal:6535))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:3410:(check:3414))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:6529:(test_eddrmm:6533))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:3410:(check:3414))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/qchem/tests/test_handlers.py', '(func:36225:(test_not_enough_total_memory:36229))')", 
+            "target": "('custodian/qchem/handlers.py', '(func:710:(__init__:714))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:5278:(test_rot_matrix:5282))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:3410:(check:3414))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:4753:(test_too_few_bands:4757))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:3410:(check:3414))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:6531:(test_gradient_not_orthogonal:6535))')", 
+            "md5": "f93a491050b675381e907e62ca218e90", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/qchem/tests/test_handlers.py', '(func:36225:(test_not_enough_total_memory:36229))')", 
+            "md5": "ea03db06899ca5f6654c28b37ee19517", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:4753:(test_too_few_bands:4757))')", 
+            "md5": "46bee6d88035b44223ff5f489843569c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/qchem/handlers.py', '(func:710:(__init__:714))')", 
+            "md5": "09d79e7f208595bf4c344c949d365f80", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:5278:(test_rot_matrix:5282))')", 
+            "md5": "0ddc1ab1525413e4c63974228b226a9c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/handlers.py', '(func:3410:(check:3414))')", 
+            "md5": "08c961ce92e2690d6f93e0019c5dd688", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:6529:(test_eddrmm:6533))')", 
+            "md5": "e156237ce01e693d502b7e682cbdb623", 
+            "weight": 2
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/transform/selects.py', '(func:12115:(facet:12119))')", 
+            "target": "('petl/transform/selects.py', '(func:4766:(selecteq:4770))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_conversions.py', '(func:6794:(test_convertnumbers:6798))')", 
+            "target": "('petl/transform/conversions.py', '(func:8149:(convertnumbers:8153))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_reductions.py', '(func:8742:(test_mergeduplicates_compoundkey:8746))')", 
+            "target": "('petl/transform/reductions.py', '(func:14217:(mergeduplicates:14221))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/transform/headers.py', '(func:205:(rename:209))')", 
+            "target": "('petl/transform/headers.py', '(func:1491:(__init__:1495))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/io/csv.py', '(func:4549:(appendtsv:4553))')", 
+            "target": "('petl/io/csv.py', '(func:3394:(appendcsv:3398))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/transform/reductions.py', '(func:401:(rowreduce:405))')", 
+            "target": "('petl/transform/reductions.py', '(func:2047:(__init__:2051))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_reductions.py', '(func:827:(test_rowreduce_fieldnameaccess:831))')", 
+            "target": "('petl/transform/reductions.py', '(func:401:(rowreduce:405))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/reductions.py', '(func:2047:(__init__:2051))')", 
+            "md5": "ef447594fe91a7d2e8394daf5bf93494", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/test/transform/test_reductions.py', '(func:8742:(test_mergeduplicates_compoundkey:8746))')", 
+            "md5": "0c1ea289c3ad6dd72d66ac9b3718cf0d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/selects.py', '(func:12115:(facet:12119))')", 
+            "md5": "461eb909c1c604c1ed77d3ee80feda08", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/selects.py', '(func:4766:(selecteq:4770))')", 
+            "md5": "4b3e5c6599ef787452a3f64cf5349ab3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/reductions.py', '(func:401:(rowreduce:405))')", 
+            "md5": "76e2ff4a5aefcbe8574f4bb2082092da", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/headers.py', '(func:205:(rename:209))')", 
+            "md5": "08632ae9034779b0cf5b588924e58085", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/test/transform/test_conversions.py', '(func:6794:(test_convertnumbers:6798))')", 
+            "md5": "e1252047903b7a8817f90aca0c446cfc", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/conversions.py', '(func:8149:(convertnumbers:8153))')", 
+            "md5": "4b441eaaf23aa743ea1e22c5a6acb23f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/headers.py', '(func:1491:(__init__:1495))')", 
+            "md5": "2cfea6bc2355c42e5a69705067b676f6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/csv.py', '(func:3394:(appendcsv:3398))')", 
+            "md5": "0c33900bac8b0ada1807df3ffbcc2246", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/test/transform/test_reductions.py', '(func:827:(test_rowreduce_fieldnameaccess:831))')", 
+            "md5": "f9222f954e44811ea5575096f1f1537b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/csv.py', '(func:4549:(appendtsv:4553))')", 
+            "md5": "0acb8f752f3e192c38dcd9b5537456c7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/reductions.py', '(func:14217:(mergeduplicates:14221))')", 
+            "md5": "d3ed4a6c6a9a0ac34d07f73211b26681", 
+            "weight": 2
+        }
+    ]
+}

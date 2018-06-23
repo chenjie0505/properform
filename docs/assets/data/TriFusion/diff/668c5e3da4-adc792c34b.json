@@ -1,0 +1,59 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:126220:(concatenate:126224))')", 
+            "target": "('trifusion/process/sequence.py', '(func:7108:(__call__:7112))')", 
+            "weight": 258
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:126220:(concatenate:126224))')", 
+            "target": "('trifusion/process/sequence.py', '(func:116286:(_create_table:116290))')", 
+            "weight": 304
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:83299:(update_taxa_names:83303))')", 
+            "target": "('trifusion/process/sequence.py', '(func:24265:(shelve_taxa:24269))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:7108:(__call__:7112))')", 
+            "md5": "47b05f267b85e9bef3e090d991a7172b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 255, 
+            "Profile Diff": null, 
+            "id": "('trifusion/process/sequence.py', '(func:126220:(concatenate:126224))')", 
+            "md5": "3377a4c7d7f48b77e276cb99646d3748", 
+            "weight": 256
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:24265:(shelve_taxa:24269))')", 
+            "md5": "00d5aaaf594cfb5a68b36fdbaf67d79c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:83299:(update_taxa_names:83303))')", 
+            "md5": "899b74ff273030d18bec4ad8d4c85190", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 23, 
+            "Profile Diff": false, 
+            "id": "('trifusion/process/sequence.py', '(func:116286:(_create_table:116290))')", 
+            "md5": "77ea77463202d4c8d2d48123e3990996", 
+            "weight": 48
+        }
+    ]
+}

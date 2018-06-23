@@ -1,0 +1,668 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/transform/setops.py', '(func:4210:(recordcomplement:4214))')", 
+            "target": "('petl/transform/setops.py', '(func:382:(complement:386))')", 
+            "weight": 11
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/transform/setops.py', '(func:4210:(recordcomplement:4214))')", 
+            "target": "('petl/transform/basics.py', '(func:456:(cut:460))')", 
+            "weight": 7
+        }, 
+        {
+            "source": "('petl/io/json.py', '(func:4661:(tojsonarrays:4665))')", 
+            "target": "('petl/util/base.py', '(func:727:(__len__:731))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/transform/test_joins.py', '(func:14357:(_test_rightjoin_empty:14361))')", 
+            "target": "('petl/transform/hashjoins.py', '(func:6829:(hashrightjoin:6833))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/transform/hashjoins.py', '(func:8210:(__iter__:8214))')", 
+            "target": "('petl/util/lookups.py', '(func:223:(lookup:227))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/transform/setops.py', '(func:382:(complement:386))')", 
+            "target": "('petl/transform/setops.py', '(func:2183:(__init__:2187))')", 
+            "weight": 14
+        }, 
+        {
+            "source": "('petl/transform/validation.py', '(func:3781:(iterproblems:3785))')", 
+            "target": "('petl/test/transform/test_validation.py', '(func:481:(lambda:481))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/transform/validation.py', '(func:3781:(iterproblems:3785))')", 
+            "target": "('petl/util/parsers.py', '(func:1656:(parser:1660))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/util/lookups.py', '(func:5055:(dictlookup:5059))')", 
+            "target": "('petl/transform/basics.py', '(func:3088:(itercut:3092))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/io/test_xml.py', '(func:2800:(test_fromxml_5:2804))')", 
+            "target": "('petl/io/xml.py', '(func:340:(fromxml:344))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/io/test_xml.py', '(func:254:(test_fromxml:258))')", 
+            "target": "('petl/io/xml.py', '(func:340:(fromxml:344))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/transform/hashjoins.py', '(func:6829:(hashrightjoin:6833))')", 
+            "target": "('petl/transform/hashjoins.py', '(func:7839:(__init__:7843))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/transform/basics.py', '(func:20197:(annex:20201))')", 
+            "target": "('petl/transform/basics.py', '(func:21102:(__init__:21106))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/transform/hashjoins.py', '(func:5059:(iterhashleftjoin:5063))')", 
+            "target": "('petl/transform/basics.py', '(func:3088:(itercut:3092))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/transform/hashjoins.py', '(func:5059:(iterhashleftjoin:5063))')", 
+            "target": "('petl/transform/hashjoins.py', '(func:6147:(joinrows:6151))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_setops.py', '(func:1919:(_test_complement_4:1923))')", 
+            "target": "('petl/transform/setops.py', '(func:12005:(hashcomplement:12009))')", 
+            "weight": 70
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_setops.py', '(func:1919:(_test_complement_4:1923))')", 
+            "target": "('petl/transform/setops.py', '(func:382:(complement:386))')", 
+            "weight": 70
+        }, 
+        {
+            "source": "('petl/test/util/test_lookups.py', '(func:257:(test_lookup:261))')", 
+            "target": "('petl/util/lookups.py', '(func:223:(lookup:227))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/util/test_lookups.py', '(func:257:(test_lookup:261))')", 
+            "target": "('petl/transform/basics.py', '(func:456:(cut:460))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/transform/setops.py', '(func:7936:(recorddiff:7940))')", 
+            "target": "('petl/transform/setops.py', '(func:4210:(recordcomplement:4214))')", 
+            "weight": 13
+        }, 
+        {
+            "source": "('petl/transform/basics.py', '(func:3088:(itercut:3092))')", 
+            "target": "('petl/transform/basics.py', '(func:3088:(itercut:3092))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/transform/test_joins.py', '(func:23672:(test_outerjoin_novaluefield:23676))')", 
+            "target": "('petl/transform/basics.py', '(func:456:(cut:460))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/transform/hashjoins.py', '(func:1841:(iterhashjoin:1845))')", 
+            "target": "('petl/transform/basics.py', '(func:3088:(itercut:3092))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/transform/hashjoins.py', '(func:1841:(iterhashjoin:1845))')", 
+            "target": "('petl/transform/hashjoins.py', '(func:2895:(joinrows:2899))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/util/lookups.py', '(func:9707:(recordlookup:9711))')", 
+            "target": "('petl/transform/basics.py', '(func:3088:(itercut:3092))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/transform/joins.py', '(func:17632:(itercrossjoin:17636))')", 
+            "target": "('petl/transform/basics.py', '(func:3088:(itercut:3092))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/transform/joins.py', '(func:17632:(itercrossjoin:17636))')", 
+            "target": "('petl/util/base.py', '(func:727:(__len__:731))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/transform/test_joins.py', '(func:35127:(_test_lookupjoin_novaluefield:35131))')", 
+            "target": "('petl/transform/basics.py', '(func:456:(cut:460))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/transform/test_reductions.py', '(func:6300:(test_aggregate_multiple_source_fields:6304))')", 
+            "target": "('petl/transform/reductions.py', '(func:9990:(__setitem__:9994))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_setops.py', '(func:5917:(test_recordcomplement_4:5921))')", 
+            "target": "('petl/transform/setops.py', '(func:4210:(recordcomplement:4214))')", 
+            "weight": 37
+        }, 
+        {
+            "source": "('petl/transform/hashjoins.py', '(func:277:(hashjoin:281))')", 
+            "target": "('petl/transform/hashjoins.py', '(func:1230:(__init__:1234))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/util/test_lookups.py', '(func:3920:(test_recordlookup:3924))')", 
+            "target": "('petl/util/lookups.py', '(func:9707:(recordlookup:9711))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/util/test_lookups.py', '(func:3920:(test_recordlookup:3924))')", 
+            "target": "('petl/transform/basics.py', '(func:456:(cut:460))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/io/html.py', '(func:404:(tohtml:408))')", 
+            "target": "('petl/io/html.py', '(func:6281:(_write_row:6285))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/transform/hashjoins.py', '(func:8543:(iterhashrightjoin:8547))')", 
+            "target": "('petl/transform/basics.py', '(func:3088:(itercut:3092))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/transform/test_reductions.py', '(func:5123:(test_aggregate_more:5127))')", 
+            "target": "('petl/transform/reductions.py', '(func:9990:(__setitem__:9994))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/transform/test_basics.py', '(func:10202:(test_skipcomments:10206))')", 
+            "target": "('petl/transform/basics.py', '(func:17763:(skipcomments:17767))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/transform/test_joins.py', '(func:14923:(_test_rightjoin_prefix:14927))')", 
+            "target": "('petl/transform/hashjoins.py', '(func:6829:(hashrightjoin:6833))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_setops.py', '(func:688:(_test_complement_2:692))')", 
+            "target": "('petl/transform/setops.py', '(func:12005:(hashcomplement:12009))')", 
+            "weight": 8
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_setops.py', '(func:688:(_test_complement_2:692))')", 
+            "target": "('petl/transform/setops.py', '(func:382:(complement:386))')", 
+            "weight": 8
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/transform/setops.py', '(func:5986:(diff:5990))')", 
+            "target": "('petl/transform/setops.py', '(func:382:(complement:386))')", 
+            "weight": 14
+        }, 
+        {
+            "source": "('petl/util/lookups.py', '(func:7206:(dictlookupone:7210))')", 
+            "target": "('petl/transform/basics.py', '(func:3088:(itercut:3092))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/util/lookups.py', '(func:223:(lookup:227))')", 
+            "target": "('petl/transform/basics.py', '(func:3088:(itercut:3092))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/util/lookups.py', '(func:223:(lookup:227))')", 
+            "target": "('petl/util/lookups.py', '(func:234:(_setup_lookup:238))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/transform/joins.py', '(func:24852:(iterlookupjoin:24856))')", 
+            "target": "('petl/transform/joins.py', '(func:25963:(joinrows:25967))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/transform/setops.py', '(func:12005:(hashcomplement:12009))')", 
+            "target": "('petl/transform/setops.py', '(func:12528:(__init__:12532))')", 
+            "weight": 14
+        }, 
+        {
+            "source": "('petl/test/io/test_html.py', '(func:187:(test_tohtml:191))')", 
+            "target": "('petl/io/html.py', '(func:404:(tohtml:408))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/transform/regex.py', '(func:8020:(search:8024))')", 
+            "target": "('petl/transform/regex.py', '(func:10049:(__init__:10053))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('petl/test/transform/test_headers.py', '(func:4731:(test_rename_strict:4735))')", 
+            "target": "('petl/transform/headers.py', '(func:205:(rename:209))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/io/html.py', '(func:404:(tohtml:408))')", 
+            "md5": "69a84c75403a976540a8295fa37337c6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/util/lookups.py', '(func:223:(lookup:227))')", 
+            "md5": "8a7774b449d1f4d8c786d8891b08965d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 31, 
+            "Profile Diff": false, 
+            "id": "('petl/test/transform/test_setops.py', '(func:1919:(_test_complement_4:1923))')", 
+            "md5": "c29fc792d4e191ac6a15eaf817422bc3", 
+            "weight": 64
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/basics.py', '(func:3088:(itercut:3092))')", 
+            "md5": "188de65e0c9a4719c607efc7e1e5c2d1", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/basics.py', '(func:17763:(skipcomments:17767))')", 
+            "md5": "c2804a473d046ce16fa1097fb933a314", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_joins.py', '(func:23672:(test_outerjoin_novaluefield:23676))')", 
+            "md5": "f7c03d85b4c527338edf44c4ed8806bb", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 7, 
+            "Profile Diff": null, 
+            "id": "('petl/transform/setops.py', '(func:7936:(recorddiff:7940))')", 
+            "md5": "8debc4b073938f0863aed06472379d8a", 
+            "weight": 8
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/util/test_lookups.py', '(func:257:(test_lookup:261))')", 
+            "md5": "5e50c5ff8298fe72aaa8a810d20a5cad", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/validation.py', '(func:3781:(iterproblems:3785))')", 
+            "md5": "eeeae170c1ce952e373e23188f0a113b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/joins.py', '(func:25963:(joinrows:25967))')", 
+            "md5": "74d8815c7691df21bdca48230d86b147", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 7, 
+            "Profile Diff": null, 
+            "id": "('petl/transform/setops.py', '(func:2183:(__init__:2187))')", 
+            "md5": "f28ce2edf8dcfd7824aad6eaaf0561ff", 
+            "weight": 8
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/hashjoins.py', '(func:277:(hashjoin:281))')", 
+            "md5": "6f185601bf2cc167a5f45cd32a9b26c4", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_basics.py', '(func:10202:(test_skipcomments:10206))')", 
+            "md5": "ec7db4cc63a51b0633424f5b60bb90e5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/io/test_xml.py', '(func:254:(test_fromxml:258))')", 
+            "md5": "7eafb8d5cad717290efa2b07739d0bb0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/io/xml.py', '(func:340:(fromxml:344))')", 
+            "md5": "24775209968f2f0c2b53647e1e2ebf89", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 7, 
+            "Profile Diff": null, 
+            "id": "('petl/transform/setops.py', '(func:12528:(__init__:12532))')", 
+            "md5": "e46f9dcd8f00076b4fc44a1945f06427", 
+            "weight": 8
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/hashjoins.py', '(func:6829:(hashrightjoin:6833))')", 
+            "md5": "e7ef06480753f22c2c7ff2eaf5195135", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/regex.py', '(func:10049:(__init__:10053))')", 
+            "md5": "b095e0a08d9fa13ea5ec424ffb608029", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/basics.py', '(func:20197:(annex:20201))')", 
+            "md5": "d322f32958e9368313420d8846187b88", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_joins.py', '(func:14923:(_test_rightjoin_prefix:14927))')", 
+            "md5": "ce7eeb071a90eea38cd1c3092d9025ae", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_headers.py', '(func:4731:(test_rename_strict:4735))')", 
+            "md5": "e2793de42237f54d0d63fa588ce049d0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/util/test_lookups.py', '(func:3920:(test_recordlookup:3924))')", 
+            "md5": "8ca616ad22ce89e4117a1af9f80b1523", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/hashjoins.py', '(func:2895:(joinrows:2899))')", 
+            "md5": "60533a5cb1a8956f849cfa0151e6625b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 5, 
+            "Profile Diff": null, 
+            "id": "('petl/transform/setops.py', '(func:12005:(hashcomplement:12009))')", 
+            "md5": "72915b1fdae68e1418fee3ee2dfb5b27", 
+            "weight": 6
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/util/lookups.py', '(func:5055:(dictlookup:5059))')", 
+            "md5": "4e0007be2065af19778826f25bc89d8b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 4, 
+            "Profile Diff": null, 
+            "id": "('petl/transform/setops.py', '(func:4210:(recordcomplement:4214))')", 
+            "md5": "f6bc15597fb0df5142f87511546dad63", 
+            "weight": 5
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/util/base.py', '(func:727:(__len__:731))')", 
+            "md5": "ccaa47a7c8b0bb73b76ba179c4181e04", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 5, 
+            "Profile Diff": null, 
+            "id": "('petl/transform/setops.py', '(func:382:(complement:386))')", 
+            "md5": "b93f4f2e383fec30a0ed24de13364c69", 
+            "weight": 6
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_joins.py', '(func:35127:(_test_lookupjoin_novaluefield:35131))')", 
+            "md5": "7156f6e62e9a62ecb9614663a718f6ec", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/io/html.py', '(func:6281:(_write_row:6285))')", 
+            "md5": "e45d8a0fc0b2c9f3d029ee62648c7799", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/regex.py', '(func:8020:(search:8024))')", 
+            "md5": "261e6bd3564a76018246b158f79a4af9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/hashjoins.py', '(func:6147:(joinrows:6151))')", 
+            "md5": "4a25621b72339ab203a2bad919eb9bff", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/io/test_html.py', '(func:187:(test_tohtml:191))')", 
+            "md5": "cc574b1583fa08d9d2c1e007eb81adbd", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/hashjoins.py', '(func:8543:(iterhashrightjoin:8547))')", 
+            "md5": "2ecc6a6271001613e5b80a299756f2c4", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_reductions.py', '(func:6300:(test_aggregate_multiple_source_fields:6304))')", 
+            "md5": "6cac7578489dffe153ddc17f66c14ccc", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 31, 
+            "Profile Diff": null, 
+            "id": "('petl/test/transform/test_setops.py', '(func:5917:(test_recordcomplement_4:5921))')", 
+            "md5": "b465aff53e81e7f49a633f5cc4a86f6f", 
+            "weight": 32
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/hashjoins.py', '(func:8210:(__iter__:8214))')", 
+            "md5": "d616f7731b33284f9294aac3438e1355", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/basics.py', '(func:21102:(__init__:21106))')", 
+            "md5": "fec64678e2ad8f29db802fad03494baf", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/joins.py', '(func:24852:(iterlookupjoin:24856))')", 
+            "md5": "68656d836ba2d6edac9ee15d89b5639e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/io/json.py', '(func:4661:(tojsonarrays:4665))')", 
+            "md5": "17206cc80afc0c1c11f16fcc8db18cc9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/hashjoins.py', '(func:1230:(__init__:1234))')", 
+            "md5": "58f6c6c873161f820564b31008a06db6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/hashjoins.py', '(func:5059:(iterhashleftjoin:5063))')", 
+            "md5": "0a0bc75672d1d3689a8512e0d6bd394f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_setops.py', '(func:688:(_test_complement_2:692))')", 
+            "md5": "46b6337f1b03e9424057d12889b01d1a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/util/lookups.py', '(func:234:(_setup_lookup:238))')", 
+            "md5": "72417ae4f42a8e4b98c63ccf57a74cde", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/hashjoins.py', '(func:7839:(__init__:7843))')", 
+            "md5": "8a6d252511cdab7a630e789819f8edfa", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 7, 
+            "Profile Diff": null, 
+            "id": "('petl/transform/setops.py', '(func:5986:(diff:5990))')", 
+            "md5": "77562776ae52c5719aee14d965d312d8", 
+            "weight": 8
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/util/lookups.py', '(func:7206:(dictlookupone:7210))')", 
+            "md5": "63a8545e63438b17d4da7e2694f25a1c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_validation.py', '(func:481:(lambda:481))')", 
+            "md5": "c1dba6ced35f30f03b2b6fbb47b89a4b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/util/lookups.py', '(func:9707:(recordlookup:9711))')", 
+            "md5": "619171148499a80784366484b2e406ec", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/hashjoins.py', '(func:1841:(iterhashjoin:1845))')", 
+            "md5": "dd07d4691e6d6e5203ee5260a6e1a61f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/headers.py', '(func:205:(rename:209))')", 
+            "md5": "08632ae9034779b0cf5b588924e58085", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/test/transform/test_joins.py', '(func:14357:(_test_rightjoin_empty:14361))')", 
+            "md5": "e040526dd19355e81d215abd6a3760ed", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_reductions.py', '(func:5123:(test_aggregate_more:5127))')", 
+            "md5": "3107a046b045b5fa87af7ba2d69f1b6c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/util/parsers.py', '(func:1656:(parser:1660))')", 
+            "md5": "2d9381986fcb3c3f05cdb46cc8eaa9e6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/joins.py', '(func:17632:(itercrossjoin:17636))')", 
+            "md5": "a29fd70de0d447ce4087df3eb991656d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/basics.py', '(func:456:(cut:460))')", 
+            "md5": "3b96227ce2ddc714d08b05961b6cbda2", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/reductions.py', '(func:9990:(__setitem__:9994))')", 
+            "md5": "10dcad3f33fe0be51c858cb80433f40c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/io/test_xml.py', '(func:2800:(test_fromxml_5:2804))')", 
+            "md5": "18f004b98817a6f6b681f72cd37fb049", 
+            "weight": 2
+        }
+    ]
+}

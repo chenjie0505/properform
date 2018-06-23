@@ -1,0 +1,39 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/util/test_base.py', '(func:1725:(test_records:1729))')", 
+            "target": "('petl/util/base.py', '(func:15197:(records:15201))')", 
+            "weight": 54
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/util/test_base.py', '(func:1725:(test_records:1729))')", 
+            "target": "('petl/util/base.py', '(func:15089:(get:15093))')", 
+            "weight": 90
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 18, 
+            "Profile Diff": false, 
+            "id": "('petl/util/base.py', '(func:15089:(get:15093))')", 
+            "md5": "1fe01d867be82af9b65795db0dbefc7f", 
+            "weight": 38
+        }, 
+        {
+            "AST Diff": 51, 
+            "Profile Diff": null, 
+            "id": "('petl/test/util/test_base.py', '(func:1725:(test_records:1729))')", 
+            "md5": "f5b76e8f4d995cd36108116ba479b47c", 
+            "weight": 52
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/util/base.py', '(func:15197:(records:15201))')", 
+            "md5": "7a28f83db36aeb6f20a5edd29e5bd59d", 
+            "weight": 2
+        }
+    ]
+}

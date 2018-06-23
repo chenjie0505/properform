@@ -1,0 +1,191 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/pa/test_deprovision.py', '(func:1285:(test_deprovision_ubuntu:1312))')", 
+            "target": "('azurelinuxagent/pa/deprovision/default.py', '(func:3822:(setup:3826))')", 
+            "weight": 10
+        }, 
+        {
+            "source": "('tests/ga/test_extension.py', '(func:4851:(test_migration_ignores_move_errors:4904))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:5136:(migrate_handler_state:5140))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/pa/deprovision/default.py', '(func:3822:(setup:3826))')", 
+            "target": "('azurelinuxagent/pa/deprovision/default.py', '(func:4119:(del_cloud_init:4123))')", 
+            "weight": 162
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/pa/deprovision/default.py', '(func:3822:(setup:3826))')", 
+            "target": "('azurelinuxagent/pa/deprovision/default.py', '(func:2733:(del_files:2737))')", 
+            "weight": 10
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/pa/deprovision/default.py', '(func:4119:(del_cloud_init:4123))')", 
+            "target": "('azurelinuxagent/pa/deprovision/default.py', '(func:3959:(cloud_init_directories:3963))')", 
+            "weight": 170
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/pa/deprovision/default.py', '(func:4119:(del_cloud_init:4123))')", 
+            "target": "('azurelinuxagent/pa/deprovision/default.py', '(func:4032:(cloud_init_files:4036))')", 
+            "weight": 170
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/pa/test_deprovision.py', '(func:912:(ault:1101))')", 
+            "target": "('azurelinuxagent/pa/deprovision/default.py', '(func:1216:(invoke:1220))')", 
+            "weight": 396
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/pa/test_deprovision.py', '(func:912:(ault:1101))')", 
+            "target": "('azurelinuxagent/pa/deprovision/default.py', '(func:4119:(del_cloud_init:4123))')", 
+            "weight": 548
+        }, 
+        {
+            "source": "('azurelinuxagent/pa/provision/default.py', '(func:2781:(reg_ssh_host_key:2785))')", 
+            "target": "('azurelinuxagent/pa/provision/default.py', '(func:3219:(get_ssh_host_key_thumbprint:3223))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/pa/deprovision/default.py', '(func:1216:(invoke:1220))')", 
+            "target": "('azurelinuxagent/common/utils/fileutil.py', '(func:3238:(rm_dirs:3242))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/pa/deprovision/default.py', '(func:1216:(invoke:1220))')", 
+            "target": "('azurelinuxagent/common/utils/fileutil.py', '(func:3133:(rm_files:3137))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_extension.py', '(func:3242:(test_migration_skips_if_empty:3246))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:5136:(migrate_handler_state:5140))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/pa/test_deprovision.py', '(func:767:(test_deprovision:794))')", 
+            "target": "('azurelinuxagent/pa/deprovision/default.py', '(func:3822:(setup:3826))')", 
+            "weight": 10
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/pa/deprovision/default.py', '(func:1216:(invoke:1220))')", 
+            "md5": "abe8b8d3344af2b9c49738496d0c03e0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 196, 
+            "Profile Diff": false, 
+            "id": "('tests/pa/test_deprovision.py', '(func:912:(ault:1101))')", 
+            "md5": "365d3c1921181ebd6b8e59860e285716", 
+            "weight": 394
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_extension.py', '(func:3242:(test_migration_skips_if_empty:3246))')", 
+            "md5": "a659de3d2dc40071bc455e595ebd29b0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 76, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/pa/deprovision/default.py', '(func:4119:(del_cloud_init:4123))')", 
+            "md5": "51a5e682bcba0889adebf97f8f7eef8f", 
+            "weight": 154
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/utils/fileutil.py', '(func:3238:(rm_dirs:3242))')", 
+            "md5": "ec5a111c13e79ba5321d754da18c9b73", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/utils/fileutil.py', '(func:3133:(rm_files:3137))')", 
+            "md5": "31bace53b382b78118605cbf264c71ec", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/pa/deprovision/default.py', '(func:2733:(del_files:2737))')", 
+            "md5": "60db75182feeffba14d9e18e6f06623a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:5136:(migrate_handler_state:5140))')", 
+            "md5": "2cb9c7dba4378e81ad0ea679dbeae917", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('tests/pa/test_deprovision.py', '(func:767:(test_deprovision:794))')", 
+            "md5": "add44dc01a65f8e86cfe37a318a6529b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/pa/provision/default.py', '(func:3219:(get_ssh_host_key_thumbprint:3223))')", 
+            "md5": "d61a03ed5fc894c8698685f1c9492269", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 7, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/pa/deprovision/default.py', '(func:3959:(cloud_init_directories:3963))')", 
+            "md5": "509556b09c51a71fbf7b799293989c2c", 
+            "weight": 16
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_extension.py', '(func:4851:(test_migration_ignores_move_errors:4904))')", 
+            "md5": "ba2f468792cc10c28e62c05dc668399a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 7, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/pa/deprovision/default.py', '(func:4032:(cloud_init_files:4036))')", 
+            "md5": "ebf858fd2503d8bbdc59066abd89dfff", 
+            "weight": 16
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/pa/provision/default.py', '(func:2781:(reg_ssh_host_key:2785))')", 
+            "md5": "7852e98a394e0feb834c8e25d14f1c31", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('tests/pa/test_deprovision.py', '(func:1285:(test_deprovision_ubuntu:1312))')", 
+            "md5": "f0ebfa23462b72ee087d45fdd4bcf038", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 7, 
+            "Profile Diff": null, 
+            "id": "('azurelinuxagent/pa/deprovision/default.py', '(func:3822:(setup:3826))')", 
+            "md5": "41fe14ca67202f8f3b44871cc227585f", 
+            "weight": 8
+        }
+    ]
+}

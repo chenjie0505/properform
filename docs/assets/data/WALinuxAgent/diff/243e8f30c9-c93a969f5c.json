@@ -1,0 +1,511 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/protocol/test_wire.py', '(func:19393:(test_purge_cache_purges:19451))')", 
+            "target": "('tests/protocol/test_wire.py', '(func:19175:(_create_files:19179))')", 
+            "weight": 354
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/protocol/test_wire.py', '(func:19393:(test_purge_cache_purges:19451))')", 
+            "target": "('azurelinuxagent/common/protocol/wire.py', '(func:18444:(prevent_throttling:18448))')", 
+            "weight": 562
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:22923:(update:22927))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:35059:(get_update_command:35063))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/common/osutil/test_bigip.py', '(func:6615:(test_success:6671))')", 
+            "target": "('azurelinuxagent/common/osutil/bigip.py', '(func:1304:(__init__:1308))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/common/osutil/test_bigip.py', '(func:7411:(test_success:7467))')", 
+            "target": "('azurelinuxagent/common/osutil/bigip.py', '(func:1304:(__init__:1308))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/common/osutil/test_bigip.py', '(func:7671:(test_success:7732))')", 
+            "target": "('azurelinuxagent/common/osutil/bigip.py', '(func:1304:(__init__:1308))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/ga/test_env.py', '(func:884:(test_purge_disk_cache:942))')", 
+            "target": "('tests/tools.py', '(func:2332:(_create_files:2336))')", 
+            "weight": 102
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/ga/test_env.py', '(func:884:(test_purge_disk_cache:942))')", 
+            "target": "('azurelinuxagent/ga/env.py', '(func:1200:(__init__:1204))')", 
+            "weight": 18
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/ga/test_env.py', '(func:884:(test_purge_disk_cache:942))')", 
+            "target": "('azurelinuxagent/ga/env.py', '(func:5162:(purge_disk_cache:5166))')", 
+            "weight": 610
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/ga/env.py', '(func:1200:(__init__:1204))')", 
+            "target": "('azurelinuxagent/common/protocol/util.py', '(func:1774:(get_protocol_util:1778))')", 
+            "weight": 16
+        }, 
+        {
+            "source": "('tests/ga/test_extension.py', '(func:3270:(test_cleanup_leaves_installed_extensions:3328))')", 
+            "target": "('tests/ga/test_extension.py', '(func:2864:(_count_uninstalled:2868))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_extension.py', '(func:3270:(test_cleanup_leaves_installed_extensions:3328))')", 
+            "target": "('tests/ga/test_extension.py', '(func:1693:(_install_handlers:1697))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_extension.py', '(func:3270:(test_cleanup_leaves_installed_extensions:3328))')", 
+            "target": "('tests/ga/test_extension.py', '(func:2618:(_count_installed:2622))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:47286:(_handle_packages:47290))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:4598:(__init__:4602))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_extension.py', '(func:4851:(test_migration_ignores_move_errors:4904))')", 
+            "target": "('tests/ga/test_extension.py', '(func:2005:(_prepare_handler_state:2009))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_extension.py', '(func:1693:(_install_handlers:1697))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:33244:(get_base_dir:33248))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_extension.py', '(func:1693:(_install_handlers:1697))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:4679:(__init__:4683))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:33622:(get_manifest_file:33626))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:33244:(get_base_dir:33248))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_update.py', '(func:20086:(test_ensure_download_skips_blacklisted:20276))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:5014:(__init__:5018))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:4692:(__init__:4696))')", 
+            "target": "('azurelinuxagent/common/errorstate.py', '(func:116:(__init__:120))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:4692:(__init__:4696))')", 
+            "target": "('azurelinuxagent/common/protocol/util.py', '(func:1774:(get_protocol_util:1778))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_update.py', '(func:24058:(test_ensure_current_agent_excluded:24062))')", 
+            "target": "('tests/ga/test_update.py', '(func:4271:(prepare_agent:4275))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/pa/provision/default.py', '(func:2781:(reg_ssh_host_key:2785))')", 
+            "target": "('azurelinuxagent/common/conf.py', '(func:4626:(get_ssh_host_keypair_type:4630))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/pa/test_deprovision.py', '(func:926:(ault:1115))')", 
+            "target": "('azurelinuxagent/pa/deprovision/default.py', '(func:4431:(run:4435))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:24199:(collect_ext_status:24203))')", 
+            "target": "('azurelinuxagent/common/logger.py', '(func:1000:(verbose:1004))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:24199:(collect_ext_status:24203))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:6175:(__init__:6179))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_update.py', '(func:16895:(test_download_fail:17027))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:5014:(__init__:5018))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:24671:(update_goal_state:24675))')", 
+            "target": "('azurelinuxagent/common/protocol/wire.py', '(func:23270:(update_shared_conf:23274))')", 
+            "weight": 8
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:24671:(update_goal_state:24675))')", 
+            "target": "('azurelinuxagent/common/protocol/wire.py', '(func:18444:(prevent_throttling:18448))')", 
+            "weight": 296
+        }, 
+        {
+            "source": "('tests/ga/test_extension.py', '(func:1546:(setUp:1550))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:4692:(__init__:4696))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:25152:(report_ext_status:25156))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:24199:(collect_ext_status:24203))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/utils/test_file_util.py', '(func:3321:(test_remove_dirs:3325))')", 
+            "target": "('azurelinuxagent/common/utils/fileutil.py', '(func:3238:(rm_dirs:3242))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_extension.py', '(func:4676:(test_cleanup_removes_orphaned_packages:4734))')", 
+            "target": "('tests/ga/test_extension.py', '(func:2864:(_count_uninstalled:2868))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_extension.py', '(func:4676:(test_cleanup_removes_orphaned_packages:4734))')", 
+            "target": "('tests/ga/test_extension.py', '(func:1693:(_install_handlers:1697))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_extension.py', '(func:4676:(test_cleanup_removes_orphaned_packages:4734))')", 
+            "target": "('tests/ga/test_extension.py', '(func:2618:(_count_installed:2622))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_extension.py', '(func:1693:(_install_handlers:1697))')", 
+            "md5": "54e96ad2f2fa280089408db410d79fcd", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 302, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/ga/env.py', '(func:5162:(purge_disk_cache:5166))')", 
+            "md5": "934bc021167f529d359d0579781cd5c1", 
+            "weight": 606
+        }, 
+        {
+            "AST Diff": 135, 
+            "Profile Diff": true, 
+            "id": "('tests/protocol/test_wire.py', '(func:19393:(test_purge_cache_purges:19451))')", 
+            "md5": "b4ea96c70cc7d35e8ff1329f7a822479", 
+            "weight": 272
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/utils/fileutil.py', '(func:3238:(rm_dirs:3242))')", 
+            "md5": "ec5a111c13e79ba5321d754da18c9b73", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_update.py', '(func:4271:(prepare_agent:4275))')", 
+            "md5": "db5693c709c591221a168d4fb30d88cf", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 6, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/ga/env.py', '(func:1200:(__init__:1204))')", 
+            "md5": "e54eb84f697053f5157bd6af7c57f5e0", 
+            "weight": 14
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/pa/test_deprovision.py', '(func:926:(ault:1115))')", 
+            "md5": "4fb6c18858262435e1240ebf0ac816bb", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_update.py', '(func:16895:(test_download_fail:17027))')", 
+            "md5": "d6b4d10f37a41a34e295501b03e00f55", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/restapi.py', '(func:6175:(__init__:6179))')", 
+            "md5": "5ff1a4e4d60b1f3b092dff161b97bb65", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/restapi.py', '(func:5014:(__init__:5018))')", 
+            "md5": "7bcc899000cc75dfe702db62ee970efd", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:25152:(report_ext_status:25156))')", 
+            "md5": "43535e7977771b5e9425b292acfb4796", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/restapi.py', '(func:4679:(__init__:4683))')", 
+            "md5": "6b447a939cbfe619fe1ba2573efda2c5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/pa/provision/default.py', '(func:2781:(reg_ssh_host_key:2785))')", 
+            "md5": "7852e98a394e0feb834c8e25d14f1c31", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:4692:(__init__:4696))')", 
+            "md5": "1fcdd261d0909a57c0dd54546538df41", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/util.py', '(func:1774:(get_protocol_util:1778))')", 
+            "md5": "3ec2eba36945792673fa6240953828b0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_extension.py', '(func:2864:(_count_uninstalled:2868))')", 
+            "md5": "0e3aca0fba2a4e79b4b13478461dd5eb", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_extension.py', '(func:2618:(_count_installed:2622))')", 
+            "md5": "8e8a4647d78aca139cb9112d993e0670", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/conf.py', '(func:4626:(get_ssh_host_keypair_type:4630))')", 
+            "md5": "8008627baec7302b56e64833f6732639", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_env.py', '(func:884:(test_purge_disk_cache:942))')", 
+            "md5": "e1307670fde2108d917a02798b57f7da", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_extension.py', '(func:3270:(test_cleanup_leaves_installed_extensions:3328))')", 
+            "md5": "3467ed75496abf1a7f12b0f125512d13", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/pa/deprovision/default.py', '(func:4431:(run:4435))')", 
+            "md5": "6c3a7fa318f7232d9151f11a66b8d4fe", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 40, 
+            "Profile Diff": true, 
+            "id": "('tests/protocol/test_wire.py', '(func:19175:(_create_files:19179))')", 
+            "md5": "e4e412149a2150fe7d34adaeb9d9f65c", 
+            "weight": 82
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:33244:(get_base_dir:33248))')", 
+            "md5": "fff24869880c1a5c4ac432b2da58ded6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:35059:(get_update_command:35063))')", 
+            "md5": "fad41d77a9d9e92071e8c60dadbe7e46", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_extension.py', '(func:4676:(test_cleanup_removes_orphaned_packages:4734))')", 
+            "md5": "82242eb3fe4965113ad46de30bb3b85a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 144, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:18444:(prevent_throttling:18448))')", 
+            "md5": "17e6ce7c914d0c4258ef00a09f91117b", 
+            "weight": 290
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_update.py', '(func:24058:(test_ensure_current_agent_excluded:24062))')", 
+            "md5": "a6d9a732d1d243a7f8b1ac987c08555a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:33622:(get_manifest_file:33626))')", 
+            "md5": "72256f8554ab3ad0ecc9b428c1e16198", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/restapi.py', '(func:4598:(__init__:4602))')", 
+            "md5": "e567159d7017eff911a034f65cc7d12e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:47286:(_handle_packages:47290))')", 
+            "md5": "057b0c8fc8c36591ee8ca9bf80e4fbc0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_extension.py', '(func:1546:(setUp:1550))')", 
+            "md5": "83a6c26d3ca75e220799c3b317c1e2a8", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/logger.py', '(func:1000:(verbose:1004))')", 
+            "md5": "208dd9479bd1655944beea3cb73ed257", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 48, 
+            "Profile Diff": false, 
+            "id": "('tests/tools.py', '(func:2332:(_create_files:2336))')", 
+            "md5": "552b82628fe499324249e0f81ac10536", 
+            "weight": 98
+        }, 
+        {
+            "AST Diff": 5, 
+            "Profile Diff": null, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:24671:(update_goal_state:24675))')", 
+            "md5": "c95daa6cf2603746be87224dd7edb824", 
+            "weight": 6
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/utils/test_file_util.py', '(func:3321:(test_remove_dirs:3325))')", 
+            "md5": "cb773d07cdee3f449bd918564c143771", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/common/osutil/test_bigip.py', '(func:7411:(test_success:7467))')", 
+            "md5": "a7198c217bfd4b9b0757a4ab96808ca0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:23270:(update_shared_conf:23274))')", 
+            "md5": "bb5e0be1fd14cb5996a5eb7e94acd1a8", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_update.py', '(func:20086:(test_ensure_download_skips_blacklisted:20276))')", 
+            "md5": "009f0c6995bc4561a38c49d173ebd574", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/common/osutil/test_bigip.py', '(func:6615:(test_success:6671))')", 
+            "md5": "26459a32bb783deefc4ae60a724e3896", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_extension.py', '(func:4851:(test_migration_ignores_move_errors:4904))')", 
+            "md5": "ba2f468792cc10c28e62c05dc668399a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:24199:(collect_ext_status:24203))')", 
+            "md5": "bf3020f968e4e25be2b5910be0ec8255", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/errorstate.py', '(func:116:(__init__:120))')", 
+            "md5": "4b26e264daba5f4644f2ebd39f4e9b66", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/ga/test_extension.py', '(func:2005:(_prepare_handler_state:2009))')", 
+            "md5": "4a087f0fc139363081fdf7176ca3d82e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:22923:(update:22927))')", 
+            "md5": "689f80c07a2c760a24eee5e41995fb03", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/common/osutil/bigip.py', '(func:1304:(__init__:1308))')", 
+            "md5": "1aef16f16369bf55aad4fd21e95ca81e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/common/osutil/test_bigip.py', '(func:7671:(test_success:7732))')", 
+            "md5": "cfce3550b28c3a40ed8681ed70d475c0", 
+            "weight": 2
+        }
+    ]
+}

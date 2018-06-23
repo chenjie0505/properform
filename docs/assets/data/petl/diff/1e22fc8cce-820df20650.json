@@ -1,0 +1,112 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_basics.py', '(func:13535:(test_addfieldusingcontext:13539))')", 
+            "target": "('petl/transform/basics.py', '(func:25117:(addfieldusingcontext:25121))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/io/test_csv.py', '(func:3707:(test_tocsv_noheader:3711))')", 
+            "target": "('petl/io/csv.py', '(func:2212:(tocsv:2216))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/io/test_json.py', '(func:1680:(test_fromdicts_1:1684))')", 
+            "target": "('petl/io/json.py', '(func:2626:(fromdicts:2630))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/io/json.py', '(func:2626:(fromdicts:2630))')", 
+            "target": "('petl/io/json.py', '(func:3287:(__init__:3291))')", 
+            "weight": 22
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_setops.py', '(func:7451:(_test_intersection_2:7455))')", 
+            "target": "('petl/transform/setops.py', '(func:13065:(hashintersection:13069))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/io/test_json.py', '(func:2483:(test_fromdicts_3:2487))')", 
+            "target": "('petl/io/json.py', '(func:2626:(fromdicts:2630))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/test/transform/test_basics.py', '(func:13535:(test_addfieldusingcontext:13539))')", 
+            "md5": "9ae2a17f782ef3667d26098a1afd5b0d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 9, 
+            "Profile Diff": false, 
+            "id": "('petl/io/json.py', '(func:3287:(__init__:3291))')", 
+            "md5": "2151ff680d0114c2dc66ba70c600759f", 
+            "weight": 20
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/basics.py', '(func:25117:(addfieldusingcontext:25121))')", 
+            "md5": "d28d4b71e54b429054a62d22141a8963", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('petl/io/json.py', '(func:2626:(fromdicts:2630))')", 
+            "md5": "bd99fb5895144edf8e3fa84e346efaa7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/io/test_json.py', '(func:1680:(test_fromdicts_1:1684))')", 
+            "md5": "22c3e9fbe410e5a47c0dd66a4972b2b3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/io/test_json.py', '(func:2483:(test_fromdicts_3:2487))')", 
+            "md5": "058b3b192614518d6c2d1bbfd07498c5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/io/csv.py', '(func:2212:(tocsv:2216))')", 
+            "md5": "287c2f1aab7ac75c27b0e078e3372ad6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/io/test_csv.py', '(func:3707:(test_tocsv_noheader:3711))')", 
+            "md5": "542203742670f7f63588b8831aaa505a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_setops.py', '(func:7451:(_test_intersection_2:7455))')", 
+            "md5": "342c5ac5934892ebb4e7cbbdc9d4cb82", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/setops.py', '(func:13065:(hashintersection:13069))')", 
+            "md5": "35d039e5223dd3411ebfb0934d00e782", 
+            "weight": 2
+        }
+    ]
+}

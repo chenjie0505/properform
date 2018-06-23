@@ -1,0 +1,588 @@
+{
+    "edges": [
+        {
+            "source": "('tests/common/osutil/test_bigip.py', '(func:6876:(test_success:6932))')", 
+            "target": "('azurelinuxagent/common/osutil/bigip.py', '(func:3027:(start_agent_service:3031))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/common/osutil/test_bigip.py', '(func:6876:(test_success:6932))')", 
+            "target": "('azurelinuxagent/common/osutil/bigip.py', '(func:1304:(__init__:1308))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/pa/test_deprovision.py', '(func:3443:(test_del_lib_dir_files:3524))')", 
+            "target": "('azurelinuxagent/pa/deprovision/default.py', '(func:3971:(del_lib_dir_files:3975))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/pa/test_deprovision.py', '(func:3443:(test_del_lib_dir_files:3524))')", 
+            "target": "('azurelinuxagent/pa/deprovision/factory.py', '(func:995:(get_deprovision_handler:999))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:22811:(update_hosting_env:22815))')", 
+            "target": "('azurelinuxagent/common/protocol/wire.py', '(func:34129:(get_header:34133))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/common/osutil/test_bigip.py', '(func:6615:(test_success:6671))')", 
+            "target": "('azurelinuxagent/common/osutil/bigip.py', '(func:1304:(__init__:1308))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/event.py', '(func:6166:(add_event:6170))')", 
+            "target": "('azurelinuxagent/common/event.py', '(func:9177:(mark_event_status:9181))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/event.py', '(func:6166:(add_event:6170))')", 
+            "target": "('azurelinuxagent/common/event.py', '(func:9340:(should_emit_event:9344))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/event.py', '(func:6166:(add_event:6170))')", 
+            "target": "('azurelinuxagent/common/event.py', '(func:2531:(add_event:2535))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/pa/deprovision/factory.py', '(func:995:(get_deprovision_handler:999))')", 
+            "target": "('azurelinuxagent/pa/deprovision/default.py', '(func:1318:(__init__:1322))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/common/osutil/test_bigip.py', '(func:7411:(test_success:7467))')", 
+            "target": "('azurelinuxagent/common/osutil/bigip.py', '(func:3254:(unregister_agent_service:3258))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/common/osutil/test_bigip.py', '(func:7411:(test_success:7467))')", 
+            "target": "('azurelinuxagent/common/osutil/bigip.py', '(func:1304:(__init__:1308))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/wire.py', '(func:23270:(update_shared_conf:23274))')", 
+            "target": "('azurelinuxagent/common/protocol/wire.py', '(func:34129:(get_header:34133))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/common/osutil/test_bigip.py', '(func:7671:(test_success:7732))')", 
+            "target": "('azurelinuxagent/common/osutil/bigip.py', '(func:1304:(__init__:1308))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/logger.py', '(func:4338:(write:4342))')", 
+            "target": "('azurelinuxagent/common/event.py', '(func:10022:(add_log_event:10026))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:21915:(uninstall:21919))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:28010:(load_manifest:28014))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/common/test_event.py', '(func:776:(test_save_event:780))')", 
+            "target": "('azurelinuxagent/common/event.py', '(func:6166:(add_event:6170))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/event.py', '(func:2531:(add_event:2535))')", 
+            "target": "('azurelinuxagent/common/event.py', '(func:1767:(save_event:1771))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/event.py', '(func:2531:(add_event:2535))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:7329:(__init__:7333))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/event.py', '(func:2531:(add_event:2535))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:2132:(get_properties:2136))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/event.py', '(func:2531:(add_event:2535))')", 
+            "target": "('azurelinuxagent/common/event.py', '(func:1877:(_log_event:1881))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/daemon/test_daemon.py', '(func:2182:(test_set_openssl_fips:2330))')", 
+            "target": "('azurelinuxagent/daemon/main.py', '(func:2215:(run:2219))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/common/osutil/test_default.py', '(func:24241:(test_remove_firewall:24411))')", 
+            "target": "('azurelinuxagent/common/osutil/default.py', '(func:3154:(remove_firewall:3158))')", 
+            "weight": 164
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/restapi.py', '(func:1251:(set_properties:1255))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:1251:(set_properties:1255))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/restapi.py', '(func:1251:(set_properties:1255))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:7329:(__init__:7333))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/restapi.py', '(func:1251:(set_properties:1255))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:3975:(__init__:3979))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/restapi.py', '(func:1251:(set_properties:1255))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:3199:(__init__:3203))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/daemon/test_daemon.py', '(func:2685:(test_does_not_set_openssl_fips:2834))')", 
+            "target": "('azurelinuxagent/daemon/main.py', '(func:2215:(run:2219))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/common/test_version.py', '(func:1262:(ault:1300))')", 
+            "target": "('azurelinuxagent/common/version.py', '(func:2562:(set_current_agent:2566))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/ga/test_update.py', '(func:24058:(test_ensure_current_agent_excluded:24062))')", 
+            "target": "('tests/ga/test_update.py', '(func:4271:(prepare_agent:4275))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/osutil/default.py', '(func:3154:(remove_firewall:3158))')", 
+            "target": "('azurelinuxagent/common/osutil/default.py', '(func:4740:(_delete_rule:4744))')", 
+            "weight": 192
+        }, 
+        {
+            "source": "('tests/common/osutil/test_bigip.py', '(func:1510:(test_failure:1671))')", 
+            "target": "('azurelinuxagent/common/osutil/bigip.py', '(func:1304:(__init__:1308))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/daemon/main.py', '(func:2215:(run:2219))')", 
+            "target": "('azurelinuxagent/common/event.py', '(func:6166:(add_event:6170))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/pa/provision/default.py', '(func:6358:(report_event:6362))')", 
+            "target": "('azurelinuxagent/common/event.py', '(func:6166:(add_event:6170))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/common/osutil/test_bigip.py', '(func:1918:(test_success:2028))')", 
+            "target": "('azurelinuxagent/common/osutil/bigip.py', '(func:1304:(__init__:1308))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/common/test_event.py', '(func:1014:(test_save_event_rollover:1018))')", 
+            "target": "('azurelinuxagent/common/event.py', '(func:6166:(add_event:6170))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('azurelinuxagent/ga/exthandlers.py', '(func:25737:(collect_heartbeat:25741))')", 
+            "target": "('azurelinuxagent/ga/exthandlers.py', '(func:28010:(load_manifest:28014))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/common/osutil/test_bigip.py', '(func:2219:(test_failure:2329))')", 
+            "target": "('azurelinuxagent/common/osutil/bigip.py', '(func:1304:(__init__:1308))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/common/osutil/test_default.py', '(func:25390:(test_enable_firewall_checks_for_invalid_iptables_options:25519))')", 
+            "target": "('azurelinuxagent/common/osutil/default.py', '(func:2180:(enable_firewall:2184))')", 
+            "weight": 250
+        }, 
+        {
+            "source": "('azurelinuxagent/common/protocol/restapi.py', '(func:2132:(get_properties:2136))')", 
+            "target": "('azurelinuxagent/common/protocol/restapi.py', '(func:2132:(get_properties:2136))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('azurelinuxagent/common/osutil/default.py', '(func:2180:(enable_firewall:2184))')", 
+            "target": "('azurelinuxagent/common/osutil/default.py', '(func:3154:(remove_firewall:3158))')", 
+            "weight": 174
+        }, 
+        {
+            "source": "('tests/pa/test_deprovision.py', '(func:912:(ault:954))')", 
+            "target": "('azurelinuxagent/pa/deprovision/factory.py', '(func:995:(get_deprovision_handler:999))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/common/osutil/test_bigip.py', '(func:3716:(test_failure:3772))')", 
+            "target": "('azurelinuxagent/common/osutil/bigip.py', '(func:1304:(__init__:1308))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/common/osutil/test_default.py', '(func:25097:(test_remove_firewall_does_not_repeat:25267))')", 
+            "target": "('azurelinuxagent/common/osutil/default.py', '(func:3154:(remove_firewall:3158))')", 
+            "weight": 136
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 17, 
+            "Profile Diff": null, 
+            "id": "('tests/common/osutil/test_default.py', '(func:25097:(test_remove_firewall_does_not_repeat:25267))')", 
+            "md5": "5b1d8f7eae2fa8431895a43439829fe7", 
+            "weight": 18
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/restapi.py', '(func:7329:(__init__:7333))')", 
+            "md5": "211586990452a796823987937652ce77", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:25737:(collect_heartbeat:25741))')", 
+            "md5": "c6a3496699048d207706cee982f59e83", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/pa/test_deprovision.py', '(func:912:(ault:954))')", 
+            "md5": "6e08d3fdab66031e5c2a578c4a3e66df", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_update.py', '(func:4271:(prepare_agent:4275))')", 
+            "md5": "db5693c709c591221a168d4fb30d88cf", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:21915:(uninstall:21919))')", 
+            "md5": "73da119888f1ef7da9edd03d97a1054f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/daemon/test_daemon.py', '(func:2685:(test_does_not_set_openssl_fips:2834))')", 
+            "md5": "273d31f5fb55eb2515314fa05f327b9d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/restapi.py', '(func:3199:(__init__:3203))')", 
+            "md5": "394ba8c58dbdea385c8ccb7f868e67b7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/ga/exthandlers.py', '(func:28010:(load_manifest:28014))')", 
+            "md5": "0d40ed318bbb203bbc238324959cf360", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 58, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/osutil/default.py', '(func:3154:(remove_firewall:3158))')", 
+            "md5": "a594f53f77d60b4f28f7c9e1e4ad95d3", 
+            "weight": 118
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/daemon/main.py', '(func:2215:(run:2219))')", 
+            "md5": "fa905985f1dfcfe7e0147604ae31f89c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/event.py', '(func:9340:(should_emit_event:9344))')", 
+            "md5": "15913349b7478b85bd3d8cfbd7d84c5d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/common/osutil/test_bigip.py', '(func:1510:(test_failure:1671))')", 
+            "md5": "15a6ac517bc0d0be8917701bc87c4660", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:22811:(update_hosting_env:22815))')", 
+            "md5": "3f4022c51bfc7245b7dd25846091fe57", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/common/test_version.py', '(func:1262:(ault:1300))')", 
+            "md5": "9b7e4a28d9f99bbbc4767d028b693ece", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 45, 
+            "Profile Diff": null, 
+            "id": "('tests/common/osutil/test_default.py', '(func:24241:(test_remove_firewall:24411))')", 
+            "md5": "efb3931945bab0aa941863fdd71c17c5", 
+            "weight": 46
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/pa/deprovision/default.py', '(func:3971:(del_lib_dir_files:3975))')", 
+            "md5": "f176389c073153fb00550092d91a903e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/common/osutil/test_bigip.py', '(func:1918:(test_success:2028))')", 
+            "md5": "0754b75d4d581630816c63efe0650b31", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 36, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/osutil/default.py', '(func:4740:(_delete_rule:4744))')", 
+            "md5": "98d6538bec21e7355e4741526af8bedf", 
+            "weight": 74
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/common/osutil/test_bigip.py', '(func:3716:(test_failure:3772))')", 
+            "md5": "c8ea9b5ea6b0df001fdd95475bcf5c2a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/restapi.py', '(func:3975:(__init__:3979))')", 
+            "md5": "8e39cb40392af7995266557457a9d69c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/osutil/bigip.py', '(func:3027:(start_agent_service:3031))')", 
+            "md5": "71f959b5115b8659b1361c2b372879d9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/ga/test_update.py', '(func:24058:(test_ensure_current_agent_excluded:24062))')", 
+            "md5": "a6d9a732d1d243a7f8b1ac987c08555a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/restapi.py', '(func:2132:(get_properties:2136))')", 
+            "md5": "7e5aec61a8a317cc107cb82dca1047dc", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/event.py', '(func:1877:(_log_event:1881))')", 
+            "md5": "067f9fa31fd841ead073335d8f6625ae", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 96, 
+            "Profile Diff": false, 
+            "id": "('tests/common/osutil/test_default.py', '(func:25390:(test_enable_firewall_checks_for_invalid_iptables_options:25519))')", 
+            "md5": "db5ee5bf530f72c22eedc29ee03b9b86", 
+            "weight": 194
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/osutil/bigip.py', '(func:3254:(unregister_agent_service:3258))')", 
+            "md5": "8ee86ac9c898cf873c4684e646cd65fd", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/event.py', '(func:9177:(mark_event_status:9181))')", 
+            "md5": "223a5d06d5d6cb31ff4ab581cd5ec5e7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/common/test_event.py', '(func:1014:(test_save_event_rollover:1018))')", 
+            "md5": "9a80537859e2d53b9b1fbc490f81d22a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/event.py', '(func:10022:(add_log_event:10026))')", 
+            "md5": "579c33904d3fc64bdc706ae26d21d474", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 27, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/osutil/default.py', '(func:2180:(enable_firewall:2184))')", 
+            "md5": "5d89dce423663479c28dc1987fa096fc", 
+            "weight": 56
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:34129:(get_header:34133))')", 
+            "md5": "133da56984b2787482d1c2a02935c5d3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/common/osutil/test_bigip.py', '(func:7411:(test_success:7467))')", 
+            "md5": "a7198c217bfd4b9b0757a4ab96808ca0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/daemon/test_daemon.py', '(func:2182:(test_set_openssl_fips:2330))')", 
+            "md5": "032614c3a71ce6ce020a6240df96147d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/pa/deprovision/factory.py', '(func:995:(get_deprovision_handler:999))')", 
+            "md5": "b22675002d6871a3d89af487c13eed20", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/pa/deprovision/default.py', '(func:1318:(__init__:1322))')", 
+            "md5": "4fe5fee0a9bf6d46cb99d813bd7af8b8", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/version.py', '(func:2562:(set_current_agent:2566))')", 
+            "md5": "335ab34f5efa9db80e760d25e202d8f5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/common/osutil/test_bigip.py', '(func:6615:(test_success:6671))')", 
+            "md5": "26459a32bb783deefc4ae60a724e3896", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/common/test_event.py', '(func:776:(test_save_event:780))')", 
+            "md5": "71e7d8e51556908e544b03a476a36f7b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/event.py', '(func:6166:(add_event:6170))')", 
+            "md5": "8a68b8ed44f08e2a4c54448b8942b42c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/common/osutil/test_bigip.py', '(func:6876:(test_success:6932))')", 
+            "md5": "9a5bf038113228872216657e3d2ca45a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/restapi.py', '(func:1251:(set_properties:1255))')", 
+            "md5": "1d309dec7330666611c8747b584248d2", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/protocol/wire.py', '(func:23270:(update_shared_conf:23274))')", 
+            "md5": "bb5e0be1fd14cb5996a5eb7e94acd1a8", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/event.py', '(func:1767:(save_event:1771))')", 
+            "md5": "f2b4f0b0faaad58d69b8bf672c5bff97", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/event.py', '(func:2531:(add_event:2535))')", 
+            "md5": "d68f3d9215fea1cf0cd44125733ae368", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/pa/provision/default.py', '(func:6358:(report_event:6362))')", 
+            "md5": "24f4ab747f919c6b1f324eaf810ccd33", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/pa/test_deprovision.py', '(func:3443:(test_del_lib_dir_files:3524))')", 
+            "md5": "3b8f668cc64766adedb73e1f7234173a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/osutil/bigip.py', '(func:1304:(__init__:1308))')", 
+            "md5": "1aef16f16369bf55aad4fd21e95ca81e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/common/osutil/test_bigip.py', '(func:7671:(test_success:7732))')", 
+            "md5": "cfce3550b28c3a40ed8681ed70d475c0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('azurelinuxagent/common/logger.py', '(func:4338:(write:4342))')", 
+            "md5": "23d7f1c3b633111917e2ffb136ec38b5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/common/osutil/test_bigip.py', '(func:2219:(test_failure:2329))')", 
+            "md5": "5e5c79e34e8ea7d21c7b5857c777b25e", 
+            "weight": 2
+        }
+    ]
+}

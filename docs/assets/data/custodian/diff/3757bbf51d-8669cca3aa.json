@@ -1,0 +1,72 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/custodian.py', '(func:7163:(run:7167))')", 
+            "target": "('custodian/custodian.py', '(func:13067:(_do_check:13071))')", 
+            "weight": 16
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/custodian.py', '(func:2568:(__init__:2572))')", 
+            "target": "('custodian/custodian.py', '(func:5726:(lambda:5726))')", 
+            "weight": 10
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/custodian.py', '(func:13067:(_do_check:13071))')", 
+            "target": "('custodian/tests/test_custodian.py', '(func:1558:(check:1562))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/custodian.py', '(func:13067:(_do_check:13071))')", 
+            "target": "('custodian/tests/test_custodian.py', '(func:1600:(correct:1604))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/custodian.py', '(func:13067:(_do_check:13071))')", 
+            "md5": "c890ef297555b9fe69b33022d166c833", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/tests/test_custodian.py', '(func:1558:(check:1562))')", 
+            "md5": "de9d7a2622311fdf2706618dcc4a5e24", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/custodian.py', '(func:5726:(lambda:5726))')", 
+            "md5": "ef6b24e868b1d7d2a572898ae9040a19", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 6, 
+            "Profile Diff": true, 
+            "id": "('custodian/custodian.py', '(func:7163:(run:7167))')", 
+            "md5": "48cb7168bcca1e613dda093372bf541a", 
+            "weight": 14
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/tests/test_custodian.py', '(func:1600:(correct:1604))')", 
+            "md5": "0e248a6841552f0b516a5b8a9636504b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 3, 
+            "Profile Diff": false, 
+            "id": "('custodian/custodian.py', '(func:2568:(__init__:2572))')", 
+            "md5": "820575a381bbaeef088232b465ed2fd7", 
+            "weight": 8
+        }
+    ]
+}

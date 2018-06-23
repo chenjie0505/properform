@@ -1,0 +1,111 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/rc.py', '(func:4639:(get_configure:4643))')", 
+            "target": "('lib/dataprocessor/rc.py', '(func:4004:(get_configparser:4008))')", 
+            "weight": 16
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/rc.py', '(func:347:(__init__:351))')", 
+            "target": "('lib/dataprocessor/exception.py', '__init__:21')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/rc.py', '(func:5334:(get_configure_safe:5338))')", 
+            "target": "('lib/dataprocessor/rc.py', '(func:4639:(get_configure:4643))')", 
+            "weight": 8
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/rc.py', '(func:4004:(get_configparser:4008))')", 
+            "target": "('lib/dataprocessor/rc.py', '(func:347:(__init__:351))')", 
+            "weight": 14
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/table.py', '(func:1425:(__init__:1429))')", 
+            "target": "('lib/dataprocessor/table.py', '(func:3048:(__get_linked_node:3052))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/table.py', '(func:1425:(__init__:1429))')", 
+            "target": "('lib/dataprocessor/table.py', '(func:4369:(__get_dic_from_path:4373))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/table.py', '(func:1425:(__init__:1429))')", 
+            "target": "('lib/dataprocessor/table.py', '(func:3309:(__get_valuelist:3313))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 11, 
+            "Profile Diff": null, 
+            "id": "('lib/dataprocessor/rc.py', '(func:4004:(get_configparser:4008))')", 
+            "md5": "2fb38631ca5e38337c86a11713a24346", 
+            "weight": 12
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/table.py', '(func:1425:(__init__:1429))')", 
+            "md5": "24342fee14a56baae2fc326c36d8bdea", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/table.py', '(func:3048:(__get_linked_node:3052))')", 
+            "md5": "d16c1118d90f967d551f6cf4542f4355", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/rc.py', '(func:347:(__init__:351))')", 
+            "md5": "30d2a5a5981701b87e0e5dac7d9ee0bf", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/table.py', '(func:4369:(__get_dic_from_path:4373))')", 
+            "md5": "eff6fb42e8eafb27b7e1e085ae836148", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/table.py', '(func:3309:(__get_valuelist:3313))')", 
+            "md5": "84e8512dc2e50dff49be488cf5dfe380", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 3, 
+            "Profile Diff": null, 
+            "id": "('lib/dataprocessor/rc.py', '(func:4639:(get_configure:4643))')", 
+            "md5": "689e57c9677d9e4fe04e555a1bf7eb62", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/exception.py', '__init__:21')", 
+            "md5": "f028254e671ff5e9d232a3f78ce4757b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 3, 
+            "Profile Diff": null, 
+            "id": "('lib/dataprocessor/rc.py', '(func:5334:(get_configure_safe:5338))')", 
+            "md5": "7988e4b9db0305f08738746e3183ecbc", 
+            "weight": 4
+        }
+    ]
+}

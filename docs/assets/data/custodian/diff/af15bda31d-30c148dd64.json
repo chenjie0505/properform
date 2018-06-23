@@ -1,0 +1,84 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/interpreter.py', '(func:1211:(apply_actions:1215))')", 
+            "target": "('custodian/ansible/interpreter.py', '(func:3068:(modify_object:3072))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/handlers.py', '(func:12026:(correct:12030))')", 
+            "target": "('custodian/vasp/interpreter.py', '(func:184:(__init__:188))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/handlers.py', '(func:12026:(correct:12030))')", 
+            "target": "('custodian/vasp/interpreter.py', '(func:1211:(apply_actions:1215))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/handlers.py', '(func:4201:(correct:4205))')", 
+            "target": "('custodian/vasp/interpreter.py', '(func:1211:(apply_actions:1215))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/handlers.py', '(func:4201:(correct:4205))')", 
+            "target": "('custodian/vasp/interpreter.py', '(func:184:(__init__:188))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:4319:(test_brmix:4323))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:4201:(correct:4205))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/interpreter.py', '(func:184:(__init__:188))')", 
+            "md5": "7ea8ea73a5cfc293e1cff22594442c6c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/handlers.py', '(func:4201:(correct:4205))')", 
+            "md5": "81ad84a6bc6a8e66ac3d10dcd7ffdc5d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/ansible/interpreter.py', '(func:3068:(modify_object:3072))')", 
+            "md5": "2315927d8eed54cfb6f9f44f32020170", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/handlers.py', '(func:12026:(correct:12030))')", 
+            "md5": "6291a01e719491815c309f07a5d11c73", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/interpreter.py', '(func:1211:(apply_actions:1215))')", 
+            "md5": "e8b466b11b6167a8e48236e1f4bf1980", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:4319:(test_brmix:4323))')", 
+            "md5": "58b527080342a17bec83b37ab6ddf812", 
+            "weight": 2
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:7737:(test_check_correct:7741))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:15827:(correct:15831))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/qchem/handlers.py', '(func:6184:(fix_error_code_134:6188))')", 
+            "target": "('custodian/qchem/jobs.py', '(func:6336:(is_openmp_compatible:6358))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/qchem/handlers.py', '(func:6184:(fix_error_code_134:6188))')", 
+            "md5": "09810cd61bc3de2de1435a41224a4353", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/qchem/jobs.py', '(func:6336:(is_openmp_compatible:6358))')", 
+            "md5": "dcda97aa16092895d0136114bbd17351", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/handlers.py', '(func:15827:(correct:15831))')", 
+            "md5": "0927b8092577ba3b57b06984632c1e50", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:7737:(test_check_correct:7741))')", 
+            "md5": "f83c91a102d6253e47c1d57926f62cb1", 
+            "weight": 2
+        }
+    ]
+}

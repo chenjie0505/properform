@@ -1,0 +1,125 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_setops.py', '(func:4690:(test_recordcomplement_2:4694))')", 
+            "target": "('petl/transform/setops.py', '(func:4210:(recordcomplement:4214))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/transform/setops.py', '(func:7936:(recorddiff:7940))')", 
+            "target": "('petl/transform/setops.py', '(func:4210:(recordcomplement:4214))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_setops.py', '(func:4281:(test_recordcomplement_1:4285))')", 
+            "target": "('petl/transform/setops.py', '(func:4210:(recordcomplement:4214))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_reductions.py', '(func:8742:(test_mergeduplicates_compoundkey:8746))')", 
+            "target": "('petl/transform/reductions.py', '(func:14217:(mergeduplicates:14221))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_setops.py', '(func:5391:(test_recordcomplement_3:5395))')", 
+            "target": "('petl/transform/setops.py', '(func:4210:(recordcomplement:4214))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_selects.py', '(func:7208:(test_facet:7212))')", 
+            "target": "('petl/transform/selects.py', '(func:12115:(facet:12119))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_reshape.py', '(func:11643:(test_unflatten:11647))')", 
+            "target": "('petl/transform/reshape.py', '(func:19363:(unflatten:19367))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_reductions.py', '(func:8742:(test_mergeduplicates_compoundkey:8746))')", 
+            "md5": "0c1ea289c3ad6dd72d66ac9b3718cf0d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/reshape.py', '(func:19363:(unflatten:19367))')", 
+            "md5": "9e7589eccf90d4cd46677717837009bd", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/selects.py', '(func:12115:(facet:12119))')", 
+            "md5": "461eb909c1c604c1ed77d3ee80feda08", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_selects.py', '(func:7208:(test_facet:7212))')", 
+            "md5": "bee150f1b716d3f105308202a0233f79", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_reshape.py', '(func:11643:(test_unflatten:11647))')", 
+            "md5": "687548c09dcc76a2548ef4fedda2fdff", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/setops.py', '(func:7936:(recorddiff:7940))')", 
+            "md5": "8debc4b073938f0863aed06472379d8a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/setops.py', '(func:4210:(recordcomplement:4214))')", 
+            "md5": "f6bc15597fb0df5142f87511546dad63", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_setops.py', '(func:4281:(test_recordcomplement_1:4285))')", 
+            "md5": "c7694b8229fd4ceb32a7653321984a15", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_setops.py', '(func:4690:(test_recordcomplement_2:4694))')", 
+            "md5": "8e3c417451581616de222e8d43f75cd0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_setops.py', '(func:5391:(test_recordcomplement_3:5395))')", 
+            "md5": "023e3e080213cc9705dcd4cedb3d548c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/reductions.py', '(func:14217:(mergeduplicates:14221))')", 
+            "md5": "d3ed4a6c6a9a0ac34d07f73211b26681", 
+            "weight": 2
+        }
+    ]
+}

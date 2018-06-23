@@ -1,0 +1,52 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/qchem/handlers.py', '(func:6184:(fix_error_code_134:6188))')", 
+            "target": "('custodian/qchem/jobs.py', '(func:4648:(select_command:4652))')", 
+            "weight": 35
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/qchem/jobs.py', '(func:4648:(select_command:4652))')", 
+            "target": "('custodian/qchem/jobs.py', '(func:6895:(command_available:6899))')", 
+            "weight": 44
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/qchem/jobs.py', '(func:4648:(select_command:4652))')", 
+            "target": "('custodian/qchem/jobs.py', '(func:3093:(_set_qchem_memory:3097))')", 
+            "weight": 26
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 10, 
+            "Profile Diff": null, 
+            "id": "('custodian/qchem/handlers.py', '(func:6184:(fix_error_code_134:6188))')", 
+            "md5": "09810cd61bc3de2de1435a41224a4353", 
+            "weight": 11
+        }, 
+        {
+            "AST Diff": 9, 
+            "Profile Diff": false, 
+            "id": "('custodian/qchem/jobs.py', '(func:6895:(command_available:6899))')", 
+            "md5": "5e22fe2602c6611ebe5ec52a95d5fef1", 
+            "weight": 20
+        }, 
+        {
+            "AST Diff": 1, 
+            "Profile Diff": null, 
+            "id": "('custodian/qchem/jobs.py', '(func:3093:(_set_qchem_memory:3097))')", 
+            "md5": "a6ca58ed11c90a802d8ea14d290823e9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 11, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/jobs.py', '(func:4648:(select_command:4652))')", 
+            "md5": "c127bb42280c0e45554355001af636eb", 
+            "weight": 24
+        }
+    ]
+}

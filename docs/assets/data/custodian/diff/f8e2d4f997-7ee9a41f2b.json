@@ -1,0 +1,127 @@
+{
+    "edges": [
+        {
+            "source": "('custodian/qchem/handlers.py', '(func:8255:(fix_scf:8259))')", 
+            "target": "('custodian/qchem/handlers.py', '(func:13492:(set_scf_initial_guess:13496))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/qchem/handlers.py', '(func:8255:(fix_scf:8259))')", 
+            "target": "('custodian/qchem/handlers.py', '(func:13254:(set_last_input_geom:13258))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/qchem/jobs.py', '(func:510:(__init__:514))')", 
+            "target": "('custodian/qchem/jobs.py', '(func:2550:(_set_qchem_memory:2554))')", 
+            "weight": 52
+        }, 
+        {
+            "source": "('custodian/qchem/tests/test_handlers.py', '(func:36225:(test_not_enough_total_memory:36229))')", 
+            "target": "('custodian/qchem/handlers.py', '(func:2173:(check:2177))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/qchem/tests/test_handlers.py', '(func:36225:(test_not_enough_total_memory:36229))')", 
+            "target": "('custodian/qchem/handlers.py', '(func:710:(__init__:714))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/qchem/tests/test_handlers.py', '(func:36225:(test_not_enough_total_memory:36229))')", 
+            "target": "('custodian/qchem/jobs.py', '(func:510:(__init__:514))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/qchem/tests/test_handlers.py', '(func:11613:(test_unable_to_determine_lambda:11617))')", 
+            "target": "('custodian/qchem/handlers.py', '(func:2173:(check:2177))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/qchem/tests/test_handlers.py', '(func:11613:(test_unable_to_determine_lambda:11617))')", 
+            "target": "('custodian/qchem/handlers.py', '(func:710:(__init__:714))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/qchem/tests/test_handlers.py', '(func:28925:(test_ts_opt:28929))')", 
+            "target": "('custodian/qchem/handlers.py', '(func:2173:(check:2177))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/qchem/tests/test_handlers.py', '(func:28925:(test_ts_opt:28929))')", 
+            "target": "('custodian/qchem/handlers.py', '(func:710:(__init__:714))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/tests/test_handlers.py', '(func:28925:(test_ts_opt:28929))')", 
+            "md5": "5e27bce5ee7ac95e1ac4c85bd773bc91", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/handlers.py', '(func:2173:(check:2177))')", 
+            "md5": "5d4d399761ce7629824222beaf0fd9ab", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/tests/test_handlers.py', '(func:11613:(test_unable_to_determine_lambda:11617))')", 
+            "md5": "88f9ac8483b0f817a56dfb8e2d1f4939", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/handlers.py', '(func:13492:(set_scf_initial_guess:13496))')", 
+            "md5": "d38a8a80801716fca2c5964f2ec03ad8", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/handlers.py', '(func:710:(__init__:714))')", 
+            "md5": "09d79e7f208595bf4c344c949d365f80", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/tests/test_handlers.py', '(func:36225:(test_not_enough_total_memory:36229))')", 
+            "md5": "ea03db06899ca5f6654c28b37ee19517", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/jobs.py', '(func:510:(__init__:514))')", 
+            "md5": "0b7b0c55882cffaef3b167cbf35b3b3d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/handlers.py', '(func:8255:(fix_scf:8259))')", 
+            "md5": "d913def6633c6159e21538708a4dc48f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 24, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/jobs.py', '(func:2550:(_set_qchem_memory:2554))')", 
+            "md5": "451466288eb1a5d9bf35340202a4d0f0", 
+            "weight": 50
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/handlers.py', '(func:13254:(set_last_input_geom:13258))')", 
+            "md5": "077de4259bb90755f44d699ed5984829", 
+            "weight": 2
+        }
+    ]
+}

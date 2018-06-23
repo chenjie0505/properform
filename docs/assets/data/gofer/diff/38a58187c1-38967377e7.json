@@ -1,0 +1,65 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_collator.py', '(func:3790:(test_function:3827))')", 
+            "target": "('src/gofer/collator.py', '__init__:28')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_collator.py', '(func:1016:(test_collate:1132))')", 
+            "target": "('src/gofer/collator.py', 'collate:33')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_collator.py', '(func:1016:(test_collate:1132))')", 
+            "target": "('src/gofer/collator.py', '__init__:28')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_collator.py', '(func:3019:(test_classes:3053))')", 
+            "target": "('src/gofer/collator.py', '__init__:28')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/collator.py', 'collate:33')", 
+            "md5": "bf3d78a0000530a19ea898da915497f4", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/collator.py', '__init__:28')", 
+            "md5": "896d0dd8ea53ac088ac4feec04c78f00", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('test/unit/test_collator.py', '(func:1016:(test_collate:1132))')", 
+            "md5": "3bf5335aeb05af9d99d5e7b798de940e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('test/unit/test_collator.py', '(func:3019:(test_classes:3053))')", 
+            "md5": "f69f5924fb5a1293402325f36e1eb2a5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('test/unit/test_collator.py', '(func:3790:(test_function:3827))')", 
+            "md5": "5e63e5429314d9ea2541f360f7579561", 
+            "weight": 2
+        }
+    ]
+}

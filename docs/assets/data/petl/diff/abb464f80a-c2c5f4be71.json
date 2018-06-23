@@ -1,0 +1,159 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/transform.py', '(func:176815:(leftjoin:176819))')", 
+            "target": "('src/petl/transform.py', '(func:172429:(__init__:172433))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/io.py', '(func:8296:(__iter__:8300))')", 
+            "target": "('src/petl/ucsv.py', '(func:663:(__init__:667))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/io.py', '(func:8296:(__iter__:8300))')", 
+            "target": "('src/petl/ucsv.py', '(func:834:(next:838))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/transform.py', '(func:251758:(filldown:251762))')", 
+            "target": "('src/petl/transform.py', '(func:254651:(__init__:254655))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/test_io.py', '(func:26515:(test_issue_231:26519))')", 
+            "target": "('src/petl/io.py', '(func:69335:(totsv:69339))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/test_util.py', '(func:10657:(test_lookupone:10661))')", 
+            "target": "('src/petl/util.py', '(func:36979:(lookupone:36983))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/test_util.py', '(func:19276:(test_facetcolumns:19280))')", 
+            "target": "('src/petl/util.py', '(func:32282:(facetcolumns:32286))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/transform.py', '(func:229651:(unpackdict:229655))')", 
+            "target": "('src/petl/transform.py', '(func:230979:(__init__:230983))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/transform.py', '(func:176815:(leftjoin:176819))')", 
+            "md5": "b41b32b696e352f596314cf931b35a96", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/io.py', '(func:69335:(totsv:69339))')", 
+            "md5": "c4b4ac9d900a580b8e66fb444e22a19a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/transform.py', '(func:229651:(unpackdict:229655))')", 
+            "md5": "25ad01cacf5cc3ea6f76fdaf62eaf4c4", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/transform.py', '(func:254651:(__init__:254655))')", 
+            "md5": "3eb3e42fca96e67d39cd608d63dae454", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/util.py', '(func:32282:(facetcolumns:32286))')", 
+            "md5": "53786e01651dac082f5550496f98d400", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/test/test_util.py', '(func:10657:(test_lookupone:10661))')", 
+            "md5": "287d498305e16f97384d754a741f6a2e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/transform.py', '(func:230979:(__init__:230983))')", 
+            "md5": "5d950eff144496da48d77e1115395d44", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/ucsv.py', '(func:834:(next:838))')", 
+            "md5": "a97a337aa7297eba2a4160cf739b6df5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/test/test_util.py', '(func:19276:(test_facetcolumns:19280))')", 
+            "md5": "a0324f54f62220b61b53cdece39fc32c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/transform.py', '(func:172429:(__init__:172433))')", 
+            "md5": "77e54c64e3e8614863cd2e3d8ffb8326", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/transform.py', '(func:251758:(filldown:251762))')", 
+            "md5": "6a07339926cdcf3496a6fc44ddade001", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/test_io.py', '(func:26515:(test_issue_231:26519))')", 
+            "md5": "1c45467331ca8b8ebee2626b981c1e82", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/io.py', '(func:8296:(__iter__:8300))')", 
+            "md5": "4ea24c0e4bafb96435f42db2dc1c2531", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/ucsv.py', '(func:663:(__init__:667))')", 
+            "md5": "10ab6a854996bb196c924880cd040554", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/util.py', '(func:36979:(lookupone:36983))')", 
+            "md5": "60da56c9010a8c205305c3d9260b963b", 
+            "weight": 2
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_dedup.py', '(func:2599:(test_unique_wholerow:2603))')", 
+            "target": "('petl/transform/dedup.py', '(func:3709:(unique:3713))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_dedup.py', '(func:2599:(test_unique_wholerow:2603))')", 
+            "md5": "9614d9b7c77a2f8e0214d7bbf6bfb58a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/dedup.py', '(func:3709:(unique:3713))')", 
+            "md5": "d76bdbdbef386e03d975d716253785f9", 
+            "weight": 2
+        }
+    ]
+}

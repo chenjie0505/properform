@@ -1,0 +1,130 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:7737:(test_check_correct:7741))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:15472:(check:15476))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_jobs.py', '(func:2452:(test_setup:2456))')", 
+            "target": "('custodian/vasp/jobs.py', '(func:16656:(__init__:16660))')", 
+            "weight": 588
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_jobs.py', '(func:2452:(test_setup:2456))')", 
+            "target": "('custodian/vasp/jobs.py', '(func:20407:(setup:20411))')", 
+            "weight": 914
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_jobs.py', '(func:2248:(test_to_from_dict:2252))')", 
+            "target": "('custodian/vasp/jobs.py', '(func:24992:(from_dict:25013))')", 
+            "weight": 178
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_jobs.py', '(func:2248:(test_to_from_dict:2252))')", 
+            "target": "('custodian/vasp/jobs.py', '(func:16656:(__init__:16660))')", 
+            "weight": 366
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_jobs.py', '(func:2248:(test_to_from_dict:2252))')", 
+            "target": "('custodian/vasp/jobs.py', '(func:24551:(as_dict:24555))')", 
+            "weight": 206
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_jobs.py', '(func:3308:(test_postprocess:3312))')", 
+            "target": "('custodian/vasp/jobs.py', '(func:23618:(postprocess:23622))')", 
+            "weight": 612
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_jobs.py', '(func:3308:(test_postprocess:3312))')", 
+            "target": "('custodian/vasp/jobs.py', '(func:16656:(__init__:16660))')", 
+            "weight": 602
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/jobs.py', '(func:24992:(from_dict:25013))')", 
+            "target": "('custodian/vasp/jobs.py', '(func:16656:(__init__:16660))')", 
+            "weight": 384
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 142, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/jobs.py', '(func:16656:(__init__:16660))')", 
+            "md5": "912e172a0d55572297be1b8c5eb2ee9c", 
+            "weight": 286
+        }, 
+        {
+            "AST Diff": 48, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/jobs.py', '(func:24992:(from_dict:25013))')", 
+            "md5": "1077663e79ae36bea8adaf9b6b3de3c3", 
+            "weight": 98
+        }, 
+        {
+            "AST Diff": 62, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/jobs.py', '(func:24551:(as_dict:24555))')", 
+            "md5": "911c35c53ca57692aed53cb738d3747d", 
+            "weight": 126
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/handlers.py', '(func:15472:(check:15476))')", 
+            "md5": "a17f33e14dd7d2c71e3aff9840bc7421", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 147, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/jobs.py', '(func:23618:(postprocess:23622))')", 
+            "md5": "a8b610aa0d6a13772131475226ec54a5", 
+            "weight": 296
+        }, 
+        {
+            "AST Diff": 150, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/tests/test_jobs.py', '(func:2452:(test_setup:2456))')", 
+            "md5": "f2b373fcf3ae4212607b06b87f28dc50", 
+            "weight": 302
+        }, 
+        {
+            "AST Diff": 157, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/tests/test_jobs.py', '(func:3308:(test_postprocess:3312))')", 
+            "md5": "58184ab897102f42d1dbcdf652d9ff8c", 
+            "weight": 316
+        }, 
+        {
+            "AST Diff": 305, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/jobs.py', '(func:20407:(setup:20411))')", 
+            "md5": "387eacda488edd89f38302f78d943ac2", 
+            "weight": 612
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:7737:(test_check_correct:7741))')", 
+            "md5": "f83c91a102d6253e47c1d57926f62cb1", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 39, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/tests/test_jobs.py', '(func:2248:(test_to_from_dict:2252))')", 
+            "md5": "cbcec0d11f402a696b25e4648287717a", 
+            "weight": 80
+        }
+    ]
+}

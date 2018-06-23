@@ -1,0 +1,98 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/jobs.py', '(func:9767:(double_relaxation_run:9789))')", 
+            "target": "('custodian/vasp/jobs.py', '(func:1247:(__init__:1251))')", 
+            "weight": 5
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:2151:(test_aliasing:2155))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:11267:(__init__:11271))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:2151:(test_aliasing:2155))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:12635:(correct:12639))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_jobs.py', '(func:2060:(test_static:2064))')", 
+            "target": "('custodian/vasp/jobs.py', '(func:9767:(double_relaxation_run:9789))')", 
+            "weight": 5
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/handlers.py', '(func:12635:(correct:12639))')", 
+            "target": "('custodian/vasp/handlers.py', '<dictcomp>')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/vasp/tests/test_jobs.py', '(func:576:(test_to_from_dict:580))')", 
+            "target": "('custodian/vasp/jobs.py', '(func:1247:(__init__:1251))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 2, 
+            "Profile Diff": null, 
+            "id": "('custodian/vasp/jobs.py', '(func:9767:(double_relaxation_run:9789))')", 
+            "md5": "de281317f71d7165bce9a2bc65f77ead", 
+            "weight": 3
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/jobs.py', '(func:1247:(__init__:1251))')", 
+            "md5": "7621f8d711a088eaf9ef0a84a39f8780", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/tests/test_jobs.py', '(func:576:(test_to_from_dict:580))')", 
+            "md5": "2514ec76db62b96c6f5a156ba4d98e64", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:2151:(test_aliasing:2155))')", 
+            "md5": "443b9a3fdb4fee2a32071b4b722f96e3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/handlers.py', '<dictcomp>')", 
+            "md5": "db6c43de263337e8e1706b88c32d254b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/handlers.py', '(func:11267:(__init__:11271))')", 
+            "md5": "7ca299e44bbcfd02a4f9f090b47e47ec", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/tests/test_jobs.py', '(func:2060:(test_static:2064))')", 
+            "md5": "bc6911dfb5e17ff75fd9f7204081caa2", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/handlers.py', '(func:12635:(correct:12639))')", 
+            "md5": "62211110a154fe18b429942da9b014d6", 
+            "weight": 2
+        }
+    ]
+}

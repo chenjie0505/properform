@@ -1,0 +1,105 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:102894:(remove_taxa:102898))')", 
+            "target": "('trifusion/process/sequence.py', '(func:37643:(remove_taxa:37647))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_load_process_data.py', '(func:5095:(test_remove_taxa_from_list:5099))')", 
+            "target": "('trifusion/process/sequence.py', '(func:102894:(remove_taxa:102898))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_load_process_data.py', '(func:6026:(test_remove_taxa_from_list_inverse:6030))')", 
+            "target": "('trifusion/process/sequence.py', '(func:102894:(remove_taxa:102898))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_secondary_ops.py', '(func:354:(test_collapse_single:358))')", 
+            "target": "('trifusion/process/sequence.py', '(func:107461:(collapse:107465))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:37643:(remove_taxa:37647))')", 
+            "target": "('trifusion/process/sequence.py', '(func:16399:(_clear_alignment_temp:16403))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:127968:(characters_proportion_per_species:127987))')", 
+            "target": "('trifusion/process/sequence.py', '(func:13046:(__iter__:13050))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:127968:(characters_proportion_per_species:127987))')", 
+            "md5": "254a8c7e33d4d5f58e109f059ff41dbe", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:107461:(collapse:107465))')", 
+            "md5": "96ed71d5028d99ba25fee8ffeb0106b7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_load_process_data.py', '(func:5095:(test_remove_taxa_from_list:5099))')", 
+            "md5": "f3c54f2a6cc1a558a2b26c1b4f79c59d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:102894:(remove_taxa:102898))')", 
+            "md5": "4fd525b226ff787b44bd2233bbfcee27", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:16399:(_clear_alignment_temp:16403))')", 
+            "md5": "6f2142c023cb8ac90d9962f13ed4e0c6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:13046:(__iter__:13050))')", 
+            "md5": "bfe09ec24d45946987ec5e1d07694f8a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_load_process_data.py', '(func:6026:(test_remove_taxa_from_list_inverse:6030))')", 
+            "md5": "9e3e278f8ca561cc4ef9568f3dae1271", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:37643:(remove_taxa:37647))')", 
+            "md5": "15e6944250568a048690a67aafbe1765", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_secondary_ops.py', '(func:354:(test_collapse_single:358))')", 
+            "md5": "096a634173bf1d3a0d5f3c521f3e8c0c", 
+            "weight": 2
+        }
+    ]
+}

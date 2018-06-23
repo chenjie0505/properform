@@ -1,0 +1,66 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_common.py', '(func:7773:(test_valid:7777))')", 
+            "target": "('src/gofer/common.py', '(func:939:(valid_path:943))')", 
+            "weight": 120
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/agent/builtin.py', '(class:Admin:1361)')", 
+            "target": "('src/gofer/rmi/decorators.py', '(func:2068:(remote:2072))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_pam.py', '(func:2257:(test_exception_raised:2368))')", 
+            "target": "('src/gofer/pam.py', '(func:2383:(authenticate:2387))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/agent/builtin.py', '(class:Admin:1361)')", 
+            "md5": "833470574221c557305b8ad06d031349", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 29, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/common.py', '(func:939:(valid_path:943))')", 
+            "md5": "7d51dbd4d6112bcf8fa44510dd51d208", 
+            "weight": 60
+        }, 
+        {
+            "AST Diff": 29, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_common.py', '(func:7773:(test_valid:7777))')", 
+            "md5": "9c58e888dd3fca130b99b6a27beb2b69", 
+            "weight": 60
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/rmi/decorators.py', '(func:2068:(remote:2072))')", 
+            "md5": "8486a57e4c122072b86826d89e31c651", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/pam.py', '(func:2383:(authenticate:2387))')", 
+            "md5": "b6fd1d0319b6ce4a0c927f1ff2f15a81", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_pam.py', '(func:2257:(test_exception_raised:2368))')", 
+            "md5": "23149323593689709f4d60105eaf0f33", 
+            "weight": 2
+        }
+    ]
+}

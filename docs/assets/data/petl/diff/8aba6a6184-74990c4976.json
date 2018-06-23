@@ -1,0 +1,78 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/io/db.py', '(func:11148:(_todb:11152))')", 
+            "target": "('petl/io/db_utils.py', '(func:273:(_is_dbapi_cursor:277))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/io/db.py', '(func:11148:(_todb:11152))')", 
+            "target": "('petl/io/db_utils.py', '(func:203:(_is_dbapi_connection:207))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/io/db.py', '(func:6938:(todb:6942))')", 
+            "target": "('petl/io/db.py', '(func:11148:(_todb:11152))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/io/db_utils.py', '(func:273:(_is_dbapi_cursor:277))')", 
+            "target": "('petl/io/db_utils.py', '(func:981:(_hasmethods:985))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/io/test_db.py', '(func:2804:(test_todb_appenddb:2808))')", 
+            "target": "('petl/io/db.py', '(func:6938:(todb:6942))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/db_utils.py', '(func:273:(_is_dbapi_cursor:277))')", 
+            "md5": "f488eeb66c29d2e6a6f805420c397e21", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/db_utils.py', '(func:981:(_hasmethods:985))')", 
+            "md5": "d2463e0f51f97ab6e9b6f1cc1e2212cc", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/db_utils.py', '(func:203:(_is_dbapi_connection:207))')", 
+            "md5": "2a6530b94354fd5817a5a86177bdef0c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/db.py', '(func:6938:(todb:6942))')", 
+            "md5": "1b8937e322a51101e9d682e8da2dcf16", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/test/io/test_db.py', '(func:2804:(test_todb_appenddb:2808))')", 
+            "md5": "1322dcdca7dd916e979ae208c127b977", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/io/db.py', '(func:11148:(_todb:11152))')", 
+            "md5": "838fc1e069e16112928c9a0b8086bc89", 
+            "weight": 2
+        }
+    ]
+}

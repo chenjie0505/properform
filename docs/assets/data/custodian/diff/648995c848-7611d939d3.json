@@ -1,0 +1,138 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/nwchem/tests/test_handlers.py', '(func:535:(test_check_correct:539))')", 
+            "target": "('custodian/nwchem/handlers.py', '(func:1969:(correct:1973))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/nwchem/tests/test_handlers.py', '(func:535:(test_check_correct:539))')", 
+            "target": "('custodian/nwchem/handlers.py', '(func:1184:(check:1188))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/nwchem/tests/test_handlers.py', '(func:535:(test_check_correct:539))')", 
+            "target": "('custodian/nwchem/handlers.py', '(func:664:(__init__:668))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "target": "('custodian/vasp/jobs.py', '(func:1247:(__init__:1251))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "target": "('custodian/custodian.py', '(func:9585:(load_class:9589))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/tests/test_custodian.py', '(func:2467:(test_exitcode_error:2471))')", 
+            "target": "('custodian/tests/test_custodian.py', '(func:498:(__init__:502))')", 
+            "weight": 134
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/tests/test_custodian.py', '(func:3806:(test_from_spec:3810))')", 
+            "target": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/qchem/jobs.py', '(func:4648:(select_command:4652))')", 
+            "target": "('custodian/qchem/jobs.py', '(func:4256:(_set_qchem_memory:4260))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/jobs.py', '(func:4256:(_set_qchem_memory:4260))')", 
+            "md5": "7dff9e7598c6e5cf7d4b238f8ee29e37", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/nwchem/tests/test_handlers.py', '(func:535:(test_check_correct:539))')", 
+            "md5": "e6390a55c79a4d5b9b5d23395518e018", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 54, 
+            "Profile Diff": false, 
+            "id": "('custodian/tests/test_custodian.py', '(func:2467:(test_exitcode_error:2471))')", 
+            "md5": "a86c52e274cb587bafce61c1e1cba41f", 
+            "weight": 110
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/tests/test_custodian.py', '(func:3806:(test_from_spec:3810))')", 
+            "md5": "b3de9a1e13e984b3041e55ec0bbe60f9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/jobs.py', '(func:1247:(__init__:1251))')", 
+            "md5": "7621f8d711a088eaf9ef0a84a39f8780", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/jobs.py', '(func:4648:(select_command:4652))')", 
+            "md5": "c127bb42280c0e45554355001af636eb", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/nwchem/handlers.py', '(func:1969:(correct:1973))')", 
+            "md5": "f1ed68fdab615b2508d6b9e7db2daa2d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/nwchem/handlers.py', '(func:1184:(check:1188))')", 
+            "md5": "49de391c2b7610cbbb758bda93f48bab", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 11, 
+            "Profile Diff": false, 
+            "id": "('custodian/tests/test_custodian.py', '(func:498:(__init__:502))')", 
+            "md5": "21f4c7e1becc79201467d8265b54079c", 
+            "weight": 24
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/custodian.py', '(func:9585:(load_class:9589))')", 
+            "md5": "b50bac3c00eb19e9d96c7a63f76d1466", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "md5": "80418ba3edafbffbef1fc8769d89ab12", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/nwchem/handlers.py', '(func:664:(__init__:668))')", 
+            "md5": "1011acbaa570e35dd6200f495cd3a35a", 
+            "weight": 2
+        }
+    ]
+}

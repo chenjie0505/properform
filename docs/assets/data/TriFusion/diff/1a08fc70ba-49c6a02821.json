@@ -1,0 +1,65 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/base.py', '(func:3350:(__call__:3354))')", 
+            "target": "('trifusion/TriSeq.py', '(func:1497:(main_parser:1510))')", 
+            "weight": 6
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_triseq.py', '(func:3350:(test_collapse:3354))')", 
+            "target": "('trifusion/TriSeq.py', '(func:22531:(main:22535))')", 
+            "weight": 5
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_triseq.py', '(func:8191:(test_codon_filter:8195))')", 
+            "target": "('trifusion/TriSeq.py', '(func:22531:(main:22535))')", 
+            "weight": 5
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/TriSeq.py', '(func:22531:(main:22535))')", 
+            "target": "('trifusion/process/base.py', '(func:3350:(__call__:3354))')", 
+            "weight": 6
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_triseq.py', '(func:8191:(test_codon_filter:8195))')", 
+            "md5": "c24af2a55bf4705bc6350710711b9d81", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_triseq.py', '(func:3350:(test_collapse:3354))')", 
+            "md5": "08fab5cb4572f162d6b29e471025b3ff", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 2, 
+            "Profile Diff": null, 
+            "id": "('trifusion/TriSeq.py', '(func:1497:(main_parser:1510))')", 
+            "md5": "2c73a82c43dabb473414c045952b422f", 
+            "weight": 3
+        }, 
+        {
+            "AST Diff": 2, 
+            "Profile Diff": null, 
+            "id": "('trifusion/TriSeq.py', '(func:22531:(main:22535))')", 
+            "md5": "789b36b86244866a44f30a5b44dd4d72", 
+            "weight": 3
+        }, 
+        {
+            "AST Diff": 2, 
+            "Profile Diff": null, 
+            "id": "('trifusion/process/base.py', '(func:3350:(__call__:3354))')", 
+            "md5": "1a18c7431b4460a92b0af595dfb5ad5f", 
+            "weight": 3
+        }
+    ]
+}

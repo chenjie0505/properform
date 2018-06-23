@@ -1,0 +1,66 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/base.py', '(func:1574:(list:1578))')", 
+            "target": "('src/petl/util.py', '(func:22343:(itervalues:22347))')", 
+            "weight": 26
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/test_transform.py', '(func:17718:(test_head:17722))')", 
+            "target": "('src/petl/transform.py', '(func:34605:(head:34609))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/test_transform.py', '(func:102679:(_test_antijoin:102683))')", 
+            "target": "('src/petl/transform.py', '(func:212164:(hashantijoin:212168))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/transform.py', '(func:212164:(hashantijoin:212168))')", 
+            "md5": "85f9d2d298cd88d8fd8e26373087f673", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/test_transform.py', '(func:17718:(test_head:17722))')", 
+            "md5": "38730452498ee9bf091a4c0cdc62080e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/base.py', '(func:1574:(list:1578))')", 
+            "md5": "8be627b86d2ddfd6a10c2464f72ddae2", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 23, 
+            "Profile Diff": null, 
+            "id": "('src/petl/util.py', '(func:22343:(itervalues:22347))')", 
+            "md5": "8a807a4870f6e973c141105200ebbe49", 
+            "weight": 24
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/test/test_transform.py', '(func:102679:(_test_antijoin:102683))')", 
+            "md5": "9f7792cc6178bb19530472baba06a4f0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/transform.py', '(func:34605:(head:34609))')", 
+            "md5": "4b99f83560b2fba6f1b5e0f09d319db0", 
+            "weight": 2
+        }
+    ]
+}

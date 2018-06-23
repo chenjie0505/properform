@@ -1,0 +1,59 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:139617:(filter_codon_positions:139621))')", 
+            "target": "('trifusion/process/sequence.py', '(func:124159:(_reset_pipes:124163))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_triseq.py', '(func:3333:(test_convert_raxml2nex_with_model:3337))')", 
+            "target": "('trifusion/base/sanity.py', '(func:975:(triseq_arg_check:979))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/process/sequence.py', '(func:141018:(filter_missing_data:141022))')", 
+            "target": "('trifusion/process/sequence.py', '(func:124159:(_reset_pipes:124163))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:124159:(_reset_pipes:124163))')", 
+            "md5": "4a836e921c33a36f04598058ba862178", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/base/sanity.py', '(func:975:(triseq_arg_check:979))')", 
+            "md5": "01b3ce56ffa77c4f60be7a09584d45cf", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('trifusion/tests/test_triseq.py', '(func:3333:(test_convert_raxml2nex_with_model:3337))')", 
+            "md5": "20353f1ad0e1ef7695544d57567735c4", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:141018:(filter_missing_data:141022))')", 
+            "md5": "7ea127b77c1970294ef604aa335ff824", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:139617:(filter_codon_positions:139621))')", 
+            "md5": "0c75dace274c6870212005e41023ddf2", 
+            "weight": 2
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/transform/test_setops.py', '(func:3367:(test_hashcomplement_seqtypes:3371))')", 
+            "target": "('src/petl/transform/setops.py', '(func:13534:(hashcomplement:13538))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/transform/test_reshape.py', '(func:10221:(test_unflatten:10225))')", 
+            "target": "('src/petl/transform/reshape.py', '(func:22105:(unflatten:22109))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/transform/selects.py', '(func:4921:(fieldselect:4925))')", 
+            "target": "('src/petl/transform/selects.py', '(func:5356:(__init__:5360))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/petl/test/transform/test_reshape.py', '(func:10771:(test_unflatten_2:10775))')", 
+            "target": "('src/petl/transform/reshape.py', '(func:22105:(unflatten:22109))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/transform/selects.py', '(func:4921:(fieldselect:4925))')", 
+            "md5": "1ce70badf8e7c755ad0f0ed4448e7805", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/test/transform/test_reshape.py', '(func:10771:(test_unflatten_2:10775))')", 
+            "md5": "683890372a180409ba70a8abad1083d3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/transform/reshape.py', '(func:22105:(unflatten:22109))')", 
+            "md5": "e03f5be86bbaa238312ab9412cf7fdfc", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/transform/selects.py', '(func:5356:(__init__:5360))')", 
+            "md5": "7d6b90936540e59e83d8a2848d547aaa", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/transform/setops.py', '(func:13534:(hashcomplement:13538))')", 
+            "md5": "6f5b2ab73ecc5fb99888cc4a372d629c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/petl/test/transform/test_setops.py', '(func:3367:(test_hashcomplement_seqtypes:3371))')", 
+            "md5": "b2a3bb6e0616c770f092d29a0af06550", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/petl/test/transform/test_reshape.py', '(func:10221:(test_unflatten:10225))')", 
+            "md5": "6c707923e6eddff386ec538f1f18667e", 
+            "weight": 2
+        }
+    ]
+}

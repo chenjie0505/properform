@@ -1,0 +1,119 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/io/sources.py', '(func:2777:(open:2801))')", 
+            "target": "('petl/io/sources.py', '(func:1959:(__init__:1963))')", 
+            "weight": 42
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/transform/joins.py', '(func:27939:(unjoin:27943))')", 
+            "target": "('petl/transform/joins.py', '(func:30839:(__init__:30843))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/transform/basics.py', '(func:19009:(movefield:19013))')", 
+            "target": "('petl/transform/basics.py', '(func:19210:(__init__:19214))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/transform/fills.py', '(func:3383:(fillright:3387))')", 
+            "target": "('petl/transform/fills.py', '(func:4658:(__init__:4662))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_basics.py', '(func:9570:(test_tail:9574))')", 
+            "target": "('petl/transform/basics.py', '(func:16388:(tail:16392))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/io/sources.py', '(func:1925:(open:1949))')", 
+            "target": "('petl/io/sources.py', '(func:1959:(__init__:1963))')", 
+            "weight": 76
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/fills.py', '(func:4658:(__init__:4662))')", 
+            "md5": "75abc0c9ad4a5f5b1274f6d936d323e7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/basics.py', '(func:19210:(__init__:19214))')", 
+            "md5": "5a448d471b851793a21b78a370f95baf", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/basics.py', '(func:19009:(movefield:19013))')", 
+            "md5": "06acaf71da0908208f39f0f84f7d6556", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 13, 
+            "Profile Diff": false, 
+            "id": "('petl/io/sources.py', '(func:1959:(__init__:1963))')", 
+            "md5": "aa85c1fb67bfb9ded70b86b892c44c60", 
+            "weight": 28
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/fills.py', '(func:3383:(fillright:3387))')", 
+            "md5": "eda0811b70c656db08e927835d883357", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 23, 
+            "Profile Diff": false, 
+            "id": "('petl/io/sources.py', '(func:1925:(open:1949))')", 
+            "md5": "98365ff561f9094fac9120f3d3c7a60b", 
+            "weight": 48
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/joins.py', '(func:30839:(__init__:30843))')", 
+            "md5": "9df1a3fae7812220d5826ab6f89ddb13", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/basics.py', '(func:16388:(tail:16392))')", 
+            "md5": "0e8e0d191c466e0e69fe1a2e3867291b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/joins.py', '(func:27939:(unjoin:27943))')", 
+            "md5": "082ed3f159dbac121a616579308d45b5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/test/transform/test_basics.py', '(func:9570:(test_tail:9574))')", 
+            "md5": "356e0a92cffaa68e19803fcc266befdd", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 6, 
+            "Profile Diff": false, 
+            "id": "('petl/io/sources.py', '(func:2777:(open:2801))')", 
+            "md5": "5937f9e2edeac68c34d4063e6636add7", 
+            "weight": 14
+        }
+    ]
+}

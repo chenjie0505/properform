@@ -1,0 +1,78 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_load_process_data.py', '(func:5558:(test_remove_taxa_from_file:5562))')", 
+            "target": "('trifusion/process/sequence.py', '(func:102894:(remove_taxa:102898))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/tests/test_load_process_data.py', '(func:6026:(test_remove_taxa_from_list_inverse:6030))')", 
+            "target": "('trifusion/process/sequence.py', '(func:102894:(remove_taxa:102898))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/TriSeq.py', '(func:1497:(main_parser:1510))')", 
+            "target": "('trifusion/base/sanity.py', '(func:3963:(post_aln_checks:3967))')", 
+            "weight": 134
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/TriSeq.py', '(func:1497:(main_parser:1510))')", 
+            "target": "('trifusion/base/sanity.py', '(func:5786:(check_infile_list:5790))')", 
+            "weight": 174
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('trifusion/TriSeq.py', '(func:1497:(main_parser:1510))')", 
+            "target": "('trifusion/process/sequence.py', '(func:102894:(remove_taxa:102898))')", 
+            "weight": 52
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_load_process_data.py', '(func:5558:(test_remove_taxa_from_file:5562))')", 
+            "md5": "5f150a750e7353b482900dd56fa89d9c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/process/sequence.py', '(func:102894:(remove_taxa:102898))')", 
+            "md5": "4fd525b226ff787b44bd2233bbfcee27", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 61, 
+            "Profile Diff": false, 
+            "id": "('trifusion/base/sanity.py', '(func:5786:(check_infile_list:5790))')", 
+            "md5": "84a56e9b3ca40ae9d004b2a815aadfce", 
+            "weight": 124
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('trifusion/tests/test_load_process_data.py', '(func:6026:(test_remove_taxa_from_list_inverse:6030))')", 
+            "md5": "9e3e278f8ca561cc4ef9568f3dae1271", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 41, 
+            "Profile Diff": false, 
+            "id": "('trifusion/base/sanity.py', '(func:3963:(post_aln_checks:3967))')", 
+            "md5": "9e21e91e94012cab4422351641db63ab", 
+            "weight": 84
+        }, 
+        {
+            "AST Diff": 49, 
+            "Profile Diff": null, 
+            "id": "('trifusion/TriSeq.py', '(func:1497:(main_parser:1510))')", 
+            "md5": "2c73a82c43dabb473414c045952b422f", 
+            "weight": 50
+        }
+    ]
+}

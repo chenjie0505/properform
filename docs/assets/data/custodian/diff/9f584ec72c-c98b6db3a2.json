@@ -1,0 +1,353 @@
+{
+    "edges": [
+        {
+            "source": "('custodian/vasp/tests/test_jobs.py', '(func:1301:(test_postprocess:1305))')", 
+            "target": "('custodian/vasp/jobs.py', '(func:8820:(postprocess:8824))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/vasp/tests/test_validators.py', '(func:1545:(test_check_and_correct:1549))')", 
+            "target": "('custodian/vasp/validators.py', '(func:1048:(check:1052))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/vasp/jobs.py', '(func:5621:(setup:5625))')", 
+            "target": "('custodian/vasp/interpreter.py', '(func:1211:(apply_actions:1215))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:10846:(test_check_correct:10850))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:35157:(correct:35161))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:10846:(test_check_correct:10850))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:34947:(check:34951))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/qchem/tests/test_handlers.py', '(func:956:(test_scf_rca:960))')", 
+            "target": "('custodian/qchem/tests/test_handlers.py', '(func:848:(_revert_scf_fix_strategy_to_version:869))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/vasp/interpreter.py', '(func:1211:(apply_actions:1215))')", 
+            "target": "('custodian/ansible/interpreter.py', '(func:2162:(modify:2166))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:19619:(test_oom:19623))')", 
+            "target": "('custodian/vasp/interpreter.py', '(func:1211:(apply_actions:1215))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/qchem/jobs.py', '<dictcomp>')", 
+            "target": "('custodian/qchem/jobs.py', '(func:2920:(_modify_qchem_according_to_version:2941))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/vasp/handlers.py', '(func:13553:(correct:13557))')", 
+            "target": "('custodian/vasp/interpreter.py', '(func:1211:(apply_actions:1215))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/qchem/tests/test_handlers.py', '(func:10192:(test_scf_fon:10196))')", 
+            "target": "('custodian/qchem/tests/test_handlers.py', '(func:848:(_revert_scf_fix_strategy_to_version:869))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:11086:(test_check_correct_electronic:11090))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:13553:(correct:13557))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:11086:(test_check_correct_electronic:11090))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:13003:(__init__:13007))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/qchem/handlers.py', '(func:8255:(fix_scf:8259))')", 
+            "target": "('custodian/qchem/handlers.py', '(func:6184:(fix_error_code_134:6188))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/qchem/jobs.py', '(func:510:(__init__:514))')", 
+            "target": "('custodian/qchem/jobs.py', '(func:2920:(_modify_qchem_according_to_version:2941))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/qchem/jobs.py', '(func:510:(__init__:514))')", 
+            "target": "('custodian/qchem/jobs.py', '<dictcomp>')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/vasp/handlers.py', '(func:35157:(correct:35161))')", 
+            "target": "('custodian/vasp/interpreter.py', '(func:1211:(apply_actions:1215))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/vasp/tests/test_jobs.py', '(func:774:(test_setup:778))')", 
+            "target": "('custodian/vasp/jobs.py', '(func:5621:(setup:5625))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/qchem/tests/test_handlers.py', '(func:36225:(test_not_enough_total_memory:36229))')", 
+            "target": "('custodian/qchem/jobs.py', '(func:510:(__init__:514))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:11614:(test_check_correct:11618))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:18062:(correct:18066))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/vasp/tests/test_handlers.py', '(func:11614:(test_check_correct:11618))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:17721:(check:17725))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/qchem/tests/test_handlers.py', '(func:9305:(test_scf_gdm:9309))')", 
+            "target": "('custodian/qchem/tests/test_handlers.py', '(func:848:(_revert_scf_fix_strategy_to_version:869))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/vasp/handlers.py', '(func:18062:(correct:18066))')", 
+            "target": "('custodian/vasp/interpreter.py', '(func:1211:(apply_actions:1215))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/qchem/handlers.py', '(func:6184:(fix_error_code_134:6188))')", 
+            "target": "('custodian/qchem/jobs.py', '(func:6336:(is_openmp_compatible:6358))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/ansible/interpreter.py', '(func:2162:(modify:2166))')", 
+            "target": "('custodian/ansible/actions.py', '(func:1764:(unset:1786))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/ansible/interpreter.py', '(func:2162:(modify:2166))')", 
+            "target": "('custodian/ansible/actions.py', '(func:2183:(push_all:2205))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/validators.py', '(func:1048:(check:1052))')", 
+            "md5": "6c0b8dd2b39af124fc2909e9da117521", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/handlers.py', '(func:17721:(check:17725))')", 
+            "md5": "0469c46607b51a5f77c3bf72d924f6ef", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/tests/test_handlers.py', '(func:9305:(test_scf_gdm:9309))')", 
+            "md5": "5b8ec7e7e9faca5c05a6a70d1f87c61e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/ansible/actions.py', '(func:2183:(push_all:2205))')", 
+            "md5": "876a6b3dfdce9e78d7fcf24d81722ff3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/handlers.py', '(func:35157:(correct:35161))')", 
+            "md5": "5eab41b749e57bfaee3477d6a7fefb3a", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/tests/test_handlers.py', '(func:956:(test_scf_rca:960))')", 
+            "md5": "6cb5a0b3e6b63e05e69f61836be629b9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/handlers.py', '(func:18062:(correct:18066))')", 
+            "md5": "1cf940f34e19dc0c8ef7a981b6ecc9cb", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/interpreter.py', '(func:1211:(apply_actions:1215))')", 
+            "md5": "e8b466b11b6167a8e48236e1f4bf1980", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/handlers.py', '(func:13003:(__init__:13007))')", 
+            "md5": "5adf4e4392604600751bf892d7f0729e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:19619:(test_oom:19623))')", 
+            "md5": "5605b0cc343fb970a7c6b5b984998141", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/jobs.py', '(func:2920:(_modify_qchem_according_to_version:2941))')", 
+            "md5": "c14ac2fef1641a6968e85924cc04297f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/jobs.py', '<dictcomp>')", 
+            "md5": "63b2bb5b70628055ff1510bb8daf28d3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/tests/test_handlers.py', '(func:36225:(test_not_enough_total_memory:36229))')", 
+            "md5": "ea03db06899ca5f6654c28b37ee19517", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/handlers.py', '(func:34947:(check:34951))')", 
+            "md5": "eef64691469d663f6e1898dc604f8651", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/tests/test_validators.py', '(func:1545:(test_check_and_correct:1549))')", 
+            "md5": "30ce63d5139b5c63e011c9bd385944e8", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/tests/test_jobs.py', '(func:1301:(test_postprocess:1305))')", 
+            "md5": "f64c18c905c5538cc967a39aee680964", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/handlers.py', '(func:13553:(correct:13557))')", 
+            "md5": "2e6d335627e046db506bac437be71383", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/tests/test_jobs.py', '(func:774:(test_setup:778))')", 
+            "md5": "51bb6d66552a8ae454fa61f7f7e72720", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/tests/test_handlers.py', '(func:10192:(test_scf_fon:10196))')", 
+            "md5": "bebedc98cacdfd71b3eb424cde8a9b41", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/handlers.py', '(func:6184:(fix_error_code_134:6188))')", 
+            "md5": "09810cd61bc3de2de1435a41224a4353", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/ansible/interpreter.py', '(func:2162:(modify:2166))')", 
+            "md5": "801273a221c687fdea1dc70853995cd7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:11086:(test_check_correct_electronic:11090))')", 
+            "md5": "e25739d20f3ef7ec9142f47931d9448d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:10846:(test_check_correct:10850))')", 
+            "md5": "8405f7092a69fe569d7becec0d8826bd", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/handlers.py', '(func:8255:(fix_scf:8259))')", 
+            "md5": "d913def6633c6159e21538708a4dc48f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/jobs.py', '(func:5621:(setup:5625))')", 
+            "md5": "546f4c0e07905a103644daf7c5903ef9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/jobs.py', '(func:6336:(is_openmp_compatible:6358))')", 
+            "md5": "dcda97aa16092895d0136114bbd17351", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/ansible/actions.py', '(func:1764:(unset:1786))')", 
+            "md5": "62df07510b1d0adae55303eaf34ab995", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/jobs.py', '(func:8820:(postprocess:8824))')", 
+            "md5": "57ed707c82766dd8b20e710843d6c8df", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/jobs.py', '(func:510:(__init__:514))')", 
+            "md5": "0b7b0c55882cffaef3b167cbf35b3b3d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/tests/test_handlers.py', '(func:11614:(test_check_correct:11618))')", 
+            "md5": "c01248083d806176281f8590d889093b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/tests/test_handlers.py', '(func:848:(_revert_scf_fix_strategy_to_version:869))')", 
+            "md5": "7d4140fe1c633f21adecdc9f313bdc74", 
+            "weight": 2
+        }
+    ]
+}

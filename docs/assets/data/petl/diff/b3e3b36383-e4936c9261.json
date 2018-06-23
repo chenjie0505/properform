@@ -1,0 +1,99 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/util/test_counting.py', '(func:1150:(test_valuecounts:1154))')", 
+            "target": "('petl/util/counting.py', '(func:2136:(valuecounts:2140))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/transform/basics.py', '(func:22029:(addrownumbers:22033))')", 
+            "target": "('petl/transform/basics.py', '(func:22805:(__init__:22809))')", 
+            "weight": 16
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_conversions.py', '(func:8583:(test_replace_where:8587))')", 
+            "target": "('petl/transform/conversions.py', '(func:6938:(replace:6942))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_basics.py', '(func:10202:(test_skipcomments:10206))')", 
+            "target": "('petl/transform/basics.py', '(func:17763:(skipcomments:17767))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_basics.py', '(func:13942:(test_addrownumbers_field_name:13946))')", 
+            "target": "('petl/transform/basics.py', '(func:22029:(addrownumbers:22033))')", 
+            "weight": 104
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 47, 
+            "Profile Diff": false, 
+            "id": "('petl/test/transform/test_basics.py', '(func:13942:(test_addrownumbers_field_name:13946))')", 
+            "md5": "e0b2988b48e30f1fb04dfc38bf7a64e4", 
+            "weight": 96
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/util/test_counting.py', '(func:1150:(test_valuecounts:1154))')", 
+            "md5": "2578f420c69774c93326887c464838de", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/conversions.py', '(func:6938:(replace:6942))')", 
+            "md5": "ac858f3bb2f1dded952b806915ebd0e8", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/test/transform/test_basics.py', '(func:10202:(test_skipcomments:10206))')", 
+            "md5": "ec7db4cc63a51b0633424f5b60bb90e5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_conversions.py', '(func:8583:(test_replace_where:8587))')", 
+            "md5": "340445b81aa7dd10d3d7cfddcc449646", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/basics.py', '(func:17763:(skipcomments:17767))')", 
+            "md5": "c2804a473d046ce16fa1097fb933a314", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 7, 
+            "Profile Diff": null, 
+            "id": "('petl/transform/basics.py', '(func:22805:(__init__:22809))')", 
+            "md5": "89454bde517a1bcae886e9d96528afe5", 
+            "weight": 8
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/util/counting.py', '(func:2136:(valuecounts:2140))')", 
+            "md5": "5465f55c9a381b1cdb16c2bc5944d87d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 3, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/basics.py', '(func:22029:(addrownumbers:22033))')", 
+            "md5": "aaab44c21c271567d8994bc4795473ad", 
+            "weight": 8
+        }
+    ]
+}

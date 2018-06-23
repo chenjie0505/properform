@@ -1,0 +1,52 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_collator.py', '(func:5750:(test_list:5754))')", 
+            "target": "('src/gofer/collator.py', 'collate:33')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_collator.py', '(func:5750:(test_list:5754))')", 
+            "target": "('src/gofer/collator.py', '__init__:28')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_collator.py', '(func:816:(test_init:820))')", 
+            "target": "('src/gofer/collator.py', '__init__:28')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('test/unit/test_collator.py', '(func:5750:(test_list:5754))')", 
+            "md5": "5e05dfaba6fe5244367cf0036e433737", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/collator.py', 'collate:33')", 
+            "md5": "bf3d78a0000530a19ea898da915497f4", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('test/unit/test_collator.py', '(func:816:(test_init:820))')", 
+            "md5": "0d7bf57a94733c2fb89835c6d8a25703", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/collator.py', '__init__:28')", 
+            "md5": "896d0dd8ea53ac088ac4feec04c78f00", 
+            "weight": 2
+        }
+    ]
+}

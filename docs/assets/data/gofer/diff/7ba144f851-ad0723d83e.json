@@ -1,0 +1,59 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/proxy.py', '(func:708:(__init__:712))')", 
+            "target": "('src/gofer/rmi/container.py', '(func:1186:(__init__:1190))')", 
+            "weight": 9
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_proxy.py', '(func:671:(test_agent_1:711))')", 
+            "target": "('src/gofer/proxy.py', '(func:708:(__init__:712))')", 
+            "weight": 9
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_proxy.py', '(func:1101:(test_agent:1141))')", 
+            "target": "('src/gofer/proxy.py', '(func:970:(agent:974))')", 
+            "weight": 12
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 4, 
+            "Profile Diff": null, 
+            "id": "('test/unit/test_proxy.py', '(func:671:(test_agent_1:711))')", 
+            "md5": "03d9b28c7910d518c90086149a4a3105", 
+            "weight": 5
+        }, 
+        {
+            "AST Diff": 3, 
+            "Profile Diff": null, 
+            "id": "('test/unit/test_proxy.py', '(func:1101:(test_agent:1141))')", 
+            "md5": "fb574bd4734f711747b57e9c726278a1", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 4, 
+            "Profile Diff": null, 
+            "id": "('src/gofer/rmi/container.py', '(func:1186:(__init__:1190))')", 
+            "md5": "fbedc538f82c0bb5423213492d164a68", 
+            "weight": 5
+        }, 
+        {
+            "AST Diff": 3, 
+            "Profile Diff": true, 
+            "id": "('src/gofer/proxy.py', '(func:970:(agent:974))')", 
+            "md5": "da8e2b901df68e1fc4493f4a66826a3d", 
+            "weight": 8
+        }, 
+        {
+            "AST Diff": 3, 
+            "Profile Diff": null, 
+            "id": "('src/gofer/proxy.py', '(func:708:(__init__:712))')", 
+            "md5": "b5fd69d475f809f0a7a95a422d7df440", 
+            "weight": 4
+        }
+    ]
+}

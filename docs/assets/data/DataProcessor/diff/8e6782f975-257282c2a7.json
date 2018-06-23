@@ -1,0 +1,85 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/utility.py', '(func:2637:(copy_file:2641))')", 
+            "target": "('lib/dataprocessor/utility.py', '(func:589:(check_file:593))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_nodes.py', '(func:7770:(test_validate_link_remove:7774))')", 
+            "target": "('lib/dataprocessor/nodes.py', '(func:6868:(validate_link:6872))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/pipes/scan.py', '(func:167:(directory:171))')", 
+            "target": "('lib/dataprocessor/nodes.py', '(func:6868:(validate_link:6872))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_utility.py', '(func:3658:(test_copy_file4:3662))')", 
+            "target": "('lib/dataprocessor/utility.py', '(func:2637:(copy_file:2641))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_nodes.py', '(func:7112:(test_validate_link_complete:7116))')", 
+            "target": "('lib/dataprocessor/nodes.py', '(func:6868:(validate_link:6872))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/utility.py', '(func:589:(check_file:593))')", 
+            "md5": "70f75a91daf49cf10b8dd6aab4cc9e99", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/pipes/scan.py', '(func:167:(directory:171))')", 
+            "md5": "f5a37f999c06dc7c94f75b056ebe8567", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/tests/test_nodes.py', '(func:7770:(test_validate_link_remove:7774))')", 
+            "md5": "4427e375be6a3121a0c1d1220ac202e9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/utility.py', '(func:2637:(copy_file:2641))')", 
+            "md5": "ee76336ff390fbda1ff21da0d33e658c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/nodes.py', '(func:6868:(validate_link:6872))')", 
+            "md5": "b2ad5cac4498cfd10980cb5dea284324", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/tests/test_utility.py', '(func:3658:(test_copy_file4:3662))')", 
+            "md5": "d982d9ff2b0e375390dfeddcf0f6e7f0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('lib/dataprocessor/tests/test_nodes.py', '(func:7112:(test_validate_link_complete:7116))')", 
+            "md5": "ac6ef5764358e6218c019ce7a92c4460", 
+            "weight": 2
+        }
+    ]
+}

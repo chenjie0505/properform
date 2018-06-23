@@ -1,0 +1,72 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_io.py', '(func:1862:(test_datahandler_exception:1866))')", 
+            "target": "('lib/dataprocessor/io.py', '(func:880:(load:884))')", 
+            "weight": 168
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/tests/test_io.py', '(func:1862:(test_datahandler_exception:1866))')", 
+            "target": "('lib/dataprocessor/io.py', '(func:2547:(__exit__:2551))')", 
+            "weight": 176
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/table.py', '(func:1425:(__init__:1429))')", 
+            "target": "('lib/dataprocessor/table.py', '(func:2410:(__get_dict_path:2414))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('lib/dataprocessor/table.py', '(func:1425:(__init__:1429))')", 
+            "target": "('lib/dataprocessor/table.py', '(func:4574:(__copy_value:4578))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 82, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/tests/test_io.py', '(func:1862:(test_datahandler_exception:1866))')", 
+            "md5": "e65ea50fc65921c87991dd29e8a9f11d", 
+            "weight": 166
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/table.py', '(func:1425:(__init__:1429))')", 
+            "md5": "24342fee14a56baae2fc326c36d8bdea", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/io.py', '(func:880:(load:884))')", 
+            "md5": "ca9eb8c633d22f39ce2474194a488ef7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/table.py', '(func:2410:(__get_dict_path:2414))')", 
+            "md5": "89d3734bcf1f08d185d50f2f7b333804", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 9, 
+            "Profile Diff": null, 
+            "id": "('lib/dataprocessor/io.py', '(func:2547:(__exit__:2551))')", 
+            "md5": "b71dbd99f96af84087d6492c4b1f332f", 
+            "weight": 10
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('lib/dataprocessor/table.py', '(func:4574:(__copy_value:4578))')", 
+            "md5": "fa1087c6af254bc78b94b192c1f3a1ea", 
+            "weight": 2
+        }
+    ]
+}

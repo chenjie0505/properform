@@ -1,0 +1,157 @@
+{
+    "edges": [
+        {
+            "source": "('tests/test_distance.py', '(func:31304:(test_tanimoto:31308))')", 
+            "target": "('abydos/distance.py', '(func:23057:(tanimoto:23061))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_ngram.py', '(func:1003:(test_corpus:1007))')", 
+            "target": "('abydos/ngram.py', '(func:2455:(get_count:2459))')", 
+            "weight": 1078
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/ngram.py', '(func:1559:(__init__:1563))')", 
+            "target": "('abydos/ngram.py', '(func:2150:(corpus_importer:2154))')", 
+            "weight": 250
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/ngram.py', '(func:2150:(corpus_importer:2154))')", 
+            "target": "('abydos/corpus.py', '(func:3303:(sents:3307))')", 
+            "weight": 250
+        }, 
+        {
+            "source": "('tests/test_ngram.py', '(class:NGramCorpusTestCases:897)')", 
+            "target": "('abydos/ngram.py', '(func:1559:(__init__:1563))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_ngram.py', '(class:NGramCorpusTestCases:897)')", 
+            "target": "('abydos/corpus.py', '(func:1217:(__init__:1221))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_ngram.py', '(class:NGramCorpusTestCases:897)')", 
+            "target": "('abydos/ngram.py', '(func:2150:(corpus_importer:2154))')", 
+            "weight": 250
+        }, 
+        {
+            "source": "('tests/test_phonetic.py', '(func:19726:(test_koelner_phonetik_alpha:19730))')", 
+            "target": "('abydos/phonetic.py', '(func:16499:(koelner_phonetik_alpha:16503))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_ngram.py', '(func:2105:(test_get_count:2109))')", 
+            "target": "('abydos/ngram.py', '(func:2455:(get_count:2459))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_ngram.py', '(func:1396:(test_init:1400))')", 
+            "target": "('abydos/ngram.py', '(func:1559:(__init__:1563))')", 
+            "weight": 26
+        }, 
+        {
+            "source": "('abydos/ngram.py', '(func:2455:(get_count:2459))')", 
+            "target": "('abydos/ngram.py', '(func:2455:(get_count:2459))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/ngram.py', '(func:2455:(get_count:2459))')", 
+            "md5": "dcefc7afa6ab2252c9c411f117798d6d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/corpus.py', '(func:3303:(sents:3307))')", 
+            "md5": "baab0cc06497f3440ceb8455efbfbd94", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 537, 
+            "Profile Diff": false, 
+            "id": "('tests/test_ngram.py', '(func:1003:(test_corpus:1007))')", 
+            "md5": "50766d36df0aa5e2cedf09792adef2f0", 
+            "weight": 1076
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/distance.py', '(func:23057:(tanimoto:23061))')", 
+            "md5": "fda3e7083ab3ce8c41b091e8917f243f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_ngram.py', '(class:NGramCorpusTestCases:897)')", 
+            "md5": "6e94245314a93bb7adc7541d45306f4f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/corpus.py', '(func:1217:(__init__:1221))')", 
+            "md5": "252b23b14b225a97455201b46066c571", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/ngram.py', '(func:1559:(__init__:1563))')", 
+            "md5": "89de0fd79760f4ff34ec93778d125f25", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/test_distance.py', '(func:31304:(test_tanimoto:31308))')", 
+            "md5": "29cc80058832716eb755556886231936", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/test_ngram.py', '(func:2105:(test_get_count:2109))')", 
+            "md5": "378cd2e50a5e869888d4b2c63dfb6075", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/test_phonetic.py', '(func:19726:(test_koelner_phonetik_alpha:19730))')", 
+            "md5": "3c7f185cda5e0e2ceec8501529df9218", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/phonetic.py', '(func:16499:(koelner_phonetik_alpha:16503))')", 
+            "md5": "b0e041bba2bc8123d730553c698bee85", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 11, 
+            "Profile Diff": false, 
+            "id": "('tests/test_ngram.py', '(func:1396:(test_init:1400))')", 
+            "md5": "9514d25305700da3026c63ebe0e1e832", 
+            "weight": 24
+        }, 
+        {
+            "AST Diff": 123, 
+            "Profile Diff": false, 
+            "id": "('abydos/ngram.py', '(func:2150:(corpus_importer:2154))')", 
+            "md5": "4a4bd7f04ee3e2a68d312fc3541da959", 
+            "weight": 248
+        }
+    ]
+}

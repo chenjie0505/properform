@@ -1,0 +1,489 @@
+{
+    "edges": [
+        {
+            "source": "('tests/test_stemmer.py', '(func:20485:(test_sb_dutch_snowball:20489))')", 
+            "target": "('abydos/stemmer.py', '(func:26257:(sb_dutch:26261))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_distance.py', '(func:74677:(test_smith_waterman_nialls:74681))')", 
+            "target": "('abydos/distance.py', '(func:53942:(smith_waterman:53946))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/phonetic.py', '(func:161065:(bmpm:161069))')", 
+            "target": "('abydos/_bm.py', '(func:18693:(_bmpm:18697))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/_bm.py', '(func:18693:(_bmpm:18697))')", 
+            "target": "('abydos/_bm.py', '(func:14038:(_bm_phonetic_numbers:14042))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/_bm.py', '(func:18693:(_bmpm:18697))')", 
+            "target": "('abydos/_bm.py', '(func:18053:(_bm_language_index_from_code:18057))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/stemmer.py', '(func:1142:(lovins:1146))')", 
+            "target": "('abydos/stemmer.py', '(func:1522:(condA:1526))')", 
+            "weight": 238
+        }, 
+        {
+            "source": "('tests/test_phones.py', '(func:3940:(test_ipa_to_features:3944))')", 
+            "target": "('abydos/phones.py', '(func:26286:(ipa_to_features:26290))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_phones.py', '(func:3940:(test_ipa_to_features:3944))')", 
+            "target": "('abydos/phones.py', '(func:27051:(get_feature:27055))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:53942:(smith_waterman:53946))')", 
+            "target": "('tests/test_distance.py', '(func:70365:(_sim_wikipedia:70369))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_util.py', '(func:9965:(test_rational_arithmetic:9969))')", 
+            "target": "('abydos/util.py', '(func:12551:(__rshift__:12555))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_util.py', '(func:9965:(test_rational_arithmetic:9969))')", 
+            "target": "('abydos/util.py', '(func:11894:(__pow__:11898))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_util.py', '(func:9965:(test_rational_arithmetic:9969))')", 
+            "target": "('abydos/util.py', '(func:11295:(__rdiv__:11299))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_phonetic.py', '(func:2467:(test_russel_index:2471))')", 
+            "target": "('abydos/phonetic.py', '(func:1575:(russell_index:1579))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_stemmer.py', '(func:29363:(test_caumanns:29367))')", 
+            "target": "('abydos/stemmer.py', '(func:39601:(lancaster:39605))')", 
+            "weight": 286
+        }, 
+        {
+            "source": "('tests/test_distance.py', '(func:17115:(test_sim_tversky:17119))')", 
+            "target": "('abydos/distance.py', '(func:15901:(sim_tversky:15905))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_distance.py', '(func:19387:(test_dist_tversky:19391))')", 
+            "target": "('abydos/distance.py', '(func:18592:(dist_tversky:18596))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_phonetic.py', '(func:3426:(test_russel_index_n2a:3430))')", 
+            "target": "('abydos/phonetic.py', '(func:2730:(russell_index_num_to_alpha:2734))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/phonetic.py', '(func:3321:(russell_index_alpha:3325))')", 
+            "target": "('abydos/phonetic.py', '(func:2730:(russell_index_num_to_alpha:2734))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/phonetic.py', '(func:3321:(russell_index_alpha:3325))')", 
+            "target": "('abydos/phonetic.py', '(func:1575:(russell_index:1579))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/stemmer.py', '(func:26257:(sb_dutch:26261))')", 
+            "target": "('abydos/stemmer.py', '(func:26675:(_undouble:26679))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:40573:(sim_ratcliff_obershelp:40577))')", 
+            "target": "('abydos/distance.py', '(func:42286:(_sstr_matches:42290))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:18592:(dist_tversky:18596))')", 
+            "target": "('abydos/distance.py', '(func:15901:(sim_tversky:15905))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_phonetic.py', '(func:218895:(test_alpha_sis:218899))')", 
+            "target": "('abydos/phonetic.py', '(func:56716:(alpha_sis:56720))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_distance.py', '(func:73833:(test_smith_waterman:73837))')", 
+            "target": "('abydos/distance.py', '(func:53942:(smith_waterman:53946))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_distance.py', '(func:55104:(test_sim_ratcliff_obershelp:55108))')", 
+            "target": "('abydos/distance.py', '(func:40573:(sim_ratcliff_obershelp:40577))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_phones.py', '(func:1033:(test_ipa_to_features:1037))')", 
+            "target": "('abydos/phones.py', '(func:26286:(ipa_to_features:26290))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_distance.py', '(func:84417:(test_dist_suffix:84421))')", 
+            "target": "('abydos/distance.py', '(func:59203:(dist_suffix:59207))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_stemmer.py', '(func:29119:(test_caumanns:29123))')", 
+            "target": "('abydos/stemmer.py', '(func:39238:(uealite:39242))')", 
+            "weight": 50
+        }, 
+        {
+            "source": "('tests/test_distance.py', '(func:70365:(_sim_wikipedia:70369))')", 
+            "target": "('abydos/distance.py', '(func:50775:(sim_matrix:50779))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:59203:(dist_suffix:59207))')", 
+            "target": "('abydos/distance.py', '(func:58531:(sim_suffix:58535))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_phonetic.py', '(func:253664:(test_bmpm:253668))')", 
+            "target": "('abydos/phonetic.py', '(func:161065:(bmpm:161069))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:42286:(_sstr_matches:42290))')", 
+            "target": "('abydos/distance.py', '(func:41388:(_lcsstr_stl:41392))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/distance.py', '(func:42286:(_sstr_matches:42290))')", 
+            "target": "('abydos/distance.py', '(func:42286:(_sstr_matches:42290))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_stemmer.py', '(func:20485:(test_sb_dutch_snowball:20489))')", 
+            "md5": "3e5e6f6be9afcddf2f87f02be2d76dd4", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/stemmer.py', '(func:26675:(_undouble:26679))')", 
+            "md5": "52547d286af9481df9bc6792511a4563", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/phonetic.py', '(func:3321:(russell_index_alpha:3325))')", 
+            "md5": "afbac83c353e693e21843942d58e14e9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/phonetic.py', '(func:1575:(russell_index:1579))')", 
+            "md5": "f2bcd16743cf9899d711e1db0318465b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 15, 
+            "Profile Diff": true, 
+            "id": "('tests/test_stemmer.py', '(func:29363:(test_caumanns:29367))')", 
+            "md5": "8cedf09d0fd45de41043635db724e335", 
+            "weight": 32
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/util.py', '(func:12551:(__rshift__:12555))')", 
+            "md5": "fc3c801f33560a160867d19c5e3ac285", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/phones.py', '(func:26286:(ipa_to_features:26290))')", 
+            "md5": "21eba59d35bfdfda5485d505a739be3c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/_bm.py', '(func:14038:(_bm_phonetic_numbers:14042))')", 
+            "md5": "23daff5109b87562a1b802b1a64623d1", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/util.py', '(func:11894:(__pow__:11898))')", 
+            "md5": "24000d61e7564b69c732c530e3eb9e86", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/test_phones.py', '(func:3940:(test_ipa_to_features:3944))')", 
+            "md5": "1804c8561bec2930b4a1299155994240", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/test_phonetic.py', '(func:218895:(test_alpha_sis:218899))')", 
+            "md5": "9541a4c38973b19588c3b71cdc7907b3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/distance.py', '(func:15901:(sim_tversky:15905))')", 
+            "md5": "b78d0e0018d6f2010927da6ddb9b39f2", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/distance.py', '(func:58531:(sim_suffix:58535))')", 
+            "md5": "bd85a1310a9b2a25a1bb0b22c2064b32", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/phonetic.py', '(func:161065:(bmpm:161069))')", 
+            "md5": "8d380379bb67be959c3eaf535590f383", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/test_distance.py', '(func:74677:(test_smith_waterman_nialls:74681))')", 
+            "md5": "968e471627c385e42de3a92d015ac710", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/test_distance.py', '(func:17115:(test_sim_tversky:17119))')", 
+            "md5": "cc0d547b773b5e3596c64c6bb7094dd4", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/test_distance.py', '(func:84417:(test_dist_suffix:84421))')", 
+            "md5": "fcb706a70cb334136391de91a8743f86", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/distance.py', '(func:50775:(sim_matrix:50779))')", 
+            "md5": "cc4334954d401107daa84950ae18a77f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 8, 
+            "Profile Diff": true, 
+            "id": "('abydos/stemmer.py', '(func:39238:(uealite:39242))')", 
+            "md5": "decf433e41c0b0768fe9138f370baae0", 
+            "weight": 18
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/test_distance.py', '(func:55104:(test_sim_ratcliff_obershelp:55108))')", 
+            "md5": "0ba338f12e9784f17b1d130963389250", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/test_distance.py', '(func:70365:(_sim_wikipedia:70369))')", 
+            "md5": "beb8180e4da77c7e236c9f5a73f827e0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 126, 
+            "Profile Diff": true, 
+            "id": "('abydos/stemmer.py', '(func:39601:(lancaster:39605))')", 
+            "md5": "684d2ba64c5073e36122db799c1bd00e", 
+            "weight": 254
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/distance.py', '(func:41388:(_lcsstr_stl:41392))')", 
+            "md5": "85fd674e54c169c9921b7a63c25a20f6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/distance.py', '(func:18592:(dist_tversky:18596))')", 
+            "md5": "5659b4098f43d878931da89f571dca10", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/distance.py', '(func:40573:(sim_ratcliff_obershelp:40577))')", 
+            "md5": "aab056f057515e95fbdf40b780d6bcc8", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/distance.py', '(func:53942:(smith_waterman:53946))')", 
+            "md5": "34dc4f37e033d97e0697206394c84339", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_util.py', '(func:9965:(test_rational_arithmetic:9969))')", 
+            "md5": "6a1dcc35cea9c43dd55600fbc018f95d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/test_phones.py', '(func:1033:(test_ipa_to_features:1037))')", 
+            "md5": "72d62a8db424c2c90b2d12867b55b764", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/_bm.py', '(func:18693:(_bmpm:18697))')", 
+            "md5": "00f9764abcdfdb2da0ce054c3766ec00", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/distance.py', '(func:42286:(_sstr_matches:42290))')", 
+            "md5": "309995fb058182745aaf7a28d9501ae0", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/stemmer.py', '(func:26257:(sb_dutch:26261))')", 
+            "md5": "0b06dd6908cf8f31278280fb8d4d2912", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/test_distance.py', '(func:19387:(test_dist_tversky:19391))')", 
+            "md5": "27967d4ef6b86ec204e669952450bbe5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 9, 
+            "Profile Diff": true, 
+            "id": "('abydos/stemmer.py', '(func:1522:(condA:1526))')", 
+            "md5": "7732f666345775ac352ea85756f57312", 
+            "weight": 20
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_phonetic.py', '(func:3426:(test_russel_index_n2a:3430))')", 
+            "md5": "d9b55a8fdd45f326864a4f71bb23b36c", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 217, 
+            "Profile Diff": null, 
+            "id": "('abydos/stemmer.py', '(func:1142:(lovins:1146))')", 
+            "md5": "6e00dba05efb080441a520bc12602b7d", 
+            "weight": 218
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_phonetic.py', '(func:2467:(test_russel_index:2471))')", 
+            "md5": "811049f3cef44be265150d13305b8f78", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/phonetic.py', '(func:2730:(russell_index_num_to_alpha:2734))')", 
+            "md5": "2c96751ac5246f9cb01590e501a3aabe", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/distance.py', '(func:59203:(dist_suffix:59207))')", 
+            "md5": "379ee3b409ca189abe2c7302b6ac5d94", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 15, 
+            "Profile Diff": true, 
+            "id": "('tests/test_stemmer.py', '(func:29119:(test_caumanns:29123))')", 
+            "md5": "137700a365d5b31c96da386910b758df", 
+            "weight": 32
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/_bm.py', '(func:18053:(_bm_language_index_from_code:18057))')", 
+            "md5": "f7036f5c9cf3621439704365aacc6788", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/phones.py', '(func:27051:(get_feature:27055))')", 
+            "md5": "4474bcd317721eb45a84ff8ee4913cc3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('abydos/phonetic.py', '(func:56716:(alpha_sis:56720))')", 
+            "md5": "6d318da566b820667db2aa8f834564ee", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/test_phonetic.py', '(func:253664:(test_bmpm:253668))')", 
+            "md5": "1cbcc00f74b8ef538a46f6c02bdd0cca", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/util.py', '(func:11295:(__rdiv__:11299))')", 
+            "md5": "ef7a44e16ba970f01ecec2fc97d16e67", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('tests/test_distance.py', '(func:73833:(test_smith_waterman:73837))')", 
+            "md5": "a7462cc2927e6befd72db9aef007be44", 
+            "weight": 2
+        }
+    ]
+}

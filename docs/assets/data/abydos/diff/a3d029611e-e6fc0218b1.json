@@ -1,0 +1,339 @@
+{
+    "edges": [
+        {
+            "source": "('abydos/stats.py', '(func:8654:(accuracy:8658))')", 
+            "target": "('abydos/stats.py', '(func:5647:(population:5651))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/compression.py', '(func:6109:(rle_encode:6113))')", 
+            "target": "('abydos/compression.py', '(func:4318:(bwt_encode:4322))')", 
+            "weight": 28
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/util.py', '(func:1721:(jitter:1725))')", 
+            "target": "('abydos/util.py', '(func:1721:(jitter:1725))')", 
+            "weight": 32
+        }, 
+        {
+            "source": "('tests/test_stats.py', '(func:5918:(test_error_pop:5922))')", 
+            "target": "('abydos/stats.py', '(func:4903:(error_pop:4907))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_stats.py', '(func:7855:(test_population:7859))')", 
+            "target": "('abydos/stats.py', '(func:5647:(population:5651))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('tests/test_stats.py', '(func:11126:(test_accuracy:11130))')", 
+            "target": "('abydos/stats.py', '(func:8654:(accuracy:8658))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/phonetic.py', '(func:3321:(russell_index_alpha:3325))')", 
+            "target": "('abydos/phonetic.py', '(func:2730:(russell_index_num_to_alpha:2734))')", 
+            "weight": 34
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/phonetic.py', '(func:3321:(russell_index_alpha:3325))')", 
+            "target": "('abydos/phonetic.py', '(func:1575:(russell_index:1579))')", 
+            "weight": 44
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/phonetic.py', '(func:3726:(soundex:3730))')", 
+            "target": "('abydos/phonetic.py', '(func:6209:(dm_soundex:6213))')", 
+            "weight": 64
+        }, 
+        {
+            "source": "('tests/test_stats.py', '(func:10024:(test_npv:10028))')", 
+            "target": "('abydos/stats.py', '(func:7579:(npv:7583))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/phonetic.py', '(func:68450:(phonix:68454))')", 
+            "target": "('abydos/phonetic.py', '(func:70551:(_all_repl:70555))')", 
+            "weight": 20
+        }, 
+        {
+            "source": "('tests/test_stats.py', '(func:15123:(test_pr_qmean:15127))')", 
+            "target": "('abydos/stats.py', '(func:11653:(pr_qmean:11657))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/stats.py', '(func:8979:(accuracy_gain:8983))')", 
+            "target": "('abydos/stats.py', '(func:5647:(population:5651))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('abydos/stats.py', '(func:8979:(accuracy_gain:8983))')", 
+            "target": "('abydos/stats.py', '(func:8654:(accuracy:8658))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/stats.py', '(func:11653:(pr_qmean:11657))')", 
+            "target": "('abydos/stats.py', '(func:22623:(qmean:22627))')", 
+            "weight": 13
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('abydos/phonetic.py', '(func:156398:(spfc:156402))')", 
+            "target": "('abydos/phonetic.py', '(func:158271:(steps_one_to_three:158275))')", 
+            "weight": 53
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_stemmer.py', '(func:29609:(test_caumanns:29613))')", 
+            "target": "('abydos/stemmer.py', '(func:40019:(caumanns:40023))')", 
+            "weight": 13
+        }, 
+        {
+            "source": "('tests/test_stats.py', '(func:17783:(test_pr_lehmer_mean:17787))')", 
+            "target": "('abydos/stats.py', '(func:10954:(pr_gmean:10958))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_compression.py', '(func:5940:(test_bwt_roundtripping:5944))')", 
+            "target": "('abydos/compression.py', '(func:4318:(bwt_encode:4322))')", 
+            "weight": 12
+        }, 
+        {
+            "source": "('tests/test_stats.py', '(func:11523:(test_accuracy_gain:11527))')", 
+            "target": "('abydos/stats.py', '(func:8979:(accuracy_gain:8983))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('tests/test_compression.py', '(func:4914:(test_bwt:4918))')", 
+            "target": "('abydos/compression.py', '(func:4318:(bwt_encode:4322))')", 
+            "weight": 12
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 20, 
+            "Profile Diff": true, 
+            "id": "('abydos/phonetic.py', '(func:1575:(russell_index:1579))')", 
+            "md5": "f2bcd16743cf9899d711e1db0318465b", 
+            "weight": 42
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/stats.py', '(func:8654:(accuracy:8658))')", 
+            "md5": "d6c371b6f389fc5ee83b69ff39956832", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 15, 
+            "Profile Diff": null, 
+            "id": "('abydos/phonetic.py', '(func:68450:(phonix:68454))')", 
+            "md5": "1ebbc5113a48ac4eafa10ec1102c9fe7", 
+            "weight": 16
+        }, 
+        {
+            "AST Diff": 8, 
+            "Profile Diff": true, 
+            "id": "('abydos/compression.py', '(func:6109:(rle_encode:6113))')", 
+            "md5": "b89331dfa1c5c8043d42adde0a6519fe", 
+            "weight": 18
+        }, 
+        {
+            "AST Diff": 30, 
+            "Profile Diff": null, 
+            "id": "('abydos/phonetic.py', '(func:156398:(spfc:156402))')", 
+            "md5": "827cb4a8942747b474125de9e28c2392", 
+            "weight": 31
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_stats.py', '(func:15123:(test_pr_qmean:15127))')", 
+            "md5": "6ec10ff19c53ff26ed816551a9061cf7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 15, 
+            "Profile Diff": null, 
+            "id": "('abydos/util.py', '(func:1721:(jitter:1725))')", 
+            "md5": "122cee335a80bdab311ddcfd91839764", 
+            "weight": 16
+        }, 
+        {
+            "AST Diff": 15, 
+            "Profile Diff": true, 
+            "id": "('abydos/phonetic.py', '(func:3726:(soundex:3730))')", 
+            "md5": "7837126fd9c01c2c97b887666bd9f326", 
+            "weight": 32
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_stats.py', '(func:7855:(test_population:7859))')", 
+            "md5": "09ef28400fd7fc7b213e2fea188597f5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 3, 
+            "Profile Diff": null, 
+            "id": "('abydos/phonetic.py', '(func:70551:(_all_repl:70555))')", 
+            "md5": "a40ee30909da84c7a0855bb525aa357a", 
+            "weight": 4
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_compression.py', '(func:5940:(test_bwt_roundtripping:5944))')", 
+            "md5": "882eba0257b36c47041ab26130245130", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/stats.py', '(func:7579:(npv:7583))')", 
+            "md5": "86d670c3430a823fc9b83bfa7289c2f4", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_stats.py', '(func:11523:(test_accuracy_gain:11527))')", 
+            "md5": "8d4c026e89d121fe3dfd4571f57d4408", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_stats.py', '(func:11126:(test_accuracy:11130))')", 
+            "md5": "081027bd9e70ec896cc3e2edaa63c72b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_stemmer.py', '(func:29609:(test_caumanns:29613))')", 
+            "md5": "03467fb2064900be6d57d35c07b452df", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/stats.py', '(func:5647:(population:5651))')", 
+            "md5": "d9bdb2c8a6743544140c8ae36e168837", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/stats.py', '(func:10954:(pr_gmean:10958))')", 
+            "md5": "dcce000d8b4375bd57ba40185b926aeb", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/stats.py', '(func:8979:(accuracy_gain:8983))')", 
+            "md5": "b9fba3d99c8c38b95a1774857798bddb", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_stats.py', '(func:10024:(test_npv:10028))')", 
+            "md5": "510c9fbe4e589db3e731a5d4d1e0dc0b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 4, 
+            "Profile Diff": true, 
+            "id": "('abydos/compression.py', '(func:4318:(bwt_encode:4322))')", 
+            "md5": "69e2f51a6b8bf333674517e4b866a949", 
+            "weight": 10
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_compression.py', '(func:4914:(test_bwt:4918))')", 
+            "md5": "b5e29136c161d97d06b51ea99a69404b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_stats.py', '(func:5918:(test_error_pop:5922))')", 
+            "md5": "ae90c68b3d4afd991b9b5fcd7612d473", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 10, 
+            "Profile Diff": true, 
+            "id": "('abydos/phonetic.py', '(func:158271:(steps_one_to_three:158275))')", 
+            "md5": "9f3d19847472307f78ec9adbe8c68b16", 
+            "weight": 22
+        }, 
+        {
+            "AST Diff": 31, 
+            "Profile Diff": null, 
+            "id": "('abydos/phonetic.py', '(func:6209:(dm_soundex:6213))')", 
+            "md5": "8dfc202c1e1215b829dbd3eb57308542", 
+            "weight": 32
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/stats.py', '(func:4903:(error_pop:4907))')", 
+            "md5": "f384dec1be8a89af6b94adcdc4d0ea8f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/phonetic.py', '(func:3321:(russell_index_alpha:3325))')", 
+            "md5": "afbac83c353e693e21843942d58e14e9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 15, 
+            "Profile Diff": true, 
+            "id": "('abydos/phonetic.py', '(func:2730:(russell_index_num_to_alpha:2734))')", 
+            "md5": "2c96751ac5246f9cb01590e501a3aabe", 
+            "weight": 32
+        }, 
+        {
+            "AST Diff": 10, 
+            "Profile Diff": null, 
+            "id": "('abydos/stats.py', '(func:22623:(qmean:22627))')", 
+            "md5": "0982c4ce22725ac947207b5a9d197b89", 
+            "weight": 11
+        }, 
+        {
+            "AST Diff": 10, 
+            "Profile Diff": null, 
+            "id": "('abydos/stemmer.py', '(func:40019:(caumanns:40023))')", 
+            "md5": "8062c74a13f4fc9cc0f7d594c846a44f", 
+            "weight": 11
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('tests/test_stats.py', '(func:17783:(test_pr_lehmer_mean:17787))')", 
+            "md5": "23564a766e3cf17398f0c5c45d52c41d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('abydos/stats.py', '(func:11653:(pr_qmean:11657))')", 
+            "md5": "89765342daed7b24bbfd137e5f341fc9", 
+            "weight": 2
+        }
+    ]
+}

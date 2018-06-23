@@ -1,0 +1,59 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_sorts.py', '(func:7019:(test_sort_buffered_cleanup_open_iterator:7023))')", 
+            "target": "('petl/test/transform/test_sorts.py', '(func:6200:(_get_names:6204))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/transform/conversions.py', '(func:8149:(convertnumbers:8153))')", 
+            "target": "('petl/util/parsers.py', '(func:4722:(numparser:4726))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/io/test_tees.py', '(func:5713:(test_teehtml_unicode:5717))')", 
+            "target": "('petl/transform/conversions.py', '(func:8149:(convertnumbers:8153))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/util/parsers.py', '(func:4722:(numparser:4726))')", 
+            "md5": "72bf1c24940097784e53ab520bf0e051", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_sorts.py', '(func:6200:(_get_names:6204))')", 
+            "md5": "01cf8c8ad2c9d1ccb57691089d406292", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_sorts.py', '(func:7019:(test_sort_buffered_cleanup_open_iterator:7023))')", 
+            "md5": "0419ebf3aafd726347b068592d26f3c6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/conversions.py', '(func:8149:(convertnumbers:8153))')", 
+            "md5": "4b441eaaf23aa743ea1e22c5a6acb23f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/io/test_tees.py', '(func:5713:(test_teehtml_unicode:5717))')", 
+            "md5": "07997bf0deee40f076dced2e11036f92", 
+            "weight": 2
+        }
+    ]
+}

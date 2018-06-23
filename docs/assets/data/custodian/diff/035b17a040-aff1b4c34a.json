@@ -1,0 +1,227 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/custodian.py', '(func:9681:(_run_job:9685))')", 
+            "target": "('custodian/tests/test_custodian.py', '(func:569:(setup:573))')", 
+            "weight": 21
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/custodian.py', '(func:9681:(_run_job:9685))')", 
+            "target": "('custodian/custodian.py', '(func:17699:(name:17717))')", 
+            "weight": 11
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/custodian.py', '(func:9681:(_run_job:9685))')", 
+            "target": "('custodian/tests/test_custodian.py', '(func:700:(postprocess:704))')", 
+            "weight": 21
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/custodian.py', '(func:9681:(_run_job:9685))')", 
+            "target": "('custodian/custodian.py', '(func:18868:(__init__:18872))')", 
+            "weight": 11
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/custodian.py', '(func:9681:(_run_job:9685))')", 
+            "target": "('custodian/tests/test_custodian.py', 'run')", 
+            "weight": 11
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('custodian/tests/test_custodian.py', '(func:5833:(test_exitcode_error:5837))')", 
+            "target": "('custodian/tests/test_custodian.py', '(func:497:(__init__:501))')", 
+            "weight": 100
+        }, 
+        {
+            "source": "('custodian/qchem/tests/test_handlers.py', '(func:956:(test_scf_rca:960))')", 
+            "target": "('custodian/qchem/handlers.py', '(func:710:(__init__:714))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/qchem/tests/test_handlers.py', '(func:956:(test_scf_rca:960))')", 
+            "target": "('custodian/qchem/tests/test_handlers.py', '(func:848:(_revert_scf_fix_strategy_to_version:869))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "target": "('custodian/vasp/jobs.py', '(func:1247:(__init__:1251))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "target": "('custodian/custodian.py', '(func:9585:(load_class:9589))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:2870:(__init__:2874))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "target": "('custodian/vasp/handlers.py', '(func:11267:(__init__:11271))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/qchem/handlers.py', '(func:8255:(fix_scf:8259))')", 
+            "target": "('custodian/qchem/handlers.py', '(func:13254:(set_last_input_geom:13258))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/tests/test_custodian.py', '(func:3806:(test_from_spec:3810))')", 
+            "target": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/qchem/handlers.py', '(func:17436:(from_dict:17457))')", 
+            "target": "('custodian/qchem/handlers.py', '(func:710:(__init__:714))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/custodian.py', '(func:18868:(__init__:18872))')", 
+            "md5": "d750006523cb8bac04aaa566c3741424", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/tests/test_custodian.py', '(func:3806:(test_from_spec:3810))')", 
+            "md5": "b3de9a1e13e984b3041e55ec0bbe60f9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/handlers.py', '(func:13254:(set_last_input_geom:13258))')", 
+            "md5": "077de4259bb90755f44d699ed5984829", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 37, 
+            "Profile Diff": true, 
+            "id": "('custodian/tests/test_custodian.py', '(func:5833:(test_exitcode_error:5837))')", 
+            "md5": "41b3d40e3679d18a47288ab6ec772437", 
+            "weight": 76
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/custodian.py', '(func:17699:(name:17717))')", 
+            "md5": "795e3be643354db7ebc0c8ca43dd1133", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 11, 
+            "Profile Diff": true, 
+            "id": "('custodian/tests/test_custodian.py', '(func:497:(__init__:501))')", 
+            "md5": "7ceab21a1d6a6aa9f04e76aa1ca11dee", 
+            "weight": 24
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/custodian.py', '(func:9585:(load_class:9589))')", 
+            "md5": "b50bac3c00eb19e9d96c7a63f76d1466", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 5, 
+            "Profile Diff": true, 
+            "id": "('custodian/tests/test_custodian.py', '(func:700:(postprocess:704))')", 
+            "md5": "24b5a9b223d8816da9ff3c3e460e2ef6", 
+            "weight": 12
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/handlers.py', '(func:710:(__init__:714))')", 
+            "md5": "09d79e7f208595bf4c344c949d365f80", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/handlers.py', '(func:2870:(__init__:2874))')", 
+            "md5": "787e622f199bd19b65332b08c1fd4fd7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 5, 
+            "Profile Diff": true, 
+            "id": "('custodian/tests/test_custodian.py', '(func:569:(setup:573))')", 
+            "md5": "5d4593aa7dac7b9e60087f5cf6de67d0", 
+            "weight": 12
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/jobs.py', '(func:1247:(__init__:1251))')", 
+            "md5": "7621f8d711a088eaf9ef0a84a39f8780", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/handlers.py', '(func:8255:(fix_scf:8259))')", 
+            "md5": "d913def6633c6159e21538708a4dc48f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/handlers.py', '(func:17436:(from_dict:17457))')", 
+            "md5": "95c01b0a4217d8b539ab29f6e8be575d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/tests/test_custodian.py', 'run')", 
+            "md5": "abb3a3d26ff52f3556979531902e7ad6", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/vasp/handlers.py', '(func:11267:(__init__:11271))')", 
+            "md5": "7ca299e44bbcfd02a4f9f090b47e47ec", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 8, 
+            "Profile Diff": null, 
+            "id": "('custodian/custodian.py', '(func:9681:(_run_job:9685))')", 
+            "md5": "cf5eeb9abe67093acdb529bc8b329ef9", 
+            "weight": 9
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/custodian.py', '(func:7585:(from_spec:7606))')", 
+            "md5": "80418ba3edafbffbef1fc8769d89ab12", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/tests/test_handlers.py', '(func:848:(_revert_scf_fix_strategy_to_version:869))')", 
+            "md5": "7d4140fe1c633f21adecdc9f313bdc74", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('custodian/qchem/tests/test_handlers.py', '(func:956:(test_scf_rca:960))')", 
+            "md5": "6cb5a0b3e6b63e05e69f61836be629b9", 
+            "weight": 2
+        }
+    ]
+}

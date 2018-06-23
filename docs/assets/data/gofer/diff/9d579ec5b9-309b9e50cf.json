@@ -1,0 +1,39 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('test/unit/test_config.py', '(func:10587:(test_lock:10644))')", 
+            "target": "('src/gofer/config.py', '(func:10886:(__lock:10908))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('src/gofer/config.py', '(func:10119:(get:10141))')", 
+            "target": "('src/gofer/config.py', '(func:10886:(__lock:10908))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/config.py', '(func:10119:(get:10141))')", 
+            "md5": "19ab2bb501a46d98dd64064aeeac615d", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('test/unit/test_config.py', '(func:10587:(test_lock:10644))')", 
+            "md5": "1a584f242d1554c464d1847adbeafd62", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('src/gofer/config.py', '(func:10886:(__lock:10908))')", 
+            "md5": "1f902365ac8f37748852a71c02dcaf50", 
+            "weight": 2
+        }
+    ]
+}

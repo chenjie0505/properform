@@ -1,0 +1,59 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/transform/basics.py', '(func:17763:(skipcomments:17767))')", 
+            "target": "('petl/transform/basics.py', '(func:18610:(__init__:18614))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_basics.py', '(func:10202:(test_skipcomments:10206))')", 
+            "target": "('petl/transform/basics.py', '(func:17763:(skipcomments:17767))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_reshape.py', '(func:8629:(test_melt_and_split:8633))')", 
+            "target": "('petl/transform/regex.py', '(func:4770:(split:4774))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/test/transform/test_basics.py', '(func:10202:(test_skipcomments:10206))')", 
+            "md5": "ec7db4cc63a51b0633424f5b60bb90e5", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/basics.py', '(func:17763:(skipcomments:17767))')", 
+            "md5": "c2804a473d046ce16fa1097fb933a314", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/basics.py', '(func:18610:(__init__:18614))')", 
+            "md5": "ae2765cba719676eb55fc2da4f7944ed", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/regex.py', '(func:4770:(split:4774))')", 
+            "md5": "1e306bdb1034c8674dd807cd5ad874b9", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_reshape.py', '(func:8629:(test_melt_and_split:8633))')", 
+            "md5": "c89f2fd80e16cf280c5ed265218ba5b9", 
+            "weight": 2
+        }
+    ]
+}

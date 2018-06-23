@@ -1,0 +1,66 @@
+{
+    "edges": [
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_basics.py', '(func:6893:(test_addfield_empty:6897))')", 
+            "target": "('petl/transform/basics.py', '(func:11261:(addfield:11265))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/transform/hashjoins.py', '(func:1841:(iterhashjoin:1845))')", 
+            "target": "('petl/transform/hashjoins.py', '(func:2895:(joinrows:2899))')", 
+            "weight": 4
+        }, 
+        {
+            "shape": "flowingEdge", 
+            "source": "('petl/test/transform/test_basics.py', '(func:9570:(test_tail:9574))')", 
+            "target": "('petl/transform/basics.py', '(func:16388:(tail:16392))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/basics.py', '(func:11261:(addfield:11265))')", 
+            "md5": "b8e524f6c66c444e709f1e218abf6454", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_basics.py', '(func:6893:(test_addfield_empty:6897))')", 
+            "md5": "be091f820578258b0822c227df79ec45", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/hashjoins.py', '(func:2895:(joinrows:2899))')", 
+            "md5": "60533a5cb1a8956f849cfa0151e6625b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/transform/hashjoins.py', '(func:1841:(iterhashjoin:1845))')", 
+            "md5": "dd07d4691e6d6e5203ee5260a6e1a61f", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('petl/transform/basics.py', '(func:16388:(tail:16392))')", 
+            "md5": "0e8e0d191c466e0e69fe1a2e3867291b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": true, 
+            "id": "('petl/test/transform/test_basics.py', '(func:9570:(test_tail:9574))')", 
+            "md5": "356e0a92cffaa68e19803fcc266befdd", 
+            "weight": 2
+        }
+    ]
+}

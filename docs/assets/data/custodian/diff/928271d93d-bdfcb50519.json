@@ -1,0 +1,164 @@
+{
+    "edges": [
+        {
+            "source": "('custodian/ansible/tests/test_interpreter.py', '(func:5611:(test_strict_mode:5615))')", 
+            "target": "('custodian/ansible/interpreter.py', '(func:2162:(modify:2166))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/vasp/handlers.py', '(func:12635:(correct:12639))')", 
+            "target": "('custodian/vasp/handlers.py', '<dictcomp>')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/qchem/jobs.py', '(func:4648:(select_command:4652))')", 
+            "target": "('custodian/qchem/jobs.py', '(func:6895:(command_available:6899))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/ansible/tests/test_interpreter.py', '(func:4761:(test_file_modify:4765))')", 
+            "target": "('custodian/ansible/interpreter.py', '(func:2162:(modify:2166))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/ansible/interpreter.py', '(func:2162:(modify:2166))')", 
+            "target": "('custodian/ansible/actions.py', '(func:5309:(file_move:5331))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/ansible/interpreter.py', '(func:2162:(modify:2166))')", 
+            "target": "('custodian/ansible/actions.py', '(func:1764:(unset:1786))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/ansible/interpreter.py', '(func:2162:(modify:2166))')", 
+            "target": "('custodian/ansible/actions.py', '(func:3762:(pull_all:3784))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/ansible/interpreter.py', '(func:2162:(modify:2166))')", 
+            "target": "('custodian/ansible/actions.py', '(func:2888:(add_to_set:2910))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/ansible/interpreter.py', '(func:2162:(modify:2166))')", 
+            "target": "('custodian/ansible/actions.py', '(func:5827:(file_delete:5849))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/ansible/interpreter.py', '(func:2162:(modify:2166))')", 
+            "target": "('custodian/ansible/actions.py', '(func:3356:(pull:3378))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/ansible/actions.py', '(func:3762:(pull_all:3784))')", 
+            "target": "('custodian/ansible/actions.py', '(func:3356:(pull:3378))')", 
+            "weight": 4
+        }, 
+        {
+            "source": "('custodian/ansible/tests/test_interpreter.py', '(func:442:(test_dict_modify:446))')", 
+            "target": "('custodian/ansible/interpreter.py', '(func:2162:(modify:2166))')", 
+            "weight": 4
+        }
+    ], 
+    "nodes": [
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/ansible/actions.py', '(func:5309:(file_move:5331))')", 
+            "md5": "507b2651eb41b80dc174bbe0a370ba09", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/ansible/actions.py', '(func:1764:(unset:1786))')", 
+            "md5": "62df07510b1d0adae55303eaf34ab995", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/ansible/interpreter.py', '(func:2162:(modify:2166))')", 
+            "md5": "801273a221c687fdea1dc70853995cd7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/ansible/actions.py', '(func:5827:(file_delete:5849))')", 
+            "md5": "1f0888c3d07924a4669dfc8ef9b1e2bd", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/qchem/jobs.py', '(func:6895:(command_available:6899))')", 
+            "md5": "5e22fe2602c6611ebe5ec52a95d5fef1", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/ansible/actions.py', '(func:3762:(pull_all:3784))')", 
+            "md5": "a06dcb3e13d4d6092c904728e3e5e7f7", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/ansible/actions.py', '(func:2888:(add_to_set:2910))')", 
+            "md5": "f81711b3cf5ee775658b09cd6f326ad3", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/ansible/tests/test_interpreter.py', '(func:5611:(test_strict_mode:5615))')", 
+            "md5": "64a369f0f01246782a0350e418f7676e", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/handlers.py', '<dictcomp>')", 
+            "md5": "db6c43de263337e8e1706b88c32d254b", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/ansible/tests/test_interpreter.py', '(func:442:(test_dict_modify:446))')", 
+            "md5": "ba0ab1f5cdb8074372d945ef092fc053", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/qchem/jobs.py', '(func:4648:(select_command:4652))')", 
+            "md5": "c127bb42280c0e45554355001af636eb", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/ansible/actions.py', '(func:3356:(pull:3378))')", 
+            "md5": "64331ecab7076c088212a1fa57fcc179", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/ansible/tests/test_interpreter.py', '(func:4761:(test_file_modify:4765))')", 
+            "md5": "06893b0328aa2e6222823182b9481738", 
+            "weight": 2
+        }, 
+        {
+            "AST Diff": 0, 
+            "Profile Diff": false, 
+            "id": "('custodian/vasp/handlers.py', '(func:12635:(correct:12639))')", 
+            "md5": "62211110a154fe18b429942da9b014d6", 
+            "weight": 2
+        }
+    ]
+}
