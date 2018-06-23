@@ -23,15 +23,7 @@ function onProjectChange(value) {
 	loadProjectStatistics("{{ '/assets/data/' | relative_url }}" + value);
 }
 $(document).ready(() => {
-	var div = $(document.createElement("div"));
-	div.css('width', '90%');
-	div.css('margin', 'auto');
-	div.append('<div id="statistics"></div>');
-	div.append('Commit Diff: <span class="commitDiff"></span>');
-	div.append('<div id="diffGraph"></div>');
-	div.append('Function Transition: <span class="funcTransition"></span>');
-	div.append('<div id="transition"></div>');
-	$('body').append(div);
+	$(".inner").css('width', '90%');
 	$(".projects").val("{{ site.defaultProject }}");
 	onProjectChange("{{ site.defaultProject }}");
 });
@@ -43,3 +35,9 @@ Projects:
 {% endfor %}
 </select>
 <a class="projectURL" href="">github</a>
+
+<div id="statistics"></div>
+Commit Diff: <span class="commitDiff"></span>
+<div id="diffGraph"></div>
+Function Transition: <span class="funcTransition"></span>
+<div id="transition"></div>
